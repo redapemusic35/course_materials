@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/readings/data.json</guid>
+      <description>SES # TOPICS READINGS I. Egoism 1 Egoism Butler, Joseph. Sermon XI in Fifteen Sermons. 1726. (PDF) 2 Egoism: empirical and quasi-empirical issues Fehr, Ernst, and Urs Fischbacher. &amp;ldquo;The Nature of Human Altruism.&amp;rdquo; Nature 425 (October 23, 2003): 785-791. II. Beliefs, desires, and intentions 3 Belief/desire psychology and the Humean theory of motivation Smith, Michael. &amp;ldquo;The Humean Theory of Motivation.&amp;rdquo; Mind New Series 96, no. 381 (January 1987): 36-61. 4 Bratman on intention Bratman, Michael.</description>
+    </item>
+    
+    <item>
+      <title>Sermon XI in Fifteen Sermons</title>
+      <link>/resources/mit24_120s09_read01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit24_120s09_read01/data.json</guid>
+      <description>One of Joseph Butler&amp;rsquo;s Fifteen Sermons, provided for a reading assignment.</description>
+    </item>
+    
+  </channel>
+</rss>

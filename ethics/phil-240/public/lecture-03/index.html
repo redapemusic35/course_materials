@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=6021&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Meta # Key Topics # Resources # Open on &ensp; Open on &ensp; View Lecture &ensp; Equations Functions Lab 02 Lab 02 Replication Lecture Prep 03 Lecture Prep 03 Submission Problem Set 01 Workflow Handouts Lecture Slides # Using LaTeX in R Notebooks # If you check out the replication notebook for this week&rsquo;s lab, you will notice dollar signs used around references to particular variables like this - $x_1$.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="//localhost:6021/lecture-03/">
+  <meta property="og:title" content="Lecture 03 - Describing Distributions">
+  <meta property="og:description" content="Meta # Key Topics # Resources # Open on   Open on   View Lecture   Equations Functions Lab 02 Lab 02 Replication Lecture Prep 03 Lecture Prep 03 Submission Problem Set 01 Workflow Handouts Lecture Slides # Using LaTeX in R Notebooks # If you check out the replication notebook for this week’s lab, you will notice dollar signs used around references to particular variables like this - $x_1$.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2016-03-08T21:07:13+01:00">
+    <meta property="article:modified_time" content="2016-03-08T21:07:13+01:00">
+<title>Lecture 03 - Describing Distributions | </title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="canonical" href="//localhost:6021/lecture-03/">
+<link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.8fb56adf0f2c83f56a9b00fb282110dace93b08557a55164b197674dd7786900.js" integrity="sha256-j7Vq3w8sg/VqmwD7KCEQ2s6TsIVXpVFksZdnTdd4aQA=" crossorigin="anonymous"></script>
+
+  
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span></span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Lecture 03 - Describing Distributions</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#meta">Meta</a></li>
+    <li><a href="#key-topics">Key Topics</a></li>
+    <li><a href="#resources">Resources</a></li>
+    <li><a href="#lecture-slides">Lecture Slides</a></li>
+    <li><a href="#using-latex-in-r-notebooks">Using LaTeX in R Notebooks</a></li>
+    <li><a href="#extra-information">Extra Information</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h2 id="meta">
+  Meta
+  <a class="anchor" href="#meta">#</a>
+</h2>
+<p><img src="https://img.shields.io/badge/semester-fall%202018-orange.svg" alt="" /> <img src="https://img.shields.io/badge/release-updated-brightgreen.svg" alt="" /> <a href="https://github.com/slu-soc5050/lecture-03/blob/master/NEWS_SITE.md"><img src="https://img.shields.io/badge/last%20update-2018--09--17-brightgreen.svg" alt="" /></a></p>
+<h2 id="key-topics">
+  Key Topics
+  <a class="anchor" href="#key-topics">#</a>
+</h2>
+<h2 id="resources">
+  Resources
+  <a class="anchor" href="#resources">#</a>
+</h2>
+<p><a class="btn btn-primary btn-outline btn-xs" href="https://slu-soc5050.github.io/syllabus/lecture-03-describing-distributions.html" target="_blank"> Open on &ensp;<i class="fas fa-book fa-lg"></i> </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-03" target="_blank"> Open on &ensp;<i class="fab fa-github fa-lg"></i> </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://slu.tegrity.com/#/recording/a6486ab8-c0ba-437e-9065-eaa82d647c7c" target="_blank"> View Lecture &ensp;<i class="fas fa-video"></i> </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-03/blob/master/handouts/lecture-03-equations.pdf" target="_blank"> Equations </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-03/blob/master/handouts/lecture-03-functions.pdf" target="_blank"> Functions </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-03/blob/master/assignments/lab-02.pdf" target="_blank"> Lab 02 </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-03/tree/master/assignments/lab-02-replication" target="_blank"> Lab 02 Replication </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-03/blob/master/assignments/lp-03.pdf" target="_blank"> Lecture Prep 03 </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://goo.gl/forms/3ApfuAJCl3EafEJT2" target="_blank"> Lecture Prep 03 Submission </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-03/blob/master/assignments/ps-01.pdf" target="_blank"> Problem Set 01 </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-03/blob/master/handouts/" target="_blank"> Workflow Handouts </a></p>
+<h2 id="lecture-slides">
+  Lecture Slides
+  <a class="anchor" href="#lecture-slides">#</a>
+</h2>
+<!-- raw HTML omitted -->
+<h2 id="using-latex-in-r-notebooks">
+  Using LaTeX in R Notebooks
+  <a class="anchor" href="#using-latex-in-r-notebooks">#</a>
+</h2>
+<p>If you check out the replication notebook for this week&rsquo;s lab, you will notice dollar signs used around references to particular variables like this - <code>$x_1$</code>. This is your first exposure to LaTeX syntax. The dollar signs instructs LaTeX/knitr to enter &ldquo;math mode&rdquo;, which displays equations and mathematical notation. The underscore instructs LaTeX/knitr that the &ldquo;1&rdquo; should be treated as a subscript (i.e. &ldquo;x sub 1&rdquo;). <strong>Note that this does not look great when you look at the html output&rsquo;s headers. So, it may take some experimentation to get it working perfectly.</strong></p>
+<h2 id="extra-information">
+  Extra Information
+  <a class="anchor" href="#extra-information">#</a>
+</h2>
+<p>This week, I mentioned a number of important statisticians. If you want more information, you can check out these Wikipedia pages:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Friedrich_Bessel">Friedrich Bessel</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ronald_Fisher">Ronald Fisher</a></li>
+<li><a href="https://en.wikipedia.org/wiki/William_Sealy_Gosset">William Sealy Gosset</a></li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#meta">Meta</a></li>
+    <li><a href="#key-topics">Key Topics</a></li>
+    <li><a href="#resources">Resources</a></li>
+    <li><a href="#lecture-slides">Lecture Slides</a></li>
+    <li><a href="#using-latex-in-r-notebooks">Using LaTeX in R Notebooks</a></li>
+    <li><a href="#extra-information">Extra Information</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

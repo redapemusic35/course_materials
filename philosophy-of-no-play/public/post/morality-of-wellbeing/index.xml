@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Morality of Emotional-Wellbeing on A Hugo website</title>
+    <link>//localhost:4321/post/morality-of-wellbeing/</link>
+    <description>Recent content in The Morality of Emotional-Wellbeing on A Hugo website</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 10 Jun 2024 10:31:19 -0500</lastBuildDate>
+    <atom:link href="//localhost:4321/post/morality-of-wellbeing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Alfano &amp; Hopps</title>
+      <link>//localhost:4321/2024/06/10/introduction-to-alfano-hopps/</link>
+      <pubDate>Mon, 10 Jun 2024 10:31:19 -0500</pubDate>
+      <guid>//localhost:4321/2024/06/10/introduction-to-alfano-hopps/</guid>
+      <description>The moral foundations dictionary developed by Mark Alfano is a natural language process that is intended to detect foundational terms in moral cooperation. According to the ethical theory morality as cooperation, humans over time have faced a number of problems necessitating the need for cooperation. In response to these needs, we have developed various methods for cooperation that act as solutions to these problems. As the theory continues, across all societies, we can identity traits that evolved in humans in light of these needs.</description>
+    </item>
+  </channel>
+</rss>

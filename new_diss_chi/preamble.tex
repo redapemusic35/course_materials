@@ -1,0 +1,236 @@
+\usepackage{booktabs}
+\usepackage[lyric]{songs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{longtable}
+\LTcapwidth=.95\textwidth
+\linespread{1.05}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{amsthm}
+%\newtheorem{theorem}{hyp}
+\newtheorem{axiom}{}
+%\newtheorem{lemma}{}
+%\newtheorem{theoremc}{}
+%\newtheorem{theoremdc}{}
+%\newtheorem{theoremcr}{}
+%\newtheorem{theoremfr}{}
+%\newtheorem{theoremfe}{}
+\usepackage{epigraph}
+\usepackage{graphicx}
+\usepackage{csquotes}
+\pagenumbering{arabic}
+\usepackage{tikz}
+\usetikzlibrary{arrows,calc,patterns,positioning,shapes,decorations.pathmorphing}
+\tikzset{
+  modal/.style={
+    >=stealth',
+    shorten >=1pt,
+    shorten <=1pt,
+    auto,
+    node distance=1.5cm,
+    semithick
+  },
+  world/.style={
+    circle,
+    draw,
+    minimum size=1cm,
+    fill=gray!15
+  },
+  point/.style={
+    circle,
+    draw,
+    fill=black,
+    inner sep=0.5mm
+  },
+  reflexive/.style={
+    ->,
+    in=120,
+    out=60,
+    loop,
+    looseness=#1
+  },
+  reflexive/.default={5},
+  reflexive point/.style={
+    ->,
+    in=135,
+    out=45,
+    loop,
+    looseness=#1
+  },
+  reflexive point/.default={25}
+}
+\usepackage{titling}
+\usepackage{geometry}
+%\usepackage{booktabs}
+\usepackage{fancyhdr} % for pagination
+\usepackage{microtype} % typographical perfection
+%\usepackage{csquotes}
+%\usepackage[vskip=0pt,begintext=\textooquote,endtext=\textcoquote]{quoting}
+%\setblockenvironment{quoting}
+
+% customzing fonts
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{anyfontsize}
+
+% define a consistent font size for title and chapters
+\newcommand{\maintitlesize}{\fontsize{16}{20}\selectfont}
+
+% center and format chapter headings
+\titleformat{\chapter}[display]
+{\normalfont\maintitlesize\bfseries\centering}
+{\chaptertitlename\ \thechapter}{20pt}{\maintitlesize}
+\titlespacing*{\chapter}{0pt}{-50pt}{40pt}
+
+% change section headings font size
+\titleformat{\section}
+{\normalfont\large\bfseries}{\thesection}{1em}{}
+
+% format list of tables
+\renewcommand{\cfttoctitlefont}{\hfill\maintitlesize\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfill}
+\renewcommand{\cftlottitlefont}{\hfill\maintitlesize\bfseries}
+\renewcommand{\cftafterlottitle}{\hfill}
+
+% format list of figures
+\renewcommand{\cftloftitlefont}{\hfill\maintitlesize\bfseries}
+\renewcommand{\cftafterloftitle}{\hfill}
+
+% adjust spacing for list of tables and list of figures
+\setlength{\cftbeforelottitleskip}{-50pt}
+\setlength{\cftbeforeloftitleskip}{-50pt}
+\setlength{\cftaftertoctitleskip}{40pt}
+\setlength{\cftafterlottitleskip}{40pt}
+\setlength{\cftafterloftitleskip}{40pt}
+
+% Single-space within entries, double-space between entries
+\renewcommand{\cftbeforetabskip}{2em}
+\renewcommand{\cftbeforefigskip}{2em}
+
+% general packages
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage[section]{placeins} % stop floats at sections
+\usepackage[inline, shortlabels]{enumitem}
+\usepackage{threeparttable}
+\usepackage{array}
+\usepackage{siunitx}
+\usepackage{makecell}
+\newcommand{\stretchtable}[1][1.4]{\renewcommand{\arraystretch}{#1}}
+\usepackage{mdframed}
+
+% ensure vitaauctoris always starts on a new page
+\usepackage{etoolbox}
+\pretocmd{\chapter}{\clearpage}{}{}
+
+% use links in document. load last.
+%\usepackage[hidelinks,linktoc=all]{hyperref}
+\usepackage[noabbrev]{cleveref}
+\newcommand{\crefrangeconjunction}{--}
+\usepackage{caption}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% style something
+\usepackage{fancyvrb}
+\usepackage{xcolor}
+
+%\newenvironment{CSLReferences}[2]
+% {\setlength{\parindent}{0pt}%
+%  \setlength{\leftskip}{0pt}%
+%  \setlength{\parskip}{5pt}%
+%  \setlength{\itemsep}{0pt}%
+%  \begin{enumerate}[label={[#1]},labelsep=*,leftmargin=1.5em,itemindent=-0.5em,align=left]}
+% {\end{enumerate}}
+
+% Define Shaded and Highlighting environments
+\newenvironment{Shaded}{}{}
+\newenvironment{Highlighting}{}{}
+
+% Define syntax highlighting commands
+\newcommand{\pandocbounded}[1]{#1}
+
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{\textbf{#1}}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.75}{#1}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+
+% Additional syntax highlighting commands for R code
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{#1}}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% These commands customize the `wuthesis' package for me
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Enter your official name
+
+%\newcommand{\thesisauthor}{Montaque Reynolds}
+%\newcommand{\thesisauthorlastname}{Reynolds}
+
+%% Enter your previous degrees
+%% If you have no previous degrees remember to remove the comma too.
+%\newcommand{\thesisauthorpreviousdegrees}{, M.A.}
+
+%% Enter department name
+%\newcommand{\thesisdepartment}{Department of Philosophy}
+%\newcommand{\thesisfield}{Philosophy}
+
+%% Enter date of graduation
+%\newcommand{\thesismonth}{August}
+%\newcommand{\thesisyear}{2024}
+
+%% Enter title of thesis
+%\newcommand{\thesistitle}{EMOTIONAL DATA AND THE MORAL EXPRESSIONS OF SENTIMENT IN FICTION}
+
+%% Enter the copyright holder ( DEFAULT is \thesisauthor )
+%\newcommand{\thesiscopyrightholder}{\thesisauthor}
+
+%% Enter supervisor name
+%\newcommand{\thesissupervisor}{Professor Dan Haybron, Chair\\
+%Scott Ragland, Co-Chair}
+%%
+% list in alphabetical order
+%%
+%\newcommand{\thesiscommittee}{Dan Haybron, Chair\\
+%Scott Ragland, Co-Chair \\
+%Scott Gelfand \\
+%Helen De Cruz}
+
+%\newcommand{\thesisdedication}{Dedicated to my parents.}
+
+\hypersetup{
+  pdftitle={\thesistitle},
+  pdfauthor={\thesisauthor},
+  pdfpagemode=UseOutlines,
+  bookmarksnumbered=true,
+  bookmarksopen=true,
+  bookmarksopenlevel=1
+}

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PHIL 1700 The Examined Life: Ultimate Questions on </title>
+    <link>//localhost:6021/</link>
+    <description>Recent content in PHIL 1700 The Examined Life: Ultimate Questions on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 09 Mar 2016 20:10:46 +0100</lastBuildDate>
+    <atom:link href="//localhost:6021/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Course Resources</title>
+      <link>//localhost:6021/course-resources/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      <guid>//localhost:6021/course-resources/</guid>
+      <description>Meta Overview There are a number of course resources you should be aware of. This space is meant to provide quick links to these items.&#xA;Course Website This course website will be updated regularly throughout the semester. There are dedicated pages for each week as well as the final project. Each page include links to lecture slides, YouTube videos, and notes about specific topics. There are also additional resources for navigating topics and course software.</description>
+    </item>
+    <item>
+      <title>Course Onboarding</title>
+      <link>//localhost:6021/course-onboarding/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      <guid>//localhost:6021/course-onboarding/</guid>
+      <description>Meta Overview Before you begin the semester, there are a number of things that you should do to help set yourself up for success. All of the applicable sections below should be completed before our first class on August 27th. Before you do anything else, though, you should read through the Syllabus . Make sure you have a good sense of what is required for the course. If you have questions, bring them to the first day of class!</description>
+    </item>
+    <item>
+      <title>Course Software</title>
+      <link>//localhost:6021/course-software/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      <guid>//localhost:6021/course-software/</guid>
+      <description>Meta Overview This course is built primarily around a trio of software applications - the programming language R, the graphical user interface for R called RStudio, and GitHub Desktop. As I noted on the course onboarding page, there are two choices for accessing software. Please read through the course onboarding page page carefully and make the decisions you think are best for you - either using your own computer or using a lab computer.</description>
+    </item>
+    <item>
+      <title>Course Preview</title>
+      <link>//localhost:6021/course-preview/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      <guid>//localhost:6021/course-preview/</guid>
+      <description>Meta Key Topics Resources Open on &amp;ensp; Overview To set the stage for this semester, please watch the two videos below. These will take approximately 45 minutes to view. Once you have finished these videos, follow the link at the bottom of the page to answer a few short questions about what you saw. Before you begin, please make sure you have completed the course onboarding process and Lecture Prep 01!</description>
+    </item>
+    <item>
+      <title>Lecture 01 - Course Introduction</title>
+      <link>//localhost:6021/lecture-01/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      <guid>//localhost:6021/lecture-01/</guid>
+      <description>Meta Key Topics Resources Open on &amp;ensp; Open on &amp;ensp; View Lecture &amp;ensp; Example Code Exercise - Email Exercise - Values Functions Lecture Slides Slack Discussions Lecture Follow-up (Compassionate coursework and lecture recording) Levels of Measurement Levels of measurement can be difficult to grasp without a lot of practice. To help, I&amp;rsquo;ve put together a flashcard deck that is conceptual as well as a second flashcard deck that uses R to give you some extra practice.</description>
+    </item>
+    <item>
+      <title>Lecture 02 - Working with Data</title>
+      <link>//localhost:6021/lecture-02/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      <guid>//localhost:6021/lecture-02/</guid>
+      <description>Meta Key Topics Resources Open on &amp;ensp; Open on &amp;ensp; Example Code Functions Lab-01 Lab-01 Replication Starter Notebook A Quick Note The lectures are dated for 2017 but not updates are planned to the videos or slides for this year. Please watch them in order, and take the time to practice along with the examples in R for Data Science. I will have my office hours as usual on Wednesday should questions come up, and will be available on Slack all week.</description>
+    </item>
+    <item>
+      <title>Lecture 03 - Describing Distributions</title>
+      <link>//localhost:6021/lecture-03/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      <guid>//localhost:6021/lecture-03/</guid>
+      <description>Meta Key Topics Resources Open on &amp;ensp; Open on &amp;ensp; View Lecture &amp;ensp; Equations Functions Lab 02 Lab 02 Replication Lecture Prep 03 Lecture Prep 03 Submission Problem Set 01 Workflow Handouts Lecture Slides Using LaTeX in R Notebooks If you check out the replication notebook for this week&amp;rsquo;s lab, you will notice dollar signs used around references to particular variables like this - $x_1$. This is your first exposure to LaTeX syntax.</description>
+    </item>
+    <item>
+      <title>Lecture 04 - Probability and Bayes&#39; Theorem</title>
+      <link>//localhost:6021/lecture-04/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      <guid>//localhost:6021/lecture-04/</guid>
+      <description>Meta Key Topics Resources Open on &amp;ensp; Open on &amp;ensp; View Lecture &amp;ensp; Equations Lab 03 Lab 03 Replication Lecture Prep 04 Lecture Prep Replication Lecture Slides Probability in the News FiveThirtyEight published a great article on the use probability in news media coverage in 2017. The article raises important points about how error in public polling is communicated:&#xA;As I’ve documented throughout this series, polls and other data did not support the exceptionally high degree of confidence that news organizations such as The New York Times regularly expressed about Hillary Clinton’s chances.</description>
+    </item>
+    <item>
+      <title>Lectue 05 - The Distribution of Random Variables</title>
+      <link>//localhost:6021/lecture-05/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      <guid>//localhost:6021/lecture-05/</guid>
+      <description>Meta Key Topics Resources Open on &amp;ensp; Open on &amp;ensp; View Lecture &amp;ensp; Equations Functions Lab 04 Lab 04 Replication Problem Set 02 Lecture Slides Grappling with p-values Here are a couple of links for digging further into what p-values are and how we explain them:&#xA;American Statistical Association&amp;rsquo;s Statement on p-values ``Mission Improbable: A Concise and Precise Definition of P-Value&amp;rsquo;&amp;rsquo; - Science Magazine interview with Victor De Gruttola ``Science Isn&amp;rsquo;t Broken&amp;rsquo;&amp;rsquo; - FiveThirtyEight article on p-values ``Not Even Scientists Can Easily Explain P-values&amp;rsquo;&amp;rsquo; - FiveThirtyEight article on p-values, includes the video I mentioned in class Andrew Gelman&amp;rsquo;s views on p-values ``Abandon Statistical Significance&amp;rsquo;&amp;rsquo; - Andrew Gelman and others Gelman and John Carlin suggest some solutions for the ``p-value communication problem&amp;rsquo;&amp;rsquo; ``It will be much harder to call new findings ‘significant’ if this team gets its way&amp;rsquo;&amp;rsquo; - Science Magazine article on changing culture around p-values Histograms with the Normal Distribution Overlaid in ggplot2 I introduced the idea of a histogram with a normal distribution overlaid during this week&amp;rsquo;s lecture, but purposely did not include the syntax on our quick reference sheet for R functions.</description>
+    </item>
+    <item>
+      <title>Lecture 06 - Foundations for Inference</title>
+      <link>//localhost:6021/lecture-06/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      <guid>//localhost:6021/lecture-06/</guid>
+      <description>Meta Key Topics Resources Open on &amp;ensp; Open on &amp;ensp; Lab 05 Lecture Prep 06 Problem Set 03 Lecture Slides Central Limit Theorem Simulator The simulator we discussed in class that shows how the central limit theorem works can be found here.&#xA;Articles on p-hacking At the end of this lecture, there is a discussion of p-hacking - the manipulation (often intentional, but we also discussed more generally how p-values can be unintentionally manipulated) of statistical significance.</description>
+    </item>
+    <item>
+      <title>Lecture 07 - Difference of Means (Part 1)</title>
+      <link>//localhost:6021/lecture-07/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      <guid>//localhost:6021/lecture-07/</guid>
+      <description>Meta Key Topics Resources Open on &amp;ensp; Open on &amp;ensp; Equations Function, Assignment Function, Lecture Functions Lab-06 LP-07 T-test Workflow Lecture Slides Lecture Prep Replication A notebook based on the replication video is available on GitHub.&#xA;Cohen&amp;rsquo;s D Animations The website rpsychologist contains some excellent Cohen&amp;rsquo;s d visualizations that I find particularly useful for thinking about how different effect sizes look.&#xA;Probability Under the t Distribution This &amp;ldquo;gist&amp;rdquo; contains the code we wrote together in class, which also appears on the back of the functions handout for this lecture.</description>
+    </item>
+    <item>
+      <title>Lecture 08 - Difference of Means (Part 2)</title>
+      <link>//localhost:6021/lecture-08/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      <guid>//localhost:6021/lecture-08/</guid>
+      <description>Meta Key Topics Resources Open on &amp;ensp; Open on &amp;ensp; Functions Lab-07 LP-08 Lecture Slides Tips for Working with Paired Data The lab and the problem set for this week both include paired data, and you may run into a couple of issues that I want to hight.&#xA;Issues with Plots The first issue that may arise is related to plotting data that are long. Following the examples from class, you may be tempted to use the year variable, unedited, to your plot.</description>
+    </item>
+    <item>
+      <title>Lecture 09 - Factors</title>
+      <link>//localhost:6021/lecture-09/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      <guid>//localhost:6021/lecture-09/</guid>
+      <description>Meta Key Topics Resources Open on &amp;ensp; Open on &amp;ensp; Functions Lab-08 Lab-08 Replication Lecture Video </description>
+    </item>
+    <item>
+      <title>Lecture 10 - Correlation (Part 1)</title>
+      <link>//localhost:6021/lecture-10/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      <guid>//localhost:6021/lecture-10/</guid>
+      <description>Meta Key Topics Resources Open on &amp;ensp; Open on &amp;ensp; Equations Handout Example Lab-09 Lecture Slides Lecture Prep Instructions The instructions for this week&amp;rsquo;s lecture prep are available in the Week-10-Deprecated GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!&#xA;Replication Correlation with Binary Variables There is one point missing from today&amp;rsquo;s lecture that comes up on the lab. I mentioned that the assumptions of correlation are that x and y are continous.</description>
+    </item>
+    <item>
+      <title>Lecture 11 - Correlation (Part 2)</title>
+      <link>//localhost:6021/lecture-11/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      <guid>//localhost:6021/lecture-11/</guid>
+      <description>Meta Key Topics Resources Open on &amp;ensp; Open on &amp;ensp; corrTable.R Functions Lab-10 LaTeX PS-05 Lecture Slides </description>
+    </item>
+    <item>
+      <title>Lecture 12 - OLS Regression (1)</title>
+      <link>//localhost:6021/lecture-12/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      <guid>//localhost:6021/lecture-12/</guid>
+      <description>Meta Key Topics Resources Open on &amp;ensp; Open on &amp;ensp; Functions Lab-11 LaTeX Lecture Slides More on Plots Line Breaks in Plot Text We discussed this informally in class, and I wanted to clarify the technique for adding line breaks here. In situations where the size of the text has been increased or the quantity of text is quite large (a lengthy caption, for example), it is easy for the text to run off the sides of the plot.</description>
+    </item>
+    <item>
+      <title>Lecture 13 - OLS Regression (2)</title>
+      <link>//localhost:6021/lecture-13/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      <guid>//localhost:6021/lecture-13/</guid>
+      <description>Meta Key Topics Resources Open on &amp;ensp; Open on &amp;ensp; Functions Lab-12 Workflow Lecture Slides </description>
+    </item>
+    <item>
+      <title>Lecture 14 - OLS Regression (3)</title>
+      <link>//localhost:6021/lecture-14/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      <guid>//localhost:6021/lecture-14/</guid>
+      <description>Meta Key Topics Resources Open on &amp;ensp; Open on &amp;ensp; Functions Lab-13 PS-06 Lecture Slides </description>
+    </item>
+    <item>
+      <title>Lecture 15 - ANOVA</title>
+      <link>//localhost:6021/lecture-15/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      <guid>//localhost:6021/lecture-15/</guid>
+      <description>Meta Key Topics Resources Open on &amp;ensp; Open on &amp;ensp; Functions Lab-14 Workflow - ANOVA Lecture Slides Summary Functions RStudio has an excellent data wrangling cheat sheet that includes a list of the summary functions you can use with dplyr::summarize(). You can access the cheat sheet from their website.</description>
+    </item>
+    <item>
+      <title>Week 16 - Chi-Squared</title>
+      <link>//localhost:6021/lecture-16/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      <guid>//localhost:6021/lecture-16/</guid>
+      <description>Meta Key Topics Resources Open on &amp;ensp; Open on &amp;ensp; Functions Lab-15 Workflow - Chi-Square Lecture Slides Bar Plots We covered bar plots very quickly during Week-02 of the semester. They are created using the geom_bar() geom in a ggplot2 call:&#xA;ggplot(data = mpg, mapping = aes(class)) + geom_bar() </description>
+    </item>
+    <item>
+      <title>License</title>
+      <link>//localhost:6021/license/</link>
+      <pubDate>Wed, 09 Mar 2016 20:10:46 +0100</pubDate>
+      <guid>//localhost:6021/license/</guid>
+      <description>Copyright (c) 2016-2017 Christopher G. Prener&#xA;This work is licensed under a Creative Commons Attribution 4.0 International License.&#xA;This is a human-readable summary of (and not a substitute for) the license.&#xA;You are free to:&#xA;Share — copy and redistribute the material in any medium or format Adapt — remix, transform, and build upon the material for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms.</description>
+    </item>
+    <item>
+      <title>Final Project</title>
+      <link>//localhost:6021/final/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      <guid>//localhost:6021/final/</guid>
+      <description>Meta Resources Open on &amp;ensp; Open on &amp;ensp; Directions Overview The final project corresponds to the fourth course learning outcome, which is described in the Syllabus as:&#xA;Quantitative research synthesis: Plan, implement (using R), and present (using knitr as well as the word processing and presentation applications of your choice) a research project that uses linear regression to answer a research question. All students will select a set of variables from a data set and perform an original data analysis culminating in a series of linear regression models.</description>
+    </item>
+    <item>
+      <title>Topic Index</title>
+      <link>//localhost:6021/topic-index/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      <guid>//localhost:6021/topic-index/</guid>
+      <description>Meta # The following is a list of topics and skills covered during the semester. This will grow as we progress through the coursework. Italicized items are only covered in the readings. If you have additions or suggestions, please let Chris know!&#xA;A-D # Analysis development (Course Preview, Lecture-01, Lecture-02, Lecture-03) Anscombe&amp;rsquo;s quartet (Lecture-03) Assignment (Lecture-01) Assignment operator, &amp;lt;- base Calculate mean, mean() (Lecture-03) Create binary conditions, ifelse() (Lecture-02) Frequency table, table() (Lecture-03) Get names of object, names() (Lecture-01) Load packages, library() (Lecture-01) Maxmium value of vector, max() (Lecture-03) Minimum value of vector, min() (Lecture-03) Range values of vector, range() (Lecture-03) Sort or order a vector, sort() (Lecture-01) Summarize data frame or vector, summary() (Lecture-03) View working directory path, getwd() (Lecture-01) cowsay (Lecture-01) Creating ASCII character, say() Data tidy data concepts (Lecture-01) Data cleaning ordering (Lecture-02) subsetting (Lecture-02) variable creation and modification (Lecture-02) see also dplyr datasets Anscombe quartet data, datasets (Lecture-03) Old Faithful geyser data, faithful (Lecture-01) Degrees of freedom (Lecture-03) Descriptive statistics (Lecture-03) dplyr Create new variables, mutate() (Lecture-02) see also base::ifelse() Modify contents of existing variables, mutate() (Lecture-02) Rename variables, rename() (Lecture-02) Reorder variables, arrange() and desc() (Lecture-02) Subset by columns, select() (Lecture-02) Subset by observations, filter() (Lecture-02) see also Operators E-H # Exploratory data analysis (Lecture-03) Getting help With R, including ?</description>
+    </item>
+    <item>
+      <title>Package Index</title>
+      <link>//localhost:6021/package-index/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      <guid>//localhost:6021/package-index/</guid>
+      <description>Meta The following is a list of packages used during the semester along with links to additional resources. This list does not include dependencies that may be installed for these packages to work. Unless otherwise noted, packages are available via CRAN and can be installed using base::install.packages(&amp;quot;packageName&amp;quot;).&#xA;Icon reference - Topic index - CRAN site - GitHub repo - Website - RStudio Cheatsheet - Book Base R Packages base - base functions datasets - Teaching data that comes with base R stats - statistical functions utils - utility functions Data Packages gapminder - Teaching data from Gapminder project testDriveR - Data sets for teaching Tidyverse Packages Core Tidyverse Packages Use install.</description>
+    </item>
+  </channel>
+</rss>

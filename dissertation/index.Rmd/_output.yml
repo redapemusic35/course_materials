@@ -1,0 +1,9 @@
+bookdown::pdf_book:
+  template: minimal-example.tex
+  latex_engine: xelatex
+  keep_tex: yes
+  toc: true
+  toc_depth: 3
+  number_sections: true
+  fig_caption: true
+  highlight: tango

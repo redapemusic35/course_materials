@@ -1,0 +1,194 @@
+% Remove or comment out the following lines as they're now in wuthesis.tex
+% \documentclass[phdthesis,12pt,final]{wuthesis}
+
+\newenvironment{CSLReferences}[2]
+ {\setlength{\parindent}{0pt}%
+  \setlength{\leftskip}{0pt}%
+  \setlength{\parskip}{5pt}%
+  \setlength{\itemsep}{0pt}%
+  \begin{enumerate}[label={[#1]},labelsep=*,leftmargin=1.5em,itemindent=-0.5em,align=left]}
+ {\end{enumerate}}
+
+%\usepackage[style=chicago-notes,autocite=footnote,backend=biber]{biblatex}
+%\addbibresource{Un-Duplicates.bib}
+
+%\usepackage{biblatex}
+%\bibliographystyle{plainnat}
+
+\usepackage{ifluatex}
+\ifluatex
+  \usepackage{fontspec} % international characters
+  \usepackage{polyglossia}
+  \setmainlanguage[variant=american]{english}
+\else % use for pdflatex
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[american]{babel}
+\fi
+
+\usepackage{booktabs}
+\usepackage{fancyhdr} % for pagination
+\usepackage{microtype} % typographical perfection
+\usepackage{csquotes}
+\usepackage[vskip=0pt,begintext=\textooquote,endtext=\textcoquote]{quoting}
+\SetBlockEnvironment{quoting}
+
+% customzing fonts
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{anyfontsize}
+
+% Define a consistent font size for title and chapters
+\newcommand{\maintitlesize}{\fontsize{16}{20}\selectfont}
+
+% Center and format chapter headings
+\titleformat{\chapter}[display]
+{\normalfont\maintitlesize\bfseries\centering}
+{\chaptertitlename\ \thechapter}{20pt}{\maintitlesize}
+\titlespacing*{\chapter}{0pt}{-50pt}{40pt}
+
+% change section headings font size
+\titleformat{\section}
+{\normalfont\large\bfseries}{\thesection}{1em}{}
+
+% Format List of Tables
+\renewcommand{\cfttoctitlefont}{\hfill\maintitlesize\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfill}
+\renewcommand{\cftlottitlefont}{\hfill\maintitlesize\bfseries}
+\renewcommand{\cftafterlottitle}{\hfill}
+
+% Format List of Figures
+\renewcommand{\cftloftitlefont}{\hfill\maintitlesize\bfseries}
+\renewcommand{\cftafterloftitle}{\hfill}
+
+% Adjust spacing for List of Tables and List of Figures
+\setlength{\cftbeforelottitleskip}{-50pt}
+\setlength{\cftbeforeloftitleskip}{-50pt}
+\setlength{\cftaftertoctitleskip}{40pt}
+\setlength{\cftafterlottitleskip}{40pt}
+\setlength{\cftafterloftitleskip}{40pt}
+
+% Single-space within entries, double-space between entries
+\renewcommand{\cftbeforetabskip}{2em}
+\renewcommand{\cftbeforefigskip}{2em}
+
+% general packages
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage[section]{placeins} % stop floats at sections
+\usepackage[inline, shortlabels]{enumitem}
+\usepackage{threeparttable}
+\usepackage{array}
+\usepackage{siunitx}
+\usepackage{makecell}
+\newcommand{\stretchtable}[1][1.4]{\renewcommand{\arraystretch}{#1}}
+\usepackage{mdframed}
+
+% ensure vitaauctoris always starts on a new page
+\usepackage{etoolbox}
+\pretocmd{\chapter}{\clearpage}{}{}
+
+% use links in document. load last.
+\usepackage[hidelinks,linktoc=all]{hyperref}
+\usepackage[noabbrev]{cleveref}
+\newcommand{\crefrangeconjunction}{--}
+\usepackage{caption}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% style something
+\usepackage{fancyvrb}
+\usepackage{xcolor}
+
+% Define Shaded and Highlighting environments
+\newenvironment{Shaded}{}{}
+\newenvironment{Highlighting}{}{}
+
+% Define syntax highlighting commands
+\newcommand{\pandocbounded}[1]{#1}
+
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{\textbf{#1}}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.75}{#1}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+
+% Additional syntax highlighting commands for R code
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{#1}}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% These commands customize the `wuthesis' package for me
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Enter your official name
+\renewcommand{\thesisauthor}{Montaque Reynolds}
+\renewcommand{\thesisauthorlastname}{Reynolds}
+
+%% Enter your previous degrees
+%% If you have no previous degrees remember to remove the comma too.
+\renewcommand{\thesisauthorpreviousdegrees}{, M.A.}
+
+%% Enter department name
+\renewcommand{\thesisdepartment}{Department of Philosophy}
+\renewcommand{\thesisfield}{Philosophy}
+
+%% Enter date of graduation
+\renewcommand{\thesismonth}{August}
+\renewcommand{\thesisyear}{2024}
+
+%% Enter title of thesis
+\renewcommand{\thesistitle}{EMOTIONAL DATA AND THE MORAL EXPRESSIONS OF SENTIMENT IN FICTION}
+
+%% Enter the copyright holder ( DEFAULT is \thesisauthor )
+%\renewcommand{\thesiscopyrightholder}{\thesisauthor}
+
+%% Enter supervisor name
+\renewcommand{\thesissupervisor}{Professor Dan Haybron, Chair\\
+Scott Ragland, Co-Chair}
+%%
+% list in alphabetical order
+%%
+\renewcommand{\thesiscommittee}{Dan Haybron, Chair\\
+Scott Ragland, Co-Chair \\
+Scott Gelfand \\
+Helen De Cruz}
+
+\renewcommand{\thesisdedication}{Dedicated to my parents.}
+
+\hypersetup{
+  pdftitle={\thesistitle},
+  pdfauthor={\thesisauthor},
+  pdfpagemode=UseOutlines,
+  bookmarksnumbered=true,
+  bookmarksopen=true,
+  bookmarksopenlevel=1
+}
+
+

@@ -1,0 +1,44 @@
+---
+title: "Emotional Data and The Moral Expressions of Sentiment in Fiction"
+author: "Montaque Reynolds"
+vita_auctoris: |
+  Your Name was born in [Place], [Date]. He/She attended [University Name] and received a B.S. in [Field] in [Year]. He/She then pursued graduate studies at [University Name], earning an M.S. in [Field] in [Year]. During his/her doctoral studies at [University Name], he/she [brief description of research or notable achievements]. He/She has published [number] papers in [field] journals and presented his/her work at [number] international conferences. Upon completion of his/her Ph.D., he/she plans to [future plans or career goals].
+department: "Department of Philosophy"
+school: "School of Arts & Sciences"
+university: "SAINT LOUIS UNIVERSITY"
+supervisor: "Professor Dan Haybron, Chair"
+committee:
+  - "Scott Ragland, Co-Chair"
+  - "Scott Gelfand"
+  - "Helen De Cruz"
+year: 2024
+documentclass: wuthesis
+classoption:
+  - 12pt
+  - final
+bibliography: book.bib
+biblio-style: apa
+link-citations: yes
+lot: true
+lof: true
+site: bookdown::bookdown_site
+output:
+  bookdown::pdf_book:
+    template: wuthesis.tex
+    keep_tex: yes
+    latex_engine: xelatex
+    citation_package: biblatex
+---
+
+# Acknowledgements {-}
+
+An acknowledgments page must be included in your final dissertation or thesis...
+
+# Dedication {-}
+
+Dedicated to my parents.
+
+# Abstract {-}
+
+After removing these comments, begin typing the body of your abstract here...
+

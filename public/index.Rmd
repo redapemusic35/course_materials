@@ -1,0 +1,31 @@
+---
+title: "A Minimal Book Example"
+author: "John Doe"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: ["/home/redapemusic35/data_storage/library.bib"]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  This is a minimal example of using the bookdown package to write a book.
+  The HTML output format for this example is bookdown::gitbook,
+  set in the _output.yml file.
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
+
+# About
+
+Where do minority culures turn to for music curation? What are the relevant and important considerations when curating music for minority cultures? Some considerations should include true representation of that culture. Although this has been a stated aim, I will show some reasons we might have to dispute such assertations. One in particular includes music curation, especially as contests between traditional disk jockeys, and modern music curation services such as Spotify. I will provide a sustained defence of the music curation services since most music critics attack these. I will first look at country music as questions about representation and authenticity have often been central to discussions regarding it. Then I will look at two songs, *Rich and Sad* by Post Malone which is commercially popular, and *Insecure No More* by Alex Jean, who has a growing following on music listerners that rely more on music curation services rather than traditional djs.
+
+Philosophers do not often take a serious interest in popular music, let alone country music. Some who have done so include Gracyk (2016); Prinz (2014); Riggle (2010); Wiltsher (2016); Dyck (2021); and Malone (2022). One explanation for this could be that the standard objects of focus for philosophers are concepts like ethics and value. For instance, given a particular value, what behaviors are admirable. Philosophers also ask questions in metaphysics, including ones about the necessary qualities of matter and substance, or free will and foreknowledge. Some questions that philosophers ask in relation to music more generally are questions about the ontology of music. For instance, we might ask how can a song sound sad (Trivedi 2014) when it is merely the collation of vibrations across a given medium? However, these discussions tend to focus on music that is less popular among the public. For instance, a philosopher will be more likely to ask what the required conditions for Marler’s music being sad are and could include some claim about the frequency at which the material producing the sound vibrates then they are to question the morality of a song’s lyrical content. They might propose that a song is sad when it is in a minor or diminished key for instance.  We can easily imagine that a philosopher says that in order for a song to qualify as being sad, the material producing the sound must be vibrating at a frequency less than 40.20Hz, which at least according to the metaphysician, is more interesting than whether emo promotes teenage depression.
+
+When looking at the more dominant questions in philosophy, they are typically situated in domains such as ethics, metaphysics, epistemology, and sometimes value theory. But in these disciplines, we typically ask questions like “is lying wrong?”, “is a right act right because God commanded it or did God command it because it is right?”, “when does a true belief count as knowledge?” etc. But in relation to music, it is difficult to ask these kinds of questions in a philosophically interesting way. For instance, during the 1980’s, there was a large public outcry against rap music as immoral and that it undermines social values. For a philosopher to analogously wade into these waters, they would have to say something like “lying is wrong and therefore one shouldn’t sing about it”. But this is odd and cringy. How can hyperbole be wrong in the same sense that lying is wrong and many artists think that what they are doing is something analogous to hyperbole. When thinking about popular songs therefore, it is difficult to provide a sustained critique of one’s values in relation to these and one of the things philosophers care about is value. We do not often think that expressions of value in a popular song are all that appealing, perhaps because it is not clear that the author is authentically expressing a given value. Maybe they are merely providing content devoid of any kind of truth values in pursuit of some additional aim, for instance entertaining the public (E.g., see Gilmore 2021). So, we just typically accept that it is unlikely that lyricists are doing anything like making an authentic value claim in their music.
+
+There are, however, those of the public who think that this is false. Oftentimes, it sounds as though a given artist is making a value claim through her music. The question then is whether appearance is a true representation of the fact of the matter. It is often thought that country music is an example of the truth of this claim. It has often been thought that country music expresses a given value whether the value truly belongs to the song writer or not. This is because it is not clear whether a given expressed value statement is one that a country author espouses.
+
+This is a question that philosophers writing on country music have asked (E.g., Malone (2021; Dyck 2019; Shusterman 1999). Are the value statements expressed in country music authentic, and does this mean that the values they express in their music is authentic to the artists? If so, how could we know? What are some ways in which we might determine whether a given value is being authentically expressed or not?
+
+There are three recent papers addressing this question.
+

@@ -1,0 +1,100 @@
+% Wash U. McKelvey Engineering thesis template
+
+% Use one of the following:
+%\documentclass[mastersthesis,12pt]{wuthesis}
+\documentclass[phdthesis,12pt]{wuthesis}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Enter the information requested in the following fields to ensure it is used everywhere that is needed in the front matter of the thesis.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Enter your name as it should appear on the thesis
+\renewcommand{\thesisauthorfirstname}{Ima}
+\renewcommand{\thesisauthorlastname}{Graduatin}
+
+%% Enter your previous degrees, if any
+%\renewcommand{\thesisauthorpreviousdegrees}{, J.D.}
+
+%% Enter department/program name (must be formatted exactly as shown in appendix of McKelvey thesis guidelines)
+\renewcommand{\thesisdepartment}{Department of Computer Science \& Engineering}
+
+%% Enter hthe name of your degree; if uncertain, consult your supervisor or program director.
+\renewcommand{\thesisfield}{Computer Science}
+
+%% Enter month and year of graduation (MUST be one of May, August, or December, reflecting the end of the semester in which your degree will be conferred). DO NOT use the month in which you will actually defend or submit the thesis document if earlier than the above.
+\renewcommand{\thesismonth}{May}
+\renewcommand{\thesisyear}{2023}
+
+%% Enter title of thesis
+\renewcommand{\thesistitle}{Template for Formatting of McKelvey Master's Theses and Doctoral Dissertations}
+
+%% Enter the copyright holder ONLY if different from \thesisauthor above 
+%\renewcommand{\thesiscopyrightholder}{\thesisauthor}
+
+%% Enter name of your committee chair (generally the same as your supervisor)
+\renewcommand{\thesischair}{Alan Turing}
+
+%% list all your committee members *other* than the chair in alphabetical order by last name
+\renewcommand{\thesiscommittee}{
+    Ralph Alpher \\
+    Hans Bethe \\
+    George Gamow \\
+    Grace Hopper \\
+    Richard Tapia}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Include any LaTeX packages you want to use here with \usepackage. Also add any preamble declarations that you want to apply to the entire thesis.
+
+% Suggested package to support inclusion of images
+\usepackage{graphicx}
+
+% Suggested settings for formatting URLs and hypertext references
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Include a separate LaTeX file for each chapter of the thesis immediately after the \mainmatter tag below.
+%%
+%% Front-matter text (acknowledgements, abstract, optional dedication, optional preface) are specified inthesis-front.tex.
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\frontmatter
+\include{thesis-front}
+
+% If adding a preface to the main thesis, uncomment the next two lines and provide the body of the preface in the included file. The chapter heading must be the word "Preface".
+%\chapter{Preface}
+%\input{preface}
+
+\mainmatter
+\include{thesis-chapter1}
+%\include{thesis-chapter2}
+%\include{thesis-chapter3}
+%\include{thesis-chapter4}
+%\include{thesis-chapter5}
+
+% Generate the bibliography.
+\bibliographystyle{abbrv}
+\begin{spacing}{1.0}
+\bibliography{thesis-references}
+\end{spacing}
+
+% Uncomment the next line if you want to force every reference in the .bib file to appear in the final document, whether or not it was \cite'd.
+%\nocite{*}
+
+% Uncomment next lines to generate appendices, if desired.
+\appendix
+\include{thesis-appendixA}
+%\include{thesis-appendixB}
+
+\end{document}

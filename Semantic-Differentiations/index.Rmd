@@ -1,0 +1,34 @@
+---
+title: "Is this what I care about?"
+author: "John Doe"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  This is a minimal example of using the bookdown package to write a book.
+  The HTML output format for this example is bookdown::gitbook,
+  set in the _output.yml file.
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
+
+# Schechtman on Personhood and Personal Identity
+
+There are two questions which an early Marya Schechtman asks regarding identity and personhood.
+
+•	What history am I defined by (re-identification and bodily criterion)
+•	What are my values, beliefs, and desires (self-knowledge, psychological criterion)
+
+Such questions are important when we are often attempting to discover who we are or define who we might be. This may become necessary when attempting to determine how to reconcile our past, current or future behaviors. A way to do so is by determining who we take ourselves to be and calculating what kinds of behaviors are a likely consequence. A popular example is that of someone who seems to remember leading soldiers into battle at Waterloo. But let’s imagine that they were born in 1980 rather than 1780. This is an extreme case however, but there is a more mundane case that can reflect the concern we associate with identity claims.
+
+Let’s imagine that for whatever reason, I seem to remember putting my keys on the kitchen counter. However, this memory may conflict with who I believe myself to be. As I have always thought of myself as the kind of self who lives an orderly and regimented life. This means that I keep an orderly home, always placing my items in the places that I designate for them. The kitchen counter is not the kind of place that I have designated for my keys and as such, I cannot reconcile this memory (putting my keys on the kitchen counter) with the kind of self that I take myself to be.
+
+On a bodily criterion, identity is established if and only if the body of A is continuous with the body of B. The question being whether my body is the same body as the self that places their keys on the kitchen counter rather than the key hook in the entryway. If it is, then we have established identity.
+
+However, there are various views that understand the psychological account of continuity as better expressing what we mean by identity. For instance, how do we explain phrases such as it is hard for me to reconcile the person, I was with who I am. Or consider questions of legal punishment. We might think a particular inmate deserves clemency because they are no longer the person who committed a given crime. If bodily criterion is the only acceptable criterion for identity, then how do we explain rehabilitation or salvation?
+
+Whether or not I identify with the sort of personality that places their keys un-reflectively on the kitchen counter rather than the key hook in the entryway is another way of understanding why the psychological criterion is important. Contemporary philosophical discussion on personal identity is generally concerned with reidentification and not self-knowledge. A look at one of the most prominent views in this area will follow in Section 1.
+

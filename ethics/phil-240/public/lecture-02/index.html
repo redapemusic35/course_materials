@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=6021&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Meta # Key Topics # Resources # Open on &ensp; Open on &ensp; Example Code Functions Lab-01 Lab-01 Replication Starter Notebook A Quick Note # The lectures are dated for 2017 but not updates are planned to the videos or slides for this year. Please watch them in order, and take the time to practice along with the examples in R for Data Science. I will have my office hours as usual on Wednesday should questions come up, and will be available on Slack all week.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="//localhost:6021/lecture-02/">
+  <meta property="og:title" content="Lecture 02 - Working with Data">
+  <meta property="og:description" content="Meta # Key Topics # Resources # Open on   Open on   Example Code Functions Lab-01 Lab-01 Replication Starter Notebook A Quick Note # The lectures are dated for 2017 but not updates are planned to the videos or slides for this year. Please watch them in order, and take the time to practice along with the examples in R for Data Science. I will have my office hours as usual on Wednesday should questions come up, and will be available on Slack all week.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2016-03-08T21:07:13+01:00">
+    <meta property="article:modified_time" content="2016-03-08T21:07:13+01:00">
+<title>Lecture 02 - Working with Data | </title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="canonical" href="//localhost:6021/lecture-02/">
+<link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.8fb56adf0f2c83f56a9b00fb282110dace93b08557a55164b197674dd7786900.js" integrity="sha256-j7Vq3w8sg/VqmwD7KCEQ2s6TsIVXpVFksZdnTdd4aQA=" crossorigin="anonymous"></script>
+
+  
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span></span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Lecture 02 - Working with Data</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#meta">Meta</a></li>
+    <li><a href="#key-topics">Key Topics</a></li>
+    <li><a href="#resources">Resources</a></li>
+    <li><a href="#a-quick-note">A Quick Note</a></li>
+    <li><a href="#lecture-02a---introducing-ggplot2">Lecture 02a - Introducing <code>ggplot2</code></a>
+      <ul>
+        <li><a href="#slides">Slides</a></li>
+        <li><a href="#video-lecture">Video Lecture</a></li>
+      </ul>
+    </li>
+    <li><a href="#lecture-02b---grammar-of-graphics">Lecture 02b - Grammar of Graphics</a>
+      <ul>
+        <li><a href="#slides-1">Slides</a></li>
+        <li><a href="#video-lecture-1">Video Lecture</a></li>
+      </ul>
+    </li>
+    <li><a href="#lecture-02c---verbs-for-cleaning-data">Lecture 02c - Verbs for Cleaning Data</a>
+      <ul>
+        <li><a href="#slides-2">Slides</a></li>
+        <li><a href="#video-lecture-2">Video Lecture</a></li>
+      </ul>
+    </li>
+    <li><a href="#lecture-02d---structuring-notebooks">Lecture 02d - Structuring Notebooks</a>
+      <ul>
+        <li><a href="#slides-3">Slides</a></li>
+        <li><a href="#video-lecture-3">Video Lecture</a></li>
+      </ul>
+    </li>
+    <li><a href="#slack-discussions-i-classfab-fa-slacki">Slack Discussions <!-- raw HTML omitted --><!-- raw HTML omitted --></a></li>
+    <li><a href="#data-for-assignments">Data for Assignments</a></li>
+    <li><a href="#starter-notebook">Starter Notebook</a></li>
+    <li><a href="#cheatsheets">Cheatsheets</a></li>
+    <li><a href="#extra-information">Extra Information</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h2 id="meta">
+  Meta
+  <a class="anchor" href="#meta">#</a>
+</h2>
+<p><img src="https://img.shields.io/badge/semester-fall%202018-orange.svg" alt="" /> <img src="https://img.shields.io/badge/release-full-brightgreen.svg" alt="" /> <a href="https://github.com/slu-soc5050/lecture-02/blob/master/NEWS_SITE.md"><img src="https://img.shields.io/badge/last%20update-2018--09--06-brightgreen.svg" alt="" /></a></p>
+<h2 id="key-topics">
+  Key Topics
+  <a class="anchor" href="#key-topics">#</a>
+</h2>
+<h2 id="resources">
+  Resources
+  <a class="anchor" href="#resources">#</a>
+</h2>
+<p><a class="btn btn-primary btn-outline btn-xs" href="https://slu-soc5050.github.io/syllabus/lecture-02-working-with-data.html" target="_blank"> Open on &ensp;<i class="fas fa-book fa-lg"></i> </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-02" target="_blank"> Open on &ensp;<i class="fab fa-github fa-lg"></i> </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-02/blob/master/examples/" target="_blank"> Example Code </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-02/blob/master/handouts/lecture-02-functions.pdf" target="_blank"> Functions </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-02/blob/master/assignments/lab-01.pdf" target="_blank"> Lab-01 </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-02/tree/master/assignments/lab-01-replication" target="_blank"> Lab-01 Replication </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-02/blob/master/extras/starterNotebook.Rmd" target="_blank"> Starter Notebook </a></p>
+<h2 id="a-quick-note">
+  A Quick Note
+  <a class="anchor" href="#a-quick-note">#</a>
+</h2>
+<p>The lectures are dated for 2017 but not updates are planned to the videos or slides for this year. Please watch them in order, and take the time to practice along with the examples in <em>R for Data Science</em>. I will have my office hours as usual on Wednesday should questions come up, and will be available on Slack all week.</p>
+<h2 id="lecture-02a---introducing-ggplot2">
+  Lecture 02a - Introducing <code>ggplot2</code>
+  <a class="anchor" href="#lecture-02a---introducing-ggplot2">#</a>
+</h2>
+<h3 id="slides">
+  Slides
+  <a class="anchor" href="#slides">#</a>
+</h3>
+<!-- raw HTML omitted -->
+<h3 id="video-lecture">
+  Video Lecture
+  <a class="anchor" href="#video-lecture">#</a>
+</h3>
+<!-- raw HTML omitted -->
+<h2 id="lecture-02b---grammar-of-graphics">
+  Lecture 02b - Grammar of Graphics
+  <a class="anchor" href="#lecture-02b---grammar-of-graphics">#</a>
+</h2>
+<h3 id="slides-1">
+  Slides
+  <a class="anchor" href="#slides-1">#</a>
+</h3>
+<!-- raw HTML omitted -->
+<h3 id="video-lecture-1">
+  Video Lecture
+  <a class="anchor" href="#video-lecture-1">#</a>
+</h3>
+<!-- raw HTML omitted -->
+<h2 id="lecture-02c---verbs-for-cleaning-data">
+  Lecture 02c - Verbs for Cleaning Data
+  <a class="anchor" href="#lecture-02c---verbs-for-cleaning-data">#</a>
+</h2>
+<p><em>Note:</em> The video is titled &ldquo;Lecture 3&rdquo; - this is not a mixup, just a holdover from a past semester!</p>
+<h3 id="slides-2">
+  Slides
+  <a class="anchor" href="#slides-2">#</a>
+</h3>
+<!-- raw HTML omitted -->
+<h3 id="video-lecture-2">
+  Video Lecture
+  <a class="anchor" href="#video-lecture-2">#</a>
+</h3>
+<!-- raw HTML omitted -->
+<h2 id="lecture-02d---structuring-notebooks">
+  Lecture 02d - Structuring Notebooks
+  <a class="anchor" href="#lecture-02d---structuring-notebooks">#</a>
+</h2>
+<p><em>Note:</em> The video is titled &ldquo;Lecture 4&rdquo; - this is not a mixup, just a holdover from a past semester!</p>
+<h3 id="slides-3">
+  Slides
+  <a class="anchor" href="#slides-3">#</a>
+</h3>
+<!-- raw HTML omitted -->
+<h3 id="video-lecture-3">
+  Video Lecture
+  <a class="anchor" href="#video-lecture-3">#</a>
+</h3>
+<!-- raw HTML omitted -->
+<h2 id="slack-discussions-i-classfab-fa-slacki">
+  Slack Discussions <!-- raw HTML omitted --><!-- raw HTML omitted -->
+  <a class="anchor" href="#slack-discussions-i-classfab-fa-slacki">#</a>
+</h2>
+<ul>
+<li><!-- raw HTML omitted -->Lecture Release<!-- raw HTML omitted --></li>
+<li><!-- raw HTML omitted --><code>testDriveR</code> updates<!-- raw HTML omitted --></li>
+<li><!-- raw HTML omitted -->Final Project questions<!-- raw HTML omitted --></li>
+<li><!-- raw HTML omitted -->General coursework questions<!-- raw HTML omitted --></li>
+<li><!-- raw HTML omitted -->Error messages in <code>R</code> and package installation<!-- raw HTML omitted --></li>
+<li><!-- raw HTML omitted -->Notebook structure<!-- raw HTML omitted --></li>
+</ul>
+<h2 id="data-for-assignments">
+  Data for Assignments
+  <a class="anchor" href="#data-for-assignments">#</a>
+</h2>
+<p>The data that you need for many of the assignments this semester is available as an <code>R</code> package named <code>testDriveR</code>. On the initial course software instructions, you were told to download and install it from GitHub. As of September 1, I am happy to annouce that <code>testDriveR</code> is on CRAN. Please re-install the package:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#a6e22e">install.packages</span>(<span style="color:#e6db74">&#34;testDriveR&#34;</span>)
+</span></span></code></pre></div><h2 id="starter-notebook">
+  Starter Notebook
+  <a class="anchor" href="#starter-notebook">#</a>
+</h2>
+<p>Based on a <!-- raw HTML omitted -->question from a student<!-- raw HTML omitted -->, I&rsquo;ve posted <!-- raw HTML omitted -->an empty notebook structure<!-- raw HTML omitted --> that you can use to start your assignments. If you click on the <code>Raw</code> button, or follow <!-- raw HTML omitted -->this link<!-- raw HTML omitted -->, you&rsquo;ll get plain text that you can copy into RStudio.</p>
+<h2 id="cheatsheets">
+  Cheatsheets
+  <a class="anchor" href="#cheatsheets">#</a>
+</h2>
+<p>RStudio offers a number of cheatsheets that you may find useful. FYI - they offer <em>way</em> more detail than what I provide. This is intentional on my part. So, if you feeling confident and are looking to build upon what a particular week covers, check them out!</p>
+<ul>
+<li><a href="https://github.com/rstudio/cheatsheets/raw/master/source/pdfs/ggplot2-cheatsheet-2.1.pdf"><code>ggplot2</code></a></li>
+<li><a href="https://github.com/rstudio/cheatsheets/raw/master/source/pdfs/data-transformation-cheatsheet.pdf"><code>dplyr</code></a></li>
+<li><a href="https://github.com/rstudio/cheatsheets/raw/master/source/pdfs/rmarkdown-cheatsheet-2.0.pdf"><code>rmarkdown</code></a></li>
+</ul>
+<h2 id="extra-information">
+  Extra Information
+  <a class="anchor" href="#extra-information">#</a>
+</h2>
+<p>This week, I mentioned a number of important figures. If you want more information, you can check out these Wikipedia pages:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Ren%c3%a9_Descartes">René Descartes</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Donald_Knuth">Donald Knuth</a></li>
+<li><a href="https://en.wikipedia.org/wiki/George_Boole">George Boole</a></li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#meta">Meta</a></li>
+    <li><a href="#key-topics">Key Topics</a></li>
+    <li><a href="#resources">Resources</a></li>
+    <li><a href="#a-quick-note">A Quick Note</a></li>
+    <li><a href="#lecture-02a---introducing-ggplot2">Lecture 02a - Introducing <code>ggplot2</code></a>
+      <ul>
+        <li><a href="#slides">Slides</a></li>
+        <li><a href="#video-lecture">Video Lecture</a></li>
+      </ul>
+    </li>
+    <li><a href="#lecture-02b---grammar-of-graphics">Lecture 02b - Grammar of Graphics</a>
+      <ul>
+        <li><a href="#slides-1">Slides</a></li>
+        <li><a href="#video-lecture-1">Video Lecture</a></li>
+      </ul>
+    </li>
+    <li><a href="#lecture-02c---verbs-for-cleaning-data">Lecture 02c - Verbs for Cleaning Data</a>
+      <ul>
+        <li><a href="#slides-2">Slides</a></li>
+        <li><a href="#video-lecture-2">Video Lecture</a></li>
+      </ul>
+    </li>
+    <li><a href="#lecture-02d---structuring-notebooks">Lecture 02d - Structuring Notebooks</a>
+      <ul>
+        <li><a href="#slides-3">Slides</a></li>
+        <li><a href="#video-lecture-3">Video Lecture</a></li>
+      </ul>
+    </li>
+    <li><a href="#slack-discussions-i-classfab-fa-slacki">Slack Discussions <!-- raw HTML omitted --><!-- raw HTML omitted --></a></li>
+    <li><a href="#data-for-assignments">Data for Assignments</a></li>
+    <li><a href="#starter-notebook">Starter Notebook</a></li>
+    <li><a href="#cheatsheets">Cheatsheets</a></li>
+    <li><a href="#extra-information">Extra Information</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

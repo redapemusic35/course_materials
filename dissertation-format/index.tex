@@ -1,0 +1,65 @@
+\documentclass[12pt]{book}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{hyperref}
+
+\geometry{margin=1in}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+\setmainfont{Arial}
+\doublespacing
+
+\newcommand{\maketitlepage}{
+  \begin{titlepage}
+    \centering
+    \vspace*{\fill}
+    {\Large\bfseries \@title\par}
+    \vspace{1cm}
+    {\large by\par}
+    \vspace{1cm}
+    {\large\bfseries \@author\par}
+    \vspace{1cm}
+    {\large A dissertation submitted to the\par}
+    {\large Graduate School\par}
+    {\large of Saint Louis University\par}
+    {\large in partial fulfillment of the requirements\par}
+    {\large for the degree of\par}
+    \vspace{1cm}
+    {\large\bfseries Doctor of Philosophy\par}
+    \vspace{2cm}
+    {\large\the\year\par}
+    \vspace*{\fill}
+  \end{titlepage}
+}
+
+\renewcommand{\contentsname}{Table of Contents}
+\setcounter{tocdepth}{3}
+\renewcommand{\cftchapfont}{\normalfont}
+\renewcommand{\cftchappagefont}{\normalfont}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+
+\titleformat{\chapter}[display]
+  {\normalfont\large\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Large}
+\titlespacing*{\chapter}{0pt}{50pt}{40pt}
+
+\titleformat{\section}
+  {\normalfont\large\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+
+\renewcommand{\listtablename}{List of Tables}
+\renewcommand{\listfigurename}{List of Figures}
+
+\bibliographystyle{apa}
+\renewcommand{\bibname}{References}
+
+\newcommand{\vitaauctoris}{
+  \chapter*{Vita Auctoris}
+  \addcontentsline{toc}{chapter}{Vita Auctoris}
+}
+
+

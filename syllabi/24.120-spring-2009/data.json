@@ -1,0 +1,23 @@
+{
+  "course_title":"Moral Psychology",
+  "course_description":"This course is an examination of philosophical theories of action and motivation in the light of empirical findings from social psychology, sociology, and neuroscience. Topics include belief, desire, and moral motivation; sympathy and empathy; intentions and other committing states; strength of will and weakness of will; free will; addiction and compulsion; guilt, shame and regret; evil; self-knowledge and self-deception; and, virtues and character traits.\n\nThis course is a [CI-M](http://web.mit.edu/commreq/background.html) course.\n",
+  "course_description_html":"<p>This course is an examination of philosophical theories of action and motivation in the light of empirical findings from social psychology, sociology, and neuroscience. Topics include belief, desire, and moral motivation; sympathy and empathy; intentions and other committing states; strength of will and weakness of will; free will; addiction and compulsion; guilt, shame and regret; evil; self-knowledge and self-deception; and, virtues and character traits.</p>\n<p>This course is a <a href=\"http://web.mit.edu/commreq/background.html\" target=\"_blank\" rel=\"noopener\">CI-M</a> course.</p>\n",
+  "site_uid":"df6a4e27-933d-4642-b97f-f850f85025a4",
+  "legacy_uid":"d1f4af99-a994-db70-4fab-9399c6ae2842","instructors": [{
+    "first_name":"Richard",
+    "last_name":"Holton",
+    "middle_initial":"",
+    "salutation":"Prof.",
+    "title":"Prof. Richard Holton"}],"department_numbers":["24"],
+  "learning_resource_types":["Lecture Notes","Presentation Assignments","Written Assignments","Course Introduction"],
+  "topics":[["Humanities","Philosophy","Ethics"],["Social Science","Psychology"]],
+  "mit_learn_topics":null,
+  "primary_course_number":"24.120",
+  "extra_course_numbers":"",
+  "term":"Spring",
+  "year":"2009",
+  "level":["Undergraduate"],
+  "hide_download":null,
+  "image_src":"./static_resources/c6ce46faeee17ffacfa5bd8c8cda0a56_24-120s09.jpg",
+  "course_image_metadata":{"content_type":"resource","description":"Human/Need/Desire, 1983, in neon tubing and wire with glass tubing suspension frames, by Bruce Nauman (American, born 1941). (Courtesy of FlickrDelusions on Flickr.)","draft":false,"file":"/courses/24-120-moral-psychology-spring-2009/c6ce46faeee17ffacfa5bd8c8cda0a56_24-120s09.jpg","file_size":37467,"file_type":"image/jpeg","image_metadata":{"caption":"Human/Need/Desire, 1983, in neon tubing and wire with glass tubing suspension frames, by Bruce Nauman (American, born 1941). (Courtesy of [FlickrDelusions](http://www.flickr.com/photos/stanbury/438998365/) on Flickr.)","credit":"","image-alt":"Photograph of the sculpture Human/Need/Desire, 1983, by Bruce Nauman. Nauman uses neon tubing to spell out the words of fundamental human experience. The words are arranged as a six-point, radiating star starting with dream on the lower left and arranged counter-clockwise: dream, need, human, human, desire, and hope."},"iscjklanguage":false,"learning_resource_types":[],"license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","ocw_type":"OCWImage","resourcetype":"Image","title":"Human/Need/Desire","uid":"c6ce46fa-eee1-7ffa-cfa5-bd8c8cda0a56"}}
+

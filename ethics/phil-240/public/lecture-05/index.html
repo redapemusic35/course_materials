@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=6021&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Meta # Key Topics # Resources # Open on &ensp; Open on &ensp; View Lecture &ensp; Equations Functions Lab 04 Lab 04 Replication Problem Set 02 Lecture Slides # Grappling with p-values # Here are a couple of links for digging further into what p-values are and how we explain them:
+American Statistical Association&rsquo;s Statement on p-values ``Mission Improbable: A Concise and Precise Definition of P-Value&rsquo;&rsquo; - Science Magazine interview with Victor De Gruttola ``Science Isn&rsquo;t Broken&rsquo;&rsquo; - FiveThirtyEight article on p-values ``Not Even Scientists Can Easily Explain P-values&rsquo;&rsquo; - FiveThirtyEight article on p-values, includes the video I mentioned in class Andrew Gelman&rsquo;s views on p-values ``Abandon Statistical Significance&rsquo;&rsquo; - Andrew Gelman and others Gelman and John Carlin suggest some solutions for the ``p-value communication problem&rsquo;&rsquo; ``It will be much harder to call new findings ‘significant’ if this team gets its way&rsquo;&rsquo; - Science Magazine article on changing culture around p-values Histograms with the Normal Distribution Overlaid in ggplot2 # I introduced the idea of a histogram with a normal distribution overlaid during this week&rsquo;s lecture, but purposely did not include the syntax on our quick reference sheet for R functions.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="//localhost:6021/lecture-05/">
+  <meta property="og:title" content="Lectue 05 - The Distribution of Random Variables">
+  <meta property="og:description" content="Meta # Key Topics # Resources # Open on   Open on   View Lecture   Equations Functions Lab 04 Lab 04 Replication Problem Set 02 Lecture Slides # Grappling with p-values # Here are a couple of links for digging further into what p-values are and how we explain them:
+American Statistical Association’s Statement on p-values ``Mission Improbable: A Concise and Precise Definition of P-Value’’ - Science Magazine interview with Victor De Gruttola ``Science Isn’t Broken’’ - FiveThirtyEight article on p-values ``Not Even Scientists Can Easily Explain P-values’’ - FiveThirtyEight article on p-values, includes the video I mentioned in class Andrew Gelman’s views on p-values ``Abandon Statistical Significance’’ - Andrew Gelman and others Gelman and John Carlin suggest some solutions for the ``p-value communication problem’’ ``It will be much harder to call new findings ‘significant’ if this team gets its way’’ - Science Magazine article on changing culture around p-values Histograms with the Normal Distribution Overlaid in ggplot2 # I introduced the idea of a histogram with a normal distribution overlaid during this week’s lecture, but purposely did not include the syntax on our quick reference sheet for R functions.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2016-03-08T21:07:13+01:00">
+    <meta property="article:modified_time" content="2016-03-08T21:07:13+01:00">
+<title>Lectue 05 - The Distribution of Random Variables | </title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="canonical" href="//localhost:6021/lecture-05/">
+<link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.8fb56adf0f2c83f56a9b00fb282110dace93b08557a55164b197674dd7786900.js" integrity="sha256-j7Vq3w8sg/VqmwD7KCEQ2s6TsIVXpVFksZdnTdd4aQA=" crossorigin="anonymous"></script>
+
+  
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span></span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Lectue 05 - The Distribution of Random Variables</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#meta">Meta</a></li>
+    <li><a href="#key-topics">Key Topics</a></li>
+    <li><a href="#resources">Resources</a></li>
+    <li><a href="#lecture-slides">Lecture Slides</a></li>
+    <li><a href="#grappling-with-p-values">Grappling with p-values</a></li>
+    <li><a href="#histograms-with-the-normal-distribution-overlaid-in-ggplot2">Histograms with the Normal Distribution Overlaid in <code>ggplot2</code></a></li>
+    <li><a href="#performing-calculations">Performing Calculations</a></li>
+    <li><a href="#reading-in-arbitrary-vectors-to-r">Reading in Arbitrary Vectors to <code>R</code></a></li>
+    <li><a href="#extra-information">Extra Information</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h2 id="meta">
+  Meta
+  <a class="anchor" href="#meta">#</a>
+</h2>
+<p><img src="https://img.shields.io/badge/semester-fall%202018-orange.svg" alt="" /> <img src="https://img.shields.io/badge/release-lecture-brightgreen.svg" alt="" /> <a href="https://github.com/slu-soc5050/lecture-03/blob/master/NEWS_SITE.md"><img src="https://img.shields.io/badge/last%20update-2018--09--24-brightgreen.svg" alt="" /></a></p>
+<h2 id="key-topics">
+  Key Topics
+  <a class="anchor" href="#key-topics">#</a>
+</h2>
+<h2 id="resources">
+  Resources
+  <a class="anchor" href="#resources">#</a>
+</h2>
+<p><a class="btn btn-primary btn-outline btn-xs" href="https://slu-soc5050.github.io/syllabus/lecture-05-the-distribution-of-random-variables.html" target="_blank"> Open on &ensp;<i class="fas fa-book fa-lg"></i> </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-05" target="_blank"> Open on &ensp;<i class="fab fa-github fa-lg"></i> </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://slu.tegrity.com/#/recording/a3589505-ed8c-4b4f-9694-e4640d0a01a1" target="_blank"> View Lecture &ensp;<i class="fas fa-video"></i> </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-05/blob/master/handouts/lecture-05-equations.pdf" target="_blank"> Equations </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-05/blob/master/handouts/lecture-05-functions.pdf" target="_blank"> Functions </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-05/blob/master/assignments/lab-04.pdf" target="_blank"> Lab 04 </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-05/blob/master/assignments/lab-04-replication/" target="_blank"> Lab 04 Replication </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-05/blob/master/assignments/ps-02.pdf" target="_blank"> Problem Set 02 </a></p>
+<h2 id="lecture-slides">
+  Lecture Slides
+  <a class="anchor" href="#lecture-slides">#</a>
+</h2>
+<!-- raw HTML omitted -->
+<h2 id="grappling-with-p-values">
+  Grappling with p-values
+  <a class="anchor" href="#grappling-with-p-values">#</a>
+</h2>
+<p>Here are a couple of links for digging further into what p-values are and how we explain them:</p>
+<ul>
+<li>American Statistical Association&rsquo;s <a href="http://amstat.tandfonline.com/doi/abs/10.1080/00031305.2016.1154108">Statement on p-values</a></li>
+<li><a href="http://www.sciencemag.org/news/2009/10/mission-improbable-concise-and-precise-definition-p-value">``Mission Improbable: A Concise and Precise Definition of P-Value&rsquo;&rsquo;</a> - Science Magazine interview with <a href="https://www.hsph.harvard.edu/victor-de-gruttola/">Victor De Gruttola</a></li>
+<li><a href="https://fivethirtyeight.com/features/science-isnt-broken/?ex_cid=endlink#part1">``Science Isn&rsquo;t Broken&rsquo;&rsquo;</a> - FiveThirtyEight article on p-values</li>
+<li><a href="http://fivethirtyeight.com/features/not-even-scientists-can-easily-explain-p-values/">``Not Even Scientists Can Easily Explain P-values&rsquo;&rsquo;</a> - FiveThirtyEight article on p-values, includes the video I mentioned in class</li>
+<li><a href="http://andrewgelman.com/">Andrew Gelman&rsquo;s</a> <a href="http://www.stat.columbia.edu/~gelman/research/published/asa_pvalues.pdf">views on p-values</a></li>
+<li><a href="http://www.stat.columbia.edu/~gelman/research/unpublished/abandon.pdf">``Abandon Statistical Significance&rsquo;&rsquo;</a> - Andrew Gelman and others</li>
+<li>Gelman and John Carlin <a href="http://www.stat.columbia.edu/~gelman/research/published/jasa_signif_2.pdf">suggest some solutions for the ``p-value communication problem&rsquo;&rsquo;</a></li>
+<li><a href="http://www.sciencemag.org/news/2017/07/it-will-be-much-harder-call-new-findings-significant-if-team-gets-its-way">``It will be much harder to call new findings ‘significant’ if this team gets its way&rsquo;&rsquo;</a> - Science Magazine article on changing culture around p-values</li>
+</ul>
+<h2 id="histograms-with-the-normal-distribution-overlaid-in-ggplot2">
+  Histograms with the Normal Distribution Overlaid in <code>ggplot2</code>
+  <a class="anchor" href="#histograms-with-the-normal-distribution-overlaid-in-ggplot2">#</a>
+</h2>
+<p>I introduced the idea of a histogram with a normal distribution overlaid during this week&rsquo;s lecture, but purposely did not include the syntax on our quick reference sheet for <code>R</code> functions. If you are interested in playing with the syntax, it is included below. We make one key change to the initial <code>ggplot()</code> call - the aesthetic mapping is included in the initial <code>ggplot()</code> function rather than in a specific geom. We also covert the <code>hwy</code> variable&rsquo;s representation from frequency to density, and layer on top of this our normal distribution by using the <code>stat_function()</code> function. Make sure to update the arguments for <code>stat_function()</code> if you want to adjust this example, and note that we have to specify the data frame <em>and</em> the variable name separated by a <code>$</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(ggplot2)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">ggplot</span>(data <span style="color:#f92672">=</span> mpg, mapping <span style="color:#f92672">=</span> <span style="color:#a6e22e">aes</span>(hwy)) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">geom_histogram</span>(mapping <span style="color:#f92672">=</span> <span style="color:#a6e22e">aes</span>(y <span style="color:#f92672">=</span> ..density..)) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">stat_function</span>(fun <span style="color:#f92672">=</span> dnorm, color <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;red&#34;</span>,
+</span></span><span style="display:flex;"><span>    args<span style="color:#f92672">=</span><span style="color:#a6e22e">list</span>(mean<span style="color:#f92672">=</span><span style="color:#a6e22e">mean</span>(mpg<span style="color:#f92672">$</span>hwy), sd<span style="color:#f92672">=</span><span style="color:#a6e22e">sd</span>(mpg<span style="color:#f92672">$</span>hwy)))
+</span></span></code></pre></div><p><img src="https://raw.githubusercontent.com/slu-soc5050/Core-Documents/sources/Week-05/histogramNormal.png" alt="histogramNormal.png" /></p>
+<h2 id="performing-calculations">
+  Performing Calculations
+  <a class="anchor" href="#performing-calculations">#</a>
+</h2>
+<p>During class this week, I briefly described how to perform calculations and save results in <code>R</code>. You can use standard mathematical operators <code>+</code>, <code>-</code>, <code>/</code>, and <code>*</code> to add, subtract, divide, and multiply (respectively). These are reviewed in the <code>week-02-lecture-03-rQuickref.pdf</code> file in the <a href="https://github.com/slu-soc5050/Week-02/blob/master/Functions/week-02-lecture-03-rQuickref.pdf"><code>Week-02</code> repo on GitHub</a>. Quickly, we can calculate a value like lambda within <code>R</code>, save it as an object, and reference the object in later calculations:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#f92672">&gt;</span> lambda <span style="color:#f92672">&lt;-</span> <span style="color:#ae81ff">100000</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">.00004</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">dpois</span>(<span style="color:#ae81ff">6</span>, lambda <span style="color:#f92672">=</span> lambda)
+</span></span><span style="display:flex;"><span>[1] <span style="color:#ae81ff">0.1041956</span>
+</span></span></code></pre></div><h2 id="reading-in-arbitrary-vectors-to-r">
+  Reading in Arbitrary Vectors to <code>R</code>
+  <a class="anchor" href="#reading-in-arbitrary-vectors-to-r">#</a>
+</h2>
+<p>Problem Set 04 asks you to find the variance of an arbitrary set of values in a vector (list) of numbers. These can easily be read into <code>R</code> so that you do not have to calculate the variance by hand. You can use the same technique to check your work as you calculate skew and kurtosis by hand.</p>
+<p>To begin:
+Let x = 2, 4, 6, 8, 10</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span>x <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">6</span>, <span style="color:#ae81ff">8</span>, <span style="color:#ae81ff">10</span>)
+</span></span></code></pre></div><p>Once you add these values into <code>R</code>&rsquo;s memory, you will be able to see them in your environment tab and will be able to include them in calculations:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">mean</span>(x)
+</span></span><span style="display:flex;"><span>[1] <span style="color:#ae81ff">6</span>
+</span></span></code></pre></div><h2 id="extra-information">
+  Extra Information
+  <a class="anchor" href="#extra-information">#</a>
+</h2>
+<p>This week, I mentioned a number of important statisticians. If you want more information, you can check out these Wikipedia pages:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Jacob_Bernoulli">Jacob Bernoulli</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ladislaus_Bortkiewicz">Ladislaus Bortkiewicz</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Abraham_de_Moivre">Abraham de Moivre</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ronald_Fisher">Ronald Fisher</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Francis_Galton">Francis Galton</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss">Carl Friedrich Gauss</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Pierre-Simon_Laplace">Pierre-Simon Laplace</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Blaise_Pascal">Blaise Pascal</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Karl_Pearson">Karl Pearson</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Sim%c3%a9on_Denis_Poisson">Siméon Denis Poisson</a></li>
+</ul>
+<p>Additionally, here is the link to the <a href="http://goo.gl/qKUTsx">quincunx simulation</a> we talked about in class!</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#meta">Meta</a></li>
+    <li><a href="#key-topics">Key Topics</a></li>
+    <li><a href="#resources">Resources</a></li>
+    <li><a href="#lecture-slides">Lecture Slides</a></li>
+    <li><a href="#grappling-with-p-values">Grappling with p-values</a></li>
+    <li><a href="#histograms-with-the-normal-distribution-overlaid-in-ggplot2">Histograms with the Normal Distribution Overlaid in <code>ggplot2</code></a></li>
+    <li><a href="#performing-calculations">Performing Calculations</a></li>
+    <li><a href="#reading-in-arbitrary-vectors-to-r">Reading in Arbitrary Vectors to <code>R</code></a></li>
+    <li><a href="#extra-information">Extra Information</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

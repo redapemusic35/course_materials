@@ -1,0 +1,74 @@
+% Additional packages that might be needed
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+%\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{hyperref}
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Heros}
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+
+
+
+% Custom commands for specific formatting requirements
+%\newcommand{\singlespace}{\setstretch{1}}
+%\newcommand{\doublespace}{\setstretch{2}}
+
+% Command for block quotes
+\newenvironment{blockquote}
+{\begin{singlespace}\quote}
+{\endquote\end{singlespace}}
+
+% Command for the copyright page
+\newcommand{\copyrightpage}{
+  \newpage
+  \thispagestyle{empty}
+  \vspace*{\fill}
+  \begin{center}
+  © Copyright by \@author \\
+  ALL RIGHTS RESERVED \\
+  \the\year
+  \end{center}
+  \vspace*{\fill}
+  \newpage
+}
+
+% Define Shaded and Highlighting environments for code blocks
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newenvironment{Highlighting}{}{}
+
+% Command for the committee page
+\newcommand{\committeepage}{
+  \newpage
+  \thispagestyle{empty}
+  \vspace*{0.5\textheight}
+  \begin{center}
+  Committee Members: \\[1em]
+  \@committee
+  \end{center}
+  \newpage
+}
+
+% Redefine the \maketitle command to include the copyright and committee pages
+\let\oldmaketitle\maketitle
+\renewcommand{\maketitle}{
+  \oldmaketitle
+  \copyrightpage
+  \committeepage
+}

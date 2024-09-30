@@ -1,0 +1,97 @@
+---
+title: "Religion and Global Ethics"
+runningheader: "Religion and Ethics" # only for pdf output
+subtitle: "LC Phil 240 - Week 2" # only for html output
+author: "Montaque Reynolds"
+date: "`r Sys.Date()`"
+output:
+  bookdown::tufte_html_book:
+    toc: false
+  tufte::tufte_handout:
+    citation_package: natbib
+    latex_engine: xelatex
+  tufte::tufte_book:
+    citation_package: natbib
+    latex_engine: xelatex
+bibliography: skeleton.bib
+link-citations: yes
+---
+
+```{r setup, include=FALSE}
+library(tufte)
+# invalidate cache when the tufte version changes
+knitr::opts_chunk$set(cache.extra = packageVersion('tufte'))
+options(htmltools.dir.version = FALSE)
+```
+
+# Introduction
+
+## Week 2 - Religion and Global Ethics
+
+### Learning Outcomes
+
+* What are some of the challenges in developing a global ethical perspective in a world that is religiously diverse?
+* How is the idea of universal human rights linked to secularism, cosmopolitanism, and the European Enlightenment?
+* What is the divine command theory of ethics?
+* What is the Golden Rule?
+* How does the problem of evil and free will create challenges for religious ethics?
+* What are some of the differences between secular/humanistic and relgious approaches to ethics? What are some of the similarities?
+* How might one critique modern secular values using the concept of Eurocentrism?
+
+## Religion and Global Ethics
+
+#### Human Rights, Identity, and Diversity
+
+#####  What are some of the challenges in developing a global ethical perspective in a world that is religiously diverse?
+
+Global agreement about basic rights, inherent diginity of human beings, equal rights for men and women. This involves ensuring freedom of speech, freedom of other religions to practice.
+
+* What about defaming profits of a given religion? Or opposition to certain medical technologies such as blood transfusions, or any medical technology that was developed using research on fetal tissue of aborted fetuses?
+
+What is Religion?
+
+> Religion is a family resemblance concept, which includes a variety of things. Religion is a family resemblance concept, which includes a variety of things. Religion is often understood as a set of beliefs---a faith. This could include ideas about God (or Allah or some other name for the divine).
+
+* What is wrong with this definition? What is it missing?
+
+* Religion is a culture and identity, a system of practices, rituals, rules of behavior.
+
+Explain libertarianism or liberal? How does the author define this?
+
+Emphasizes the freedom of choice and toleration.
+
+##### Freedom, Cosmopolitanism, and the European Enlightenment
+
+* How is the idea of universal human rights linked to secularism, cosmopolitanism, and the European Enlightenment?
+
+##### Religion, Civic Life, and Civil Disobedience
+
+##### Ethics, Religion, and Divine Command Theory
+
+##### Pluralism and the Golden Rule
+
+## The Problem of Evil and Free Will
+
+* Secular Ethics and Toleration
+
+* Criticisms of Secularism and Global Ethics
+
+## Chapter Summary
+
+### Primary Source Readings
+
+* Reading 2-1: Euthyphro
+
+* Reading 2-2: Letter to a Christian Nation
+
+* Reading 2-3: Religion and Truth
+
+* Reading 2-4: This Troubled World
+
+## Language and Syntax
+
+We can make arguments formal. Last week, the chapter introduced us to formal argument methods and some argument fallacies. Some of these included **begging the question/circular argument**, ** ad hominem**, **arguments from analogy**.
+
+<iframe src="https://drive.google.com/file/d/1MfE5l48RR-0vgZcj8Yv4aN-7QHmAjbkQ/preview" width="800" height="1000" allow="autoplay"></iframe>
+
+## Review Exercises

@@ -1,0 +1,123 @@
+\documentclass[12pt]{book}
+
+% Essential packages
+\usepackage[margin=1in, footskip=0.25in]{geometry}
+\usepackage{setspace}
+\usepackage{fontspec}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{hyperref}
+
+% Font settings
+\setmainfont{Liberation Serif}
+
+% Page layout
+\pagestyle{plain}
+\doublespacing
+
+% Paragraph formatting
+\setlength{\parindent}{0.5in}
+\raggedright
+
+% Custom commands for specific formatting requirements
+\newenvironment{blockquote}
+{\begin{singlespace}\quote}
+{\endquote\end{singlespace}}
+
+\newcommand{\copyrightpage}{
+  \newpage
+  \thispagestyle{empty}
+  \vspace*{\fill}
+  \begin{center}
+  © Copyright by \@author \\
+  ALL RIGHTS RESERVED \\
+  \the\year
+  \end{center}
+  \vspace*{\fill}
+}
+
+\newcommand{\committeepage}{
+  \newpage
+  \thispagestyle{empty}
+  \vspace*{0.5\textheight}
+  \begin{center}
+  Committee Members: \\[1em]
+  % Add committee members here
+  \end{center}
+}
+
+% Redefine the \maketitle command
+\let\oldmaketitle\maketitle
+\renewcommand{\maketitle}{
+  \oldmaketitle
+  \copyrightpage
+  \committeepage
+}
+
+\newcommand{\maketitlepage}{
+  \begin{titlepage}
+    \centering
+    \vspace*{\fill}
+    {\Large\bfseries \@title\par}
+    \vspace{1cm}
+    {\large by\par}
+    \vspace{1cm}
+    {\large\bfseries \@author\par}
+    \vspace{1cm}
+    {\large A dissertation submitted to the\par}
+    {\large Graduate School\par}
+    {\large of Saint Louis University\par}
+    {\large in partial fulfillment of the requirements\par}
+    {\large for the degree of\par}
+    \vspace{1cm}
+    {\large\bfseries Doctor of Philosophy\par}
+    \vspace{2cm}
+    {\large\the\year\par}
+    \vspace*{\fill}
+  \end{titlepage}
+}
+
+\newcommand{\dedicationpage}{
+  \chapter*{Dedication}
+  \addcontentsline{toc}{chapter}{Dedication}
+  % Add dedication text here
+}
+
+\newcommand{\acknowledgementpage}{
+  \chapter*{Acknowledgements}
+  \addcontentsline{toc}{chapter}{Acknowledgements}
+  % Add acknowledgements text here
+}
+
+% Table of Contents formatting
+\renewcommand{\contentsname}{Table of Contents}
+\setcounter{tocdepth}{3}
+\renewcommand{\cftchapfont}{\normalfont}
+\renewcommand{\cftchappagefont}{\normalfont}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+
+% Chapter and section formatting
+\titleformat{\chapter}[display]
+  {\normalfont\large\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Large}
+\titlespacing*{\chapter}{0pt}{50pt}{40pt}
+
+\titleformat{\section}
+  {\normalfont\large\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+
+% List of Tables and Figures
+\renewcommand{\listtablename}{List of Tables}
+\renewcommand{\listfigurename}{List of Figures}
+
+% Bibliography
+\bibliographystyle{apa}
+\renewcommand{\bibname}{References}
+
+% Vita Auctoris
+\newcommand{\vitaauctoris}{
+  \chapter*{Vita Auctoris}
+  \addcontentsline{toc}{chapter}{Vita Auctoris}
+}

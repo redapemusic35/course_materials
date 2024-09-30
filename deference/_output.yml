@@ -1,0 +1,28 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      before: |
+        <li><a href="./">A Minimal Book Example</a></li>
+      after: |
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+    edit: https://github.com/USERNAME/REPO/edit/BRANCH/%s
+    download: ["pdf", "epub"]
+bookdown::pdf_book:
+  #  template: wuthesis.tex
+  # includes:
+    #   in_header: preamble.tex
+  latex_engine: xelatex
+bibliography: /home/redapemusic35/data_storage/Exported-Items.bib
+#citation_package: natbib
+csl: /home/redapemusic35/data_storage/chicago-fullnote-bibliography-with-ibid.csl
+keep_tex: yes
+book_filename: "thesis"
+rmd_files:
+    - index.Rmd
+    - 01-chapter1.Rmd
+    - 02-chapter2.Rmd
+    - A-appendix.Rmd
+bookdown::epub_book: default
+bookdown::word_document2:
+    reference_docx: "/home/redapemusic35/data_storage/chi-template.dotx"

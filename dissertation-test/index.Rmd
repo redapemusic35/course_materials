@@ -1,0 +1,23 @@
+---
+title: "Your Thesis Title"
+author: "Your Name"
+date: "`r Sys.Date()`"
+output:
+  bookdown::pdf_book:
+    template: template.tex
+    includes:
+      in_header: preamble.tex
+    latex_engine: xelatex
+    citation_package: biblatex
+bibliography: [book.bib]
+biblio-style: apa
+link-citations: yes
+---
+
+# Introduction
+
+Your introduction text here.
+
+# Chapter 1
+
+Your first chapter content here.

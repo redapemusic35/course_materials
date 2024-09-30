@@ -1,0 +1,29 @@
+# Course Readings
+
+> the emotion instantiates an appraisal of the value (to oneself or what one cares about) of that object. [@gilm20, 45]
+
+But how do we recognize the objects being instantiated and the degree to which they are being instantiated?
+
+One method includes deploying the semantic differential [@osgo51].
+
+Use semantic differentiality to understand the value being attributed to relational kind terms.
+
+## Measurement and Meaning
+
+The measurement of meaning, Osgood, Suci, and Tannenbaum
+
+Acts of Meaning, J.S. Bruner
+
+## Measuring Emotion and Values
+
+https://github.com/trinker/sentimentr, Sentimentr package
+
+https://osf.io/86qry/, Alfano, Moral Universals
+
+[Statistical Inference via Data Science](https://moderndive.com/index.html)
+
+[Corpus Analysis Conspiracy Theory](http://www.kevinreuter.com/ewExternalFiles/Corpus%20Analysis%20and%20Conspiracy%20Theory.pdf)
+
+[Corpus of Contemporary American English](https://www.english-corpora.org/coca/)
+
+[Corpus of Historical American English](https://www.english-corpora.org/coha/)

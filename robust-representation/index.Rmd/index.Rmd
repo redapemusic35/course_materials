@@ -1,0 +1,95 @@
+---
+title: "What is Robust Representation and Moral Identity?"
+subtitle: "Or what is moral identity?"
+author: "Montaque Reynolds"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  This is a minimal example of using the bookdown package to write a book.
+  The HTML output format for this example is bookdown::gitbook,
+  set in the _output.yml file.
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
+
+# About
+
+Given current popular conversations regarding black representation in country music, perhaps now is a good time to talk about the importance of representation in popular music
+
+Emerging work on country music argues that country music argues that the lack of ethnic diversity in country music erases the cultural contribution of racial and ethnic minority communities.
+I make a distinction between generic and robust ethnic representation and show that generic representation is maximally corrosive to ethnic identity while robust ethnic representation is maximally formative.
+One may argue that any representation is better than none.
+However this ignores the complexity of representation and identity
+
+#### Example of Generic representation (Ty Dolla's By Yourself):
+
+"Well is you single? Where my single ladies?\
+Stacked your bread and bought your own Mercedes (Vroom, vroom)\
+You your own boss, do it your way (Way)\
+Quick to tell a broke nigga, "Go away" (Go away)\
+You ain't never 'bout no drama (Nah, nah)"
+
+### Promotes self reliance but as humans, we are social creatures and so is not fully representational of who we are
+
+As humans, we are vulnerable in that we rely on other humans for our well-being
+
+Therefore accurate representation should express this vulnerability
+
+#### Example of Robust Representation (LL Cool J's Sitting in my Room):
+
+"Seems like ever since the first day we met\
+There is no one else I think of more than you\
+Can't seem to forget\
+Can't get you out my head\
+Guess the verdict's in, I'm crazy over you"
+
+### There many more (that I know of) examples of robust representation in country music than in commercial rap.
+
+A couple:
+
+#### Aaron Neville's cover of The Grand Tour
+
+There's her rings all her thingAnd her clothes are in the closet\
+Where she left them when\
+She tore my world apart
+
+#### Old Dominion's One Man Band
+
+
+I don't wanna be a one man band\
+I don't wanna be a rolling stone alone\
+Putting miles on a run-down van\
+Baby, we can take our own show on the road\
+I'll lay down the beat, you'll carry the tune\
+We'll get tattoos, and we'll trash hotel rooms\
+Baby, take my hand\
+I don't wanna be a one man band\
+No
+
+#### Tony Jackson's Old Porch Swing
+
+Mama used to love to reminisce\
+She'd sat out on the porch on lights like this\
+She'd tell me about her favorite things in life\
+Like honeysuckle, rain, and fireflies
+
+### What is the importance of representation? Perhaps it has to do with how someone identifies, what a good life is for that person:
+
+Consider someone say J, who was raised in the circus. Perhaps J’s parents were trapeze artists. Although this is not true of many, J wants to be just like her parents, more importantly, J sees her parents as someone she is supposed to be. She thinks about nothing else being a great trapeze artist and works very hard at honing her craft. In J’s eyes, no other trapeze artist could ever hope to be as good. Further, in J’s estimation, though she is not nearly as great of a trapeze artist as her parents, she is better than any other trapeze artist.
+
+**J identifies as a trapeze artist.**
+
+**J identifies as a great trapeze artist.**
+
+Under a robust sense of representation, J experiences regret when failing to perform as she believes she ought to do given who she is.
+
+As such, if someone where to attempt to represent the kind of person J is, they would want to show J as endeavoring to be a great trapeze artist, and experiencing regret when she fails to do so.
+
+Analogously, if someone perceives a family member, or teacher as a great moral exemplar, and to the extent that they identify with that individual (perhaps it is a member of the community which they belong to, they share the same language, practice the same customs, have had the same immigration experiences, lived in the same community, etc.), then they would likely see themselves as a moral exemplar (vulnerable and reliant on other humans for their well-being), perhaps not at the same level, but better than others. They too would experience regret when performing a given behavior, they feel is not conducive of the kind of person they are. When one represents them then, they would want to show similar regrets.
+
+### Therefore, conversations about representation in country music should be questions about Robust rather than Generic Representation
+

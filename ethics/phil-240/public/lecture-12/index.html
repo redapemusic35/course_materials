@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=6021&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Meta # Key Topics # Resources # Open on &ensp; Open on &ensp; Functions Lab-11 LaTeX Lecture Slides # More on Plots # Line Breaks in Plot Text # We discussed this informally in class, and I wanted to clarify the technique for adding line breaks here. In situations where the size of the text has been increased or the quantity of text is quite large (a lengthy caption, for example), it is easy for the text to run off the sides of the plot.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="//localhost:6021/lecture-12/">
+  <meta property="og:title" content="Lecture 12 - OLS Regression (1)">
+  <meta property="og:description" content="Meta # Key Topics # Resources # Open on   Open on   Functions Lab-11 LaTeX Lecture Slides # More on Plots # Line Breaks in Plot Text # We discussed this informally in class, and I wanted to clarify the technique for adding line breaks here. In situations where the size of the text has been increased or the quantity of text is quite large (a lengthy caption, for example), it is easy for the text to run off the sides of the plot.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2016-03-08T21:07:13+01:00">
+    <meta property="article:modified_time" content="2016-03-08T21:07:13+01:00">
+<title>Lecture 12 - OLS Regression (1) | </title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="canonical" href="//localhost:6021/lecture-12/">
+<link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.8fb56adf0f2c83f56a9b00fb282110dace93b08557a55164b197674dd7786900.js" integrity="sha256-j7Vq3w8sg/VqmwD7KCEQ2s6TsIVXpVFksZdnTdd4aQA=" crossorigin="anonymous"></script>
+
+  
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span></span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Lecture 12 - OLS Regression (1)</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#meta">Meta</a></li>
+    <li><a href="#key-topics">Key Topics</a></li>
+    <li><a href="#resources">Resources</a></li>
+    <li><a href="#lecture-slides">Lecture Slides</a></li>
+    <li><a href="#more-on-plots">More on Plots</a>
+      <ul>
+        <li><a href="#line-breaks-in-plot-text">Line Breaks in Plot Text</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h2 id="meta">
+  Meta
+  <a class="anchor" href="#meta">#</a>
+</h2>
+<p><img src="https://img.shields.io/badge/semester-fall%202018-orange.svg" alt="" /> <img src="https://img.shields.io/badge/release-lecture-orange.svg" alt="" /> <a href="https://github.com/slu-soc5050/lecture-09/blob/master/NEWS_SITE.md"><img src="https://img.shields.io/badge/last%20update-2018--11--08-brightgreen.svg" alt="" /></a></p>
+<h2 id="key-topics">
+  Key Topics
+  <a class="anchor" href="#key-topics">#</a>
+</h2>
+<h2 id="resources">
+  Resources
+  <a class="anchor" href="#resources">#</a>
+</h2>
+<p><a class="btn btn-primary btn-outline btn-xs" href="https://slu-soc5050.github.io/syllabus/lecture-12-ols-regression-part-1.html" target="_blank"> Open on &ensp;<i class="fas fa-book fa-lg"></i> </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-12" target="_blank"> Open on &ensp;<i class="fab fa-github fa-lg"></i> </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-12/blob/master/handouts/lecture-12-functions.pdf" target="_blank"> Functions </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-12/blob/master/assignments/lab-11.pdf" target="_blank"> Lab-11 </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-12/blob/master/handouts/lecture-12-latex.pdf" target="_blank"> LaTeX </a></p>
+<h2 id="lecture-slides">
+  Lecture Slides
+  <a class="anchor" href="#lecture-slides">#</a>
+</h2>
+<!-- raw HTML omitted -->
+<h2 id="more-on-plots">
+  More on Plots
+  <a class="anchor" href="#more-on-plots">#</a>
+</h2>
+<h3 id="line-breaks-in-plot-text">
+  Line Breaks in Plot Text
+  <a class="anchor" href="#line-breaks-in-plot-text">#</a>
+</h3>
+<p>We discussed this informally in class, and I wanted to clarify the technique for adding line breaks here. In situations where the size of the text has been increased or the quantity of text is quite large (a lengthy caption, for example), it is easy for the text to run off the sides of the plot. You can force a line break in text within <code>ggplot2</code> using the <code>\n</code> operator:</p>
+<pre tabindex="0"><code>library(ggplot2)
+
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
+  geom_point(mapping = aes(color = as.factor(cyl)), size = 2, position = &#34;jitter&#34;) +
+  geom_smooth(method = &#34;lm&#34;) +
+  labs(
+    title = &#34;Fuel Efficiency and Engine Size \nof Consumer Automobiles&#34;,
+    subtitle = &#34;Select Vehicles Sold in the United States&#34;,
+    x = &#34;Engine Displacement (litres)&#34;,
+    y = &#34;Highway Fuel Efficiency (mpg)&#34;
+  )
+</code></pre><p><img src="/images/week-12-image01.png" alt="image" /></p>
+<p>This example clearly does not call for the line break, since the text would not have run off the side of the plot. Adding the break here therefore only serves to sacrifice the amount of space that can be dedicated to the data themselves because it shrinks the available real estate for the main portion of the plot.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#meta">Meta</a></li>
+    <li><a href="#key-topics">Key Topics</a></li>
+    <li><a href="#resources">Resources</a></li>
+    <li><a href="#lecture-slides">Lecture Slides</a></li>
+    <li><a href="#more-on-plots">More on Plots</a>
+      <ul>
+        <li><a href="#line-breaks-in-plot-text">Line Breaks in Plot Text</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on MIT OpenCourseWare</title>
+    <link>/resources/assignments/</link>
+    <description>Recent content in Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/resources/assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignments</title>
+      <link>/pages/assignments/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/assignments/data.json</guid>
+      <description>The assignments for the course consisted of 3 papers and a text presentation.
+Papers Each paper should have a length of 5-7 pages or approximately 2000 words.
+ASSIGNMENTS DESCRIPTIONS Paper 1 (PDF) Readings Feinberg, Joel. &amp;ldquo;Psychological Egoism.&amp;rdquo; In Reason and Responsibility: Readings in Some Basic Problems of Philosophy. 10th ed. Edited by Joel Feinberg and Russ Shafer-Landau. Belmont, CA: Wadsworth, 1999, pp. 493-505. ISBN: 9780534543518.
+Questions Answer all three questions. You can distribute the pages as you like, but a good answer to any of the questions is likely to take at least a page.</description>
+    </item>
+    
+    <item>
+      <title>First Assignment</title>
+      <link>/resources/mit24_120s09_assn01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit24_120s09_assn01/data.json</guid>
+      <description>Homework assignment on moral psychology.</description>
+    </item>
+    
+    <item>
+      <title>Second Assignment</title>
+      <link>/resources/mit24_120s09_assn02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit24_120s09_assn02/data.json</guid>
+      <description>Homework assignment on moral psychology and addiction.</description>
+    </item>
+    
+    <item>
+      <title>Text Presentations</title>
+      <link>/resources/mit24_120s09_assn04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit24_120s09_assn04/data.json</guid>
+      <description>Assignment to do a close analysis of a selected passage in one of the assigned readings.</description>
+    </item>
+    
+    <item>
+      <title>Third Assignment</title>
+      <link>/resources/mit24_120s09_assn03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit24_120s09_assn03/data.json</guid>
+      <description>Homework assignment on moral psychology.</description>
+    </item>
+    
+  </channel>
+</rss>

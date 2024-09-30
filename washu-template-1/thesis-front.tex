@@ -1,0 +1,65 @@
+%
+%  Front matter for thesis or dissertation
+%
+% The user should 
+%  * uncomment the lines to add a list of abbreviations if desired
+%  * provide text for the required Acknowledgments section and Abstract section below.
+%  * uncomment the Dedication section if desired and provide a dedication.
+
+% NOTE: do not put any text in the thesistitlepage or thesiscopyrightpage sections. To create the content for these pages, change the appropriate fields in thesis-main.tex. This will ensure that the contents of these pages are positioned and formatted correctly. 
+
+%% Generate the title page.
+\thesistitlepage
+      
+%% Generate the copyright page.
+\thesiscopyrightpage
+
+\begin{singlespace}
+\setcounter{page}{2}
+\tableofcontents
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{\listtablename}
+\listoftables
+
+%% If you want a list of abbreviations, uncomment the following lines and create a file abbrvs.tex with \nomenclature entries for all your abbreviations and notation. See the nomencl package documentation for details on how to create and format the entries in the list.
+%\cleardoublepage
+%\phantomsection
+%\makenomenclature
+%\input{abbrvs}
+%\printnomenclature
+
+\end{singlespace}
+
+% Acknowledgment section is REQUIRED.
+\begin{thesisacknowledgments}
+Use the \emph{required} acknowledgments section to thank people who have helped you complete your thesis, either professionally (e.g., colleagues and advisors) or personally (family and friends).  If your work was supported by a fellowship or a grant to your advisor, you should also acknowledge that support here, in a form something like the following:
+
+This work was supported by NSF award ABC-1234567.
+\end{thesisacknowledgments}
+
+%% Uncomment next section and provide text to generate an optional dedication page.
+%\begin{thesisdedicationpage}  
+%To my parents.
+%\end{thesisdedicationpage}
+
+\cleardoublepage
+\phantomsection
+
+% Abstract section is REQUIRED.
+%
+% Previously, the Library's guidance was that this abstract should be limited to 350 words to fit within limits imposed by various abstract collection services. It's not clear if this limit still exists.
+\begin{thesisabstract}
+The thesis abstract gives a brief overview of your work. The abstract will be indexed by various bibliographic services, so make sure that it is likely to rank highly in searches related to your work. It's likely that many more people will read your abstract, as a search result, than will read the actual thesis. Historically, there was a strict limit of 350 words for dissertation abstracts, which was imposed by the bibliographic services. It's not clear if this limit still exists, but it is probably longer than you actually want for your abstract.  This abstract has been padded out to about 250 words.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices porta ante ac scelerisque. Phasellus orci nisl, blandit semper congue et, pulvinar et metus. Suspendisse at congue lorem. Vestibulum sodales id felis a ultricies. Cras nec vulputate lectus. Donec condimentum lacinia sapien vitae molestie. Fusce dignissim finibus lectus, eu accumsan neque porttitor vel. Suspendisse a lobortis nisi, et rhoncus tellus. Curabitur eget fringilla nisi. Vestibulum finibus ligula nisl, in cursus augue fermentum nec. Quisque posuere nulla feugiat velit aliquet, lobortis finibus arcu pulvinar. Vivamus id pellentesque nulla. Curabitur interdum mollis luctus. Ut dapibus tortor quis faucibus imperdiet.
+
+Proin vulputate diam ligula, vestibulum posuere erat scelerisque nec. Fusce lobortis nisl ac est pretium, sit amet eleifend massa tempor. Nam aliquet eu libero eget fermentum. Aliquam sit amet sodales diam. In et urna sapien. Donec venenatis aliquet ante non vestibulum. Cras iaculis eu nibh ut congue. Nulla quis. 
+
+\end{thesisabstract}
