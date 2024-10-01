@@ -1,0 +1,330 @@
+---
+output:
+  pdf_document:
+    keep_tex: true
+    fig_caption: yes
+    latex_engine: pdflatex
+    template: /home/redapemusic35/data_storage/svm-latex-syllabus.tex
+    citation_package: default
+geometry: margin=1in
+#bibliography: ["/home/mreynolds/my-lib.bib"]
+biblio-style: musuos
+title: "Aesthetic and Moral Emotions"
+author: Montaque Reynolds
+date: "FALL 2023"
+email: "montaque.reynolds@slu.edu"
+web: "montaque-reynolds.com"
+officehours: "Tuesday 11am --- 1pm"
+office: "Adorjan Hall Rm. 235"
+classroom: "Virtual"
+classhours: Asychronous
+fontfamily: mathpazo
+fontsize: 11pt
+table: true
+graphics: yes
+header-includes:
+  - \usepackage{graphicx}
+  - \usepackage{float}
+---
+
+```{r setup, include=FALSE, cache=F, message=F, warning=F, results="hide"}
+knitr::opts_chunk$set(cache=TRUE)
+knitr::opts_chunk$set(fig.path='figs/')
+knitr::opts_chunk$set(cache.path='_cache/')
+knitr::opts_chunk$set(warning=F, message=F)
+# knitr::opts_knit$get(kable.force.latex = TRUE)
+
+```
+
+
+```{r dates, include=FALSE}
+
+library(tidyverse)
+library(stevemisc)
+library(ggpmisc)
+library(anonymizer)
+library(ggcal)
+library(stringr)
+library(kfigr)
+library(broom)
+library(lubridate)
+library(ggplot2)
+library(googlesheets4)
+mon <- as.Date("2016-08-15")
+
+advdate <- function(obj, adv) {
+ tmon <- obj + 7*(adv-1)
+ tfri <- obj + 4 + 7*(adv-1)
+ tmon <- format(tmon, format="%m/%d")
+ tfri <- format(tfri, format="%m/%d")
+ zadv <- sprintf("%02d", adv)
+ tmp <- paste("Week ",zadv,sep='',", ", tmon," - ",tfri)
+ return(tmp)
+}
+options(scipen=999)
+
+#googledrive::drive_auth(email = "redapemusic35@gmail.com")
+#gs4_deauth()
+#gargle::oauth_app_from_json("~/client_secret_978965312205-cmufahb6r2sul4mopks4e7ka3n0iqtrv.apps.googleusercontent.com.json")
+library(kableExtra)
+options(kableExtra.latex.load_packages = TRUE)
+# the following section is for collaboration work. see "https://github.com/ClaudioZandonella/trackdown"
+# first time, uncomment "upload_file" and comment out the others; "render", "download", "update" etc.
+# the script will look for a pdf file that has not been created yet
+# once it runs through once, you can then uncomment the "hide_code" and "path_output" and "pagedown" portions
+# therefore leave "gpath" and "gfile" uncommented, but "hide_code", "path_output", and "pagedown" commented out the first time through.
+# make sure the final parenthesis remains uncommented
+#
+#gargle::gargle_oauth_sitrep()
+
+```
+
+# Course Description
+
+This course invites students to explore philosophical questions regarding our emotions. There are a number of issues this course will cover, including relationships between our emotional states and moral values. Objects of our emotions, what our emotions are directed at whether fiction, real life, or cognitive. Our emotions as evaluative appraisals of internal or external objects, for instance remembering a painful moment. Our emotions and well-being, and finally our emotions and our relationships with other sentient objects.
+
+# Course Learning Outcomes
+
+The purpose of this course is to provide an introduction to some of the most historically important philosophical texts, ideas, and thinkers as well as to the distinctive activity of philosophy itself. Over the course of the semester, students will:
+
+•	What is an emotion?
+•	Do emotions have moral content?
+•	What is the proper role of emotion in cognition?
+•	Do we have an obligation to feel a certain way? When?
+•	How can emotions give us reasons?
+•	What, if anything, justifies an emotion?
+•	When are we morally responsible for what we feel?
+
+# Communications
+
+## Office Hours
+
+You do not need an appointment to come in during office hours. Please just drop on by to ask
+questions, clarify lecture or readings, or just to chat. In addition to the posted office hours, you can make
+an appointment with me. (Just email me or talk with me before or after class to set it up.) Outside of
+office hours, you can always stop by my office, but while I will try to be there and available, I can’t
+guarantee that I will be able to meet with you. It never hurts to try, but I may ask to schedule a meeting
+at another time. You can of course always contact me by email.
+
+## Official Communications
+
+I will from time to time wish to communicate with you outside of class hours with important class
+related information. I will use your school-supplied email. Because these communications are important,
+I expect that you will check (and read!) your email at least once a day, Monday through Friday.
+
+## Email
+
+The best way to reach me is by email. I will do my best to respond to emails in a timely manner—usually
+within 24 hours—but I will probably not answer emails between 5pm and 9am and on weekends. I am
+much more likely to answer emails during weekdays.
+Please remember that email communications are a type of formal communication. You should always
+feel free to email me, but you should not treat an email to me like texting. As is the case with any formal
+communication, your email should contain a greeting—like “Dear Professor Jacobs,” or “Jon,”—a fully
+explained description of what you are trying to inform me of or ask me about, an ending with at least
+your first and last name, and an informative subject line beginning with the Course, number and semester, e.g., PHIL 1700-02 Spring. I’m not asking you to be overly formal, but
+simply to observe some commonly expected norms of communication. As you no doubt already know,
+this is how formal communication—in academics and in “the real world”—works.
+
+# Required Readings
+
+In addition to materials that will be posted on canvas, the course textbook is listed below:
+
+```{r, echo = FALSE, results = "asis"}
+
+library(RefManageR)
+library(knitcitations)
+library(rcrossref)
+
+bib <- ReadBib("/home/redapemusic35/data_storage/Exported-Items.bib")
+myopts <- BibOptions(bib.style = "authoryear", style="latex", first.inits=FALSE, max.names = 20)
+
+```
+
+# READING SCHEDULE	TOPICS	READINGS
+
+## Sensibility
+
+### The Emotional Construction of Morals (Prinz)
+
+1. Sentimentalism by Michael Slote
+2. The Discernment of Perception, Nussbaum 1990
+
+**Metaphysical Emotionism:**
+
+* Darwall et all., 1992
+* McDowell (1985)
+* Wiggins (1987)
+* D'Arms and Jacobson (2006)
+
+**Epistemic Emotionism:**
+
+* Gibbard 1990
+* Ayer 1952
+* Stevenson (1937)
+* McMillen and Austin 1971
+
+### Apt Imaginings (Gilmore)
+
+**Moral Judgments and the Emotions:**
+
+* Greene et al 2001
+* Lerner et al 1998
+* Tye 1995, 100. Intentionality
+* Sentimentalism about Moral Understanding
+
+**Representative Appraisal Theories:**
+
+* Arnold 1960
+* Lazarus 1984
+* Smith and Ellsworth 1985; Scherer, Schorr, and Johnstone 2001; Smith and Lazarus (1993); Schacter and Singer (1962)
+* Greenspan (1988); de Sausa (1987); Roberts (1988)
+
+**Cognitivists Theory of the Emotions:**
+
+* Nussbaum 2001; Solomon 1993; Lyons 1980; Kenny 1963; Gordon 1990; Lazarus 1984; Lazarus 1991
+* Nussbaum 2004
+* Goldie 2000; Goldie 2009 (distinctive kind of evaluative state)
+* Prinz 2004
+
+2. Chapter 3 of Apt imaginings
+
+## Emotions and Well-Being
+
+### Fragility of Goodness, Wandering in Darkness
+
+**Sensibility and Well-Being:**
+
+* Nicomachean Ethics
+* Chapter 14 of Wandering in Darkness
+* Vulnerability of the Goodlife 1, and 2 (Fragility of Goodness)
+* Finely Aware and Richly Responsible, Nussbaum 1990
+
+**Tragic Emotions:**
+
+* FG Interlude 2: Luck and the tragic emotions
+* WD, Ch. 9, The Story of Job: Suffering and the Second-Personal
+* That Obscure Object of Desire: Pleasure in Painful
+Art [pdf]
+
+# Grading and Evaluation
+
+## Low-stakes Small Exercises 15% of total grade
+
+4 Sentence Outline
+
+## Paper, Section 1, 35%
+
+Due: `r advdate(mon, 3)`
+
+## Paper Section 2, 30% of total grade
+
+Due: `r advdate(mon, 5)`
+
+
+## Paper, Section 3: 20% of total grade
+
+You will select your group members by the second week of classes: `r advdate(mon, 2)`
+
+Assignment Due: `r advdate(mon, 8)`
+
+## Grading Scale
+
+||||
+|---|---|---|---|
+|A|(4.0)|94--100|
+|A-|(3.7)|90--94|
+|B+|(3.3)|87--90|
+|B|(3.0)|83--87|
+|B-|(2.7)|80--87|
+|C+|(2.3)|77--80|
+|C|(2.0)|73--77|
+|C-|(1.7)|70--73|
+|D|(1.0|60--70|
+|F|(0.0)|0--6|
+
+# Missing or late Work/Exams
+
+## Extensions
+
+There may be moments wherein situations arise and you cannot fulfill a particular commitment that you've made to yourself, such as completing a given assignment by a given date. I understand that sometimes, despite our best efforts, things don’t go according to plan. The printer breaks, you get a cold, the idea didn't work out and you had to go back to the drawing board. As I've learned from other professors here at SLU, it is acceptable to offer grace for such moments. If you need an extension for any reason, I will automatically grant one for three days (72 hours). You must email me by midnight the *day before* it is due. If you email before then and ask for the extension, I will grant it. You do not need to specify the reason you are asking for the extension. If you need an extension for more than three days, your situation is likely serious enough that you should be in contact with the Office of the Dean or the Student Health Center. In such cases, I will be happy to be in contact with those offices to arrange a schedule for you to complete your work. If an extension is granted but you do not turn in the paper after three days, the penalty will be 10% for each 24 hours after the deadline.
+
+## Extra Credit
+
+There will be no opportunities for “extra credit” to improve grades that have already been earned.
+Bargaining for grades (“I need a B because...”) is not acceptable. The only ways to achieve the grade that
+you need are to do well on the quizzes and discussion boards and to write excellent essays and argument
+evaluations.
+
+## Withdrawals and Incompletes
+
+Withdrawals and incompletes will be given only in accordance with University policy. In particular, you
+should note that an incomplete is given only in extraordinary circumstances.
+
+## Expectations for Discussion Boards and Group Projects/Presentations
+
+Discussion is vital to a successful class and learning experience. Your choice to participate in the class will ultimately determine your ability to succeed in this class. If you are being extremely disruptive in class, you will be asked to leave. Often, discussions may be on controversial topics. This does not license anyone to yell at another student or be in any way rude or ill-willed toward another student (or to the instructor). I reserve the right to ask anyone to leave at any time for being rude or disruptive.
+
+# University Policies
+
+## ELECTRONIC DEVICE POLICY
+
+This is an asynchronous. This means that you will be ultimately responsible for your own time. This includes what readings you will do each week and when you will do those readings. Although this course is only an eight week course, because it offers the same number of credits as a full sixteen week course, there will be a lot of work due each week. Perhaps seemingly more than a standard sixteen week course.
+
+## ACADEMIC INTEGRITY SYLLABUS STATEMENT
+
+ Academic integrity is honest, truthful and responsible conduct in all academic endeavors. The mission of Saint Louis University is “the pursuit of truth for the greater glory of God and for the service of humanity.” Accordingly, all acts of falsehood demean and compromise the corporate endeavors of teaching, research, health care, and community service through which SLU fulfills its mission. The University strives to prepare students for lives of personal and professional integrity, and therefore regards all breaches of academic integrity as matters of serious concern. The full University-level Academic Integrity Policy can be found on the Provost's Office website at: https://www.slu.edu/provost/policies/academic-and-course/policy_academic-integrity_6-26-2015.pdf. 
+ 
+Additionally, each SLU College, School, and Center has its own academic integrity policies, available on their respective websites.
+
+The University reserves the right to penalize any student whose academic conduct at any time is, in its judgment, detrimental to the University. Such conduct shall include cases of plagiarism, collusion, cheating, giving or receiving or offering or soliciting information in examinations, or the use of previously prepared material in examinations or quizzes in which such material had been banned. Violations should be reported to your course instructor, who will investigate and adjudicate them according to the policy on academic honesty of the College of Arts and Sciences. If the charges are found to be true, the student may be liable for academic or disciplinary probation, suspension, or expulsion by the University. Students should review the College of Arts and Sciences policy at
+
+http://www.slu.edu/colleges/AS/languages/department/files/AcademicHonestyPolicy.pdf
+
+## STUDENT SUCCESS CENTER SYLLABUS STATEMENT
+
+In recognition that people learn in a variety of ways and that learning is influenced by multiple
+factors (e.g., prior experience, study skills, learning disability), resources to support student
+success are available on campus. The Student Success Center assists students with academic and
+career related services, and it is located in the Busch Student Center (Suite, 331) and the School of Nursing (Suite, 114). Students can visit the website listed below to learn more about:
+
+• Course-level support (e.g., faculty member, departmental resources, etc.) by asking
+one’s instructor.
+• University-level support (e.g., tutoring services, university writing services,
+disability services, academic coaching, career services, and/or facets of curriculum
+panning).
+
+http://www.slu.edu/life-at-slu/student-success-center/index.php
+
+
+## ACCESSIBILITY AND DISABILITY RESOURCES ACADEMIC ACCOMMODATIONS SYLLABUS STATEMENT
+
+Students with a documented disability who wish to request academic accommodations must formally register their disability with the University. Once successfully registered, students also must notify their course instructor that they wish to use their approved accommodations in the course.
+
+Please contact the Center for Accessibility and Disability Resources (CADR) to schedule an appointment to discuss accommodation requests and eligibility requirements. Most students on the St. Louis campus will contact CADR, located in the Student Success Center and available by email at accessibility_disability@slu.edu or by phone at 314.977.3484. Once approved, information about a student’s eligibility for academic accommodations will be shared with course instructors by email from CADR and within the instructor’s official course roster. Students who do not have a documented disability but who think they may have one also are encouraged to contact to CADR. Confidentiality will be observed in all inquiries.
+
+## TITLE IX SYLLABUS STATEMENT
+
+Saint Louis University and its faculty are committed to supporting our students and seeking an environment that is free of bias, discrimination, and harassment. If you have encountered any form of sexual harassment, including sexual assault, stalking, domestic or dating violence, we encourage you to report this to the University. If you speak with a faculty member about an incident that involves a Title IX matter, that faculty member must notify SLU’s Title IX Coordinator and share the basic facts of your experience. This is true even if you ask the faculty member not to disclose the incident. The Title IX Coordinator will then be available to assist you in understanding all of your options and in connecting you with all possible resources on and off campus.
+
+Anna Kratky is the Title IX Coordinator at Saint Louis University (DuBourg Hall, room 36; anna.kratky@slu.edu; 314-977-3886). If you wish to speak with a confidential source, you may contact the counselors at the University Counseling Center at 314-977-TALK or make an anonymous report through SLU’s Integrity Hotline by calling 1-877-525-5669 or online at http://www.lighthouse-services.com/slu. To view SLU’s policies, and for resources, please visit the following web addresses: https://www.slu.edu/about/safety/sexual-assault-resources/index.php and https://www.slu.edu/general-counsel.
+
+IMPORTANT UPDATE: SLU’s Title IX Policy (formerly called the Sexual Misconduct Policy) has been significantly revised to adhere to a new federal law governing Title IX that was released on May 6, 2020. Please take a moment to review the new policy and information at the following web address: https://www.slu.edu/about/safety/sexual-assault-resources/index.php. Please contact Anna Kratky, the Title IX Coordinator, with any questions or concerns.
+
+## CONTENT DISCLAIMER
+
+In this course, students may be required to read text or view materials that they may consider
+offensive. The ideas expressed in any given text do not necessarily reflect the views of the
+instructor, the Philosophy Department, or Saint Louis University. Course materials are selected
+for their historical and/or cultural relevance, or as an example of stylistic and/or rhetorical
+strategies and techniques. They are meant to be examined in the context of intellectual inquiry of
+the sort encountered at the university level.
+
+## WRITING CENTER
+
+I encourage you to take advantage of the writing services in the Student Success Center by obtaining feedback benefits for writers at all skill levels. Trained writing consultants can help with any writing, multimedia project, or oral presentation. During the one-on-one consultations, you can work on everything from brainstorming and developing ideas to crafting strong sentences and documenting sources. These services do fill up, so please make an appointment! For more information, or to make, change, or cancel an appointment, call 977-3484 or visit
+
+https://www.slu.edu/life-at-slu/student-success-center/academic-support/university-writing-services/index.php
+
+## BASIC NEEDS SECURITY
+
+Students in personal or academic distress and/or who may be specifically experiencing challenges such as securing food or difficulty navigating campus resources, and who believe this may affect their performance in the course, are encouraged to contact the Dean of Students Office (deanofstudents@slu.edu or 314-977-9378) for support. Furthermore, please notify the instructor if you are comfortable in doing so, as this will enable instructors to assist you with finding the resources you may need.
