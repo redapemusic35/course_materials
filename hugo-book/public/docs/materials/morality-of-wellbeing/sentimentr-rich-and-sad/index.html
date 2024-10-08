@@ -1,0 +1,1426 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="## ── Attaching core tidyverse packages ───────────────── tidyverse 2.0.0 ──
+## ✔ dplyr     1.1.4     ✔ readr     2.1.5
+## ✔ forcats   1.0.0     ✔ stringr   1.5.1
+## ✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+## ✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+## ✔ purrr     1.0.2     
+## ── Conflicts ─────────────────────────────────── tidyverse_conflicts() ──
+## ✖ dplyr::filter() masks stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()
+## ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors
+##                                                                            V1
+## 1                 Hundred thousand for the chain and now my drop (drop, drop)
+## 2                        When I pull out the garage, I chop my top (top, top)
+## 3                         Just like a fiend, when I start I cannot stop (wow)
+## 4                         I got, I got hella guap, look at me now (at me now)
+## 5                                                      Ooh, covered in carats
+## 6                                                      Ooh, mahogany cabinets
+## 7                                              Ooh, I ball like the Mavericks
+## 8                                                   Ooh, stable and stallions
+## 9                                                     Ooh, massive medallions
+## 10                                                      Ooh, I finally had it
+## 11                                            Ooh, but then you just vanished
+## 12                                               Damn, I thought I was savage
+## 13                          All this stuntin&#39; couldn&#39;t satisfy my soul (soul)
+## 14                       Got a hundred big places, but I&#39;m still alone (&#39;one)
+## 15                                             Ayy, I would throw it all away
+## 16                        I just keep on wishin&#39; that the money made you stay
+## 17                           You ain&#39;t never cared about that bullshit anyway
+## 18                   I just keep on wishin&#39; that the money made you stay, ayy
+## 19                                         You know I would throw it all away
+## 20                        I just keep on wishin&#39; that the money made you stay
+## 21                 Price went up, my price went up, we went our separate ways
+## 22              I just keep on wishin&#39; that the money made you stay, ayy, ayy
+## 23                                                                        Mmm
+## 24                                          Buy me, love, try to buy me, love
+## 25                                      Now I&#39;m alone, Ice Box, Omarion (ooh)
+## 26                                   Plenty sluts grabbin&#39; on my nuts (woah!)
+## 27                                 Might have fucked, it was only lust trust)
+## 28              I was livin&#39; life, how could I have known? (Could have known)
+## 29                     Couldn&#39;t listen to advice, &#39;cause I&#39;m never wrong (oh)
+## 30                                   In the spotlight, but I&#39;m on my own (oh)
+## 31                                Now that you&#39;re gone (now that you&#39;re gone)
+## 32                          All this stuntin&#39; couldn&#39;t satisfy my soul (&#39;oul)
+## 33                       Got a hundred big places, but I&#39;m still alone (&#39;one)
+## 34                                             Ayy, I would throw it all away
+## 35                        I just keep on wishin&#39; that the money made you stay
+## 36                           You ain&#39;t never cared about that bullshit anyway
+## 37                   I just keep on wishin&#39; that the money made you stay, ayy
+## 38                                         You know I would throw it all away
+## 39                        I just keep on wishin&#39; that the money made you stay
+## 40                 Price went up, my price went up, we went our separate ways
+## 41              I just keep on wishin&#39; that the money made you stay, ayy, ayy
+## 42                                                 I don&#39;t even wanna go home
+## 43                                           In a big house all alone (alone)
+## 44                                    I don&#39;t even wanna go home (no, no, no)
+## 45                              But I&#39;ma try to call you on the phone (brrt!)
+## 46                                                  I would throw it all away
+## 47                        I just keep on wishin&#39; that the money made you stay
+## 48                           You ain&#39;t never cared about that bullshit anyway
+## 49   I just keep on wishin&#39; that the money made you stay, ayy (made you stay)
+## 50                              You know I would throw it all away (all away)
+## 51        I just keep on wishin&#39; that the money made you stay (made you stay)
+## 52 Price went up, my price went up, we went our separate ways (separate ways)
+## 53              I just keep on wishin&#39; that the money made you stay, ayy, ayy
+## Key: &lt;element_id&gt;
+##     element_id word_count        sd ave_sentiment
+##          &lt;int&gt;      &lt;int&gt;     &lt;num&gt;         &lt;num&gt;
+##  1:          1         11        NA    0.00000000
+##  2:          2         12        NA    0.79385662
+##  3:          3         11        NA   -0.03015113
+##  4:          4         13        NA    0.00000000
+##  5:          5          4        NA    0.00000000
+##  6:          6          3        NA    0.00000000
+##  7:          7          6        NA    0.20412415
+##  8:          8          4        NA    0.50000000
+##  9:          9          3        NA    0.00000000
+## 10:         10          5        NA    0.17888544
+## 11:         11          6        NA   -0.55113519
+## 12:         12          6        NA   -0.51031036
+## 13:         13          8        NA   -0.35355339
+## 14:         14         10        NA   -0.34785054
+## 15:         15          7        NA    0.00000000
+## 16:         16         11        NA    0.18090681
+## 17:         17          8        NA   -0.17677670
+## 18:         18         12        NA    0.17320508
+## 19:         19          8        NA    0.00000000
+## 20:         20         11        NA    0.18090681
+## 21:         21         12        NA    0.00000000
+## 22:         22         13        NA    0.16641006
+## 23:         23          1        NA    0.00000000
+## 24:         24          8        NA    0.53033009
+## 25:         25          7        NA   -0.22677868
+## 26:         26          7        NA   -0.37796447
+## 27:         27          8        NA   -0.26516504
+## 28:         28         12 0.4286607   -0.33080476
+## 29:         29          9        NA    0.25000000
+## 30:         30          9        NA    0.00000000
+## 31:         31          8        NA    0.00000000
+## 32:         32          8        NA   -0.35355339
+## 33:         33         10        NA   -0.34785054
+## 34:         34          7        NA    0.00000000
+## 35:         35         11        NA    0.18090681
+## 36:         36          8        NA   -0.17677670
+## 37:         37         12        NA    0.17320508
+## 38:         38          8        NA    0.00000000
+## 39:         39         11        NA    0.18090681
+## 40:         40         12        NA    0.00000000
+## 41:         41         13        NA    0.16641006
+## 42:         42          6        NA    0.00000000
+## 43:         43          7        NA   -0.35906625
+## 44:         44          9        NA    0.00000000
+## 45:         45         10        NA    0.00000000
+## 46:         46          6        NA    0.00000000
+## 47:         47         11        NA    0.18090681
+## 48:         48          8        NA   -0.17677670
+## 49:         49         15        NA    0.15491933
+## 50:         50         10        NA    0.00000000
+## 51:         51         14        NA    0.16035675
+## 52:         52         14        NA    0.00000000
+## 53:         53         13        NA    0.16641006
+##     element_id word_count        sd ave_sentiment
+##                                                                             V1
+##                                                                &lt;get_sentences&gt;
+##  1:                Hundred thousand for the chain and now my drop (drop, drop)
+##  2:                       When I pull out the garage, I chop my top (top, top)
+##  3:                        Just like a fiend, when I start I cannot stop (wow)
+##  4:                        I got, I got hella guap, look at me now (at me now)
+##  5:                                                     Ooh, covered in carats
+##  6:                                                     Ooh, mahogany cabinets
+##  7:                                             Ooh, I ball like the Mavericks
+##  8:                                                  Ooh, stable and stallions
+##  9:                                                    Ooh, massive medallions
+## 10:                                                      Ooh, I finally had it
+## 11:                                            Ooh, but then you just vanished
+## 12:                                               Damn, I thought I was savage
+## 13:                          All this stuntin&#39; couldn&#39;t satisfy my soul (soul)
+## 14:                       Got a hundred big places, but I&#39;m still alone (&#39;one)
+## 15:                                             Ayy, I would throw it all away
+## 16:                        I just keep on wishin&#39; that the money made you stay
+## 17:                           You ain&#39;t never cared about that bullshit anyway
+## 18:                   I just keep on wishin&#39; that the money made you stay, ayy
+## 19:                                         You know I would throw it all away
+## 20:                        I just keep on wishin&#39; that the money made you stay
+## 21:                 Price went up, my price went up, we went our separate ways
+## 22:              I just keep on wishin&#39; that the money made you stay, ayy, ayy
+## 23:                                                                        Mmm
+## 24:                                          Buy me, love, try to buy me, love
+## 25:                                      Now I&#39;m alone, Ice Box, Omarion (ooh)
+## 26:                                   Plenty sluts grabbin&#39; on my nuts (woah!)
+## 27:                                 Might have fucked, it was only lust trust)
+## 28:                                 I was livin&#39; life, how could I have known?
+## 29:                                                         (Could have known)
+## 30:                     Couldn&#39;t listen to advice, &#39;cause I&#39;m never wrong (oh)
+## 31:                                   In the spotlight, but I&#39;m on my own (oh)
+## 32:                                Now that you&#39;re gone (now that you&#39;re gone)
+## 33:                          All this stuntin&#39; couldn&#39;t satisfy my soul (&#39;oul)
+## 34:                       Got a hundred big places, but I&#39;m still alone (&#39;one)
+## 35:                                             Ayy, I would throw it all away
+## 36:                        I just keep on wishin&#39; that the money made you stay
+## 37:                           You ain&#39;t never cared about that bullshit anyway
+## 38:                   I just keep on wishin&#39; that the money made you stay, ayy
+## 39:                                         You know I would throw it all away
+## 40:                        I just keep on wishin&#39; that the money made you stay
+## 41:                 Price went up, my price went up, we went our separate ways
+## 42:              I just keep on wishin&#39; that the money made you stay, ayy, ayy
+## 43:                                                 I don&#39;t even wanna go home
+## 44:                                           In a big house all alone (alone)
+## 45:                                    I don&#39;t even wanna go home (no, no, no)
+## 46:                              But I&#39;ma try to call you on the phone (brrt!)
+## 47:                                                  I would throw it all away
+## 48:                        I just keep on wishin&#39; that the money made you stay
+## 49:                           You ain&#39;t never cared about that bullshit anyway
+## 50:   I just keep on wishin&#39; that the money made you stay, ayy (made you stay)
+## 51:                              You know I would throw it all away (all away)
+## 52:        I just keep on wishin&#39; that the money made you stay (made you stay)
+## 53: Price went up, my price went up, we went our separate ways (separate ways)
+## 54:              I just keep on wishin&#39; that the money made you stay, ayy, ayy
+##                                                                             V1
+##     element_id sentence_id word_count   sentiment
+##          &lt;int&gt;       &lt;int&gt;      &lt;int&gt;       &lt;num&gt;
+##  1:          1           1         11  0.00000000
+##  2:          2           1         12  0.79385662
+##  3:          3           1         11 -0.03015113
+##  4:          4           1         13  0.00000000
+##  5:          5           1          4  0.00000000
+##  6:          6           1          3  0.00000000
+##  7:          7           1          6  0.20412415
+##  8:          8           1          4  0.50000000
+##  9:          9           1          3  0.00000000
+## 10:         10           1          5  0.17888544
+## 11:         11           1          6 -0.55113519
+## 12:         12           1          6 -0.51031036
+## 13:         13           1          8 -0.35355339
+## 14:         14           1         10 -0.34785054
+## 15:         15           1          7  0.00000000
+## 16:         16           1         11  0.18090681
+## 17:         17           1          8 -0.17677670
+## 18:         18           1         12  0.17320508
+## 19:         19           1          8  0.00000000
+## 20:         20           1         11  0.18090681
+## 21:         21           1         12  0.00000000
+## 22:         22           1         13  0.16641006
+## 23:         23           1          1  0.00000000
+## 24:         24           1          8  0.53033009
+## 25:         25           1          7 -0.22677868
+## 26:         26           1          7 -0.37796447
+## 27:         27           1          8 -0.26516504
+## 28:         28           1          9  0.00000000
+## 29:         28           2          3 -0.60621778
+## 30:         29           1          9  0.25000000
+## 31:         30           1          9  0.00000000
+## 32:         31           1          8  0.00000000
+## 33:         32           1          8 -0.35355339
+## 34:         33           1         10 -0.34785054
+## 35:         34           1          7  0.00000000
+## 36:         35           1         11  0.18090681
+## 37:         36           1          8 -0.17677670
+## 38:         37           1         12  0.17320508
+## 39:         38           1          8  0.00000000
+## 40:         39           1         11  0.18090681
+## 41:         40           1         12  0.00000000
+## 42:         41           1         13  0.16641006
+## 43:         42           1          6  0.00000000
+## 44:         43           1          7 -0.35906625
+## 45:         44           1          9  0.00000000
+## 46:         45           1         10  0.00000000
+## 47:         46           1          6  0.00000000
+## 48:         47           1         11  0.18090681
+## 49:         48           1          8 -0.17677670
+## 50:         49           1         15  0.15491933
+## 51:         50           1         10  0.00000000
+## 52:         51           1         14  0.16035675
+## 53:         52           1         14  0.00000000
+## 54:         53           1         13  0.16641006
+##     element_id sentence_id word_count   sentiment
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/materials/morality-of-wellbeing/sentimentr-rich-and-sad/">
+  <meta property="og:site_name" content="Philosophy of Games">
+  <meta property="og:title" content="Sentimentr Rich and Sad">
+  <meta property="og:description" content="## ── Attaching core tidyverse packages ───────────────── tidyverse 2.0.0 ── ## ✔ dplyr 1.1.4 ✔ readr 2.1.5 ## ✔ forcats 1.0.0 ✔ stringr 1.5.1 ## ✔ ggplot2 3.5.1 ✔ tibble 3.2.1 ## ✔ lubridate 1.9.3 ✔ tidyr 1.3.1 ## ✔ purrr 1.0.2 ## ── Conflicts ─────────────────────────────────── tidyverse_conflicts() ── ## ✖ dplyr::filter() masks stats::filter() ## ✖ dplyr::lag() masks stats::lag() ## ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors ## V1 ## 1 Hundred thousand for the chain and now my drop (drop, drop) ## 2 When I pull out the garage, I chop my top (top, top) ## 3 Just like a fiend, when I start I cannot stop (wow) ## 4 I got, I got hella guap, look at me now (at me now) ## 5 Ooh, covered in carats ## 6 Ooh, mahogany cabinets ## 7 Ooh, I ball like the Mavericks ## 8 Ooh, stable and stallions ## 9 Ooh, massive medallions ## 10 Ooh, I finally had it ## 11 Ooh, but then you just vanished ## 12 Damn, I thought I was savage ## 13 All this stuntin&#39; couldn&#39;t satisfy my soul (soul) ## 14 Got a hundred big places, but I&#39;m still alone (&#39;one) ## 15 Ayy, I would throw it all away ## 16 I just keep on wishin&#39; that the money made you stay ## 17 You ain&#39;t never cared about that bullshit anyway ## 18 I just keep on wishin&#39; that the money made you stay, ayy ## 19 You know I would throw it all away ## 20 I just keep on wishin&#39; that the money made you stay ## 21 Price went up, my price went up, we went our separate ways ## 22 I just keep on wishin&#39; that the money made you stay, ayy, ayy ## 23 Mmm ## 24 Buy me, love, try to buy me, love ## 25 Now I&#39;m alone, Ice Box, Omarion (ooh) ## 26 Plenty sluts grabbin&#39; on my nuts (woah!) ## 27 Might have fucked, it was only lust trust) ## 28 I was livin&#39; life, how could I have known? (Could have known) ## 29 Couldn&#39;t listen to advice, &#39;cause I&#39;m never wrong (oh) ## 30 In the spotlight, but I&#39;m on my own (oh) ## 31 Now that you&#39;re gone (now that you&#39;re gone) ## 32 All this stuntin&#39; couldn&#39;t satisfy my soul (&#39;oul) ## 33 Got a hundred big places, but I&#39;m still alone (&#39;one) ## 34 Ayy, I would throw it all away ## 35 I just keep on wishin&#39; that the money made you stay ## 36 You ain&#39;t never cared about that bullshit anyway ## 37 I just keep on wishin&#39; that the money made you stay, ayy ## 38 You know I would throw it all away ## 39 I just keep on wishin&#39; that the money made you stay ## 40 Price went up, my price went up, we went our separate ways ## 41 I just keep on wishin&#39; that the money made you stay, ayy, ayy ## 42 I don&#39;t even wanna go home ## 43 In a big house all alone (alone) ## 44 I don&#39;t even wanna go home (no, no, no) ## 45 But I&#39;ma try to call you on the phone (brrt!) ## 46 I would throw it all away ## 47 I just keep on wishin&#39; that the money made you stay ## 48 You ain&#39;t never cared about that bullshit anyway ## 49 I just keep on wishin&#39; that the money made you stay, ayy (made you stay) ## 50 You know I would throw it all away (all away) ## 51 I just keep on wishin&#39; that the money made you stay (made you stay) ## 52 Price went up, my price went up, we went our separate ways (separate ways) ## 53 I just keep on wishin&#39; that the money made you stay, ayy, ayy ## Key: &lt;element_id&gt; ## element_id word_count sd ave_sentiment ## &lt;int&gt; &lt;int&gt; &lt;num&gt; &lt;num&gt; ## 1: 1 11 NA 0.00000000 ## 2: 2 12 NA 0.79385662 ## 3: 3 11 NA -0.03015113 ## 4: 4 13 NA 0.00000000 ## 5: 5 4 NA 0.00000000 ## 6: 6 3 NA 0.00000000 ## 7: 7 6 NA 0.20412415 ## 8: 8 4 NA 0.50000000 ## 9: 9 3 NA 0.00000000 ## 10: 10 5 NA 0.17888544 ## 11: 11 6 NA -0.55113519 ## 12: 12 6 NA -0.51031036 ## 13: 13 8 NA -0.35355339 ## 14: 14 10 NA -0.34785054 ## 15: 15 7 NA 0.00000000 ## 16: 16 11 NA 0.18090681 ## 17: 17 8 NA -0.17677670 ## 18: 18 12 NA 0.17320508 ## 19: 19 8 NA 0.00000000 ## 20: 20 11 NA 0.18090681 ## 21: 21 12 NA 0.00000000 ## 22: 22 13 NA 0.16641006 ## 23: 23 1 NA 0.00000000 ## 24: 24 8 NA 0.53033009 ## 25: 25 7 NA -0.22677868 ## 26: 26 7 NA -0.37796447 ## 27: 27 8 NA -0.26516504 ## 28: 28 12 0.4286607 -0.33080476 ## 29: 29 9 NA 0.25000000 ## 30: 30 9 NA 0.00000000 ## 31: 31 8 NA 0.00000000 ## 32: 32 8 NA -0.35355339 ## 33: 33 10 NA -0.34785054 ## 34: 34 7 NA 0.00000000 ## 35: 35 11 NA 0.18090681 ## 36: 36 8 NA -0.17677670 ## 37: 37 12 NA 0.17320508 ## 38: 38 8 NA 0.00000000 ## 39: 39 11 NA 0.18090681 ## 40: 40 12 NA 0.00000000 ## 41: 41 13 NA 0.16641006 ## 42: 42 6 NA 0.00000000 ## 43: 43 7 NA -0.35906625 ## 44: 44 9 NA 0.00000000 ## 45: 45 10 NA 0.00000000 ## 46: 46 6 NA 0.00000000 ## 47: 47 11 NA 0.18090681 ## 48: 48 8 NA -0.17677670 ## 49: 49 15 NA 0.15491933 ## 50: 50 10 NA 0.00000000 ## 51: 51 14 NA 0.16035675 ## 52: 52 14 NA 0.00000000 ## 53: 53 13 NA 0.16641006 ## element_id word_count sd ave_sentiment ## V1 ## &lt;get_sentences&gt; ## 1: Hundred thousand for the chain and now my drop (drop, drop) ## 2: When I pull out the garage, I chop my top (top, top) ## 3: Just like a fiend, when I start I cannot stop (wow) ## 4: I got, I got hella guap, look at me now (at me now) ## 5: Ooh, covered in carats ## 6: Ooh, mahogany cabinets ## 7: Ooh, I ball like the Mavericks ## 8: Ooh, stable and stallions ## 9: Ooh, massive medallions ## 10: Ooh, I finally had it ## 11: Ooh, but then you just vanished ## 12: Damn, I thought I was savage ## 13: All this stuntin&#39; couldn&#39;t satisfy my soul (soul) ## 14: Got a hundred big places, but I&#39;m still alone (&#39;one) ## 15: Ayy, I would throw it all away ## 16: I just keep on wishin&#39; that the money made you stay ## 17: You ain&#39;t never cared about that bullshit anyway ## 18: I just keep on wishin&#39; that the money made you stay, ayy ## 19: You know I would throw it all away ## 20: I just keep on wishin&#39; that the money made you stay ## 21: Price went up, my price went up, we went our separate ways ## 22: I just keep on wishin&#39; that the money made you stay, ayy, ayy ## 23: Mmm ## 24: Buy me, love, try to buy me, love ## 25: Now I&#39;m alone, Ice Box, Omarion (ooh) ## 26: Plenty sluts grabbin&#39; on my nuts (woah!) ## 27: Might have fucked, it was only lust trust) ## 28: I was livin&#39; life, how could I have known? ## 29: (Could have known) ## 30: Couldn&#39;t listen to advice, &#39;cause I&#39;m never wrong (oh) ## 31: In the spotlight, but I&#39;m on my own (oh) ## 32: Now that you&#39;re gone (now that you&#39;re gone) ## 33: All this stuntin&#39; couldn&#39;t satisfy my soul (&#39;oul) ## 34: Got a hundred big places, but I&#39;m still alone (&#39;one) ## 35: Ayy, I would throw it all away ## 36: I just keep on wishin&#39; that the money made you stay ## 37: You ain&#39;t never cared about that bullshit anyway ## 38: I just keep on wishin&#39; that the money made you stay, ayy ## 39: You know I would throw it all away ## 40: I just keep on wishin&#39; that the money made you stay ## 41: Price went up, my price went up, we went our separate ways ## 42: I just keep on wishin&#39; that the money made you stay, ayy, ayy ## 43: I don&#39;t even wanna go home ## 44: In a big house all alone (alone) ## 45: I don&#39;t even wanna go home (no, no, no) ## 46: But I&#39;ma try to call you on the phone (brrt!) ## 47: I would throw it all away ## 48: I just keep on wishin&#39; that the money made you stay ## 49: You ain&#39;t never cared about that bullshit anyway ## 50: I just keep on wishin&#39; that the money made you stay, ayy (made you stay) ## 51: You know I would throw it all away (all away) ## 52: I just keep on wishin&#39; that the money made you stay (made you stay) ## 53: Price went up, my price went up, we went our separate ways (separate ways) ## 54: I just keep on wishin&#39; that the money made you stay, ayy, ayy ## V1 ## element_id sentence_id word_count sentiment ## &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;num&gt; ## 1: 1 1 11 0.00000000 ## 2: 2 1 12 0.79385662 ## 3: 3 1 11 -0.03015113 ## 4: 4 1 13 0.00000000 ## 5: 5 1 4 0.00000000 ## 6: 6 1 3 0.00000000 ## 7: 7 1 6 0.20412415 ## 8: 8 1 4 0.50000000 ## 9: 9 1 3 0.00000000 ## 10: 10 1 5 0.17888544 ## 11: 11 1 6 -0.55113519 ## 12: 12 1 6 -0.51031036 ## 13: 13 1 8 -0.35355339 ## 14: 14 1 10 -0.34785054 ## 15: 15 1 7 0.00000000 ## 16: 16 1 11 0.18090681 ## 17: 17 1 8 -0.17677670 ## 18: 18 1 12 0.17320508 ## 19: 19 1 8 0.00000000 ## 20: 20 1 11 0.18090681 ## 21: 21 1 12 0.00000000 ## 22: 22 1 13 0.16641006 ## 23: 23 1 1 0.00000000 ## 24: 24 1 8 0.53033009 ## 25: 25 1 7 -0.22677868 ## 26: 26 1 7 -0.37796447 ## 27: 27 1 8 -0.26516504 ## 28: 28 1 9 0.00000000 ## 29: 28 2 3 -0.60621778 ## 30: 29 1 9 0.25000000 ## 31: 30 1 9 0.00000000 ## 32: 31 1 8 0.00000000 ## 33: 32 1 8 -0.35355339 ## 34: 33 1 10 -0.34785054 ## 35: 34 1 7 0.00000000 ## 36: 35 1 11 0.18090681 ## 37: 36 1 8 -0.17677670 ## 38: 37 1 12 0.17320508 ## 39: 38 1 8 0.00000000 ## 40: 39 1 11 0.18090681 ## 41: 40 1 12 0.00000000 ## 42: 41 1 13 0.16641006 ## 43: 42 1 6 0.00000000 ## 44: 43 1 7 -0.35906625 ## 45: 44 1 9 0.00000000 ## 46: 45 1 10 0.00000000 ## 47: 46 1 6 0.00000000 ## 48: 47 1 11 0.18090681 ## 49: 48 1 8 -0.17677670 ## 50: 49 1 15 0.15491933 ## 51: 50 1 10 0.00000000 ## 52: 51 1 14 0.16035675 ## 53: 52 1 14 0.00000000 ## 54: 53 1 13 0.16641006 ## element_id sentence_id word_count sentiment ">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+<title>Sentimentr Rich and Sad | Philosophy of Games</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="canonical" href="http://localhost:1313/docs/materials/morality-of-wellbeing/sentimentr-rich-and-sad/">
+<link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.e64a69dd35a82e280a87d25ad9d3dc83906a4fb6a5dc56e1753640b1e0595959.js" integrity="sha256-5kpp3TWoLigKh9Ja2dPcg5BqT7al3FbhdTZAseBZWVk=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Philosophy of Games</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+  
+
+
+
+  
+    
+  
+    
+  
+
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="http://localhost:1313/ru/">
+          Russian
+        </a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:1313/zh/">
+          Chinese
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-3b9fa99e7b202efbbc102bfc48b5fe13" class="toggle"  />
+    <label for="section-3b9fa99e7b202efbbc102bfc48b5fe13" class="flex justify-between">
+      <a href="/docs/books/" class="">Books</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-1563253987c7024a6acc3472bbb2f0a5" class="toggle"  />
+    <label for="section-1563253987c7024a6acc3472bbb2f0a5" class="flex justify-between">
+      <a href="/docs/books/gilmore-apt-imagining/" class="">Aesthetics of Identity</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/books/gilmore-apt-imagining/neutrality-in-fiction/" class="">Neutrality in Fiction</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-19199628dfc109820329fd3f72769c20" class="toggle"  />
+    <label for="section-19199628dfc109820329fd3f72769c20" class="flex justify-between">
+      <a href="/docs/books/mortons-emotion-and-imagination/" class="">Morton&#39;s Emotion and Imagination</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/books/mortons-emotion-and-imagination/imagining-emotion/" class="">Imagining Emotion</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/books/mortons-emotion-and-imagination/failing-to-imagine-emotion/" class="">Failing to Imagine Emotion</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/books/mortons-emotion-and-imagination/imagining-moral-emotions/" class="">Imagining Moral Emotions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/books/mortons-emotion-and-imagination/motivating-apt-emotions/" class="">Motivating Apt Emotions</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/presentations/" class="">Presentations</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/presentations/dissertation-slides/" class="">Imagining Moral Identity</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/presentations/normative_discontinuity/" class="">Introduction</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4b59db62b493fc07e5193e08f9c9a5f5" class="toggle" checked />
+    <label for="section-4b59db62b493fc07e5193e08f9c9a5f5" class="flex justify-between">
+      <a href="/docs/materials/" class="">Standalone Papers</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-35ffd0cf394d0df73c23653284cb2fcf" class="toggle"  />
+    <label for="section-35ffd0cf394d0df73c23653284cb2fcf" class="flex justify-between">
+      <a href="/docs/materials/a-philosophy-of-star-citizen/" class="">A Philosophy of Star Citizen</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/materials/a-philosophy-of-star-citizen/introduction-tae-nguyen/" class="">Introduction Tae Nguyen</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/materials/a-philosophy-of-star-citizen/homo-ludens/" class="">Homo Ludens by Johan Huizinga</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a0e3d5ad58c0457b2596d59683f0f62e" class="toggle"  />
+    <label for="section-a0e3d5ad58c0457b2596d59683f0f62e" class="flex justify-between">
+      <a href="/docs/materials/on-relationships/" class="">On Relationships</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/materials/robinson-deeper-than-reason/" class="">Robinson Deeper Than Reason</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f81ea7de3b7ac5d2067fce28c4833f9b" class="toggle"  />
+    <label for="section-f81ea7de3b7ac5d2067fce28c4833f9b" class="flex justify-between">
+      <a role="button" class="">00 Narrative and Knowledge</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f3da989316800c0227aceedf7e9716cb" class="toggle"  />
+    <label for="section-f3da989316800c0227aceedf7e9716cb" class="flex justify-between">
+      <a href="/docs/materials/semantic-web-and-the-virtues-of-cooperation/" class="">Semantic Web and the Virtues of Cooperation</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/materials/swift-sentiment-analysis/" class="">Swift Sentiment Analysis</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7a26c4d7f8434257316f9e07d7553ee6" class="toggle"  />
+    <label for="section-7a26c4d7f8434257316f9e07d7553ee6" class="flex justify-between">
+      <a href="/docs/materials/mortons-emotion-and-imagination/" class="">Mortons Emotion and Imagination</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/materials/mortons-emotion-and-imagination/imagining-emotion/" class="">Imagining Emotion</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/materials/mortons-emotion-and-imagination/failing-to-imagine-emotion/" class="">Failing to Imagine Emotion</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/materials/mortons-emotion-and-imagination/imagining-moral-emotions/" class="">Imagining Moral Emotions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/materials/mortons-emotion-and-imagination/motivating-apt-emotions/" class="">Motivating Apt Emotions</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-70c69c04bf53902a507fc807bf452b2e" class="toggle"  />
+    <label for="section-70c69c04bf53902a507fc807bf452b2e" class="flex justify-between">
+      <a href="/docs/materials/star-citizen-run-through/" class="">Philosophy Through MMOs</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4fa525f8a91b24ec34a4a51ee3996575" class="toggle" checked />
+    <label for="section-4fa525f8a91b24ec34a4a51ee3996575" class="flex justify-between">
+      <a href="/docs/materials/morality-of-wellbeing/" class="">The Morality of Emotional-Wellbeing</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/materials/morality-of-wellbeing/sentimentr-rich-and-sad/" class="active">Sentimentr Rich and Sad</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/materials/morality-of-wellbeing/introduction-alfano-hopps/" class="">Introduction Alfano Hopps</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a4411046af34ede3e4c4c4bda751173b" class="toggle"  />
+    <label for="section-a4411046af34ede3e4c4c4bda751173b" class="flex justify-between">
+      <a role="button" class="">Philosophers</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-20ddf29d9e94bc4f535fc797f23b9b6b" class="toggle"  />
+    <label for="section-20ddf29d9e94bc4f535fc797f23b9b6b" class="flex justify-between">
+      <a href="/docs/philosophers/schectman-narrative/" class="">Schectman, On Narrative</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/philosophers/schectman-narrative/sche-view-from-everywhere/" class="">Sche View From Everywhere</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/philosophers/schectman-narrative/schechtman-on-personhood/" class="">Schechtman on Personhood and Personal Identity</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/philosophers/buttons/" class="">Buttons</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/philosophers/columns/" class="">Columns</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/philosophers/details/" class="">Details</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/philosophers/expand/" class="">Expand</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/philosophers/hints/" class="">Hints</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/philosophers/mermaid/" class="">Mermaid</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-470dd9628827d4a839c9270b01a2590f" class="toggle"  />
+    <label for="section-470dd9628827d4a839c9270b01a2590f" class="flex justify-between">
+      <a href="/docs/philosophers/section/" class="">Section</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/philosophers/section/first-page/" class="">First Page</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/philosophers/section/second-page/" class="">Second Page</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/philosophers/tabs/" class="">Tabs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/philosophers/katex/" class="">KaTeX</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/posts/"  >
+        Blog
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://github.com/alex-shpak/hugo-book"  target="_blank" rel="noopener">
+        Github
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://themes.gohugo.io/themes/hugo-book/"  target="_blank" rel="noopener">
+        Hugo Themes
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Sentimentr Rich and Sad</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents"></nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><pre tabindex="0"><code>## ── Attaching core tidyverse packages ───────────────── tidyverse 2.0.0 ──
+## ✔ dplyr     1.1.4     ✔ readr     2.1.5
+## ✔ forcats   1.0.0     ✔ stringr   1.5.1
+## ✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+## ✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+## ✔ purrr     1.0.2     
+## ── Conflicts ─────────────────────────────────── tidyverse_conflicts() ──
+## ✖ dplyr::filter() masks stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()
+## ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors
+</code></pre><pre tabindex="0"><code>##                                                                            V1
+## 1                 Hundred thousand for the chain and now my drop (drop, drop)
+## 2                        When I pull out the garage, I chop my top (top, top)
+## 3                         Just like a fiend, when I start I cannot stop (wow)
+## 4                         I got, I got hella guap, look at me now (at me now)
+## 5                                                      Ooh, covered in carats
+## 6                                                      Ooh, mahogany cabinets
+## 7                                              Ooh, I ball like the Mavericks
+## 8                                                   Ooh, stable and stallions
+## 9                                                     Ooh, massive medallions
+## 10                                                      Ooh, I finally had it
+## 11                                            Ooh, but then you just vanished
+## 12                                               Damn, I thought I was savage
+## 13                          All this stuntin&#39; couldn&#39;t satisfy my soul (soul)
+## 14                       Got a hundred big places, but I&#39;m still alone (&#39;one)
+## 15                                             Ayy, I would throw it all away
+## 16                        I just keep on wishin&#39; that the money made you stay
+## 17                           You ain&#39;t never cared about that bullshit anyway
+## 18                   I just keep on wishin&#39; that the money made you stay, ayy
+## 19                                         You know I would throw it all away
+## 20                        I just keep on wishin&#39; that the money made you stay
+## 21                 Price went up, my price went up, we went our separate ways
+## 22              I just keep on wishin&#39; that the money made you stay, ayy, ayy
+## 23                                                                        Mmm
+## 24                                          Buy me, love, try to buy me, love
+## 25                                      Now I&#39;m alone, Ice Box, Omarion (ooh)
+## 26                                   Plenty sluts grabbin&#39; on my nuts (woah!)
+## 27                                 Might have fucked, it was only lust trust)
+## 28              I was livin&#39; life, how could I have known? (Could have known)
+## 29                     Couldn&#39;t listen to advice, &#39;cause I&#39;m never wrong (oh)
+## 30                                   In the spotlight, but I&#39;m on my own (oh)
+## 31                                Now that you&#39;re gone (now that you&#39;re gone)
+## 32                          All this stuntin&#39; couldn&#39;t satisfy my soul (&#39;oul)
+## 33                       Got a hundred big places, but I&#39;m still alone (&#39;one)
+## 34                                             Ayy, I would throw it all away
+## 35                        I just keep on wishin&#39; that the money made you stay
+## 36                           You ain&#39;t never cared about that bullshit anyway
+## 37                   I just keep on wishin&#39; that the money made you stay, ayy
+## 38                                         You know I would throw it all away
+## 39                        I just keep on wishin&#39; that the money made you stay
+## 40                 Price went up, my price went up, we went our separate ways
+## 41              I just keep on wishin&#39; that the money made you stay, ayy, ayy
+## 42                                                 I don&#39;t even wanna go home
+## 43                                           In a big house all alone (alone)
+## 44                                    I don&#39;t even wanna go home (no, no, no)
+## 45                              But I&#39;ma try to call you on the phone (brrt!)
+## 46                                                  I would throw it all away
+## 47                        I just keep on wishin&#39; that the money made you stay
+## 48                           You ain&#39;t never cared about that bullshit anyway
+## 49   I just keep on wishin&#39; that the money made you stay, ayy (made you stay)
+## 50                              You know I would throw it all away (all away)
+## 51        I just keep on wishin&#39; that the money made you stay (made you stay)
+## 52 Price went up, my price went up, we went our separate ways (separate ways)
+## 53              I just keep on wishin&#39; that the money made you stay, ayy, ayy
+</code></pre><pre tabindex="0"><code>## Key: &lt;element_id&gt;
+##     element_id word_count        sd ave_sentiment
+##          &lt;int&gt;      &lt;int&gt;     &lt;num&gt;         &lt;num&gt;
+##  1:          1         11        NA    0.00000000
+##  2:          2         12        NA    0.79385662
+##  3:          3         11        NA   -0.03015113
+##  4:          4         13        NA    0.00000000
+##  5:          5          4        NA    0.00000000
+##  6:          6          3        NA    0.00000000
+##  7:          7          6        NA    0.20412415
+##  8:          8          4        NA    0.50000000
+##  9:          9          3        NA    0.00000000
+## 10:         10          5        NA    0.17888544
+## 11:         11          6        NA   -0.55113519
+## 12:         12          6        NA   -0.51031036
+## 13:         13          8        NA   -0.35355339
+## 14:         14         10        NA   -0.34785054
+## 15:         15          7        NA    0.00000000
+## 16:         16         11        NA    0.18090681
+## 17:         17          8        NA   -0.17677670
+## 18:         18         12        NA    0.17320508
+## 19:         19          8        NA    0.00000000
+## 20:         20         11        NA    0.18090681
+## 21:         21         12        NA    0.00000000
+## 22:         22         13        NA    0.16641006
+## 23:         23          1        NA    0.00000000
+## 24:         24          8        NA    0.53033009
+## 25:         25          7        NA   -0.22677868
+## 26:         26          7        NA   -0.37796447
+## 27:         27          8        NA   -0.26516504
+## 28:         28         12 0.4286607   -0.33080476
+## 29:         29          9        NA    0.25000000
+## 30:         30          9        NA    0.00000000
+## 31:         31          8        NA    0.00000000
+## 32:         32          8        NA   -0.35355339
+## 33:         33         10        NA   -0.34785054
+## 34:         34          7        NA    0.00000000
+## 35:         35         11        NA    0.18090681
+## 36:         36          8        NA   -0.17677670
+## 37:         37         12        NA    0.17320508
+## 38:         38          8        NA    0.00000000
+## 39:         39         11        NA    0.18090681
+## 40:         40         12        NA    0.00000000
+## 41:         41         13        NA    0.16641006
+## 42:         42          6        NA    0.00000000
+## 43:         43          7        NA   -0.35906625
+## 44:         44          9        NA    0.00000000
+## 45:         45         10        NA    0.00000000
+## 46:         46          6        NA    0.00000000
+## 47:         47         11        NA    0.18090681
+## 48:         48          8        NA   -0.17677670
+## 49:         49         15        NA    0.15491933
+## 50:         50         10        NA    0.00000000
+## 51:         51         14        NA    0.16035675
+## 52:         52         14        NA    0.00000000
+## 53:         53         13        NA    0.16641006
+##     element_id word_count        sd ave_sentiment
+</code></pre><pre tabindex="0"><code>##                                                                             V1
+##                                                                &lt;get_sentences&gt;
+##  1:                Hundred thousand for the chain and now my drop (drop, drop)
+##  2:                       When I pull out the garage, I chop my top (top, top)
+##  3:                        Just like a fiend, when I start I cannot stop (wow)
+##  4:                        I got, I got hella guap, look at me now (at me now)
+##  5:                                                     Ooh, covered in carats
+##  6:                                                     Ooh, mahogany cabinets
+##  7:                                             Ooh, I ball like the Mavericks
+##  8:                                                  Ooh, stable and stallions
+##  9:                                                    Ooh, massive medallions
+## 10:                                                      Ooh, I finally had it
+## 11:                                            Ooh, but then you just vanished
+## 12:                                               Damn, I thought I was savage
+## 13:                          All this stuntin&#39; couldn&#39;t satisfy my soul (soul)
+## 14:                       Got a hundred big places, but I&#39;m still alone (&#39;one)
+## 15:                                             Ayy, I would throw it all away
+## 16:                        I just keep on wishin&#39; that the money made you stay
+## 17:                           You ain&#39;t never cared about that bullshit anyway
+## 18:                   I just keep on wishin&#39; that the money made you stay, ayy
+## 19:                                         You know I would throw it all away
+## 20:                        I just keep on wishin&#39; that the money made you stay
+## 21:                 Price went up, my price went up, we went our separate ways
+## 22:              I just keep on wishin&#39; that the money made you stay, ayy, ayy
+## 23:                                                                        Mmm
+## 24:                                          Buy me, love, try to buy me, love
+## 25:                                      Now I&#39;m alone, Ice Box, Omarion (ooh)
+## 26:                                   Plenty sluts grabbin&#39; on my nuts (woah!)
+## 27:                                 Might have fucked, it was only lust trust)
+## 28:                                 I was livin&#39; life, how could I have known?
+## 29:                                                         (Could have known)
+## 30:                     Couldn&#39;t listen to advice, &#39;cause I&#39;m never wrong (oh)
+## 31:                                   In the spotlight, but I&#39;m on my own (oh)
+## 32:                                Now that you&#39;re gone (now that you&#39;re gone)
+## 33:                          All this stuntin&#39; couldn&#39;t satisfy my soul (&#39;oul)
+## 34:                       Got a hundred big places, but I&#39;m still alone (&#39;one)
+## 35:                                             Ayy, I would throw it all away
+## 36:                        I just keep on wishin&#39; that the money made you stay
+## 37:                           You ain&#39;t never cared about that bullshit anyway
+## 38:                   I just keep on wishin&#39; that the money made you stay, ayy
+## 39:                                         You know I would throw it all away
+## 40:                        I just keep on wishin&#39; that the money made you stay
+## 41:                 Price went up, my price went up, we went our separate ways
+## 42:              I just keep on wishin&#39; that the money made you stay, ayy, ayy
+## 43:                                                 I don&#39;t even wanna go home
+## 44:                                           In a big house all alone (alone)
+## 45:                                    I don&#39;t even wanna go home (no, no, no)
+## 46:                              But I&#39;ma try to call you on the phone (brrt!)
+## 47:                                                  I would throw it all away
+## 48:                        I just keep on wishin&#39; that the money made you stay
+## 49:                           You ain&#39;t never cared about that bullshit anyway
+## 50:   I just keep on wishin&#39; that the money made you stay, ayy (made you stay)
+## 51:                              You know I would throw it all away (all away)
+## 52:        I just keep on wishin&#39; that the money made you stay (made you stay)
+## 53: Price went up, my price went up, we went our separate ways (separate ways)
+## 54:              I just keep on wishin&#39; that the money made you stay, ayy, ayy
+##                                                                             V1
+##     element_id sentence_id word_count   sentiment
+##          &lt;int&gt;       &lt;int&gt;      &lt;int&gt;       &lt;num&gt;
+##  1:          1           1         11  0.00000000
+##  2:          2           1         12  0.79385662
+##  3:          3           1         11 -0.03015113
+##  4:          4           1         13  0.00000000
+##  5:          5           1          4  0.00000000
+##  6:          6           1          3  0.00000000
+##  7:          7           1          6  0.20412415
+##  8:          8           1          4  0.50000000
+##  9:          9           1          3  0.00000000
+## 10:         10           1          5  0.17888544
+## 11:         11           1          6 -0.55113519
+## 12:         12           1          6 -0.51031036
+## 13:         13           1          8 -0.35355339
+## 14:         14           1         10 -0.34785054
+## 15:         15           1          7  0.00000000
+## 16:         16           1         11  0.18090681
+## 17:         17           1          8 -0.17677670
+## 18:         18           1         12  0.17320508
+## 19:         19           1          8  0.00000000
+## 20:         20           1         11  0.18090681
+## 21:         21           1         12  0.00000000
+## 22:         22           1         13  0.16641006
+## 23:         23           1          1  0.00000000
+## 24:         24           1          8  0.53033009
+## 25:         25           1          7 -0.22677868
+## 26:         26           1          7 -0.37796447
+## 27:         27           1          8 -0.26516504
+## 28:         28           1          9  0.00000000
+## 29:         28           2          3 -0.60621778
+## 30:         29           1          9  0.25000000
+## 31:         30           1          9  0.00000000
+## 32:         31           1          8  0.00000000
+## 33:         32           1          8 -0.35355339
+## 34:         33           1         10 -0.34785054
+## 35:         34           1          7  0.00000000
+## 36:         35           1         11  0.18090681
+## 37:         36           1          8 -0.17677670
+## 38:         37           1         12  0.17320508
+## 39:         38           1          8  0.00000000
+## 40:         39           1         11  0.18090681
+## 41:         40           1         12  0.00000000
+## 42:         41           1         13  0.16641006
+## 43:         42           1          6  0.00000000
+## 44:         43           1          7 -0.35906625
+## 45:         44           1          9  0.00000000
+## 46:         45           1         10  0.00000000
+## 47:         46           1          6  0.00000000
+## 48:         47           1         11  0.18090681
+## 49:         48           1          8 -0.17677670
+## 50:         49           1         15  0.15491933
+## 51:         50           1         10  0.00000000
+## 52:         51           1         14  0.16035675
+## 53:         52           1         14  0.00000000
+## 54:         53           1         13  0.16641006
+##     element_id sentence_id word_count   sentiment
+</code></pre></article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/edit/main/exampleSite/content/docs/materials/morality-of-wellbeing/sentimentr-rich-and-sad.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents"></nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

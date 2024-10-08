@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>00 Narrative and Knowledge on Hugo Book</title>
+    <link>http://localhost:4321/materials/00-narrative-and-knowledge/</link>
+    <description>Recent content in 00 Narrative and Knowledge on Hugo Book</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 27 Jun 2024 14:03:33 -0500</lastBuildDate>
+    <atom:link href="http://localhost:4321/materials/00-narrative-and-knowledge/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nussbaum Loves Knowledge</title>
+      <link>http://localhost:4321/materials/00-narrative-and-knowledge/nussbaum-loves-knowledge/</link>
+      <pubDate>Thu, 27 Jun 2024 14:03:33 -0500</pubDate>
+      <guid>http://localhost:4321/materials/00-narrative-and-knowledge/nussbaum-loves-knowledge/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stump Narrative and Personhood</title>
+      <link>http://localhost:4321/materials/00-narrative-and-knowledge/stump-narrative-and-personhood/</link>
+      <pubDate>Thu, 27 Jun 2024 14:02:27 -0500</pubDate>
+      <guid>http://localhost:4321/materials/00-narrative-and-knowledge/stump-narrative-and-personhood/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

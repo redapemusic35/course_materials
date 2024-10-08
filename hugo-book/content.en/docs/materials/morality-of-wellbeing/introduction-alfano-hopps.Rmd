@@ -1,0 +1,501 @@
+---
+title: "Introduction to Alfano & Hopps"
+date: 2024-06-29
+draft: false
+output: md_document
+cascade:
+  type: docs
+sidebar:
+  open: true
+bibliography: ["/home/redapemusic35/data_storage/library.bib"]
+weight: 1
+---
+
+
+```{r, eval=TRUE, message=FALSE, warnings=FALSE, echo=FALSE}
+knitr::include_url("/home/redapemusic35/courses/hugo-book/static/slides/alternative-epistemologies.html")
+```
+
+<a style="background-color: navy; color: white; padding: 7px 10px; "
+   target="_blank" href="/slides/alternative-epistemologies.html">View The Slides!</a>
+
+
+# TSwift Mac-D
+
+Other moral foundations theories look at other factors of morality such as intuitions [@hopp21]. The *morality as cooperation* foundations dictionary developed by Mark Alfano is a natural language process that is intended to detect fundamental character traits in terms of moral cooperation [For moral cooperation, see @curr16; @curr19].^[NLP often contains the following features. Processing language whether written, spoken etc, in such a way that information can be derived for practical use. Information extraction, converting a sequence of discreet tokens in one vocabulary to another, creating algorithms that are capable of developing unique conclusions given a set of premises among others.] Here, I analyze a set of music lyrics by Taylor Swift using the morality as cooperation dictionary, MAC-D, developed by @alfa22.
+
+According to the ethical theory *morality as cooperation* [@curr16], humans over time have faced a number of problems necessitating the need for cooperation [@curr19]. In response to these needs, humans and other anthropoids evolved methods for cooperation that act as solutions to these problems. As the theory continues, across all societies, we can identify traits that evolved in humans in light of these environmental needs [@shul11]. The forms these evolved characteristics take are cooperative behaviors that resemble character traits, strategies, dispositions, behaviors, rules, norms, institutions, and technologies.
+
+1. family values
+
+> Kin selection explains why we love and care for our families, why parents feel a duty of care to their offspring, why we feel a special obligation to help our extended families, and why we abhor incest (Hamilton, 1964; Lieberman, Tooby, & Cosmides, 2003).
+
+2. group loyalty
+
+> Mutualism explains why we coordinate our activities to pursue projects of mutual interest, why we form groups, clubs, and coalitions (there is strength and safety in numbers), why we value these groups, their members, and our membership in them, why we adopt local norms and conventions, why we feel a special obligation to come to the aid of group members, and why we value loyalty, unity and solidarity (Lewis, 1969; Royce, 1908).
+
+3. reciprocity
+
+> Social exchange explains why we seek opportunities for mutually-beneficial trade, and why we feel we ought to trust others, return favours (positive reciprocity), keep promises, pay debts, fulfil contracts, be grateful for favours received, feel guilty for favours not returned, avenge injuries (negative reciprocity), punish cheats, apologise for causing injuries, and forgive those who apologise (Cosmides & Tooby, 2005;Trivers, 1971).
+
+4. heroism
+5. defense
+
+> Conflict resolution explains why we minimise the mutual costs of disputes by engaging in ritual contests: why we proudly display cues of power and high status (‘excellences’, including bravery and generosity); and, when bested, why we express humility, and respect, defer, and submit to our superiors (Curry, 2007; Sznycer et al., 2017).
+
+6. fairness
+
+> Conflict resolution also explains why we resolve disputes over divisible resources by dividing or sharing them (often resulting in equal shares), and hence why we feel an obligation to negotiate, seek a compromise, and be fair (Messick, 1993; Skyrms, 1996).
+
+7. property rights
+
+> Conflict resolution also explains why we resolve disputes by recognising prior possession, hence why we feel we ought to respect others’ property and territory, and refrain from theft (Gintis, 2007).
+
+The morality as cooperation view predicts that there will be the same number of types of morality as there are of cooperation [@curr19]. They test this hypothesis using a content analysis of 600 ethnographic accounts of 60 societies chosen at random from the electronic Human Relations Area Files (*eHRAF*). To test this hypothesis, rather than using the hand code holographic method (Otterbein 1978; @embe09) used by @curr19, Alfano predicts that they can use natural language processing, more specifically the Linguistic Inquiry and Word Count method developed by @penn15.^[Also see @penn01] LIWC combs through a text and counts the number of words belonging to a given category. For instance, LIWC has been used to count the number of first person pronouns, psychological processes such as positive and negative emotions, and discreet emotions. It relies on a given dictionary provided by the user which instructs the kinds of words to be counted.
+
+Moral corpora is typically used by LIWC users to count moral terms using the *Moral Foundations Dictionary* [MFD], for instance Hoover et all use MFD to comb tweets for 5 domains and Padfield and Buchanan (2020) use MFD to characterize the moral lean of US news organizations. However, MFD is limited in a number of ways, not having foundations for family values, reciprocity, heroism, or property rights. In addition, there are interrater reliability issues. Given these issues, Alfano *et al* created the *Morality as Cooperation Dictionary* (MAC-D).
+
+First they brainstormed words aligning with the seven basic moral principles hypothesized by Curry *et al*. These include loving your family, being loyal to your group, returning favours, exercising courage and generosity, showing deference to superiors, being fair in the distribution of resources, and respecting property. They next used the software program WordNet, which is a large English language lexical database. When given a word or phase, Wordnet generates synsets that can be used to search related terms according to a given category: synonyms, hyponyms, antonyms, hypernyms, etc.
+
+### eHRAF
+
+eHRAF is an archive of thousands of full text ethnographies (Lagace 1979). Alfano *et al* also relied on these ethnographic accounts to test the terms in MAC-D. To do so, they extracted 331 paragraphs from eHRAF that were labeled as *ethics* resulting in 1,620,644 words from 9,653, paragraphs, from 1,389 documents, covering 256 societies, 8 cultural regions, following 9 subsistence strategies. They then used the MAC dictionary to calculate the percentage of words from each paragraph that was found in one or more of the seven foundation dictionaries.
+
+## Building a Dataset
+
+I have several datasets comprised of Taylor Swift song lyrics. One of these is organized by year. A good question that is available to us using this dataset, is whether there are computationally significant differences between Swift's earlier songs and more recent ones. One kind of difference we can discern could be whether her moral commitments changed according to the MAC-D. For instance, does she make more references to family values in her earlier songs than she does her later ones.
+
+```{r eval=TRUE, message=FALSE, echo=FALSE, warning=FALSE}
+library(tidyverse)
+library(stringr)
+library(quanteda)
+library(quanteda.dictionaries)
+library(tm)
+library(readtext)
+library(geniusr)
+
+#macd_virtue <- dictionary("/home/redapemusic35/data_storage/macdvirtue.dic")
+
+macdvir <- quanteda:::dictionary(file="./macdvirtue.dic", format="LIWC")
+
+macdvic <- quanteda:::dictionary(file="./macdvice.dic", format="LIWC")
+
+swift_l <- read.csv2("./swift_ordered.csv", sep = ";")
+swift_l_2 <- read.csv2("./swift_ordered_punc_bnew.csv", sep = ";")
+
+####################
+# Genius API for Swift latest album
+
+# Set your Genius API access token
+
+library(rgenius)
+library(knitr)
+library(ggplot2)
+library(ggridges)
+library(tidyr)
+
+library(dplyr)
+
+
+library(purrr)
+
+
+```
+
+```{r  eval=TRUE, message=FALSE, echo=FALSE, warning=FALSE}
+swift_lyrics <- swift_l$lyrics
+swift_names <- swift_l$year
+
+swift_lyrics <- str_remove_all(swift_lyrics, "Embed")
+swift_lyrics <- str_remove_all(swift_lyrics, "Lyrics")
+swift_lyrics <- removeNumbers(swift_lyrics)
+
+swift_l %>% head()
+
+```
+
+## Mac-D Analysis
+
+Next, we run a preliminary analysis on the dataset using the Mac-D. The first column to the left are the years for which a given set of songs was recorded. So for instance, according to [genius.com](https://genius.com/Taylor-swift-american-boy-lyrics#primary-album), in 2002, Swift recorded songs like *American Boy*.
+
+```{r, echo=FALSE, fig.cap="", out.width = '100%', fig.align='center'}
+knitr::include_graphics("https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2F2c31af7699fe6a049b4cb660046b1910.497x497x1.png")
+```
+
+Afterwards, *segment* refers to year year, *WPS* equals the mean number of words per sentence. This is a bit off as periods are not usually used to denote sentence length. In the second iteration of the analysis, I can easily use a grep function to input punctuation at the most logical places for it.
+
+*WC* refers to the total number of words in the dataset for that year. So for instance, 2002 shows a total of 776 words while 2011 shows a total of 11,486 words.
+
+*Sixltr* refers to words with greater than six letters representing more formal writing. What this means is that documents with a higher percentage of words with greater than six letters are more likely to be formal documents. I do not think that you can get any less formal than music lyrics, but this might then mean that music lyrics are better a representing emotional states.
+
+```{r, eval=TRUE, message=FALSE, echo=FALSE, warning=FALSE}
+corp_inaug_3 <- corpus(swift_l_2, text_field = "lyrics")
+
+corp_inaug <- corpus(swift_lyrics, text_field = "lyrics")
+
+docid <- paste(swift_l$year,
+               sep = ";")
+docnames(corp_inaug) <- docid
+
+docid_2 <- paste(swift_l_2$year,
+               sep = ";")
+docnames(corp_inaug_3) <- docid_2
+
+swift_virtue_foundations <- liwcalike(corp_inaug, dictionary = macdvir, tolower = TRUE,
+ verbose = TRUE)
+
+swift_virtue_foundations_2 <- liwcalike(corp_inaug_3, dictionary = macdvir, tolower = TRUE,
+ verbose = TRUE)
+
+swift_fam <- swift_virtue_foundations$family
+swift_gro <- swift_virtue_foundations$group
+swift_rec <- swift_virtue_foundations$reciprocity
+swift_her <- swift_virtue_foundations$heroism
+swift_def <- swift_virtue_foundations$deference
+swift_fai <- swift_virtue_foundations$fairness
+swift_pro <- swift_virtue_foundations$property
+
+swift_vice_foundations <- liwcalike(corp_inaug, dictionary = macdvic, tolower = TRUE,
+ verbose = TRUE)
+
+swift_virtue_foundations
+swift_virtue_foundations_2
+
+#### Joyplot without punction
+
+shifted_swift <- swift_virtue_foundations %>%
+  pivot_longer(cols = family:property, names_to = "category", values_to = "value")
+
+swift_plot <- ggplot(shifted_swift, aes(x = value, y = category, fill = category)) +
+  stat_density_ridges(scale = 0.9, alpha = 0.7) +
+  labs(
+    title = "Joyplot of Swift Virtue Foundations",
+    subtitle = "Based on various metrics",
+    x = "Value",
+    y = "Category"
+  ) +
+  theme_ridges() +
+  theme(legend.position = "none")
+
+swift_plot
+
+######### Joyplot with punctuation
+
+
+shifted_swift_2 <- swift_virtue_foundations_2 %>%
+  pivot_longer(cols = family:property, names_to = "category", values_to = "value")
+
+swift_plot_2 <- ggplot(shifted_swift_2, aes(x = value, y = category, fill = category)) +
+  stat_density_ridges(scale = 0.9, alpha = 0.7) +
+  labs(
+    title = "Joyplot of Swift Virtue Foundations",
+    subtitle = "Based on various metrics",
+    x = "Value",
+    y = "Category"
+  ) +
+  theme_ridges() +
+  theme(legend.position = "none")
+
+swift_plot_2
+
+
+############### others
+
+shifted_swift <- swift_virtue_foundations %>%
+  pivot_longer(cols = family:property, names_to = "category", values_to = "value")
+
+swift_virtue_foundations[1,7:13]
+
+line_plot <- ggplot(shifted_swift, aes(x = as.numeric(docname), y = value, color = category)) +
+  geom_line() +
+  geom_point() +
+  labs(
+    title = "Trends of Virtue Foundations Over the Years",
+    x = "Year",
+    y = "Value"
+  ) +
+  theme_minimal()
+
+line_plot
+
+heatmap_data <- swift_virtue_foundations %>%
+  pivot_longer(cols = family:property, names_to = "category", values_to = "value") %>%
+  mutate(docname = as.numeric(docname))
+
+heatmap_plot <- ggplot(heatmap_data, aes(x = docname, y = category, fill = value)) +
+  geom_tile() +
+  scale_fill_gradient(low = "white", high = "blue") +
+  labs(
+    title = "Heatmap of Virtue Foundations Over the Years",
+    x = "Year",
+    y = "Category"
+  ) +
+  theme_minimal()
+
+heatmap_plot
+
+facet_plot <- ggplot(shifted_swift, aes(x = as.numeric(docname), y = value, color = category)) +
+  geom_line() +
+  geom_point() +
+  facet_wrap(~category, scales = "free_y") +
+  labs(
+    title = "Trends of Virtue Foundations Over the Years",
+    x = "Year",
+    y = "Value"
+  ) +
+  theme_minimal() +
+  theme(legend.position = "none")
+
+facet_plot
+
+bar_plot <- ggplot(shifted_swift, aes(x = as.numeric(docname), y = value, fill = category)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(
+    title = "Distribution of Virtue Foundations by Year",
+    x = "Year",
+    y = "Value"
+  ) +
+  theme_minimal()
+
+bar_plot
+
+```
+
+<img src="/images/unnamed-chunk-4-1.png" alt="Example Image">
+
+<img src="/images/unnamed-chunk-4-2.png" alt="Example Image">
+
+<img src="/images/unnamed-chunk-4-3.png" alt="Example Image">
+
+<img src="/images/unnamed-chunk-4-4.png" alt="Example Image">
+
+<img src="/images/unnamed-chunk-4-5.png" alt="Example Image">
+
+```{r, eval=TRUE, message=FALSE, echo=FALSE, warning=FALSE}
+
+# Sample data: swift_lyrics and dictionary
+# Assume 'swift_lyrics' is a data frame with lyrics and year columns
+# Assume 'macdvir' is the virtue foundations dictionary
+
+# Create a quanteda corpus
+#corp_inaug_2 <- corpus(swift_lyrics, text_field = "lyrics")
+
+# Tokenize the corpus
+tokens_swift <- tokens(corp_inaug, remove_punct = TRUE)
+
+# Convert tokens to data frame
+tokens_df <- data.frame(
+  docname = rep(docnames(tokens_swift), lengths(tokens_swift)),
+  word = unlist(tokens_swift)
+)
+
+
+
+# Extract year from docname
+#tokens_df <- tokens_df %>%
+#  mutate(year = str_extract(docname, "^[0-9]{4}"))
+
+# Convert the dictionary to a data frame for easy matching
+dictionary_df <- stack(macdvir)
+colnames(dictionary_df) <- c("word", "category")
+
+# Match tokens with dictionary words
+matched_words <- tokens_df %>%
+  inner_join(dictionary_df, by = "word")
+
+# Convert to a tibble
+matched_words_tibble <- as_tibble(matched_words)
+
+# Print the tibble
+print(matched_words_tibble)
+
+```
+
+```{r, eval=TRUE, message=FALSE, echo=FALSE, warning=FALSE}
+
+frequency_analysis <- matched_words_tibble %>%
+  count(category) %>%  # Count occurrences of each category
+  arrange(desc(n))    # Sort categories by frequency, from highest to lowest
+
+print(frequency_analysis)  # Print the result
+
+ggplot(frequency_analysis, aes(x = reorder(category, n), y = n)) +
+  geom_bar(stat = "identity") +
+  coord_flip() +
+  labs(title = "Frequency of Moral Foundations in Lyrics",
+       x = "Moral Foundation Category",
+       y = "Count") +
+  theme_minimal()
+
+library(wordcloud2)
+
+# Prepare data for wordcloud2
+word_freq_df <- matched_words_tibble %>%
+  count(word) %>%  # Count the frequency of each word
+  rename(freq = n)  # Rename the count column to 'freq'
+
+# Check the structure of the prepared data
+print(word_freq_df)
+
+# Generate the word cloud
+wordcloud2(word_freq_df, size = 0.5, color = 'random-light', backgroundColor = 'black')
+
+```
+
+Assigning colors based on moral foundation it is found in.
+
+
+# Define colors for each moral foundation
+
+"Family" = # Tomato red
+
+"Group" = # Steel blue
+
+"Reciprocity" = # Lime green
+
+"Heroism" = # Gold
+
+"Deference" = # Blue violet
+
+"Fairness" = # Orange red
+
+"Property" = # Sea green
+
+```{r, eval=TRUE, message=FALSE, echo=FALSE, warning=FALSE}
+
+library(wordcloud)
+
+# Define colors for each moral foundation
+foundation_colors <- c(
+  "Family" = "#FF6347",        # Tomato red
+  "Group" = "#4682B4",    # Steel blue
+  "Reciprocity" = "#32CD32",     # Lime green
+  "Heroism" = "#FFD700",   # Gold
+  "Deference" = "#8A2BE2",    # Blue violet
+  "Fairness" = "#FF4500",     # Orange red
+  "Property" = "#2E8B57"         # Sea green
+)
+
+# Prepare data for wordcloud
+word_freq_df <- matched_words_tibble %>%
+  count(word) %>%  # Count the frequency of each word
+  rename(freq = n) %>%
+  left_join(matched_words_tibble %>% select(word, category) %>% distinct(), by = "word") %>%
+  mutate(color = foundation_colors[category])  # Add the color column based on the category
+
+# Convert color to a vector for `wordcloud`
+word_colors <- word_freq_df$color
+
+# Generate the word cloud with colors using the `wordcloud` package
+wordcloud(
+  word_freq_df$word,
+  freq = word_freq_df$freq,
+  min.freq = 1,
+  max.words = 200,
+  colors = word_colors,
+  random.order = FALSE,
+  scale = c(3, 1.5)
+)
+
+```
+
+<img src="/images/unnamed-chunk-7-1.png" alt="Example Image">
+
+```{r, eval=TRUE, message=FALSE, warning=FALSE, echo=FALSE}
+
+
+box_plot <- ggplot(shifted_swift, aes(x = as.numeric(docname), y = value, color = category)) +
+  geom_boxplot(notch=TRUE) +
+  geom_point() +
+  labs(
+    title = "Trends of Virtue Foundations Over the Years",
+    x = "Year",
+    y = "Value"
+  ) +
+  theme_minimal()
+
+box_plot
+
+
+```
+
+<img src="/images/unnamed-chunk-8-1.png" alt="Example Image">
+
+```{r eval=TRUE, message=FALSE, echo=FALSE, warning=FALSE}
+
+library(radarchart)
+
+
+#install.packages("fmsb")
+library(fmsb)
+
+# Demo data
+exam_scores <- data.frame(
+                         `2002` = c(0, 0, 0, 0.39, 0, 0, 0),
+  `2003` = c(0.09, 0, 0, 0.09, 0, 0, 0),
+  `2004` = c(0, 0, 0.02, 0.05, 0.07, 0, 0),
+  `2005` = c(0, 0, 0.08, 0, 0, 0, 0),
+  `2006` = c(0.02, 0, 0.07, 0, 0, 0, 0),
+  `2007` = c(0.02, 0, 0.12, 0.22, 0, 0, 0),
+  `2008` = c(0.07, 0.01, 0.04, 0.2, 0.01, 0, 0),
+  `2009` = c(0.14, 0, 0.1, 0.08, 0.01, 0, 0),
+  `2010` = c(0.08, 0.01, 0.12, 0.24, 0.01, 0, 0),
+  `2011` = c(0.04, 0.02, 0.05, 0.05, 0, 0, 0),
+  `2012` = c(0, 0.01, 0.02, 0, 0.01, 0, 0),
+  `2013` = c(0.04, 0.14, 0.16, 0.02, 0.01, 0, 0.01),
+  `2014` = c(0.4, 0.3, 0.2, 0.1, 0.2, 0.2, 0.1),
+  `2015` = c(0, 0, 0, 0, 0, 0, 0),
+  `2016` = c(0.04, 0.06, 0.15, 0.04, 0, 0, 0),
+  `2017` = c(0.09, 0.02, 0.12, 0.09, 0, 0, 0.01),
+  `2018` = c(0.06, 0.02, 0.04, 0.1, 0, 0, 0),
+  `2019` = c(0.07, 0.03, 0.04, 0.04, 0, 0, 0),
+  `2020` = c(0.09, 0.2, 0.12, 0.09, 0.0, 0.0, 0.1),
+  `2021` = c(0.06, 0.02, 0.04, 0.1, 0.0, 0.0, 0.0),
+  `2022` = c(0.7, 0.3, 0.4, 0.4, 0.0, 0.0, 0.0)
+)
+
+exam_scores
+
+# Add row names
+row.names(exam_scores) <- c("Family", "Group", "Reciprocity", "Heroism", "Deference", "Fairness", "Property")
+
+
+
+# Define the variable ranges
+max_min <- data.frame(
+                      `2002` = c(0.5,0),
+  `2003` = c(0.5,0),
+  `2004` = c(0.5,0),
+  `2005` = c(0.5,0),
+  `2006` = c(0.5,0),
+  `2007` = c(0.5,0),
+  `2008` = c(0.5,0),
+  `2009` = c(0.5,0),
+  `2010` = c(0.5,0),
+  `2011` = c(0.5,0),
+  `2012` = c(0.5,0),
+  `2013` = c(0.5,0),
+  `2014` = c(0.5,0),
+  `2015` = c(0.5,0),
+  `2016` = c(0.5,0),
+  `2017` = c(0.5,0),
+  `2018` = c(0.5,0),
+  `2019` = c(0.5,0),
+  `2020` = c(0.5,0),
+  `2021` = c(0.5,0),
+  `2022` = c(0.5,0)
+)
+row.names(max_min) <- c("Max", "Min")
+
+# bind the variable ranges to the data
+df <- rbind(max_min, exam_scores)
+df
+
+# Plot the data for family
+df_2002 <- df[c("Max", "Min", "2010:2022"),]
+
+# radarchart(df_2002)
+
+
+```
+# References

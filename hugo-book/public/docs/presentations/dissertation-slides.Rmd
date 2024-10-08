@@ -1,0 +1,435 @@
+---
+title: "Imagining Moral Identity"
+subtitle: "The constitutive moral function of narrative testimony"
+author: "Montaque Reynolds"
+date: 2024-06-29T12
+draft: false
+cascade:
+  type: docs
+sidebar:
+  open: false
+bibliography: ["/home/redapemusic35/data_storage/library.bib", "/home/redapemusic35/data_storage/my.bib"]
+weight: 1
+output:
+  xaringan::moon_reader:
+    keep_md: true
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      countIncrementalSlides: false
+---
+
+```{r xaringan-fit-screen, echo=FALSE}
+xaringanExtra::use_fit_screen()
+```
+
+```{r, load_refs, include=FALSE, cache=FALSE}
+library(RefManageR)
+BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           cite.style = "alphabetic",
+           style = "text",
+           hyperlink = FALSE,
+           dashed = FALSE)
+myBib <- ReadBib("/home/redapemusic35/data_storage/library.bib", check = FALSE)
+```
+
+# Imagining Moral Prescriptions and Invariance
+
+#### Does Imaginative Function Explain Emotional Variance?
+
+---
+class: middle
+
+Consider the following two stanzas from popular songs:
+
+.pull-right[
+
+Stacked your bread and bought your own Mercedes (Vroom, vroom)
+
+You your own boss, do it your way (Way)
+
+Quick to tell a broke \*\*\*\*\*, "Go away" (Go away)
+
+You ain't never 'bout no drama (Nah, nah)
+
+]
+
+.pull-left[
+
+And God made this thing right here
+
+You think you got me
+
+I know this pain right here
+
+You'll never stop me
+
+'Cause I got the King right here
+
+He made me strong, He made a lion you can't tame right here
+]
+
+---
+
+> He didn't answer so I gently lifted his head. He toppled backward onto the earth. He had been bleeding from the mouth, and his neck and the front of his shirt were stained a brilliant red. "Doodle, Doodle." There was no answer but the ropy rain. I began to weep, and the tear-blurred vision in red before me looked very familiar. "Doodle!" I screamed above the pounding storm and threw my body to the earth above his. For a long time, it seemed forever, I lay there crying, sheltering my fallen scarlet ibis
+
+???
+
+I want to argue that the difference is one of vulnerability. And as narratives, some teach interrelational vulnerability while others do not.
+
+One is about the expression of human vulnerability
+
+The other about whether there is a normative function associated with the expression of human vulnerability
+
+Whether there is an obligation that overrides under functions to do so.
+
+But, the important question is whether one satisfies a norm or an obligation that another does not.
+
+The alternative:
+
+> The opponents of luck assert that the good human life is completely involverable to *tuch\-{e}*. That which we ourselves control is in every case sufficient to secure it.
+
+So when Agammenon has his daughter murdered, it appears as though his sin was just that action. But the tragedy would have us believe that his actions were out of his control and as such, he deserves no more blame than had he slaughtered a calf to satisfy his hunger. But . . .
+
+> so [though] a human being might slaughter cattle: without compunction and to satisfy immediate needs[, w]hen the victims are human, we expect deliberations and feelings of greater complexity to be involved. `r Cite(myBib, "nuss01i", 33)`
+
+And as such, it is not so much that his goodness was always vulnerable to luck, but rather,
+
+> complete invulnerability is purchased, Aristotle will argue, at too high a price: by imagining (as does Platonist) a life bereft of certain important values; or by doing violence (as does the good-condition theorist) to our beliefs about activity and its worth.
+
+His mistake is failing to recognize his vulnerability, in this case, his need for relationship with his daughter.
+
+---
+class: middle
+
+### Approach 3, Normative Variance
+
+The emotions *are* real but are governed by a different set of norms than those expressions towards real objects.
+
+> . . . make-believing is not epistemically rational in the same sense as believing, and the norms governing our desires, emotions, and moral evaluations vis-a-vis what is internal to a fiction can be inconsistent with those governing our reponses to relevantly similar things in the real-world. `r Citep(myBib, "gilm20")`
+
+1. Because of the difference in the functions for our engagement with art and real life, there are inconsistent affective norms across fictions and real world objects.
+2. Our imaginative activity with respect to fiction has functions that are associated with ends other than truth seeking such as entertainment, absorption, vicarious experience, distraction, etc.
+3. Therefore, our affective, cognitive, conative, and evaluative engagements with fictions are variant across real and fictional contexts.
+
+???
+
+set of norms that underlie our emotional expressions towards fictional object not the same as those underlying emotional expressions towards objects in the real world.
+
+Contrast with moral testimony. Imagine that I am a child and I ask Stephen Hawking what is 2+2?
+
+Now we can imagine that I am a graduate student and Stephen Hawking has come to give a talk on my campus. During QandA, I stand up and ask what is 2 + 2?
+
+---
+class: middle
+
+> The opponents of luck assert that the good human life is completely involverable to *tuch\-{e}*. That which we ourselves control is in every case sufficient to secure it.
+
+--
+
+> [but though] a human being might slaughter cattle: without compunction and to satisfy immediate needs[, [still] w]hen the victims are human, we expect deliberations and feelings of greater complexity to be involved. `r Cite(myBib, "nuss01i", 33)`
+
+--
+
+> complete invulnerability is purchased, Aristotle will argue, at too high a price: by imagining (as does Platonist) a life bereft of certain important values; or by doing violence (as does the good-condition theorist) to our beliefs about activity and its worth.
+
+???
+
+In teaching interrelational vulnerability, they are a source of moral testimony.
+
+More importantly however, some song lyrics can undermine moral testimony by teaching vicious self-sufficiency. A form of ingratitude and undermining an individual's ability to recognize the importance of others in their lives.
+
+---
+class: middle
+
+> For Aquinas, the worst thing that can happen to a person is to become permanently psychically fragmented, permanently alienated from oneself, permanently separated from others, including God.
+
+`r AutoCite(myBib, "stum10", 387)`
+
+---
+class: middle
+
+## Two common concerns
+
+1. The correctness of an emotional expression towards objects in real life.
+2. The correctness of an emotional expression towards objects that we only imagine.
+
+---
+class: middle
+
+### Approach 1, Fictional Pretence
+
+The emotions we feel when experiencing art, are not real but pretend.
+
+> The main component of the answer has been anticipated: Charles is participating psychologically in his game of make-believe. It is not true but fictional that he fears the slime. So of course he speaks of himself as being afraid of it. . . . It is ficitonal that he is afraid, and it is fictional that he says he is. `r Citep(myBib, "walt90")`
+
+???
+
+Charles' fear is his way are psychologically participating in a game of make believe. This is because Charles is aware of what is required of him, and because he intends to partcipate, he pretends to feel fear.
+
+However, if it is true that our emotions in response to ficiton are pretend, then the emotions we have towards problematic fictions should not stir any real controversy.
+
+But they do stir controversy. Perhaps a reason they do is because of the emotions we experience in response to admirable representations, for instance of awesome displays of caring concern, such that we see in Shindler's List.
+
+If our emotions are pretend, then the pretend emotions we have towards morally awe inspiring works of art would be pointless.
+
+The further question that would follow then would be why these examples are so prevalent throughout human cultures. Such as the story of Job, Abraham or even Martin Luther King.
+
+---
+
+### Approach 2, Normative Invariance
+
+#### The emotions are real, **and** governed by the same set of norms, e.g., *affective appraisal*.
+
+* "An emotion is justified when experienced in response to an object in a fiction if and only if the emotion is justified in response to an analogous object in the actual world."
+
+???
+
+We might think that at first, this criticism applies to both Stump and Nussbaum. Namely, when we look at the expression of a given emotion in fiction, we might think that any emotion expressing, for instance insensitivity to others, is a real emotion grounded in a set of social norms. Looking at the first example, the expression of insensitivity to the plight of another should motivate some blame mechanism. The narrator would then be critized for their insensitivity. Further, we could expect that many criticisms of rap would then be criticisms of this insensitivity.
+
+"An emotion is justified when experienced in response to an object in a fiction if and only if the emotion is justified in response to an analogous object in the actual world."
+
+--
+
+> Although there is usually lots of cognitive activity going on in the course of an emotion process, the process itself is always initiated by an automatic affective appraisal that occurs prior to reflection. It is because emotions are triggered by an automatic affective appraisal that they are in some important ways immune to assessment as rational or irrational: they are, as Edith Wharton suggests in the epigraph, ‘deeper than reason’. `r Cite(myBib, "robi05")`
+
+???
+
+According to Gilmore, this means that the imaginative activity associated with appreciating works of art, has functions that are associated with the pursuit of moral truth. But this is a claim that he rejects.
+
+Arguing instead that this imaginative activity sometimes has other functions such as entertainment, absorption, vicarious experience, distraction etc.
+
+But other functions could include for instance, dual character concepts `r Citep(myBib, "malo19")` in which artists are discussents participating in a linguistic activity of negotiating a community's values and practical identity.
+
+Importantly here however is the fact that such a function would be only one possible function out of many possible functions.
+
+So the question here, is whether a pursuit of moral truth can override all other functions, or whether there *is* a fundamental function for appraising art.
+
+While my emotional engagement with a given context in the real world works according to a particular set of norms, whatever these might be, my emotional engagement with fictions work according to another set of norms.
+
+This is because the norms governing my engagements are determined by whatever functions those engagements are intended to fulfill.
+
+There may be one set of norms for entertainment and another set of norms for moral (or philosophical) instruction.
+
+However, this means that works of art and our engagements with them do not have functions.
+
+---
+class: middle
+
+> how we respond to events represented in a work of art, and in our fantasies and other imaginings, does not, prima facie, tell us how we would or should respond if they really occurred.
+
+* descriptive accounts of emotional response to fiction
+* prescribe emotional response to analogous object in real-life
+
+--
+
+* considering descriptive emotional response to object in real life
+* prescriptive response to object in fiction.
+
+???
+
+* descriptive emotional response to fiction, grounded in our intention to participate in a given work of art.
+* prescriptive response to analogous object in real-life.
+
+However, more importantly is this question, whether,
+
+* considering descriptive emotional response to object in real life
+* prescriptive response to object in fiction.
+
+---
+class: middle
+
+* Accepting a cogntive theory of the imagination, imagination like other faculties is type identified by its intended function
+
+???
+
+* in some cases one's imaginative activity has an epistemic or practical role like that of beliefs and perceptions, where the function is to aid in, e.g., planning for the future, or discovering some truth about the actual world, our evaluative commitments, or what is metaphycially possible. Those aims are better realized if one's emotions are (1) based on reasons that speak to the qualities of their object, (2) not the arrational result of some independent cause.
+
+The Red Ibis is a warning against callousness. It admonishes us to always be sympathetic to the needs and cries of others.
+
+Especially those that are close to us, such as family members. We might think that such responses are natural, and that they do not need to be taught.
+
+But in the Red Ibis, it wasn't a natural emotional response to the narrator.
+
+It wasn't until the end that he recognized the importance his little brother held for him.
+
+---
+class: middle
+
+Doodle's blood flowing from his nose and mouth staining his white tee-shirt was preluded to by the red feathers of the ibis.
+
+???
+
+But here, we may worry that our emotions are not apt. We are not feeling the same thing as the narrator, but rather, it is in the way our emotions have been manipulated.
+
+The red ibis falls down dead beneath the bleeding tree while Doodle is found by the narrator under a nightshade bush with blood pouring from his nose and mouth staining the front of his white tee-shirt red.
+
+What is emotional autonomy? It seems as though I ought to possess a certain degree of independence regarding my emotional experiences.
+
+It seems that my emotional experiences should be my own, but they are not. They are being directly manipulated by literary tools.
+
+But there are problems with this view.
+
+For instance, comedy often evokes laughter from us even though we might have been in a mood opposite of laughter.
+
+But but how do we explain the following
+
+---
+class: middle
+
+* One way, emotions are evaluative representations that prescribe e.g., gratitude as worthy of a positive moral sentiment = therefore ascribing value, `r Citep(myBib, "arno60")`
+* The ascription of value tells us that gratitude is morally admirable
+
+---
+class: middle
+
+* Ingratitude is worthy of positive moral sentiment = by ascribing value, therefore we know that ingratitude is morally admirable
+
+--
+
+* Agency and Emotional autonomy = question about character, a question about what characteristic morally expressive emotions look like for us
+
+???
+
+But but how do we explain the following
+
+* do not find that brand of comedy humorous
+* feel insulted rather than entertained
+* anger instead of glee
+
+How do we determine the rightness condition of a given emotional expression towards imagined objects outside of agential constraints and considerations. If glee is evoked from us, then is the glee apt? This seems to be a concern about my autonomy as a laughing agent.
+
+How do we morally justify an emotion we have towards a given artistic representation if that emotion is counter to our normal characteristic agency? Does it depend on me, or does it depend on the artist? If the artist, then what about my agency?
+
+---
+class: middle
+
+In the first stanza above, I can imagine that selfish actions warrant:
+
+* moral praise
+
+* positive sentiment
+
+---
+class: middle
+
+* the kinds of reasons that we countenance as justifying our emotions, imaginings, and desires depend on the *functions* of the practices in which those mental representations are elicited. [201]
+
+???
+
+Think of a positive affect regarding the imagination *I*
+
+License's a departure from real world affective norms
+
+While my emotional engagement with a given context in the real world works according to a particular set of norms, whatever these might be, my emotional engagement with fictions work according to another set of norms.
+
+This is because the norms governing my engagements are determined by whatever functions those engagements are intended to fulfill.
+
+There may be one set of norms for entertainment and another set of norms for moral (or philosophical) instruction.
+
+???
+
+* Evaluative emotions theory, emotions are evaluative representations of some object. They instantiate the appraisal of value of the object that elicits them.
+* This means that there are norms that determine whether a given emotion is apt. According to normative continuity, the norms justifying our emotional expressions are the same whether in fictions or in real life
+* However, our aim for imagination often differs from those aims we have for objects in the real world, for instance, planning a long trip and we imagine everything that could possibly go wrong. Therefore the norms for imagining fiction diverge from our imaginings of objects in the real world. So in fiction, we can quarantine our imaginings from the normative constraints that make them apt or inapt in the real world.
+
+---
+class: middle
+
+1. Imaginings are type-identified by their functional roles, a given imagining is determined by the artist's use of aesthetic convention, therefore there are both internal and external sources of truth in a fictive utterance.
+2. Emotion is an evaluative mental state, whereby we can also emotionally evaluate the contents of our imaginations. Yet, because "the imaginative representations responsible for causing a fiction-directed emotion may arise along with factors" differ from those that cause an emotion directed at some object in the real world, there is an asymmatry between emotions generated by fiction and the real world.
+An example of internal and external sources of truth could be seen in James Hurst's *The Red Ibis*.
+
+???
+
+Hurst's use of the juxtaposition between the death of the Red Ibis under the "bleeding tree" and the stain of blood on Doodle's shirt under "the red nightshade bush" to let us know of Doodle's definite death.
+
+The juxtaposition is an external source of truth informing us of Doodle's death.
+
+In addition, deaths of loved ones are typically sad, and the juxtaposition is used to facilitate this emotion in us.
+
+This lets us know that here, that we too, ought to feel sad.
+
+While the narrator is an inner source of truth regarding the sadness we know is present, the juxtaposition is an outer source of this truth.
+
+> There was no answer but the ropy rain. I began to weep, and the tear-blurred vision in red before me looked very familiar
+
+---
+class: middle
+
+## Moral knowledge and social environments
+
+???
+
+We get knowledge from our social environments. If one has knowledge in a given domain, say moral knowledge, then her moral beliefs in that domain are justified. Therefore, accepting the moral inheritance view,
+
+---
+class: middle
+
+> young children can have moral knowledge even if they are not in a position to justify the moral views that they kow, in the sense of providing compelling reasons in support of those moral views.
+
+---
+
+#### Testimony
+
+> She finds that others follow certain norms and hold certain views, and she adopts these norms and views as her own, typically without much in the way of critical reflection.
+
+???
+
+But we might worry about what makes it rational to adopt the norms of others. It cannot be merely that adopting these beliefs are rational because of some prescriptive norm for that would be circular.
+
+---
+class: middle
+
+* It is natural to adopt the beliefs of others
+* when we do so, we get knowledge
+* knowledge grounds justified (rational) belief
+* therefore it is rational to adopt the beliefs others
+
+---
+class: middle
+
+1. Knowledge that something is the right thing to do is grounded in an appreciation of or sensitivity to the features that make $\phi$-ing the right thing to do.
+2. When a person defers to another about the weather, or about geography, or about some esoteric scientific matter, her doing so does not similarly frustrate the achievement of any ideal associated with agency.
+
+???
+
+But there is a way to escape the vicious circularity.
+
+---
+class: middle
+
+3. I *don't* agree that deference prevents an agent from acting on right-*making* reasons. . . . This is because the moral reasons for us to perform some action are *subjective* . . . if expert testimony gives us most reason to believe some act would be best then that testimony *is the reason* we ought to perform that act . . . in those cases in which the advice of a (recognizable) moral expert provides our agent with sufficient evidence for the belief that a particular act would be best, our agent's acting so may be *made* right by the fact taht the moral expert advises him do it . . . is the reason *why* he ought to perform it. `r Cite(myBib, "mark12")`
+
+???
+
+> An agent's reasons to believe that an action is right, are also the reasons that tend to make that action the right thing for her to do.
+
+For instance, demon gives me pleasure when doing wrong and pain when doing right.
+
+* pleasure *would* or *would not* be evidence that I am doing wrong
+* pain *would* *would not* be evidence that I am doing right
+
+Depends on whether I am privy to the demon's schemes however.
+
+The problem is that assuming cognitivism fails to appreciate all the ways in which our faculties enables us to recognize the truth of a given moral proposition about the way that the world is.
+
+Especially that it neglects the important role that our perceptions play in our moral cognition. What it in effect says is that while we may be incapable of perceiving for ourselves the truth of a given proposition, our apprehension of the given truth by way of testimony or deference is a valid substitute.
+
+However, while this may or may not be true in the non-moral realm, I give some reasons to think that there is an asymmetry between the moral and non-moral realms with respect to such claims.
+
+We can come to know the truth about the way the world is in more ways than recognized by McGrath and it may be possible that we have an ulterior obligation to do so.
+
+For instance, we can come to perceive the truth about a given proposition in the same way that we can perceive the sun shinning on our face.
+
+---
+class: middle
+
+# References
+
+```{r refs, echo=FALSE, results = "asis"}
+PrintBibliography(myBib, .opts = list(style = "latex",
+                      bib.style = "authoryear"))
+```
+

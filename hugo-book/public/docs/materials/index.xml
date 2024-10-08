@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Standalone Papers on Philosophy of Games</title>
+    <link>http://localhost:1313/docs/materials/</link>
+    <description>Recent content in Standalone Papers on Philosophy of Games</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/docs/materials/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Geoff Mann 08</title>
+      <link>http://localhost:1313/docs/materials/geoff-mann-08/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/materials/geoff-mann-08/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Robinson Deeper Than Reason</title>
+      <link>http://localhost:1313/docs/materials/robinson-deeper-than-reason/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/materials/robinson-deeper-than-reason/</guid>
+      <description>&lt;h1 id=&#34;heading&#34;&gt;&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#heading&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Philosophy Through MMOs</title>
+      <link>http://localhost:1313/docs/materials/star-citizen-run-through/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/materials/star-citizen-run-through/</guid>
+      <description>&lt;p&gt;Philosophers have debated the purpose and importance of philosophical thought experiments. Unlike your standard fiction, a philosophical thought experiment is a fiction without all of the extra layers of fluff. A case in point is the trolley example. According to it, there is a train track that diverges into separate tracks. There is a nearby lever capable of diverting oncoming train from its intended path to an alternate one. There are five innocent people tied to the track. Unless you pull the lever and divert the trolley, these five innocent people will be killed. However, there is one innocent person on the alternate path that will be killed should you pull the level.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

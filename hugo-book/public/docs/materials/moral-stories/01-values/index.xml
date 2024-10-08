@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Values on Philosophy of Games</title>
+    <link>http://localhost:6815/docs/materials/moral-stories/01-values/</link>
+    <description>Recent content in Values on Philosophy of Games</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 11 Jul 2024 22:05:52 -0500</lastBuildDate>
+    <atom:link href="http://localhost:6815/docs/materials/moral-stories/01-values/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nussbaum Stories Ethics Emotions</title>
+      <link>http://localhost:6815/docs/materials/moral-stories/01-values/Nussbaum-stories-ethics-emotions/</link>
+      <pubDate>Mon, 10 Jun 2024 10:30:06 -0500</pubDate>
+      <guid>http://localhost:6815/docs/materials/moral-stories/01-values/Nussbaum-stories-ethics-emotions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Values Morals Ethics</title>
+      <link>http://localhost:6815/docs/materials/moral-stories/01-values/values-morals-ethics/</link>
+      <pubDate>Mon, 10 Jun 2024 10:29:14 -0500</pubDate>
+      <guid>http://localhost:6815/docs/materials/moral-stories/01-values/values-morals-ethics/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
