@@ -1,0 +1,334 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\usepackage[]{natbib}
+\bibliographystyle{plainnat}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={A Minimal Book Example},
+  pdfauthor={John Doe},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{A Minimal Book Example}
+\author{John Doe}
+\date{2024-10-01}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\chapter{bibliography: {[}book.bib, packages.bib{]}}\label{bibliography-book.bib-packages.bib}
+
+Placeholder
+
+\section{Usage}\label{usage}
+
+\section{Render book}\label{render-book}
+
+\section{Preview book}\label{preview-book}
+
+\chapter{The Good Life}\label{the-good-life}
+
+\section{Virtue as a human excellence}\label{virtue-as-a-human-excellence}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  The first concerns the role in the human good life of activities and relationships that are, in their nature, especially vulnerable to reversal.
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  friendship
+\item
+  love
+\item
+  political activity
+\item
+  attachments to property or possessions
+\end{itemize}
+
+What is the role of these items in a good life, if one can easily loose these because of chance?
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  The relationship among these external goods
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Do they exist harmoniously?
+\item
+  Can they impair goodness of an agent's life?
+\item
+  Can they generate conflicting requirements?
+
+  \begin{itemize}
+  \tightlist
+  \item
+    E.g., can love cause someone to betray a friendship?
+  \end{itemize}
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Self-suffiency, what is the ethical value of our appetites, feelings, and emotions, passions and sexuality?
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Does the value of Self-suffiency outweigh the value of these other \emph{irrational attachments}?
+\item
+  Do they have value even though they can disrupt our own Self-suffiency? E.g., in rational planning?
+\end{itemize}
+
+\section{Examples of Fragility and Ambition}\label{examples-of-fragility-and-ambition}
+
+\subsection{Aeschylus and practical conflict}\label{aeschylus-and-practical-conflict}
+
+\begin{itemize}
+\tightlist
+\item
+  What can we learn for tragic poetry and literature?
+\end{itemize}
+
+\begin{quote}
+But the tragedies also show us, and dwell upon, another more intractable sort of case --- one which has come to be called, as a result, the situation of `tragic conflict'. In such cases we see a wrong action commetted without any direct physical compulsion and in full knowledge of its nature, by a person whose ethical character or commitments would otherwise dispose him to reject the act.
+\end{quote}
+
+\subsection{Sophocles' Antigon: conflict, vision, and simplification}\label{sophocles-antigon-conflict-vision-and-simplification}
+
+\begin{itemize}
+\tightlist
+\item
+  In response to what is learned from tragedy, we can simplify our value commitments.
+\end{itemize}
+
+\begin{quote}
+For the claim is that the human being's relation to value in the world is not, or should not be, profoundly tragic: that it is, or should be, possible without culpable neglect or serious loss to cut off the risk of the typical tragic occurrence. Tragedy would then represent a primitive or benighted stage of ethical life and thought. {[}51{]}
+\end{quote}
+
+\subsection{Conclusion to Part I}\label{conclusion-to-part-i}
+
+What have we learned?
+
+\begin{itemize}
+\tightlist
+\item
+  Values taken in the singular are vulnerable
+\item
+  \emph{Irrational attachments} can disrupt.
+\item
+  \emph{Irrational attachments} can become grounds of conflict.
+\end{itemize}
+
+But this was an over-ambitious attempt to eliminate luck from human life.
+
+\begin{itemize}
+\tightlist
+\item
+  This shows the importance of human value, \emph{rational choice}. {[}*tuch\(\'{e}\){]}
+\end{itemize}
+
+\section{Plato: Goodness without fragility}\label{plato-goodness-without-fragility}
+
+Two problems:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Dialogue
+\item
+  Development
+\end{enumerate}
+
+Some approaches
+
+\begin{itemize}
+\tightlist
+\item
+  lack of response to positive role of vulnerable values in the goodlife
+\item
+  Plato's insuffienct critique of tragic literature
+\end{itemize}
+
+\subsection{\texorpdfstring{The \emph{Protagoras}: a science of practical reasoning}{The Protagoras: a science of practical reasoning}}\label{the-protagoras-a-science-of-practical-reasoning}
+
+How to develop a \emph{tuche}
+
+\begin{itemize}
+\tightlist
+\item
+  social political techne \(\rightarrow\) technai.
+\item
+  Important: defeated threats from physical environment, but what about the social environment?
+\end{itemize}
+
+How does science save and transform us?
+
+\begin{itemize}
+\tightlist
+\item
+  how do we rank activity independent of the feelings they produce?
+\item
+  how do we deal with the vulnerability and instability of individual human pursuits?
+\end{itemize}
+
+\subsection{Interlude I: Plato's anti-tragic theater}\label{interlude-i-platos-anti-tragic-theater}
+
+Two ways of dealing with the question about mitigating luck in the social environment:
+
+\begin{itemize}
+\tightlist
+\item
+  Tragic theater: but irrational attachments can disrupt rational choice
+\item
+  techne (science): but lack of response to positive role of vulnerability in human values
+\end{itemize}
+
+E.g.,
+
+\begin{quote}
+Here, as in the \emph{Protagoras}, Plato very deliberately creates a speech that will give the impression of not having been deliberately formed. It is not artless; but its art is one that claims to go straight to the truth-telling part of the soul. It is simple rather than flowery, flat rather than emotive or persuasive. {[}132{]}
+\end{quote}
+
+\section{\texorpdfstring{The \emph{Republic}: true value and the standpoint of perfection}{The Republic: true value and the standpoint of perfection}}\label{the-republic-true-value-and-the-standpoint-of-perfection}
+
+Defends a life of goodness without vulnerability.
+
+\chapter{Cross-references}\label{cross}
+
+Placeholder
+
+\section{Chapters and sub-chapters}\label{chapters-and-sub-chapters}
+
+\section{Captioned figures and tables}\label{captioned-figures-and-tables}
+
+\chapter{Parts}\label{parts}
+
+You can add parts to organize one or more book chapters together. Parts can be inserted at the top of an .Rmd file, before the first-level chapter heading in that same file.
+
+Add a numbered part: \texttt{\#\ (PART)\ Act\ one\ \{-\}} (followed by \texttt{\#\ A\ chapter})
+
+Add an unnumbered part: \texttt{\#\ (PART\textbackslash{}*)\ Act\ one\ \{-\}} (followed by \texttt{\#\ A\ chapter})
+
+Add an appendix as a special kind of un-numbered part: \texttt{\#\ (APPENDIX)\ Other\ stuff\ \{-\}} (followed by \texttt{\#\ A\ chapter}). Chapters in an appendix are prepended with letters instead of numbers.
+
+\chapter{Footnotes and citations}\label{footnotes-and-citations}
+
+\section{Footnotes}\label{footnotes}
+
+Footnotes are put inside the square brackets after a caret \texttt{\^{}{[}{]}}. Like this one \footnote{This is a footnote.}.
+
+\section{Citations}\label{citations}
+
+Reference items in your bibliography file(s) using \texttt{@key}.
+
+For example, we are using the \textbf{bookdown} package \citep{R-bookdown} (check out the last code chunk in index.Rmd to see how this citation key was added) in this sample book, which was built on top of R Markdown and \textbf{knitr} \citep{xie2015} (this citation was added manually in an external file book.bib).
+Note that the \texttt{.bib} files need to be listed in the index.Rmd with the YAML \texttt{bibliography} key.
+
+The RStudio Visual Markdown Editor can also make it easier to insert citations: \url{https://rstudio.github.io/visual-markdown-editing/\#/citations}
+
+\chapter{Blocks}\label{blocks}
+
+Placeholder
+
+\section{Equations}\label{equations}
+
+\section{Theorems and proofs}\label{theorems-and-proofs}
+
+\section{Callout blocks}\label{callout-blocks}
+
+\chapter{Sharing your book}\label{sharing-your-book}
+
+Placeholder
+
+\section{Publishing}\label{publishing}
+
+\section{404 pages}\label{pages}
+
+\section{Metadata for sharing}\label{metadata-for-sharing}
+
+\end{document}
