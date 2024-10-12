@@ -1,3 +1,122 @@
+---
+title: "Deference and the Moral Properties of Imaginative Experience"
+author: "Montaque Reynolds"
+abstract: "When our moral views are based on the moral views of another, we are in a state of deference to that person. There are philosophers who think that such a state is not ideal. Sarah @mcgr19 defends moral deference arguing that it is no different than non-moral deference. It is natural for us to accept the moral views of others even if we have not critically examined the views for ourselves. Our actions are often justified by the views of expert testimony, say when a Supreme Court justice rules on a case based on the testimony of a scientific expert.^[E.g., see @daub93] However, this assumes one direction of fit between emotion and moral judgment, which is a narrow understanding of how we can know moral facts. While such an understanding may or may not be true in the non-moral realm, there are important differences between the moral and non-moral claims. Most important among these differences is how we feel about them. This means that our understanding of how we come to know moral facts may be too narrow."
+vita_auctoris: |
+  "Your Name was born in [Place], [Date]. He/She attended [University Name] and received a B.S. in [Field] in [Year]. He/She then pursued graduate studies at [University Name], earning an M.S. in [Field] in [Year]. During his/her doctoral studies at [University Name], he/she [brief description of research or notable achievements]. He/She has published [number] papers in [field] journals and presented his/her work at [number] international conferences. Upon completion of his/her Ph.D., he/she plans to [future plans or career goals]."
+department: "Department of Philosophy"
+school: "School of Arts & Sciences"
+university: "SAINT LOUIS UNIVERSITY"
+supervisor: "Professor Dan Haybron, Chair"
+committee:
+  - "Dan Haybron, Chair"
+  - "Scott Gelfand"
+  - "Scott Ragland"
+year: 2024
+output:
+  bookdown::pdf_book:
+    includes:
+      in_header: /home/redapemusic35/data_storage/preamble.tex
+    toc: true
+    toc_depth: 3
+    lot: true
+    lof: true
+    number_sections: true
+    fig_caption: true
+    latex_engine: xelatex
+    keep_tex: true
+documentclass: book
+fontsize: 12pt
+linestretch: 2
+geometry: margin=1in
+bibliography: /home/redapemusic35/data_storage/Exported-Items.bib
+csl: /home/redapemusic35/data_storage/chicago-fullnote-bibliography-with-ibid.csl
+---
+
+<!--chapter:end:index.Rmd-->
+
+# Knowledge First Justification
+
+@mcgr19 defends moral testimony arguing that when we adopt the beliefs of others without critically analyzing them first, we are deferring our moral decisions to that person. Imagine a younger sibling calling an older sibling in front of his friends. Perhaps the younger sibling has told his friends that the exact position and momentum of sub-atomic particles cannot be known and has called his brother, a physicist at the University of Hawaii to confirm this fact for him. It is natural for us to accept the non-moral views of others, even if we have not critically examined them ourselves, or are incapable of doing so. Moral deference then is no different from observation. Therefore, there is reason to think criticisms against deference over intellectualize the transmission of knowledge since deference is a natural activity related to social learning.
+
+Here, I first articulate McGrath's cognitivism, in that she glosses over the question about our emotional responses to moral events, whether behaviors or actions. This raises important questions for evaluative theories of emotions and their representational relations with their objects.^[@gilm20, 47-52] Specifically, I highlight the importance of social networks for these relations. But this just is a question about fit between emotion and their objects, whether behaviors or actions. Following this, I argue that regardless of the direction of fit, these are central to our intuitive notions of right reason.^[For instance, a moral realist may argue our emotions are perceptions of moral reality whereas an antirealist will say they express subject values. Both are plausible assuming there is some relationship between our emotions and moral objects.] Ultimately, I defend the view that the kind of reasons which we look for in right action, are a special kind of sensitivity to the plight of others.
+
+## A Theoretical Approach to Moral Realism
+
+Before progressing further, it will be helpful to establish some previous committments. Moral knowledge is the view that moral propositions like other non-moral propositions are knowable. But there are many questions surrounding what it means to know a moral proposition, that may not apply in the same way to non-moral propositions. One question has to do with how moral knowledge is transmitted. Although many of these kinds of questions are applicable in the non-moral context also, they are magnitudes more challenging in the moral context. Take the question of whether there is a theoretical science of ethics or ask whether there are moral experts.
+
+> In one given case, a man defers to his wife because he believes that she knows the correct *theory* of morality, and that it is her application of this theoretical knowledge that allows her to judge correctly on particular occasions. In another, the wife simply judges, in the manner of a would-be Aristotelian *phronimos*, that such-and-such an action is the thing to be done in the circumstance. Sam adopts these judgments as his own.
+
+According to particularism, some facts are true in a given context, but may be false in another. There are several ways to contrast moral and non-moral domains with respect to particularism. This is in part because it is not always the case that scientific disciplines are defined perfectly by boundaries. For instance, while physics and medicine are distinctive scientific disciplines, they are largely ordered according to the same laws and experts generally understand how to apply the laws relevant to their domain. The law of gravity affects both planetary objects and cochlear fluid. When there is an exception, say in the case of quantum particles, experts largely begin looking for a new unifying law. While one may be an expert in a given moral domain, it is possible that different moral domains are also governed by the same laws. Such an individual does not need to have a better grasp of those laws, just the applicability of them in a given scientific domain.
+
+If realism is true, then moral inquiry is an attempt to discover moral facts and the proper aim of moral judgment is to depict or represent the facts correctly, perhaps by looking for reliable methods for detecting their properties. The judgment, *Murder is wrong*, is a representation of a given action. When one morally judges correctly, this just means to say that they have correctly identified the property of wrongness on a given action or behavior. In the non-moral realm, we may use engineering, models, and algorithms to detect the presence of properties. A progressive view of ethics would make the case that we may one day discover technological approaches to detecting moral properties, such as brain scans.
+
+Perhaps there may be a worry that this commits us to moral realism too quickly. That the fact that there are moral facts as evidenced by our emotional experiences, does not necessarily mean that we are detecting moral properties. For instance, a standard utilitarian argues that the good is what maximizes happiness, an emotion and therefore we might think that our emotions could not exist without moral properties. But it could also be the case that our perception of moral properties depends on our emotions. 'Compassion is Good' may be a fact determined by our emotions, constructed by our emotions, or discovered by our emotions. In the one, the fact is true in virtue of our emotional response while on the other, our emotion either is or is not accurate with respect to our experience of 'good'. "The term 'realism' is sometimes reserved for a kind of mind-independence: on this interpretation, *a* is *F* is real, if *a*'s being *F* does not depend on our regarding *a* as *F*'" [@prin13, 14]. But this only specifies external realism. An internal realist may say that *compassion is good* depends on our regarding *compassion as good*. E.g., see @putn82. Some sensibility theories fit the internalist view by equating moral properties with secondary qualities.^[See @darw92; @mcdo13; and @wigg87.] There are many more thorny issues with respect to non-cognitivist moral views. My aim in this section however, was not to defend one over another. Rather, as I will show further down, McGrath rules out non-cognitivism too quickly.
+
+## Against the Critical Reflection View {-}
+
+After having specified some committments of moral realism more generally and non-cognitivism more particularly, it will be helpful to highlight some committments of cognitivism with respect to moral realism. McGrath defends a knowledge first view of justification. According to the standard account of non-moral justification, if our beliefs are justified, then they are based on adequate grounds and lack sufficient overriding reasons against them. @scan14 argued that moral reasons are fundamentally grounded in desire in that they give an agent non-reducible reasons for acting in some way. Here, it is true that some agent *S* ought not to $\phi$ because *S* has a reason not to $\phi$. This is true in one of two ways: First, either *S* has a reason to do *A* just in case doing *A* would promote the fulfillment of some desire *S* has, or *S* has a reason to do *A* if doing *A* would promote the fulfillment of a desire that *S* would have if *S* were fully aware of the relevant non-normative facts and thinking clearly. Therefore reasons are reasons for a person if that person has the relevant desire or would have the relevant desire if fully informed and thinking clearly.
+
+For McGrath however, the desire is not central. According to the critical reflection view, if one is critically reflective of a given belief and just in case one may have adequate grounds to hold the view, then that moral belief is justified. Mary, Sue and Clarice may be justified on the assumption that they fulfilled their obligations in gathering evidence to support their belief about the importance of inoculation. Once they have considered all the plausible reasons against holding that belief, then their belief lacks sufficient overriding reasons against it and they would be justified in assenting to it.
+
+The activity of justifying one's belief, is the activity of an agent identifying a set of judgments she has, 'genocide is morally impermissible', 'murder is wrong', 'one should not plagiarize'. Typically, one justifying a belief begins by defining concepts and terms that comprise that belief. Justice is an important concept related to obligations we have towards one another. When we meet our obligations towards one another, we are acting justly. Murder is unjust killing meaning that murder represents an instance of failing to meet one's obligations towards another. Genocide constitutes many individual instances of murder such that it amounts to an entire population being unjustly killed. We then justify the claim "genocide is wrong" by pointing out inconsistencies in the alternative view, 'genocide is not wrong'. Genocide is wrong on this account because murder is wrong and genocide is multiple instances of murder.
+
+::: {.unnumbered #refl-equi}
+Therefore, a set of conditions that a belief needs to satisfy to be justified includes the ability to critically reflect on that belief and equilibrium between it and the principles it is grounded in.
+:::
+
+Critical reflection refers to the activity of an agent identifying a set of judgments she has, genocide is morally impermissible, murder is wrong, one should not plagiarize. She then attempts to formulate a set of general principles which account for her judgments. She might argue, for instance, that murder is wrong because it undermines the autonomy of moral agents. She then attempts to determine whether her principles are compatible with her judgments, recursively modifying either until they are [@mcgr19, ch. 2; also see @scan14, 76--77]. On such views, one's knowledge is primarily grounded in her ability to engage in critical reflection. For us to acknowledge that another has knowledge, we must access whether the other is able to demonstrate her ability to critically reflect on her claims or show us that she has done so. If a friend tells us that we should not harm a fly, but is unable to ground this judgment in a principle that they also hold, for instance "harming is wrong", we would not recognize their belief "harming the fly is wrong" as knowledge. Accordingly, there are times wherein our ability to critically reflect on a given claim is undermined by environmental factors. Such factors can include for instance, the death of a loved one causing extreme emotional instability, a real and present danger such as a gunman in our home, or perhaps significant depression etc.
+
+According to the standard account, we show that we understand when we are able to establish cohesion between our beliefs and the principles they are grounded in.^[@hill09c, 167] Following Rawls and Scanlon, McGrath argues that what we know about the world depends on evidence. However, she diverges arguing that this evidence is provided by observation rather than critical reflection. We defer all the time in non-moral cases. We often attribute knowledge regardless of whether the knower appreciates why a moral claim is true (against the critical reflection view) and therefore a moral knower does not need to appreciate why a moral claim is true.
+
+Justification could also be achieved through observation. The fact that I am blinded by the sun's rays when I open my bedroom curtain is a sufficient overriding reason against my belief that it is still night out. Further, my perception that the sun is shining is direct. Direct perception then is an adequate ground to hold a given belief. Mary, Sue, and Clarice can be overwhelmed by the force of an argument in favor of inoculation. But what this shows us, is that to suppose that our judgments need to correspond with held principles is too stringent of a demand as it does not explain all that we know. The problems McGrath finds in this account are as follows. For one, it does not account for a lot of our knowledge about the world. For instance, we do not need to critically reflect on our beliefs about feeling the sun's rays on our skin to know that the sun is shining. Similarly, we do not need to reflect on the fact that some actions seem morally right while others wrong.
+
+Furthermore, it is unclear whether moral perceptions unlike non-moral ones can be highly context dependent. During stressful moments, a harmless joke may seem incredibly insensitive. Moral perceptions can be amenable to change, but this does not mean that non-moral perceptions are less so. Although it would be odd to think that the sun is more harsh on one's skin because of the loss of a loved one, it can be that the sun is less tolerable given the loss of a loved one. While it may feel perfectly just to young Mary to deny credence to Sam's testimony given his less than perfect command of the English language, older Mary can look back on her young self with regret and remorse for the beliefs she once held. But it is more likely that we would think that Mary has developed moral understanding, or is now better able to recognize finer distinctive properties, and therefore xenophobia no longer feels right to her.
+
+::: {.unnumbered}
+
+Believing that *p* in a way that is good from an epistemic point of view satisfies the chief desiderata for a concept of epistemic justification.
+
+:::
+
+Having these beliefs signifies that we have *done* something to show *'that p'* or that we are justified in believing *'that p'*. We might recognize that the believing subject has not violated any epistemic, cognitive, or intellectual obligations which may include refraining from believing *'that p'* in the absence of sufficient evidence, accepting implications of the belief *'that p'*, etc. But we have many more beliefs which are involuntary, and these we treat the same as we do the justified beliefs. Though it is plausible, I would be hard pressed to disbelieve that the traffic light is green.
+
+As such, it would seem that whatever concept of justified beliefs we hold under the critical reflection view, it is too stringent to explain much of the knowledge we are supposed to have. Therefore, given that many of our beliefs are involuntary, that I have hands for instance, we often are thought to have fulfilled our obligations with respect to such beliefs. Following this, McGrath then points out that what this means, is that we often act as though being justified is a more important epistemic state than is the state of justifying. Being justified is being in a state of knowledge and while we do think of justification as important, a different path to justification rests on what we know.
+
+::: {.unnumbered}
+
+Therefore, by the time a typical moral agent is capable of the kind of reflection or other justifying devices necessary for knowledge acquisition, she already has a substantial amount of justified moral beliefs [@mcgr19, ch. 2; also see @alst89b].
+
+:::
+
+In the traditional arrangement, beliefs meet various criteria including justification and truth. Knowing first means that prior to belief, an agent already possesses knowledge that justifies the belief. We would think that having knowledge, knowing for instance *that p* means that whatever grounds we were previously looking for, are present already prior to cognitive states such as belief or justification. Knowing is a basic form of cognitive access to the world. On the critical reflection view then,
+
+::: {.unnumbered}
+
+A moral belief *M* counts as knowledge *mK* for moral agent *S* just in case *M* is the result of critical reasoning or deliberation performed by *S*.
+
+:::
+
+However, we often credit an agent with knowledge by the time she is capable of the kind of critical reasoning required under the critical reflection view. In this case then, many of our justified beliefs derive from a kind of perception. I know that the sun is shinning because I can perceive that it is shinning. I am having a given perception that happens before critical reflection. Therefore direct perception is one source of knowledge.
+
+Justification regarding moral testimony, in part, depends on whether we can defend our belief on the basis of the testimony we received. We often take testimony as a source of evidence. This is because testimony is a natural source of belief. We think someone should receive a given vaccine if all the leading experts in a given medical field have testified to its efficacy. We often cite various medical reports in defending our medical decisions. Therefore it seems plausible that we can defend our moral beliefs in the same way, what McGrath calls *moral inheritance*.
+
+::: {.unnumbered}
+
+Being justified is a more important state than justifying and a justified belief for S is one based on adequate grounds and where S lacks sufficient overriding reasons to the contrary [@alst89b]. Therefore McGrath argues that what justifies is restricted to a subject's perceptual ability to observe various facts about the world.
+
+:::
+
+## In defense of Moral Inheritance {-}
+
+@mcgr19 defends a social epistemology, according to which, a person's earliest moral views are “inherited from her social environment." We do often rely on another’s testimony when it comes to things we do not know, such as knowing how to get around in an unfamiliar city. This is because knowledge is a communal enterprise, and it is difficult knowing what to do outside these social contexts [@coad94; @leon18]. We are dependent on others for much of what we know morally about the world. We often receive testimony in the same way that we observe facts about our environment. Observation and testimony then are both sources of evidence. Therefore, moral testimony as a form of deference refers to our natural tendency to adopt beliefs held by those around us. The moral beliefs of a given agent are often shared by the members of her community. There are times when there is disagreement, but these cases are typically exceptional. For instance, Martin Luther King may have a different set of moral beliefs from those in his community, but the disagreement is a source of conflict until the conflict is resolved through something like moral equilibrium. Here the moral beliefs of Martin Luther King, and the other members of his community begin to converge. What is important here, is that the moral conflict is not in a community, but shows a split between communities. Martin Luther King's community is still the source of his moral beliefs, for instance the Ebenezer Baptist Church pastored by his father Martin Luther King Sr.
+
+There are two questions in particular that may help us to understand what is strange about unquestioningly adopting the moral views of others. To understand these, it will be helpful to understand the contexts in which they are important. First, we should not confuse questions about whether we should accept another's testimony, with the observation that we often do. It can be unproblematic that we accept a friend's directions to the stadium because we often defer in non-moral testimonial cases. An example of this is apparent when we are in an unfamiliar city or other kind of setting. Similar to other instances of testimonial transmission cases, a child who learns the capitals of various cities and states as a part of her primary education, is treated as though she possesses a distinctive kind of knowledge, namely the capitals of various states and cities. She obtains this knowledge primarily because she accepted the testimony of her parents or older siblings. That Cheyenne is the capital of Wyoming for instance.
+
+McGrath then argues that in non-moral contexts, we are “prepared to sweepingly defer to others about what to do in particular cases. This is true even when we do not suspect that they have some general theoretical knowledge that we lack” [@mcgr19, 77]. But there is a difference between moral and non-moral cases. We might think that there is no theoretical science of ethics while there is a theoretical science of other fields. We will go to a physicist for questions about gravitational waves but an epidemiologist for questions about vaccine efficacy. Who could we defer to in cases of moral belief? There are some reasons why we might think that moral cases are analogous. I.e., moral particularism, one may be an expert in particular cases only. We may talk to a relationship expert when unsure of what to do to improve our relationship with family members. In such cases however, theoretical, broad sweeping knowledge, is unnecessary.
+
+<!--chapter:end:01-justification.Rmd-->
+
 # Social Reflection
 
 Defending deference via cognitivism fails to appreciate all the ways in which our faculties enable us to recognize the truth of a moral claim. Especially that it neglects the important role that our perceptions play in our moral cognition. What it in effect says is that while we may be incapable of perceiving for ourselves the truth of a given proposition, our apprehension of a moral truth by way of testimony or deference is a valid substitute. However, while this may or may not be true in the non-moral realm, I give some reasons to think that there is an asymmetry between the moral and non-moral realms with respect to such claims. We can come to know the truth about the way the world is in more ways than that recognized by McGrath and it may be possible that we have an ulterior obligation to do so. For instance, we can come to perceive the truth about a given moral proposition in the same way that we can perceive the sun shinning on our face. I suggest that narrative is a form of moral testimony which fine-tunes those faculties central to moral perception. This enables us to better perceive the moral truth of a given moral proposition. Following @nuss01, this is because of the importance of the following activities and their relationships to human well-being: friendship, love, political activity, and attachments to property and personal possessions.
@@ -53,3 +172,13 @@ For instance, works geared towards pleasure as @gilm20 argues, are not intended 
 To fix this, I suggest that narratives be defined as any work which represents human emotion in the context of human other relationships. In the context of human relationships, justice is often prioritized as the framework that best organizes such joint activities. However, given the above concerns surrounding moral testimony, we might think that an ethics of care will provide the best framework for understanding the importance of narratives for moral knowledge. On an ethics of care account, a systematic way to recognize moral frameworks in narratives would modeled on a sentimentalist ethic. Such an ethic could enable us to recognize moral testimony as a source of moral knowledge in a way other ethical theories are incapable of. Such accounts of moral testimony necessarily include narratives and therefore on an ethics of care account of moral testimony, narrative is an important source of moral knowledge not recognized in the literature as a kind of moral testimony.
 
 Future directions of this work then could highlight the asymmetry of moral testimony in its ability or inability to confer morally worthy affective states. Critically analyzing literary examples might show the importance of affective states in moral reasoning and how without appropriate affect, something is missing in moral action. For instance, we might consider the ability of some given love song to stir our emotions in the way a love affair ought to. Because of the importance of affective states in moral reasoning, and how narratives are supremely important for showing this relation, future work would look at relationships between narratives and morally worthy action, starting by looking at specific conversations between those who think that our emotions towards fictions are governed by the same criteria as our emotions towards situations in the real world, and those who disagree.^[See @gilm20; @stum10; @nuss01; @nuss85]
+
+<!--chapter:end:02-reflection.Rmd-->
+
+# References {-}
+
+<!--chapter:end:03-references.Rmd-->
+
+
+<!--chapter:end:03-social-narratives.Rmd-->
+
