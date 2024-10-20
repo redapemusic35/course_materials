@@ -57,11 +57,11 @@ $endif$
 
 {\large\MakeUppercase{$title$}\par}
 
-\vspace{1in} % Adjust this space between title and author name
+\vspace{1.7in} % Adjust this space between title and author name
 
-{\large $author$\par}
+{\large $author$, \thesisauthorpreviousdegrees\par}
 
-\vspace{2in} % Adjust this space as needed
+\vspace{3in} % Adjust this space as needed
 
 A Dissertation Presented to the Graduate Faculty of\\
 Saint Louis University in Partial Fulfillment\\
@@ -94,8 +94,14 @@ $year$
 
 % Committee Page
 \cleardoublepage
-\begin{thesiscommittee}
-\end{thesiscommittee}
+\thispagestyle{empty}
+
+\vspace*{\fill}
+
+\noindent\thesiscommittee
+
+\vspace*{10cm} % Adjust this value to fine-tune the vertical position
+
 
 % Dedication Page (if applicable)
 $if(dedication)$

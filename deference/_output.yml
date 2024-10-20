@@ -13,9 +13,9 @@ bookdown::pdf_book:
   # includes:
     #   in_header: preamble.tex
   latex_engine: xelatex
-bibliography: /home/redapemusic35/data_storage/Exported-Items.bib
+bibliography: /home/mreynolds/MEGA Downloads/data_storage/Exported-Items.bib
 #citation_package: natbib
-csl: /home/redapemusic35/data_storage/chicago-fullnote-bibliography-with-ibid.csl
+csl: /home/mreynolds/MEGA Downloads/data_storage/chicago-fullnote-bibliography-with-ibid.csl
 keep_tex: yes
 book_filename: "thesis"
 rmd_files:
@@ -25,4 +25,4 @@ rmd_files:
     - A-appendix.Rmd
 bookdown::epub_book: default
 bookdown::word_document2:
-    reference_docx: "/home/redapemusic35/data_storage/chi-template.dotx"
+    reference_docx: "/home/mreynolds/MEGA Downloads/data_storage/chi-template.dotx"

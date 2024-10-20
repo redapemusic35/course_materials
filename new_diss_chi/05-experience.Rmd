@@ -12,7 +12,7 @@ When our moral views are based on the expressed views of another, we are in a st
 
 In this chapter, I first articulate McGrath's cognitivism showing that it raises important questions for moral realists. Specifically, I highlight the importance of social networks for our apprehension of the validity of moral truth claims. Next, I develop a view that aligns with McGrath's cognitivism as a kind of social science, recognizing the importance of peer networks. Following this, I argue that these are central to our intuitive notions of right reason. In the chapter following, I argue that the kind of reasons which we look for in right action are a special kind of sensitivity to the plight of others.
 
-### A Theoretical Approach to Moral Realism
+### A Theoretical Approach to Moral Realism {-}
 
 Before progressing further, it will be helpful to establish some previous committments. Moral knowledge is the view that moral propositions like other non-moral propositions are knowable. But there are many questions surrounding what it means to know a moral proposition, that may not apply in the same way to non-moral propositions. One question has to do with how moral knowledge is transmitted. Although many of these kinds of questions are applicable in the non-moral context also, they are magnitudes more challenging in the moral context. Take the question of whether there is a theoretical science of ethics or ask whether there are moral experts.
 

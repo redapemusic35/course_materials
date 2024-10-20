@@ -11,7 +11,7 @@ As noted in emerging work on country music, there is a reason to think that pers
 3. Therefore sources of social identity is an underexplored topic in critical theory.
 ```
 
-### Introduction
+### Introduction {-}
 
 In critical theory, personhood within social identities is one underappreciated concern. Though conceptions of social identity no longer preclude attributions of personhood, whether they equitably entail human agency is not clear. In some of the critical literature, it is argued that modern conceptions of personhood are situated within social identities. It is not clear whether conceptions of personhood rooted in social identities necessarily entail human agency equitably, is another matter. Given recent discussions centered on the question of equity, we might think that ascribing personhood equitably is an important subject of concern. In other words, by analyzing the construction of another's agency through literary text, we should ask whether we find equal attributions of human agency in a given social identity. To do this, we would need to look at sources of social identities. On the one hand, we can ask whether a given portrayal of personhood satisfies the aims above. To determine whether it is apt or not, we just have to ask ourselves whether we can explain a given event or action, as it occurs in a literary narrative, a possible source of social identities, by reference to a represented autonomous human agent. We would then ask whether sources of social identity do this equitably with regard to race or not.
 
@@ -41,7 +41,7 @@ A rich set of resources for characterizing epistemic communities and the embodim
 
 A primary point in Meissner *et al*, is that many of the facts that make up the current shared socio-political imagination are uncontested, under explored and built from assumptions. We might be well justified in thinking that it is odd to encounter uncontested claims in a modern liberal society. However, one way to explain this entrenchment is by recognizing that these claims are emotional rather than cognitive.
 
-### Narratives and Alternative Narratives
+### Narratives and Alternative Narratives {-}
 
 There are a few points that will prove important before we continue. Although Meissner and Huebner do not give more specific examples of what new epistemic ecologies are needed, they do present a considerable amount of resources that could aid in constructing new ecologies that mitigate the former ones. They draw our attention to a specific source of socio-political imageries grounded in outlaw country music. They then describe how Outlaw country music can be amended in order to create new epistemic ecologies. Additionally, the context in which Meissner and Huebner's paper is situated, is more modest than it needs to be. More importantly, some of the concerns can be amended, creating a more inclusive set of epistemic ecologies.
 
@@ -85,7 +85,7 @@ Here, I begin the approach I promised at the beginning of this paper. I argue th
 
 According to this concept of narrative agency then, narrative can be a reflection of who we are, including questions about what values we hold and why. They are questions about our deepest desires and longing in regards to interpersonal community. On this account then, narrative plays a role in us coming to know ourselves and the relation of these facts in a broader context, the all too important relationship between us and our social environments. As mentioned above, there are three kinds of narratives that contribute to a narrative account of personhood. These include autobiographical [@mcad13; @mcad14; @pasu16], biographical, and literary, which I treat here as being the mode of expression for both autobiographical and biographical narrative.
 
-### Dynamic Identity and Constrained Agency
+### Dynamic Identity and Constrained Agency {-}
 
 According to Kate McLean and Mohammed Syed, there are three kinds of narratives that contribute to a narrative account of personhood.
 
@@ -99,7 +99,7 @@ One approach they take, is in suggesting that individuals who are especially gif
 
 What are narratives? Eleanore Stump has pointed out the difficulty, if not the impossibility, of giving a second-personal account in expository prose. First, we can *share* an experience. For instance, the experience of sharing a given identity and what it means regarding how one responds to tragedy. We may think that the members of a given culture are especially stoic and as such, their response to tragedy is more subdued than individuals belonging to especially passionate or expressive cultures. The question is what is the source of our understanding that the members of a given culture act in a particular way. Here we are looking for scripts that explain a given event involving an agent. But many scripts are expository at best, possibly disappearing the agent instead.
 
-### Narrative Agency
+### Narrative Agency {-}
 
 An important approach for such questions is initially developed by Paul Goldie. Accordingly, the way to understand and answer the above question, is to say that human agency concerns questions about one’s plans for the future and how things might turn out [@gold09]. But Goldie argues that such questions are grounded in whether we are able to have the kinds of desires informed by what we are, which for him, is a question about apt emotional expression. Given that these considerations are often constrained by the sort of things we are, feeling things, as agents, agency is rooted in one's emotional experiences upon a retelling of their life story [@alts21; @vell05; @kors96]. If in the retelling of a given event, an individual experiences regret at something she said, she will be more careful to speak in the future. More specifically, since a narrative can motivate various feelings, for instance of regret [@gold09], or pride, towards actions that one did or did not do, narrative can cultivate agency.
 
