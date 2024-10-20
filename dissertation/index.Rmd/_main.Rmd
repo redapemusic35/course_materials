@@ -4,11 +4,11 @@ author: "Your Name"
 date: "`r Sys.Date()`"
 output:
   bookdown::pdf_book:
-    template: minimal-example.tex
+    template: template.tex
     latex_engine: xelatex
     keep_tex: yes
 documentclass: book
-bibliography: ["/home/redapemusic35/data_storage/Un-Duplicates.bib"]
+bibliography: ["/home/redapemusic35/data_storage/Exported-Items.bib"]
 fontsize: 12pt
 ---
 
@@ -1876,19 +1876,19 @@ Considering the potential relationship of narrative and moral knowledge, we shou
 
 ### Narrative Discontinuity {-}
 
-There are two versions of the continuity thesis:
+There are two variants of the continuity thesis:
 
-```{.remark}
+::: {.remark}
 
 Whether our evaluations, emotions, desires, and cognitive representations can be explained in a way that is largely indifferent to their genesis in, alternatively, imagination and belief. Can our affective faculties be explained apart from their source in imagination and belief [8]?
 
-```
+:::
 
-```{.remark}
+::: {.remark}
 
 The question is whether the kinds of reasons that can serve in the justification or criticism of such responses are invariant across imagined and real-world contexts [@gilm20, 8].
 
-```
+:::
 
 Some concerns include the point that the cognitive mechanisms behind such engagements are consistent with those behind such engagements in the real world. There are epistemic reasons to attribute facts to a fiction that do not hold when attributing similar facts to the real world. Make believing then, is not epistemically rational in the same sense as believing, and the norms governing our desires, emotions, and moral evaluations vis-a-vi what is internal to a fiction can be inconsistent with those governing our responses to relevantly similar things in the real world
 

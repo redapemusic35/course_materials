@@ -4,11 +4,11 @@ author: "Your Name"
 date: "`r Sys.Date()`"
 output:
   bookdown::pdf_book:
-    template: minimal-example.tex
+    template: template.tex
     latex_engine: xelatex
     keep_tex: yes
 documentclass: book
-bibliography: ["/home/redapemusic35/data_storage/Un-Duplicates.bib"]
+bibliography: ["/home/redapemusic35/data_storage/Exported-Items.bib"]
 fontsize: 12pt
 ---
 
