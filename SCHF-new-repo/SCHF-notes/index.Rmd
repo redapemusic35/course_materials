@@ -1,0 +1,46 @@
+---
+title: "Solano Center for Human Flourishing Companion Book"
+author: "Montaque Reynolds"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: ["/home/redapemusic35/data_storage/Exported-Items.bib"]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  This book is the companion page to the Star Citizen Org known as [the Solano Center for Human Flourishing, or SCHF](https://robertsspaceindustries.com/orgs/SCHF). Star Citizen is a MMO (Mass Multiplayer Online)/Space Simulator that is currently under development by CIG (Cloud Imperium Games). Orgs are community spaces that allow players in the game to gather around shared interests and vision for the game.
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
+
+Although the Star Citizen project is still under development, it is playable and has a large world-wide following and many supporters. Being under development means that there are features that are under developed, missing, being planned, waiting to be implemented, or just outright broken. Which is which changes with regular frequency.
+
+It is my belief that the unfinished nature of the project is what makes it valuable as a sociological study of online communities. The fact that features of the game are still under development means that much about the game is unpredictable. Although there are playable missions, it is not clear which missions work and which do not. Players share information in real time with one another to try to add some predictability, but like real life, experience is the best judge. In other words, Star Citizen is a Massive Multiplayer Online that though playable, is currently under development by Cloud Imperium Games, CIG. It is my view that the unfinished and unpredictable nature of Star Citizen's environment makes it most suitable for the following theoretical usage.
+
+Imagination plays a central role in the activities of everyday life. These activities can include pretending to be a princess in a faraway land, to pretending that a foreign threat has infiltrated your national defenses through a critical security gap.
+
+Noticeably, these are two very different uses for imagining, philosophers call the first transcendent and the latter instructive.
+
+> When we think about the imagination, examples like the following naturally come to mind: Fred finds himself, in an idle moment, alone with his thoughts. Feeling unsuccessful and unappreciated, he embarks on a daydream in which he is rich and famous. He calls up images of applauding constituents, visiting dignitaries, a huge mansion, doting women, and fancy cars. But alas, reality eventually reasserts itself and Fred gets back to selling shoes. [@walt90, 13]
+
+The former affords us the opportunity to transcend reality while the latter teaches us something about reality. Philosophers argue that this presents us a puzzle, namely how one mental activity can be both transcendent and instructive at the same time? This project exploits the ability of imaginative use to explore and examine philosophically theoretical concepts using the MMO/Space Sim Star Citizen. Star Citizen is a Massive Multiplayer Online that though playable, is currently under development by Cloud Imperium Games, CIG. It is my view that the unfinished and unpredictable nature of Star Citizen's environment makes it most suitable for this theoretical usage.
+
+The best way to understand this puzzle, is to start somewhere close enough to the beginning. Our focus is the imagination. Are starting point is art. Why art you ask? Art stimulates our imagination. What is art you ask?
+
+* paintings
+* novels
+* stories
+* plays
+* films
+
+And of course games. Some games or all games? Video Games certainly fit this category. What about board games?
+
+What do each of these have in common? They are all representational. They are representative of something about our experiences. One way to determine whether something fits an "art" category, is to ask ourselves whether it is representative. But what about flow charts as these represent processes? Diagrams can represent data, are diagrams, spreadsheets, charts and graphs art?
+
+One way to delineate between representative art and representative non-art is considering whether one is fictional or not. This once again according to Kendall Walton.
+
+> I will carve out a new category, one we might think of as a principled modification---not just a clarification or refinement---of an ordinary notion of representational art. I will call its members simply "representation," preempting this expression for my own purposes and assigning it an extension both broader and narrower than it is usually understood to possess. . . . The works of "representational art" most likely to spring to mind are, like our initial examples, works of *fiction*---novels, stories, and tales, for instance, among literary works, rather than biographies, histories, and textbooks. [@walt90, 3]
+
+The fact that something is fiction means that it is made-up, or make-believe. There are various cognitive faculties that each perform a particular role in mental activity. Belief is a faculty that deals with things that are either true or false. We can either have true beliefs say when we believe that we will be late to the opera. Or false beliefs, say that we are wrong that we will be late to the opera.
+
+Other mental faculties, like imagination, or desire, deal with things that are neither true nor false. We might desire to eat chocolate cake. Unlike belief, desire is not an apprehension of the way the world is, but of the way we want the world to be and imagination is not about how we want the world to be, but how the world might be.
