@@ -25,14 +25,12 @@ classhours: "\\shrug"
 
 fontfamily: mathpazo
 fontsize: 11pt
-header-includes:
-   - \linespread{1.05}
 ---
  <!-- CCCCCCCCnncdxxxxxxx -->
 <!-- Fun fact: my cat added this comment as she walked over the keyboard while I was working on this template. -->
 <!-- I'm going to keep it going forward. Long live Queen Bea. -->
 ```{r setup, include=FALSE}
-# knitr::opts_chunk$set(cache=FALSE, dev='pdf')
+knitr::opts_chunk$set(cache=FALSE, dev='pdf')
 knitr::opts_chunk$set(cache=F,
                       fig.path = 'figs/',
                       cache.path='cache/',
@@ -222,8 +220,9 @@ A simple linear regression of a student's final grade on percentage of classes a
 
 ```{r attendplot, echo = FALSE, results="asis", cache=FALSE, fig.cap="A Scatterplot of the Relationship between Class Attendance and Final Grade", fig.height=4, fig.pos="H"}
 Graph <- ggplot(Attend, aes(x = perattend, y = rgrade))
+
 Graph + geom_point() + labs(x="Percent Attendance in Class", y="Final Grade in Class (0-100)") +
-                              geom_smooth(method=lm)
+  geom_smooth(method=lm)
 ```
 
 A student might object that attendance is partly endogenous to a grade since past classes deducted all participation points after five unexcused absences. This is true, but the findings hold even when I subset the data to cases where attendance is greater than 75% (i.e. roughly the threshold below which I deduct all participation points). Students who just meet the threshold for full participation points nevertheless get an estimated decrease of `r round(M2$coefficients[2], 3)*5` in their overall grade for each missed class. This effect is also precise (*t* = `r round(M2df$statistic[2], 3)`). Put another way, we would have observed this effect in my data if there were no *true* effect of attendance on grades about `r round(summary(M2)$coefficients[2,4]*100000)` times in 100,000 "trials" (i.e. *p* = `r round(summary(M2)$coefficients[2,4], 5)`), on average. That probability is effectively zero. *Attend class*.

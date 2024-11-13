@@ -147,7 +147,7 @@ $if(lof)$
 \phantomsection
 \addcontentsline{toc}{chapter}{List of Figures}
 \begin{center}
-%\maintitlesize\textbf{List of Figures}
+\maintitlesize\textbf{List of Figures}
 \end{center}
 \vspace{1em}
 \begin{singlespace}
@@ -156,12 +156,21 @@ $if(lof)$
 $endif$
 
 % Abstract
-$if(abstract)$
+%$if(abstract)$
+%\cleardoublepage
+%\begin{thesisabstract}
+%$abstract$
+%\end{thesisabstract}
+%$endif$
+
+% Abstract
 \cleardoublepage
-\begin{thesisabstract}
+\phantomsection
+\addcontentsline{toc}{chapter}{Abstract}
+\chapter*{Abstract}
+\begin{doublespace}
 $abstract$
-\end{thesisabstract}
-$endif$
+\end{doublespace}
 
 \cleardoublepage
 \pagenumbering{arabic}

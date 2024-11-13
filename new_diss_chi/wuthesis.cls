@@ -192,7 +192,7 @@
     \end{spacing}}
     {\vfill \strut
     \newpage}
-\newcommand{\thesisdedication}{To myself}
+\newcommand{\thesisdedication}{}
 \newenvironment{thesisacknowledgments}
     {\chapter*{\thesisacknowledgmenthead}
      \addcontentsline{toc}{chapter}{\thesisacknowledgmenthead}
@@ -269,15 +269,15 @@
 
 %\newcommand{\thesiscopyrightholder}{\thesisauthor}
 
-\newcommand{\thesisabstracthead}{Abstract}
-\newenvironment{thesisabstract}{
-  %\setcounter{page}{2} % in revised edition abstract was moved.
+\newcommand{\thesisabstract}{\maintitlesize\textbf{Abstract}}
+\newenvironment{thesisabstracthead}{
+  \setcounter{page}{2}
   \addcontentsline{toc}{chapter}{\thesisabstracthead}
   \begin{center}
   \begin{doublespace}
     \vbox to 18pt{}
     ABSTRACT OF THE \@uppercase{\thesistype} \\
-    % \vspace{18pt}
+     \vspace{18pt}
     \thesistitle \\
     by \\
     \thesisauthor \\
@@ -293,6 +293,8 @@
   { \end{doublespace}
   \newpage}
 {\newpage}
+
+% in revised edition abstract was moved.
 
 %% Format the table of contents, list of figures, list of tables, and list of abbreviations properly.
 \cftsetrmarg{2.55em}

@@ -1,0 +1,123 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+site_name: Philosophy of Mind
+site_url: https://star-ethics.montaque.reynolds.com
+theme:
+  name: material
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+  logo: ./assets/logo.png
+  favicon: ./assets/logo.png
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.preview # Instant previews are a brand new feature that allow the user to preview another site of your documentation without navigating to it.
+    - navigation.tracking # When anchor tracking is enabled, the URL in the address bar is automatically updated with the active anchor as highlighted in the table of contents.
+    - navigation.tabs # navigation tabs
+    - navigation.tabs.sticky
+    - navigation.sections # top-level sections are rendered as groups
+    - navigation.expand # expand sections automatically
+    - navigation.path # path populates above header
+    - navigation.prune # show only the visible navigation items
+    - navigation.top # show a button when user scrolls up again
+    - navigation.footer # The footer can include links to the previous and next page of the current page. If you wish to enable this behavior, add the following lines to mkdocs.yml:
+    - search.suggest
+    - search.highlight
+    - search.share
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: blue grey
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+
+plugins:
+  - search
+  - bibtex:
+      bib_file: "mkdocs.bib"
+      csl_file: "/home/redapemusic35/data_storage/chicago-fullnote-bibliography-with-ibid.csl"
+      cite_inline: true
+  - social:
+      cards_layout_options:
+        background_image: layouts/sunset.jpg
+      #background_color: transparent
+  - offline
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+
+markdown_extensions:
+# Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - footnotes
+
+# Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+extra:
+  analytics:
+    provider: google
+    property: G-7WMNQFLGD3
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/QFJFXjGE
+
+copyright: Copyright &copy; 2024 Montaque Reynolds

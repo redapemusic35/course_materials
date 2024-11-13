@@ -2,8 +2,24 @@
 title: "Emotional Data and The Moral Expressions of Sentiment in Fiction"
 titlerunning: "Emotional Data"
 author: "Montaque Reynolds"
+abstract: |
+  My proposal addresses two key inquiries in moral epistemology and cognitivism. First, it questions the tenability of moral testimony. Scholars like Alison Hills (2009, 2013) and Sarah McGrath (2018) express concerns about the justification of moral actions based on testimony, as they may lack moral worth. I table this question to focus specifically on narrative well-being. This leads to the second question regarding emotions. While emotions towards fiction are common, their appropriateness varies depending on context, challenging the notion of apt emotional expression. In response to the challenge of apt emotional expression directed at art, I consider an ethic of care. Rosalind Hursthouse has noted once that virtue ethics enables us to perceive the complexity in moral decisions (1971). That it is not always the right apprehension of facts that counts, but rather sometimes it is the right attitude, facts about our emotions, that can be more relevant than the other relevant facts. I explore the relationship between fiction and moral understanding, contrasting standard epistemological cases with moral epistemological ones. I then delve into philosophical accounts of narrative, resting on the established proposal (E.g., Catherine-Harris 2018) that narratives offer avenues for affective moral understanding.
+acknowledgements: |
+  This work borders work in experimental aesthetics, agency and epistemology, primarily moral testimony and moral psychology. In it, I defend a theory of moral testimony by comparing the value of emotive experience for moral testimony and emotional responses to morally laden fictions. I argue that a more comprehensive understanding of the valence, emotions, and other affectual attributes in music lyrics reveals the importance of a more comprehensive understanding of broader cultural attitudes about inter-relational dispositions represented in fiction.
+
+  I attended a non-acredited bible school from 2009 to 2011 called Rhema Bible College in Broken Arrow, OK. While to this day, I am not sure why I attended it, it did motivate me to persue higher education. The following year I enrolled into Seattle Pacific University where I learned what a life of service could look like in academia for a person of faith.
+
+  In June to July of 2020, I tutored middle grade school kids for the STL Aim High Summer program offered through Americorps. I did not know it at the time, that one particular experience would go on to motivate the next 4 years of my life. These were two questions, what was the relationship between one's social environments and the identity one prescribes to herself, and two, what are the necessary and sufficient conditions for a given context being one's social environment. As a result, central to my PhD research, are explanations of human agency grounded in narrative terminology as one idea has it that narratives can help to construct our social environments.
+
+  The American Society of Aesthetics has been a great place for me to discover other research in this area as these venues provided a platform many interesting interdisciplinary work related to psychology and art. I have presented work on the analysis of sentiment in important popular media artifacts, focusing on constructions of social identity that entail relational agency as a central aspect of personal identity by narratives both autobiographical and biographical (McLean and Syed 2015a; Booker, Fivush, and Graci 2022; Bruner 1990; Altshuler 2021; Velleman 2005b).
+
+  I was a member of the Feminist X-Phi group at the City University of New York. This wonderful department allowed me to present research, opportunities to collaborate with other early career philosophers, a place to farm careful critique of my research, and the opportunity to give my own feedback on other projects. This was truly a philosophical and welcoming community. My research has two components, theoretical and practical. My practical work is reminiscent of research in the areas of experimental aesthetics and moral philosophy.
+
+  From 2022 to 2023 I was the graduate assistant for the Walter J. Ong Digital Humanities Center. While there, I conducted digital humanities research, analyzing historical texts using computational methods and techniques from natural language processing. Given that my philosophical interests are motivated by questions about our social environments, I often work with new modes of social interaction. I am currently a member of the Saint Louis Digital Humanities Network. This is a group of educators in the Saint Louis area that are committed to exploring ways and implications of expanding the use of technology for pedagogical purposes. I have saved the most influential for last. These include the philosophy department at Saint Louis University, and Oklahoma State University where my relationship with the department head Scott Gelfand has been instrumental in my research.
+dedication: |
+  Although maybe it goes without saying for most, in writing this dissertation, I have come to discover that many of our ideas about who we are, are grounded in those who we have allowed to be part of our lives. Therefore choose wisely whom you will be, I know I did. Amanda, my love and life partner, I dedicate this work to you.
 vita_auctoris: |
-  Your Name was born in [Place], [Date]. He/She attended [University Name] and received a B.S. in [Field] in [Year]. He/She then pursued graduate studies at [University Name], earning an M.S. in [Field] in [Year]. During his/her doctoral studies at [University Name], he/she [brief description of research or notable achievements]. He/She has published [number] papers in [field] journals and presented his/her work at [number] international conferences. Upon completion of his/her Ph.D., he/she plans to [future plans or career goals].
+  Montaque Reynolds was born in Okinawa, Japan, on April 26, 1979. He attended Seattle Pacific University and received a B.A. in philosophy in 2015. He then pursued graduate studies at Oklahoma State University, earning an M.A. in philosophy in 2017. During his doctoral studies at Saint Louis University, he performed research work in philosophy of mind, emotion, and moral psychology where he focused on questions regarding the formation of human moral agency. He has published work on adaptive preferences in Hugo Viciana, Antonio Gaitán & Fernando Aguiar (eds.), 'Experiments in Moral and Political Philosophy' and has presented his work at national and international conferences. Upon completion of his Ph.D., he plans to expand the development of techological approaches to moral pedagogy.
 department: "Department of Philosophy"
 school: "School of Arts & Sciences"
 university: "SAINT LOUIS UNIVERSITY"
@@ -19,10 +35,10 @@ output:
     includes:
       in_header: preamble.tex
       before_body: before_body.tex
-    toc: true
+    toc: yes
     toc_depth: 3
-    lot: true
-    lof: true
+    lot: yes
+    lof: yes
     number_sections: true
     fig_caption: true
     latex_engine: xelatex
@@ -35,3 +51,4 @@ bibliography: /home/redapemusic35/data_storage/Exported-Items.bib
 csl: chicago-fullnote-bibliography-with-ibid.csl
 ---
 
+\listoffigures

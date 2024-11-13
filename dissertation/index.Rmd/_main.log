@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.18)  20 OCT 2024 08:12
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.24)  24 OCT 2024 16:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **_main.tex
 (./_main.tex
 LaTeX2e <2024-06-01> patch level 2
-L3 programming layer <2024-09-10>
+L3 programming layer <2024-10-09>
 (/home/redapemusic35/.TinyTeX/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2024/02/08 v1.4n Standard LaTeX document class
 (/home/redapemusic35/.TinyTeX/texmf-dist/tex/latex/base/bk12.clo
@@ -48,7 +48,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 ) (/home/redapemusic35/.TinyTeX/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 ) (/home/redapemusic35/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty (/home/redapemusic35/.TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/home/redapemusic35/.TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-09-10 L3 programming layer (loader) 
+Package: expl3 2024-10-09 L3 programming layer (loader) 
 (/home/redapemusic35/.TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
 \g__graphics_track_int=\count268
@@ -292,10 +292,10 @@ For immediate help type H <return>.
 l.16 
       
 Here is how much of TeX's memory you used:
- 11254 strings out of 476191
- 225272 string characters out of 5785141
+ 11254 strings out of 476189
+ 225272 string characters out of 5785103
  648170 words of memory out of 5000000
- 33752 multiletter control sequences out of 15000+600000
+ 33754 multiletter control sequences out of 15000+600000
  558445 words of font info for 39 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  79i,0n,93p,248b,116s stack positions out of 10000i,1000n,20000p,200000b,200000s
