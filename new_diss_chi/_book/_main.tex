@@ -42,68 +42,60 @@
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
 \usepackage{amsthm}
-\newtheorem{theorem}{Theorem}[chapter]
-\newtheorem{lemma}{Lemma}[chapter]
-\newtheorem{corollary}{Corollary}[chapter]
-\newtheorem{proposition}{Proposition}[chapter]
-\newtheorem{conjecture}{Conjecture}[chapter]
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newtheorem{proposition}{Proposition}
+\newtheorem{conjecture}{Conjecture}
 \theoremstyle{definition}
-\newtheorem{definition}{Definition}[chapter]
+\newtheorem{definition}{Definition}
 \theoremstyle{definition}
-\newtheorem{example}{Example}[chapter]
+\newtheorem{example}{Example}
 \theoremstyle{definition}
-\newtheorem{exercise}{Exercise}[chapter]
+\newtheorem{exercise}{Exercise}
 \theoremstyle{definition}
-\newtheorem{hypothesis}{Hypothesis}[chapter]
+\newtheorem{hypothesis}{Hypothesis}
 \theoremstyle{remark}
 \newtheorem*{remark}{Remark}
 \newtheorem*{solution}{Solution}
 \begin{document}
 % Title Page
-\begin{titlepage}
-\begin{center}
-\vspace*{0.5in} % Adjust this value to move the title up or down
+%\begin{titlepage}
+%\begin{center}
+%\vspace*{0.5in} % Adjust this value to move the title up or down
 
-{\large\MakeUppercase{Emotional Data and The Moral Expressions of Sentiment in Fiction}\par}
+%{\large\MakeUppercase{Emotional Data and The Moral Expressions of Sentiment in Fiction}\par}
 
-\vspace{1.7in} % Adjust this space between title and author name
+%\vspace{1.7in} % Adjust this space between title and author name
 
-{\large Montaque Reynolds, \thesisauthorpreviousdegrees\par}
+%{\large Montaque Reynolds, \thesisauthorpreviousdegrees\par}
 
-\vspace{3in} % Adjust this space as needed
+%\vspace{3in} % Adjust this space as needed
 
-A Dissertation Presented to the Graduate Faculty of\\
-Saint Louis University in Partial Fulfillment\\
-of the Requirements for the Degree of\\
-Doctor of Philosophy
+%A Dissertation Presented to the Graduate Faculty of\\
+%Saint Louis University in Partial Fulfillment\\
+%of the Requirements for the Degree of\\
+%Doctor of Philosophy
 
-\vfill % This will push the year to the bottom of the page
+%\vfill % This will push the year to the bottom of the page
 
-2024
+%2024
 
-\end{center}
-\end{titlepage}
+%\end{center}
+%\end{titlepage}
 
+\begin{thesistitlepage}
+\end{thesistitlepage}
 \pagenumbering{roman}
 \setcounter{page}{2}
 
 % Copyright Page
-\cleardoublepage
-\thispagestyle{empty}
 \begin{thesiscopyrightpage}
-    \vspace*{\fill}
-    \begin{center}
-    \textcopyright\ Copyright by\\
-    \thesisauthor\\
-    ALL RIGHTS RESERVED\\
-    \thesisyear
-    \end{center}
-    \vspace*{-10cm} % Adjust this value to fine-tune the vertical position
 \end{thesiscopyrightpage}
 
 % Committee Page
 \cleardoublepage
-\thispagestyle{empty}
+%\thispagestyle{empty}
 
 \vspace*{\fill}
 
@@ -132,19 +124,21 @@ The American Society of Aesthetics has been a great place for me to discover oth
 I was a member of the Feminist X-Phi group at the City University of New York. This wonderful department allowed me to present research, opportunities to collaborate with other early career philosophers, a place to farm careful critique of my research, and the opportunity to give my own feedback on other projects. This was truly a philosophical and welcoming community. My research has two components, theoretical and practical. My practical work is reminiscent of research in the areas of experimental aesthetics and moral philosophy.
 
 From 2022 to 2023 I was the graduate assistant for the Walter J. Ong Digital Humanities Center. While there, I conducted digital humanities research, analyzing historical texts using computational methods and techniques from natural language processing. Given that my philosophical interests are motivated by questions about our social environments, I often work with new modes of social interaction. I am currently a member of the Saint Louis Digital Humanities Network. This is a group of educators in the Saint Louis area that are committed to exploring ways and implications of expanding the use of technology for pedagogical purposes. I have saved the most influential for last. These include the philosophy department at Saint Louis University, and Oklahoma State University where my relationship with the department head Scott Gelfand has been instrumental in my research.
+
+Here I have saved the most deserving of acknowledgements for last. First, Helen De Cruz who spent countless hours pouring over my senseless ramblings trying to find a sliver of incoherant ramblings. Dan Haybron who challenged the ideas themselves, my gracious dissertation committee who agreed to read and provide probing comments. Finally, Scott Gelfand who from my first days at OKState unceasingly challenged me, asking questions and showing me what care looked like. Thank you all.
 \end{thesisacknowledgments}
+
+% List of Tables (if applicable)
+
+\listoffigures
 
 % Table of Contents
 \cleardoublepage
 \begin{singlespace}
-\setcounter{page}{2}
-\renewcommand*\contentsname{Table of Contents}
+%\setcounter{page}{1}
+  \renewcommand\contentsname{\chapter*{Table of Contents}}
 \tableofcontents
 \end{singlespace}
-
-% List of Tables (if applicable)
-
-% List of Figures (if applicable)
 
 % Abstract
 %%\cleardoublepage
@@ -152,20 +146,9 @@ From 2022 to 2023 I was the graduate assistant for the Walter J. Ong Digital Hum
 %My proposal addresses two key inquiries in moral epistemology and cognitivism. First, it questions the tenability of moral testimony. Scholars like Alison Hills (2009, 2013) and Sarah McGrath (2018) express concerns about the justification of moral actions based on testimony, as they may lack moral worth. I table this question to focus specifically on narrative well-being. This leads to the second question regarding emotions. While emotions towards fiction are common, their appropriateness varies depending on context, challenging the notion of apt emotional expression. In response to the challenge of apt emotional expression directed at art, I consider an ethic of care. Rosalind Hursthouse has noted once that virtue ethics enables us to perceive the complexity in moral decisions (1971). That it is not always the right apprehension of facts that counts, but rather sometimes it is the right attitude, facts about our emotions, that can be more relevant than the other relevant facts. I explore the relationship between fiction and moral understanding, contrasting standard epistemological cases with moral epistemological ones. I then delve into philosophical accounts of narrative, resting on the established proposal (E.g., Catherine-Harris 2018) that narratives offer avenues for affective moral understanding.
 %\end{thesisabstract}
 %
-% Abstract
-\cleardoublepage
-\phantomsection
-\addcontentsline{toc}{chapter}{Abstract}
-\chapter*{Abstract}
-\begin{doublespace}
-My proposal addresses two key inquiries in moral epistemology and cognitivism. First, it questions the tenability of moral testimony. Scholars like Alison Hills (2009, 2013) and Sarah McGrath (2018) express concerns about the justification of moral actions based on testimony, as they may lack moral worth. I table this question to focus specifically on narrative well-being. This leads to the second question regarding emotions. While emotions towards fiction are common, their appropriateness varies depending on context, challenging the notion of apt emotional expression. In response to the challenge of apt emotional expression directed at art, I consider an ethic of care. Rosalind Hursthouse has noted once that virtue ethics enables us to perceive the complexity in moral decisions (1971). That it is not always the right apprehension of facts that counts, but rather sometimes it is the right attitude, facts about our emotions, that can be more relevant than the other relevant facts. I explore the relationship between fiction and moral understanding, contrasting standard epistemological cases with moral epistemological ones. I then delve into philosophical accounts of narrative, resting on the established proposal (E.g., Catherine-Harris 2018) that narratives offer avenues for affective moral understanding.
-\end{doublespace}
-
 \cleardoublepage
 \pagenumbering{arabic}
 \setcounter{page}{1}
-
-\listoffigures
 
 \chapter{Introduction}\label{introduction}
 
@@ -205,7 +188,7 @@ Grounded in earlier research at the intersections of language, emotions in behav
 
 Work on sentiment analysis suggests that moral content in messaging plays an instrumental role in cultivating various dynamics supervening on, or emerging from emotional states, such as our sense of identity.\footnote{W. J. Brady et al., {``Emotion Shapes the Diffusion of Moralized Content in Social Networks,''} \emph{Proceedings of the National Academy of Sciences} 114, no. 28 (2017): 7313--18; W. J. Brady and M. J. Crockett, {``How Effective Is Online Outrage?''} \emph{Trends in Cognitive Sciences} 23, no. 2 (2018): 79--80; W. J. Brady, A. P. Gantman, and J. J. Bavel, {``Attentional capture helps explain why moral and emotional content go viral,''} \emph{Journal of Experimental Psychology: General}, 2019; William J. Brady, M. J. Crockett, and Jay J. Van Bavel, {``The {MAD} Model of Moral Contagion: The Role of Motivation, Attention, and Design in the Spread of Moralized Content Online,''} \emph{Perspectives on Psychological Science} 15, no. 4 (July 1, 2020): 978--1010, \url{https://doi.org/10.1177/1745691620917336}, 984} By understanding what gives rise to emotion then, we can better understand these dynamics and their associations with human behavior, for example group identity, and how it may inform what choices of action we decide on.\footnote{Frederic R. Hopp et al., {``The Extended {Moral Foundations Dictionary} ({eMFD}): {Development} and Applications of a Crowd-Sourced Approach to Extracting Moral Intuitions from Text,''} \emph{Behavior Research Methods} 53, no. 1 (February 2021): 232--46, \url{https://doi.org/10.3758/s13428-020-01433-0}; Jesse Graham, Jonathan Haidt, and Brian A. Nosek, {``Liberals and Conservatives Rely on Different Sets of Moral Foundations.''} \emph{Journal of Personality and Social Psychology} 96, no. 5 (May 2009): 1029--46, \url{https://doi.org/10.1037/a0015141}.} According to one view of group identity, social identity theory, when group identities become highly relevant, for instance on social media platforms, emotions are motivated in terms of group rather than individual goals.\footnote{Brady, Crockett, and Van Bavel, {``The {MAD} Model of Moral Contagion,''} 987; Henri Tajfel and John C. Turner, {``The {Social Identity Theory} of {Intergroup Behavior},''} in \emph{Political {Psychology}}, ed. John T. Jost and Jim Sidanius, 0th ed. (Psychology Press, 2004), 276--93, \url{https://doi.org/10.4324/9780203505984-16}.}
 
-Similarly, there is also evidence that suggests that public moral content influences the individual cognitive processes of individuals when phrases loaded with moral implications are processed more quickly by our cognitive processes\footnote{Hopp et al., {``The Extended {Moral Foundations Dictionary} ({eMFD})''}; Brady, Crockett, and Van Bavel, {``The {MAD} Model of Moral Contagion''}; Ana P. Gantman and Jay J. Van Bavel, {``The Moral Pop-Out Effect: {Enhanced} Perceptual Awareness of Morally Relevant Stimuli,''} \emph{Cognition} 132, no. 1 (July 1, 2014): 22--29, \url{https://doi.org/10.1016/j.cognition.2014.02.007}; A. P. Gantman and J. J. Bavel, {``See for Yourself: Perception Is Attuned to Morality,''} \emph{Trends in Cognitive Sciences} 20, no. 2 (2016): 76--77.} Some individuals argue that this occurs in news reporting, motivating research into what emotional states are most likely to be experienced by which audiences.\footnote{Jonathan Haidt and Illustrations Nicolás Ortega, {``{WHY THE PAST} 10 {YEARS OF AMERICAN LIFE HAVE BEEN UNIQUELY STUPID},''} 2022.} Assuming that we align politically with a given party, we may experience more anger when viewing one news report as opposed to another. Another branch analyzes the importance of personal and public narratives and the roles that these play in identity development.\footnote{Kate C. McLean and Moin Syed, {``Personal, {Master}, and {Alternative Narratives}: {An Integrative Framework} for {Understanding Identity Development} in {Context},''} \emph{Human Development} 58, no. 6 (2015): 318--49, \url{https://doi.org/10.1159/000445817}; ibid.?; Jerome S. Bruner, \emph{Acts of Meaning}, The {Jerusalem-Harvard} Lectures (Cambridge, Mass: Harvard University Press, 1990).}
+Similarly, there is also evidence that suggests that public moral content influences the individual cognitive processes of individuals when phrases loaded with moral implications are processed more quickly by our cognitive processes\footnote{Hopp et al., {``The Extended {Moral Foundations Dictionary} ({eMFD})''}; Brady, Crockett, and Van Bavel, {``The {MAD} Model of Moral Contagion''}; Ana P. Gantman and Jay J. Van Bavel, {``The Moral Pop-Out Effect: {Enhanced} Perceptual Awareness of Morally Relevant Stimuli,''} \emph{Cognition} 132, no. 1 (July 1, 2014): 22--29, \url{https://doi.org/10.1016/j.cognition.2014.02.007}; A. P. Gantman and J. J. Bavel, {``See for Yourself: Perception Is Attuned to Morality,''} \emph{Trends in Cognitive Sciences} 20, no. 2 (2016): 76--77.} Some individuals argue that this occurs in news reporting, motivating research into what emotional states are most likely to be experienced by which audiences.\footnote{Jonathan Haidt, {``Why the {Past} 10 {Years} of {American Life Have Been Uniquely Stupid},''} \emph{The Atlantic}, April 11, 2022, \url{https://www.theatlantic.com/magazine/archive/2022/05/social-media-democracy-trust-babel/629369/}.} Assuming that we align politically with a given party, we may experience more anger when viewing one news report as opposed to another. Another branch analyzes the importance of personal and public narratives and the roles that these play in identity development.\footnote{Kate C. McLean and Moin Syed, {``Personal, {Master}, and {Alternative Narratives}: {An Integrative Framework} for {Understanding Identity Development} in {Context},''} \emph{Human Development} 58, no. 6 (2015): 318--49, \url{https://doi.org/10.1159/000445817}; ibid.?; Jerome S. Bruner, \emph{Acts of Meaning}, The {Jerusalem-Harvard} Lectures (Cambridge, Mass: Harvard University Press, 1990).}
 
 One important aspect for factors that motivate our emotions is found in the psychology of personality literature. Here, personal narratives are a subjective understanding of how one came to be the person they currently are.\footnote{Dan P. McAdams, {``The {Psychology} of {Life Stories},''} \emph{Review of General Psychology} 5, no. 2 (June 2001): 100--122, \url{https://doi.org/10.1037/1089-2680.5.2.100}.} We can infer a person's expected emotion by referencing various contextual factors such as one's social group and class.\footnote{Tajfel and Turner, {``The {Social Identity Theory} of {Intergroup Behavior}.''}} Much of the research has defined two kinds of narratives, master and personal. A master narrative is a script that is held publicly by a group of individuals. These are defined as culturally shared stories that guide one's beliefs, behaviors, and values.\footnote{Michael Bamberg, {``Form and {Functions} of {`{Slut Bashing}'} in {Male Identity Constructions} In15-{Year-Olds},''} \emph{Human Development} 47, no. 6 (2004): 331--53, \url{https://doi.org/10.1159/000081036}.} Accordingly, an individual often shares the values of the community she belongs to. These values are defined through her scripts which are often indisputable by rational members of a given community, for instance the moon landing in 1969 and one's assertion of them defines membership in that community. Robyn Fivush and Valerie J. Edwards\footnote{{``Remembering and {Forgetting Childhood Sexual Abuse},''} \emph{Journal of Child Sexual Abuse} 13, no. 2 (September 29, 2004): 1--19, \url{https://doi.org/10.1300/J070v13n02_01}.} have called these immersive socialization processes\footnote{Also see Jordan A. Booker, Robyn Fivush, and Matthew E. Graci, {``Narrative {Identity Informs Psychological Adjustment}: {Considering} Three Themes Captured Across Five Time Points and Two Event Valences,''} \emph{Journal of Personality} 90, no. 3 (June 2022): 324--42, \url{https://doi.org/10.1111/jopy.12668}.} and argue that they are socialization processes, a system of human developments that includes language, memory, and identity. As a contrast, personal narratives are autobiographies which we use to explain how we became the person that we are. While there is significant research on both master and personal narratives, what is less well known are the cultural contexts of personal narratives. Because of the large interplay between social scripting, and what one believes about herself, our personal narratives often emerge in relation to master ones. However, it is not well known how master narratives factor into one's own autobiography. Some plausibilities possibilities can include a common example narrative about a shared recognition of the value of knowledge and understanding held by the members of a particular Russian Jewish community for instance. Academic success by one of the members of the community may be explained by reference to this shared communal value. Intelligence and cognitive ability then is not a surprise outcome but expected. Even more importantly here, while master and personal narratives often converge, they can also conflict. Not only can they do this in matters of traditional cognitive ability, but also moral cognitive ability.
 
@@ -216,13 +199,13 @@ Alternative narratives are important in contrast to personal and master narrativ
 \subsection*{Moral Testimony}\label{moral-testimony}
 \addcontentsline{toc}{subsection}{Moral Testimony}
 
-Corresponding with various group dynamics in regard to the motivations for the expression of our emotions, the other concern then, is a broader, and perhaps more controversial one. On the relationship between art and ethics,\footnote{Gilmore, \emph{Apt {Imaginings}}; Jerome Stolnitz, {``On the {Cognitive Triviality} of {Art},''} July 1, 1992, 191--200, \url{https://doi.org/10.1093/bjaesthetics/32.3.191}; Berys Gaut, {``Reasons, Emotions, and Fictions,''} Book chapter, in \emph{Imagination, {Philosophy}, and the {Arts}} (Routledge Taylor \& Francis Group, 2003), 14--34, \url{https://doi.org/10.4324/9780203498644}.} a primary point has to do with our emotions in relation to fictional contexts, namely when is an emotional experience an apt response to a fictional representation. I argue that the intractability of these two concerns, which have been up until now considered separately, is due to the fact that we do not often consider their relation to one another. Drawing on claims regarding the connection between narratives and emotional states,\footnote{Especially by Martha Nussbaum, {``Aeschylus and Practical Conflict,''} \emph{Ethics} 95, no. 2 (1985): 233--67.} we might ask `what might a morally expressive emotion look like?' Martha Nussbaum, Eleonore Stump and Linda Zagzebski have argued that morally significant intimate relationships depicted in narratives between two or more individuals necessarily involve morally significant emotional states. The ways in which these emotional states have moral significance vary. For instance, Linda Trinkaus Zagzebski\footnote{\emph{Exemplarist {Moral Theory}} (New York (N.Y.): Oxford University Press, 2017).} articulates emotions as having objects which in the state characterized by that emotion, the object of the emotion appears to us as having the property characterized by that emotion. Objects which appear admirable to us, motivate us to emulate those objects.\footnote{Also see Sara B. Algoe and Jonathan Haidt, {``Witnessing Excellence in Action: The {`Other-Praising'} Emotions of Elevation, Gratitude, and Admiration,''} \emph{The Journal of Positive Psychology} 4, no. 2 (March 2009): 105--27, \url{https://doi.org/10.1080/17439760802650519}.}
+Corresponding with various group dynamics in regard to the motivations for the expression of our emotions, the other concern then, is a broader, and perhaps more controversial one. On the relationship between art and ethics,\footnote{Gilmore, \emph{Apt {Imaginings}}; Jerome Stolnitz, {``On the {Cognitive Triviality} of {Art},''} July 1, 1992, 191--200, \url{https://doi.org/10.1093/bjaesthetics/32.3.191}; Berys Gaut, {``Reasons, Emotions, and Fictions,''} Book chapter, in \emph{Imagination, {Philosophy}, and the {Arts}} (Routledge Taylor \& Francis Group, 2003), 14--34, \url{https://doi.org/10.4324/9780203498644}.} a primary point has to do with our emotions in relation to fictional contexts, namely when is an emotional experience an apt response to a fictional representation. I argue that the intractability of these two concerns, which have been up until now considered separately, is due to the fact that we do not often consider their relation to one another. Drawing on claims regarding the connection between narratives and emotional states,\footnote{Especially by Martha C. Nussbaum, {``Aeschylus and Practical Conflict,''} \emph{Ethics} 95, no. 2 (1985): 233--67.} we might ask `what might a morally expressive emotion look like?' Martha Nussbaum, Eleonore Stump and Linda Zagzebski have argued that morally significant intimate relationships depicted in narratives between two or more individuals necessarily involve morally significant emotional states. The ways in which these emotional states have moral significance vary. For instance, Linda Trinkaus Zagzebski\footnote{\emph{Exemplarist {Moral Theory}} (New York (N.Y.): Oxford University Press, 2017).} articulates emotions as having objects which in the state characterized by that emotion, the object of the emotion appears to us as having the property characterized by that emotion. Objects which appear admirable to us, motivate us to emulate those objects.\footnote{Also see Sara B. Algoe and Jonathan Haidt, {``Witnessing Excellence in Action: The {`Other-Praising'} Emotions of Elevation, Gratitude, and Admiration,''} \emph{The Journal of Positive Psychology} 4, no. 2 (March 2009): 105--27, \url{https://doi.org/10.1080/17439760802650519}.}
 
 In aesthetics literature, there is debate about whether a work depicting a particular event can motivate an emotional state contrary to a similar event in the real world. We can call continuitists those who claim that narratives are important for facilitating empathic relationships among individuals by expressing the emotional states of the characters in morally appropriate ways. There are two relevant components of such an argument, however. One says that the relations depicted by narratives are normatively descriptive of moral,\footnote{Nussbaum, {``Aeschylus and Practical Conflict.''}} or admirable\footnote{Zagzebski, \emph{Exemplarist {Moral Theory}}.} relations among individuals. However, others may suggest,\footnote{Gilmore, \emph{Apt {Imaginings}}; Richard Moran, {``The {Expression} of {Feeling} in {Imagination},''} \emph{The Philosophical Review} 103, no. 1 (January 1994): 75, \url{https://doi.org/10.2307/2185873}.} that such depictions may rest heavily on sufficient artistic engagement, or attunement by the artist, and a particular sensitivity to the relevant moral issues, noted particularly by the motivations and intentions of the artist. They may argue, any less literary engagement with these contexts will not sufficiently express the complex moral frameworks Nussbaum, Stump and Zagzebski find in literature (The View).
 
 This has implications if, as some have claimed, narratives are important for facilitating empathic relationships among individuals by expressing the emotional states of the characters in morally appropriate ways. We might think, for instance, that emotions can constitute a type of perception where we recognize the moral significance of a situation by our affective perception of it.\footnote{Nussbaum, {``Aeschylus and Practical Conflict,''} 521.} Henry James\footnote{\emph{The Golden Bowl}, Penguin {English} Library (New York, N.Y., U.S.A: Penguin Books, 1985).}'s The Golden Bowl represents such an ethical representation when Maggie Verver, for the first time, embraces her husband with an emotion commonly reserved for lovers. The artistic engagement is noted by the motivations and intentions of the artist. As such, we may think that the values associated with e.g., tragedy, are those defined by the author, but not intrinsic, or emerging from the work apart from the author's intentions. Can we find natural moral content in narratives wherein the author hadn't meant to include? Can a narrative cultivate a harmful stereotype apart from the author's intentions or does the lack of intention negate the harm?
 
-A debate in aesthetic literature might undermine optimism about moral testimony through narrative. The discontinuity thesis is the view that our emotions in fictional worlds do not need to be continuous to those in the real world. Some have claimed that narratives are important for facilitating empathic relationships among individuals by expressing the emotional states of the characters in morally appropriate ways.\footnote{Martha Craven Nussbaum, {``Flawed {Crystals}: {James}'s {The Golden Bowl} and {Literature} as {Moral Philosophy},''} \emph{New Literary History} 15, no. 1 (1983): 25--50, \url{https://doi.org/10.2307/468992}; \emph{Unprincipled {Virtue}: {An Inquiry Into Moral Agency}}, 1st edition, 2004.} The way we respond to fiction can drastically depart from our responses to their real-life counterparts. Our affectations can also radically differ and a part of the explanation for this is that objects in fictions are presented to us in ways that differ from the presentations of their real-life counterparts. The aims of the artists determine these framing effects. There is a worry here however and one goal of this dissertation is to motivate a different way of thinking about narratives which highlights their extra-aesthetic properties regardless of the artistic intent behind the work. I will propose a sentimentalist account of moral testimony based on narrative. In doing so, I will highlight the necessary relationship between moral knowledge and narrative. In the end, I will have a better account of narrative, one which provides an explanation of what they are and what they do. On this viewIn my account, narratives are forms of moral communication. They can undermine or build up one's moral knowledge. They are moral in that they represent human emotions in the contexts of human and human or human and other sentience relationships. Not only do narratives cognitively show us what important relationships are like, but more importantly they show us what such relationships feel like. Such effects are important for moral worth in action. Because of their ability to elicit affect, narratives are important sources of moral knowledge. A central question to be resolved in the first section is the asymmetry problem between moral and non-moral testimony. Optimists argue that though it may not always be optimal, moral testimony is an acceptable source of moral knowledge. By contrast however, pessimists argue that though it can confer knowledge, moral testimony does not confer moral worth which can only be obtained through moral understanding. As such, moral testimony is useless.
+A debate in aesthetic literature might undermine optimism about moral testimony through narrative. The discontinuity thesis is the view that our emotions in fictional worlds do not need to be continuous to those in the real world. Some have claimed that narratives are important for facilitating empathic relationships among individuals by expressing the emotional states of the characters in morally appropriate ways.\footnote{Martha C. Nussbaum, {``Flawed {Crystals}: {James}'s {The Golden Bowl} and {Literature} as {Moral Philosophy},''} \emph{New Literary History} 15, no. 1 (1983): 25--50, \url{https://doi.org/10.2307/468992}; \emph{Unprincipled {Virtue}: {An Inquiry Into Moral Agency}}, 1st edition, 2004.} The way we respond to fiction can drastically depart from our responses to their real-life counterparts. Our affectations can also radically differ and a part of the explanation for this is that objects in fictions are presented to us in ways that differ from the presentations of their real-life counterparts. The aims of the artists determine these framing effects. There is a worry here however and one goal of this dissertation is to motivate a different way of thinking about narratives which highlights their extra-aesthetic properties regardless of the artistic intent behind the work. I will propose a sentimentalist account of moral testimony based on narrative. In doing so, I will highlight the necessary relationship between moral knowledge and narrative. In the end, I will have a better account of narrative, one which provides an explanation of what they are and what they do. On this viewIn my account, narratives are forms of moral communication. They can undermine or build up one's moral knowledge. They are moral in that they represent human emotions in the contexts of human and human or human and other sentience relationships. Not only do narratives cognitively show us what important relationships are like, but more importantly they show us what such relationships feel like. Such effects are important for moral worth in action. Because of their ability to elicit affect, narratives are important sources of moral knowledge. A central question to be resolved in the first section is the asymmetry problem between moral and non-moral testimony. Optimists argue that though it may not always be optimal, moral testimony is an acceptable source of moral knowledge. By contrast however, pessimists argue that though it can confer knowledge, moral testimony does not confer moral worth which can only be obtained through moral understanding. As such, moral testimony is useless.
 
 Alongside narratives in literature, there are other disciplines which tell us about individuals in communities outside our own. We may read the reports of a past explorer and obtain an awareness of various propositions about the cultures encountered by them. However, we are likely to question the authenticity of a report if we have reason to suspect the author has a personal bias coloring the analysis. Importantly here is the question of whether it is possible to learn about others through narrative.
 
@@ -348,7 +331,7 @@ One available explanation as to why some inaccuracies are more harmful than othe
 
 This suggests that narrative accounts have an obligation to faithfully represent the landscape in a way dis-analogous to narratives of non-normative facts about the real world,\footnote{E.g., Nussbaum, {``Flawed {Crystals}.''}} facts such as the chemical composition of pool cleaner for instance. But we are still concerned with facts. As such, truth, faithfulness and accuracy are still requirements for representing the moral landscape. But this says nothing about our emotional responses. Our emotional responses to fiction aid in our moral understanding of a moral proposition. If an audience member is unhappy with the emotion prescribed by an artist, she declines engaging with that work of art. Even more damning for my argument, is the fact that sentimental optimists accept this conclusion. Only some literature is a source for moral knowledge. Accordingly, while some literature is a source for moral knowledge with the potential to undermine knowledge about moral reality, this is not the case for all literature. The rest is merely a-moral.
 
-Similarly, relying on testimony in a range of situations confers justification to one's belief of a proposition. In a robust sense for example, when a child obtains true beliefs from a reliable source, for instance in primary education, we credit her with knowledge.\footnote{E.g. McGrath, \emph{Moral {Knowledge}}, 65.} Similarly, the student who sits through forty hours of lecture on thermonuclear astrophysics has more justified beliefs about thermonuclear astrophysics than the student sits through five. However, the main reason for relying on moral testimony is not primarily to confer justification, to justify her beliefs, but rather to motivate behavior. To potentially be trusted with the kinds of finances required for testing one's theories regarding thermonuclear astrophysics, a behavior, requires additional lecture hours in addition to a proven research record. There are several reasons for this. The person who holds justified non-moral beliefs on a topic, confirms or disproves the beliefs of others. Our own beliefs are justified by those who have justified beliefs, or who possess a greater degree of justification. Therefore, relying on justification to confirm that our moral belief is the correct one, leaves a lot to be desired. As such, the epistemic state that we care about in cases of moral testimony is understanding and not knowledge. The point of contention here is a difference between the epistemic state of knowledge and the one of understanding. Knowledge is knowing that p, that a given proposition is true or false, while understanding is knowing that p and why p is the case. This is perhaps a reason why a number of authors recognize a deep connection between narratives and moral knowledge.\footnote{Martha Craven Nussbaum, \emph{"{Finely Aware} and {Richly Responsible}": {Literature} and the {Moral Imagination}} (Oxford University Press, 1990); Stump, \emph{Wandering in {Darkness}}.} We may think that what these authors mean by moral knowledge, is a richer state of understanding.
+Similarly, relying on testimony in a range of situations confers justification to one's belief of a proposition. In a robust sense for example, when a child obtains true beliefs from a reliable source, for instance in primary education, we credit her with knowledge.\footnote{E.g. McGrath, \emph{Moral {Knowledge}}, 65.} Similarly, the student who sits through forty hours of lecture on thermonuclear astrophysics has more justified beliefs about thermonuclear astrophysics than the student sits through five. However, the main reason for relying on moral testimony is not primarily to confer justification, to justify her beliefs, but rather to motivate behavior. To potentially be trusted with the kinds of finances required for testing one's theories regarding thermonuclear astrophysics, a behavior, requires additional lecture hours in addition to a proven research record. There are several reasons for this. The person who holds justified non-moral beliefs on a topic, confirms or disproves the beliefs of others. Our own beliefs are justified by those who have justified beliefs, or who possess a greater degree of justification. Therefore, relying on justification to confirm that our moral belief is the correct one, leaves a lot to be desired. As such, the epistemic state that we care about in cases of moral testimony is understanding and not knowledge. The point of contention here is a difference between the epistemic state of knowledge and the one of understanding. Knowledge is knowing that p, that a given proposition is true or false, while understanding is knowing that p and why p is the case. This is perhaps a reason why a number of authors recognize a deep connection between narratives and moral knowledge.\footnote{Martha C. Nussbaum, \emph{"{Finely Aware} and {Richly Responsible}": {Literature} and the {Moral Imagination}} (Oxford University Press, 1990); Stump, \emph{Wandering in {Darkness}}.} We may think that what these authors mean by moral knowledge, is a richer state of understanding.
 
 Additionally, authors have argued that the connection between narrative and moral knowledge has to do with a narrative's ability to express important moments in a character's emotional and moral development Martha C. Nussbaum\footnote{{``Symposium on {Amartya Sen}'s Philosophy: 5 Adaptive Preferences and Women's Options,''} \emph{Economics and Philosophy} 17, no. 1 (2001): 67--88.}. Mr.~Jones is an FBI operative tasked with observing and reporting on the activities of Mr.~Smith, who is suspected of robbing a bank. Accordingly, Mr.~Jones is being asked to give a first person account of the life and actions of Mr.~Smith. Such accounts would clearly state that the observations being performed, are being done by Mr.~Jones. ``I, Mr.~Jones, have observed the suspect, Mr.~Smith, on the morning of \ldots{}''. But assuming that Mr.~Smith has been brought in for questioning, the detective on the case, wants more information than that which can be provided by Mr.~Jones. If Mr.~Smith chooses to be cooperative, then the detective may want to know \emph{why} Mr.~Jones robbed a given bank on a given day. While Mr.~Jones may be able to give his assessment as to Mr.~Jones' motives, he would not be able to do so in the same way as Mr.~Smith. While Mr.~Jones can give a first person account of Mr.~Smith's motives, and a third person account, for instance ``Mr.~Smith told me . . .'', he cannot give a second personal account as a matter of reporting. Such accounts would provide Mr.~Smith with an awareness of Mr.~Jones as a rational or not sort of agent. Such an account from Mr.~Smith would enable reciprocal understanding of the other's moral autonomy.\footnote{See Stephen Darwall, \emph{Honor, {History}, and {Relationship} : {Essays} in {Second-Personal Ethics II}}, vol. First edition (Oxford: OUP Oxford, 2013), \url{https://ezp.slu.edu/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=656592&site=eds-live}.}
 
@@ -479,7 +462,7 @@ A problem emerges in that though the word of others can be a source of moral kno
 
 Therefore, the problem with moral testimony as traditionally construed then---unlike non-moral testimony---is that it does not confer what we truly care about regarding moral behavior because we do care about the affects behind one's actions, our affect is conceived of as a motivation for acting. For instance, we might think that a well-lived life then, means experiencing appropriate affective states in the right contexts. Martha C. Nussbaum\footnote{\emph{The {Fragility} of {Goodness}: {Luck} and {Ethics} in {Greek Tragedy} and {Philosophy}}, 2nd ed. (Cambridge University Press, 2001), \url{https://doi.org/10.1017/CBO9780511817915}.} motivates an analogous view.\footnote{To be discussed in section 4.} The implication is that given the importance of moral understanding over and above that of moral knowledge, Mary should not defer her moral judgments. Her deference in the moral domain represents her lack of moral understanding and subsequent actions therefore, would be void of moral worth.\footnote{Hills, {``Moral Testimony and Moral Epistemology,''} 94; Paulina Sliwa, {``In Defense of Moral Testimony,''} \emph{Philosophical Studies} 158, no. 2 (March 2012): 186, \url{https://doi.org/10.1007/s11098-012-9887-6}.} Another position however, is one offered by Enoch\footnote{{``A {Defense} of {Moral Deference}.''}}. Mary is actively committing a wrong action by engaging in risky behavior. An analogous sense of wrong doing may be exemplified by a medical doctor pursuing a novel medical procedure rather than deferring to an expert. For instance, in Flaubert's \emph{Madame Bovary}, Charles Bovary performs a medical procedure with disastrous consequences.\footnote{ Some other examples of non-morally worthy right action can be seen in \emph{Unprincipled {Virtue}}'s discussion of Flaubert's Madame Bovary, 67--68.} However this is not as completely analogous because for Enoch, this risk is just as bad as the potential consequences. Importantly, what Enoch identifies as \emph{opaque} evidence, on a knowledge first account, I remark as central to moral understanding and argue that it is less opaque than Enoch supposes. Enoch places weight on the outcome, but for attributions of moral worth, we do care more about one's engagement with moral reasons. We care more about the effort than we do the outcome.
 
-Here, we should follow the example set by.\footnote{{``The {Conflict Between Authority} and {Autonomy}.''}} Evoking the communal nature of knowledge, Wolff asks us to imagine the concept of the state. A state is a group of persons who have and exercise supreme authority within a given territory. To claim this authority means to claim the right to be obeyed. This authority is shared by the members of the state. As such, each member of the state, has the right, in a shared capacity, to exercise authority in the territory occupied by that state. Therefore, this authority is normative in that it equates to an ultimate authority over all matters of the state.
+Here, we should follow the example set by Robert Wolff.\footnote{{``The {Conflict Between Authority} and {Autonomy}.''}} Evoking the communal nature of knowledge, Wolff asks us to imagine the concept of the state. A state is a group of persons who have and exercise supreme authority within a given territory. To claim this authority means to claim the right to be obeyed. This authority is shared by the members of the state. As such, each member of the state, has the right, in a shared capacity, to exercise authority in the territory occupied by that state. Therefore, this authority is normative in that it equates to an ultimate authority over all matters of the state.
 
 Because of the shared nature of this authority, a state's members do not merely have an obligation to obey the state, but also good reasons to do so. Here, the consequences of defiance here, outweigh the indignity of submission. Consequences imply that a state's members are metaphysically free and on account of their freedom, have a responsibility to exercise their freedom which is done through reason. As such, men are responsible for their actions and this responsibility implies autonomy. So the authority of the state requires that its members exercise their autonomy. Taking and forfeiting moral responsibility needs strong justification. Though there are cases in which it is justified that one gives up their autonomy (independence); the defining mark of the state is authority and the consequent primary obligation of man is the exercise of autonomy given that they comprise this authority.
 
@@ -533,7 +516,7 @@ As to those reasons which prompt such action, a question which emerges then is; 
 
 In a previous section, I argued that what is wrong with moral testimony as traditionally conceived, is that it fails to account for the more robust form of moral understanding that we are looking for in cases of moral knowledge. I then defined a version of social testimony in which the focus is on cultivating strong pro-social emotions. I then define moral testimony in terms of this cultivation. According to this criticism, there is something important about the emotions that derive from our moral experiences. How we react emotionally to reports of genocide are important concerns in understanding whether or not someone possesses moral knowledge of the proposition \emph{genocide is morally wrong}. Moral testimony as traditionally conceived, fails to account for this.
 
-There is a worry about this approacho though. Given that a large portion of moral testimony consists in narratives, it would be useful to understand some of the more prominent forms of narrative@ref(\#rel-int) in order to understand our moral emotions. However, as Jonathan Gilmore\footnote{\emph{Apt {Imaginings}}.} points out, our emotional responses to fiction often diverge significantly from those we have to objects and events in the real world. In this section, I draw a relationship between fiction, and the more robust form of moral understanding referenced in the previous chapter. Here, I argue that some questions which have been raised in the epistemology of fiction literature are related to a similar question about moral understanding and its relationship to fiction. But first, we need to confront one important objection to such a view.
+There is a worry about this approacho though. Given that a large portion of moral testimony consists in narratives, it would be useful to understand some of the more prominent forms of narrative in order to understand our moral emotions. However, as Jonathan Gilmore\footnote{\emph{Apt {Imaginings}}.} points out, our emotional responses to fiction often diverge significantly from those we have to objects and events in the real world. In this section, I draw a relationship between fiction, and the more robust form of moral understanding referenced in the previous chapter. Here, I argue that some questions which have been raised in the epistemology of fiction literature are related to a similar question about moral understanding and its relationship to fiction. But first, we need to confront one important objection to such a view.
 
 Gilmore\footnote{Ibid.} references various criticisms of the view that the emotions we have towards fiction are of the same kind that we have towards events in the real world. He first adopts a functionalist view of imagining. Through the use of my imagination, I can envision the steps that I need to complete in order to finish a long project for instance. Here, imagination and other mental faculties are defined by the functions they perform rather than the behaviors they are associated with.\footnote{See Ned Block, {``Introduction: What Is Functionalism?''} in \emph{The {Language} and {Thought Series}}, ed. Ned Block (Cambridge, MA; London, England: Harvard University Press, 1980), \url{https://doi.org/10.4159/harvard.9780674594623.c17}.} Imaginings are context dependent, planning a trip motivates different imaginings than does watching a film for instance {[}p., 19{]}. Accordingly, in cases of fiction, we can differentiate the faculty of imagining from belief by referencing imagination's connection to volition instead of truth for instance. We can differentiate imagining from other mental states by the contexts in which they function, a belief aims at truth while imagining aims at desire satisfaction.\footnote{E.g., see Gilmore, \emph{Apt {Imaginings}}, 17--18} In a similar vein, pain for instance, as a mental state, can be defined by the relations between it, and all other mental states related to it. As such, imagining is better used to describe our relationship with fiction than is belief.
 
@@ -656,7 +639,7 @@ Evaluative emotions can be type identified by the evaluative properties they att
 
 One way to understand and answer this question, involves recognizing and defining the criteria for appropriate emotional engagements across real-world and fictional world scenarios. Those who defend continuity argue that these criteria are identical: what is an appropriate emotional engagement to a fictional scenario is also appropriate in the real-world and vice versa. Gilmore\footnote{\emph{Apt {Imaginings}}.}, 131--132 defends discontinuity, namely that the kinds of reasons that we countenance as justifying or challenging our emotions depend on the functions for which our emotions are being elicited. As a result, what is appropriate in fiction and in real life might differ.
 
-What does it say then of someone when they laugh at an inappropriate joke represented in a fiction, film, song lyrics, etc? There are two sides. Continuitists on the one hand think that given our emotional engagements with fictions are modeled after our emotional engagements with real-world states of affairs; we might think that this emotion is justified if and only if the emotion would be a justified response to an analogous object\footnote{For instance, Gilmore, ibid, 1, 102} (the inappropriate joke) in the real world. The question then is whether we \emph{can} represent morally expressive emotions in fictions given this particular discontinuity. Martha Nussbaum\footnote{{``Commentary on {Mourelatos},''} \emph{Proceedings of the Boston Area Colloquium of Ancient Philosophy} 2, no. 1 (1986): 195--207.}; Nussbaum\footnote{\emph{"{Finely Aware} and {Richly Responsible}"}.}; Martha Nussbaum\footnote{{``14 {Non-Relative Virtues},''} in \emph{Moral {Relativism}: {A Reader}}, ed. Paul K. Moser and Thomas L. Carson (Oxford University Press, 2001), 199.}; Stump\footnote{\emph{Wandering in {Darkness}}.}; and Zagzebski\footnote{\emph{Exemplarist {Moral Theory}}.} suggest that such representations are necessarily complex depictions of a relationship between two or more individuals, wherein a morally significant emotion is experienced by one or more parties. Therefore although it is plausible, it is not necessarily the case that emotional responses are continuious between fiction and the real world because the intention of individuals such as Henry James specifically is to create such moral complexities as a way of mirroring real life. As such, we might think it warranted that an emotional response to such works will mirror an emotional response in similar contexts in the real world but this says nothing about the intentions of every artist.
+What does it say then of someone when they laugh at an inappropriate joke represented in a fiction, film, song lyrics, etc? There are two sides. Continuitists on the one hand think that given our emotional engagements with fictions are modeled after our emotional engagements with real-world states of affairs; we might think that this emotion is justified if and only if the emotion would be a justified response to an analogous object\footnote{For instance, Gilmore, ibid, 1, 102} (the inappropriate joke) in the real world. The question then is whether we \emph{can} represent morally expressive emotions in fictions given this particular discontinuity. Martha C. Nussbaum\footnote{{``Commentary on {Mourelatos},''} \emph{Proceedings of the Boston Area Colloquium of Ancient Philosophy} 2, no. 1 (1986): 195--207.}; Nussbaum\footnote{\emph{"{Finely Aware} and {Richly Responsible}"}.}; Martha C. Nussbaum\footnote{{``Non-Relative Virtues,''} in \emph{Moral {Relativism}: {A Reader}}, ed. Paul K. Moser and Thomas L. Carson (Oxford University Press, 2001), 199.}; Stump\footnote{\emph{Wandering in {Darkness}}.}; and Zagzebski\footnote{\emph{Exemplarist {Moral Theory}}.} suggest that such representations are necessarily complex depictions of a relationship between two or more individuals, wherein a morally significant emotion is experienced by one or more parties. Therefore although it is plausible, it is not necessarily the case that emotional responses are continuious between fiction and the real world because the intention of individuals such as Henry James specifically is to create such moral complexities as a way of mirroring real life. As such, we might think it warranted that an emotional response to such works will mirror an emotional response in similar contexts in the real world but this says nothing about the intentions of every artist.
 
 The above view would neglect other reasons which would justify an affective response to a work of art. According to the current approach, fiction and other imagination directed emotions are oriented towards other ends---pleasure, entertainment, and absorption---that are justified for different reasons.\footnote{Gilmore, \emph{Apt {Imaginings}}, 132.} Currie\footnote{\emph{Imagining and Knowing}.} argues emotions are not continuous because the objects in fictions are not real {[}62{]}. While it may be true that the Prosecutor Garrison in \emph{JFK} was a prosecutor in real life, the Prosecutor Garrison as \emph{represented} in \emph{JFK} as ``devoted to the truth'' is not a real person. Perhaps Oliver Stone's intentions here are to elicit our admiration towards of Garrison whereas in real life we may have been hard-pressed to do so.
 
@@ -664,7 +647,7 @@ The above view would neglect other reasons which would justify an affective resp
 For the rational norms governing beliefs do not speak directly to their contents in isolation, but rather to the reasons in favor of their formation or retirement, and to their relations---such as their consistency---while they are held.\footnote{Gilmore, \emph{Apt {Imaginings}}, 152.}
 \end{quote}
 
-One particular reason why this is important, has to do with moral education, motivation and the like.\footnote{Maybe we can imagine a community that as a rule does not treat art as containing significant, or any at all, moral motivation. As such, art in such a community just is treated and evaluated for its purely aesthetic, or entertainment, or absorptive qualities.} How do we learn compassionate or empathic behaviors? Some continuitists argue, for instance, that narratives can uncover the good qualities of an individual better than analytic philosophical distinctions. They think that those qualities which make good characters good, e.g.~underlying thoughts and motivations, and features about them that make us want to be better, can only be uncovered through fictional and non-fictional narrative.\footnote{Stump, \emph{Wandering in {Darkness}}, 36, 40--42; Zagzebski, \emph{Exemplarist {Moral Theory}}, 18; ibid., 170.}\footnote{``Putting things this way allows us to see how the emotions can be genuine and not simply playacting, and also how they can have the cognitive content of the real-life emotion'' Nussbaum, {``14 {Non-Relative Virtues}''}, 245.} Upon this, we ourselves then become motivated to act in ways which gave rise to these positive affective states in us.
+One particular reason why this is important, has to do with moral education, motivation and the like.\footnote{Maybe we can imagine a community that as a rule does not treat art as containing significant, or any at all, moral motivation. As such, art in such a community just is treated and evaluated for its purely aesthetic, or entertainment, or absorptive qualities.} How do we learn compassionate or empathic behaviors? Some continuitists argue, for instance, that narratives can uncover the good qualities of an individual better than analytic philosophical distinctions. They think that those qualities which make good characters good, e.g.~underlying thoughts and motivations, and features about them that make us want to be better, can only be uncovered through fictional and non-fictional narrative.\footnote{Stump, \emph{Wandering in {Darkness}}, 36, 40--42; Zagzebski, \emph{Exemplarist {Moral Theory}}, 18; ibid., 170.}\footnote{``Putting things this way allows us to see how the emotions can be genuine and not simply playacting, and also how they can have the cognitive content of the real-life emotion'' Nussbaum, {``Non-Relative Virtues''}, 245.} Upon this, we ourselves then become motivated to act in ways which gave rise to these positive affective states in us.
 
 It is not the response that is unjustified, but rather the decision to engage with that work of fiction if our ends do not cohere with those of the artist.
 
@@ -681,7 +664,7 @@ According to cognitivists, to have an emotion involves ``some kind of cognitive 
 
 Our emotions in response to fiction might also shape our mental and social lives. However Gilmore denies the above arguing that our emotions as directed at fictions, and those we have directed towards the real world, are asymmetric principally because they have a different direction of fit than, say, belief. For instance, we might ask when our emotions constitute such evaluations. Many creatures that are capable of emotions, including babies experience emotion without possessing the concepts which the cognitivist associates with them.
 
-Moral properties can be related to emotion in a number of ways. There might be an essential relation where there is something like a human faculty capable of contributing to our ability to perceive moral qualities. John McDowell and David Wiggins have defended such views that have ``drawn inspiration from the idea that normative or evaluative judgments might bear some analogy with judgments of secondary qualities, or other judgments essentially tied to the exercise of certain human sensibilities.''\footnote{Darwall, Gibbard, and Railton, {``Toward Fin de Siècle Ethics,''} 152.}\footnote{Also see John McDowell, {``Values and {Secondary Qualities},''} in \emph{Morality and {Objectivity}}, ed. Ted Honderich (Routledge, 1985), 110--29; JOHN McDOWELL, {``{PROJECTION AND TRUTH IN ETHICS},''} \emph{University of Kansas}, The {Lindley Lecture}, 1987, 20; David Wiggins, \emph{Truth, {Invention}, and the {Meaning} of {Life}} (British Academy, 1976).} Notice however that this is different from saying that emotions are related to moral \emph{concepts}.\footnote{See Prinz, \emph{The {Emotional Construction} of {Morals}}, 2007, 16} On this view, to suggest that there is a relation between our emotions and moral properties is to state a thesis about ``our capacity to grasp moral properties in a standard way.''\footnote{Ibid., 69:16.}
+Moral properties can be related to emotion in a number of ways. There might be an essential relation where there is something like a human faculty capable of contributing to our ability to perceive moral qualities. John McDowell and David Wiggins have defended such views that have ``drawn inspiration from the idea that normative or evaluative judgments might bear some analogy with judgments of secondary qualities, or other judgments essentially tied to the exercise of certain human sensibilities.''\footnote{Darwall, Gibbard, and Railton, {``Toward Fin de Siècle Ethics,''} 152.}\footnote{Also see John McDowell, {``Values and {Secondary Qualities},''} in \emph{Morality and {Objectivity}}, ed. Ted Honderich (Routledge, 1985), 110--29; John McDowell, \emph{Projection and {Truth} in {Ethics}}, Lindley Lecture (Lawrence, Kansas: Department of Philosophy, University of Kansas, 1988), \url{https://hdl.handle.net/1808/12401}; David Wiggins, \emph{Truth, {Invention}, and the {Meaning} of {Life}} (British Academy, 1976).} Notice however that this is different from saying that emotions are related to moral \emph{concepts}.\footnote{See Prinz, \emph{The {Emotional Construction} of {Morals}}, 2007, 16} On this view, to suggest that there is a relation between our emotions and moral properties is to state a thesis about ``our capacity to grasp moral properties in a standard way.''\footnote{Ibid., 69:16.}
 
 Here, moral judgments are saturated with sentiment. Our moral judgments concern concepts that we care deeply about. Otherwise known as values, these concepts evoke our passions in ways that for instance, are not evoked in relation to whether Honda or Toyota sold more SUVs in a given year. Nussbaum then, defends a theory of emotion wherein emotions are a kind of judgment and in this way, our negative emotion upon witnessing the flooding of Saint Genevieve, say you find us weeping, is a judgment that this particular flood---perhaps not unlike all floods---is bad which says something about what we value as individuals.\footnote{See Nussbaum, {``Symposium on {Amartya Sen}'s Philosophy''}, 17} But this does not necessarily mean that our emotional states are dependent on our cognitive states.
 
@@ -741,7 +724,7 @@ While we might think that the intentions of the art provide a sort of restraint 
 
 In order to understand what makes an emotion apt in regards to fiction, depends in part on the answer to the question about imaginings constraints in fiction. What's important here is that we have emotional responses to things that don't exist\footnote{For instance see Henry Fielding, \emph{The {History} of {Tom Jones}: {A} Foundling}, Wordsworth {Classics} (Hertfordshire: Wordsworth Classics, 1999), 611--13.} How should we characterize these emotions {[}See Radford 1975{]}? One way to do so is by trying to understand the functional roles of the emotional states involved {[}Chalmers 2002{]}.\footnote{Imagining and conceiving 2 different things (Peacocke 1985). No univocal explanatory concept (Amy Kind 2013)}
 
-An emotionally apt response to fiction requires that the audience's emotional response is the one called for by the artist {[}Gilmore\footnote{\emph{Apt {Imaginings}}.}; 102--133{]}. This is because imaginings can be ``type-identified'' by their functional roles. The appearance of an object can be a consequence of how I choose to represent that object to myself. The factors such as context become important in cases of imagining, but these factors are largely important by choice. But what follows then, is that the aptness of my emotions evoked by Rage Against the Machine would be appropriate assuming that the agent's anger is the response intended by the agent and assuming that we want to engage with the work as the artist intends. When we respond emotionally to the fate of characters in fictional narratives, we allow ourselves to be ``carried along'' emotionally by the story, and we seem to do this more than we would if the narrative were not a work of fiction.\footnote{Peter Goldie, {``Narrative and {Perspective}; {Values} and {Appropriate Emotions},''} in \emph{Philosophy and the {Emotions}}, ed. Anthony Hatzimoysis, 1st ed. (Cambridge University Press, 2003), 60, \url{https://doi.org/10.1017/CBO9780511550270.013}.}
+An emotionally apt response to fiction requires that the audience's emotional response is the one called for by the artist.\footnote{Gilmore, \emph{Apt {Imaginings}}; 102--133} This is because imaginings can be ``type-identified'' by their functional roles. The appearance of an object can be a consequence of how I choose to represent that object to myself. The factors such as context become important in cases of imagining, but these factors are largely important by choice. But what follows then, is that the aptness of my emotions evoked by Rage Against the Machine would be appropriate assuming that the agent's anger is the response intended by the agent and assuming that we want to engage with the work as the artist intends. When we respond emotionally to the fate of characters in fictional narratives, we allow ourselves to be ``carried along'' emotionally by the story, and we seem to do this more than we would if the narrative were not a work of fiction.\footnote{Peter Goldie, {``Narrative and {Perspective}; {Values} and {Appropriate Emotions},''} in \emph{Philosophy and the {Emotions}}, ed. Anthony Hatzimoysis, 1st ed. (Cambridge University Press, 2003), 60, \url{https://doi.org/10.1017/CBO9780511550270.013}.}
 
 There are various views as to how to identify imaginings. On one view, imaginings, like other mental states such as belief, can be \emph{type-identified} ``in virtue of their functional role.''\footnote{Gilmore, \emph{Apt {Imaginings}}, 170.}\footnote{Also see Walton, \emph{Mimesis as {Make-Believe}}; Alan Leslie, {``Pretense and {Representation}: {The Origins} of "{Theory} of {Mind}",''} \emph{Psychological Review} 94 (October 1, 1987): 412--26, \url{https://doi.org/10.1037//0033-295X.94.4.412}; Robert M. Gordon, {``Folk Psychology as Simulation,''} \emph{Mind \& Language} 1, no. 2 (1986): 158--71, \url{https://doi.org/10.1111/j.1468-0017.1986.tb00324.x}; Alvin I. Goldman, \emph{Liaisons: Philosophy Meets the Cognitive and Social Sciences} (Cambridge, Mass: MIT Press, 1992); Paul L. Harris, \emph{The {Work} of the {Imagination}}, Understanding {Children}'s {Worlds} (Oxford, UK ; Malden, Mass: Blackwell Publishers, 2000); Gregory Currie, {``Imagination as Motivation,''} \emph{Proceedings of the Aristotelian Society} 102, no. 3 (2002): 201--16, \url{https://doi.org/10.1111/j.0066-7372.2003.00050.x}; Shaun Nichols and Stephen Stich, {``A {Cognitive Theory} of {Pretence},''} \emph{Cognition} 74, no. 2 (2000): 115--47.} However, it is not clear specifically what is the functionalist relation between a cognitive theory of imagination and a functionalist theory of mental states. A functionalist is concerned with what mental states are, not how they account for behavior.\footnote{For instance see Block, {``Introduction.''}} On this account, a \emph{particular pain} is a physical state or event.\footnote{Ibid., 28.} However, Gilmore argues that one way to characterize mental states is by ``collecting ordinary folk-psychological observations'' about how a mental state is causally connected to various causes. For instance how might a particular mental state be connected to a particular belief, a desire or a perception.\footnote{Gilmore, \emph{Apt {Imaginings}}, 18.} If the functionalist is concerned with what a mental state is, and not how it accounts for behavior, then one way to understand what it is, is in terms of its causal relationship to ``sensory stimulations, behavioral outputs, and other mental states.''\footnote{E.g. Block, {``Introduction,''} 28; and Gilmore, \emph{Apt {Imaginings}}, 19.} As such, Gilmore argues that there is a set of three standard distinctions important for individuating imaginings from other mental states: i) imaginings are constrained by the will, ii) beliefs, perceptions, and other mental states are ``subject to a constitutive norm of aiming at what is true.''\footnote{Gilmore, \emph{Apt {Imaginings}}, 19.} iii) imaginings are context-dependent, meaning they depend on a particular circumstance that motivates the imagining. As such:
 
@@ -783,7 +766,7 @@ Some might argue that this is because those objects which act as stimuli in fict
 
 \section{Discontinuous Fictional Objects}\label{discontinuous-fictional-objects}
 
-Rather than considering the aptness or un-aptness of our emotional responses to fiction, it will be important to consider what the objects of such responses are.\footnote{We might think of such objects in the way sensibility theorists do, i.e. Prinz, \emph{The {Emotional Construction} of {Morals}}, 2007, esp.~88-89, evoking a John Locke, {``{OF IDENTITY AND DIVERSITY},''} in \emph{An {Essay Concerning Human Understanding}} (London: Eliz. Holt, for Thomas Basset, at the George in Fleet Street, near St. Dunstan's Church., 1690), \url{https://www.uvm.edu/~lderosse/courses/intro/locke_essay.pdf}'ian sensibility. Here, moral properties are like secondary qualities similar to color, etc. Other similar views include Thomas Reid.} One way to do this, is to evoke standard practices involved in gathering evidence which supports beliefs we hold. In addition to inferences we might make, testimony received by us, perception etc, we also rely on our affective responses to relay important information about our environments to us.\footnote{Micheal Tye, \emph{Ten {Problems} of {Consciousness} } defends a strong version of this view: ``It seems to me not implausible to deal with these cases by arguing that insofar as there is any phenomenal or immediately experienced felt quality to the above states, this is due to their being accompanied by sensations or images or feelings that are the real bearers of the phenomenal character. Take away the feelings and experiences that happen to be associated with the above states in particular cases, and there is no phenomenal consciousness left.''} Not only do such affective states merely give us information about the world, but it is plausible that this information comes shrouded in the mysteries of approbation or its negation. I might decline going down a dark alley owing to the apprehension I feel about doing so in the real-world.\footnote{Zagzebski, \emph{Exemplarist {Moral Theory}}; especially 129--154, is one such account whereby we rely on our feelings of admiration to identify which individuals we should want to be like, emulate etc. Such individuals are direct references for moral kind terms where we identify thick concepts such as good, kind etc, via reference to such individuals. Some concerns which may arise with Zagzebski's view, involves her theory that not every member is capable of identifying proper objects of these terms. In such such cases we rely on experts in the same way we rely on experts to identify gold. For literature regarding asymmetries between moral and non-moral testimony and expertise, see Hopkins, {``What {Is Wrong With Moral Testimony}?''}; Hills, {``Moral Testimony and Moral Epistemology''}; Enoch, {``A {Defense} of {Moral Deference}''}. Seminal representative appraisal theories include Arnold, \emph{Emotion and {Personality}}; Lazarus, {``On the {Primacy} of {Cognition}''}.} However, responses to our affects towards fiction can differ from those towards their real-life counterparts. To be able to address this question, we need to consider the metaphysical question of truth in fiction. Discussions on truth in fiction were inspired by an influential paper by David David Lewis\footnote{{``{IV}. {TRUTH IN FICTION},''} 1978.}, and more specifically on his reality principle:
+Rather than considering the aptness or un-aptness of our emotional responses to fiction, it will be important to consider what the objects of such responses are.\footnote{We might think of such objects in the way sensibility theorists do, i.e. Prinz, \emph{The {Emotional Construction} of {Morals}}, 2007, esp.~88-89, evoking a John Locke, {``{OF IDENTITY AND DIVERSITY},''} in \emph{An {Essay Concerning Human Understanding}} (London: Eliz. Holt, for Thomas Basset, at the George in Fleet Street, near St. Dunstan's Church., 1690), \url{https://www.uvm.edu/~lderosse/courses/intro/locke_essay.pdf}'ian sensibility. Here, moral properties are like secondary qualities similar to color, etc. Other similar views include Thomas Reid.} One way to do this, is to evoke standard practices involved in gathering evidence which supports beliefs we hold. In addition to inferences we might make, testimony received by us, perception etc, we also rely on our affective responses to relay important information about our environments to us.\footnote{Micheal Tye, \emph{Ten {Problems} of {Consciousness} } defends a strong version of this view: ``It seems to me not implausible to deal with these cases by arguing that insofar as there is any phenomenal or immediately experienced felt quality to the above states, this is due to their being accompanied by sensations or images or feelings that are the real bearers of the phenomenal character. Take away the feelings and experiences that happen to be associated with the above states in particular cases, and there is no phenomenal consciousness left.''} Not only do such affective states merely give us information about the world, but it is plausible that this information comes shrouded in the mysteries of approbation or its negation. I might decline going down a dark alley owing to the apprehension I feel about doing so in the real-world.\footnote{Zagzebski, \emph{Exemplarist {Moral Theory}}; especially 129--154, is one such account whereby we rely on our feelings of admiration to identify which individuals we should want to be like, emulate etc. Such individuals are direct references for moral kind terms where we identify thick concepts such as good, kind etc, via reference to such individuals. Some concerns which may arise with Zagzebski's view, involves her theory that not every member is capable of identifying proper objects of these terms. In such such cases we rely on experts in the same way we rely on experts to identify gold. For literature regarding asymmetries between moral and non-moral testimony and expertise, see Hopkins, {``What {Is Wrong With Moral Testimony}?''}; Hills, {``Moral Testimony and Moral Epistemology''}; Enoch, {``A {Defense} of {Moral Deference}''}. Seminal representative appraisal theories include Arnold, \emph{Emotion and {Personality}}; Lazarus, {``On the {Primacy} of {Cognition}''}.} However, responses to our affects towards fiction can differ from those towards their real-life counterparts. To be able to address this question, we need to consider the metaphysical question of truth in fiction. Discussions on truth in fiction were inspired by an influential paper by David David Lewis\footnote{{``Truth in {Fiction},''} \emph{American Philosophical Quarterly} 15, no. 1 (1978): 37--46, \url{http://www.jstor.org/stable/20009693}.}, and more specifically on his reality principle:
 
 Additionally, it will not do well to talk about fiction without first talking about imagination. Typically, I will walk down a dark alley in a major city between the hours of two and four am and feel fear and apprehension. In some fictions, I may experience similar emotions in similar contexts. But my standard emotional responses in the real world are not always indicative of the ones I would experience in a similar fictional context. In some fictions, I am asked to imagine that I possess extraordinary strength and that I have a thirst for justice. In such cases, I would not experience fear but maybe excitement, an emotion that would not be apt in a similar context in the real world.
 
@@ -818,7 +801,7 @@ We then contrast these against the fiction, \emph{Pride and Prejudice} for insta
 
 \section{Imagining Possible Worlds}\label{imagining-possible-worlds}
 
-What the discontinuitists are asking of us, is that we consider additional facts, say \(\omega^{1}, . . ., \omega^{n}\) that entail \(\phi\) in the fiction although they would not similarly do so in real-life.\footnote{"There the fiction presents a character or state affairs as having one property and our response to that property causes us to correctly imagine the presence of another property, even though the two properties bear no genuine real-world explanatory connection" (Gilmore, \emph{Apt {Imaginings}}, 151). Also see Lewis, {``{IV}. {TRUTH IN FICTION}''}.} For instance, a fact such as the artist prescribing mirth rather than the anxiety the audience feels towards the affairs of the military officer and his young lover.
+What the discontinuitists are asking of us, is that we consider additional facts, say \(\omega^{1}, . . ., \omega^{n}\) that entail \(\phi\) in the fiction although they would not similarly do so in real-life.\footnote{"There the fiction presents a character or state affairs as having one property and our response to that property causes us to correctly imagine the presence of another property, even though the two properties bear no genuine real-world explanatory connection" (Gilmore, \emph{Apt {Imaginings}}, 151). Also see Lewis, {``Truth in {Fiction}''}.} For instance, a fact such as the artist prescribing mirth rather than the anxiety the audience feels towards the affairs of the military officer and his young lover.
 
 \noindent i.e.,
 
@@ -841,7 +824,7 @@ Importantly, this is not to say that imagining is wholly dependent on my will, a
   My ends as a consumer of fiction.
 \end{enumerate}
 
-\noindent Therefore while beliefs aim at what is true, imaginings aim at what is true in a fiction in pursuit of these three aims.\footnote{". . . a defender of continuity might say: if it's true in the fiction that, e.g., Fagin is morally corrupt, the beautiful person is intelligent and honest, the mobster's ends are merited, and so on, then that justifies imagining such things as true. \emph{Whatever} the means might happen to be that such fictional truths are conveyed to us, they are fictional truths and therefore we are justified in imagining them as such" (ibid., 153). Also see Walton, \emph{Mimesis as {Make-Believe}}, 41; and Lewis, {``{IV}. {TRUTH IN FICTION}''}.}
+\noindent Therefore while beliefs aim at what is true, imaginings aim at what is true in a fiction in pursuit of these three aims.\footnote{". . . a defender of continuity might say: if it's true in the fiction that, e.g., Fagin is morally corrupt, the beautiful person is intelligent and honest, the mobster's ends are merited, and so on, then that justifies imagining such things as true. \emph{Whatever} the means might happen to be that such fictional truths are conveyed to us, they are fictional truths and therefore we are justified in imagining them as such" (ibid., 153). Also see Walton, \emph{Mimesis as {Make-Believe}}, 41; and Lewis, {``Truth in {Fiction}''}.}
 
 One concern with regard to apt affective responses with which the continuitists are concerned with, is whether having relevant emotions in a given context is constitutive of a good, or well-lived life.\footnote{Nussbaum, {``Commentary on {Mourelatos}''}, 343--344 argues concerns of human excellence as understood by Aristotle are questions about human value which are expressed in the mutual activities, feelings, and awareness that characterize loving relationships between individuals. A part of the concern here is whether someone can exemplify such excellences and still be moved to express feelings towards even fictional objects which are intended to represent relational objects.} Is the life of an individual who has apt emotional responses in the right contexts, a universally desirable one? If it is, then the imaginative constraints that the continuitists may focus on here is 3, my ends as a consumer of fiction. The moral answer involves feeling appropriate emotions at opportune moments and my questions are what facilitates these or hinders them. Rather than addressing this question however, it will be more helpful to model a way in which such relationships in literature may be expressed. Such relationships are between:
 
@@ -886,7 +869,7 @@ But what should we do with a fiction that is not blatantly false, but false not 
 
 For instance, Gilmore argues that what determines the appropriateness of an emotional response to a fictional work are the facts that are presented in the work, and the modes of the presentation through which those facts are presented.\footnote{Gilmore, \emph{Apt {Imaginings}}, 42.} Here, our emotions are evaluative appraisals of things both in the real-world and the contents of our imaginations caused by fictions, but in fictions, these evaluations are prescribed.\footnote{Gilmore, \emph{Apt {Imaginings}}, 57. For more on evaluative emotions, or emotions as evaluative appraisals, see Nussbaum, {``Symposium on {Amartya Sen}'s Philosophy''}.}
 
-\noindent The answer to this question we might think is that we must first abstract away from the original to several of the possible revisions that remain closest to the original.\footnote{Lewis, {``{IV}. {TRUTH IN FICTION}''}; also see Gilmore, \emph{Apt {Imaginings}}, 32; and Walton, \emph{Mimesis as {Make-Believe}}, 145.} Gilmore's contribution, is in addition to our abstractions, we also include ours and the author's aims.
+\noindent The answer to this question we might think is that we must first abstract away from the original to several of the possible revisions that remain closest to the original.\footnote{Lewis, {``Truth in {Fiction}''}; also see Gilmore, \emph{Apt {Imaginings}}, 32; and Walton, \emph{Mimesis as {Make-Believe}}, 145.} Gilmore's contribution, is in addition to our abstractions, we also include ours and the author's aims.
 
 While at \(w^{1}\) and \(w^{2}\) it is the case that
 
@@ -978,40 +961,15 @@ Just what is morally right action? As the literature goes, there is an important
 
 On the thin view of moral understanding suggested by Alison Hills\footnote{{``Moral Testimony and Moral Epistemology.''}}, Sue understands that she should get the vaccine (wHs) if she is also able to do the following given the truth of (wHs) {[}102--103{]}.
 
-\begin{Shaded}
-\begin{Highlighting}[]
+Reason that `If I should should get inoculated, then I should help my neighbors.'
 
-\NormalTok{Reason that \textquotesingle{}If I should should get inoculated, then I should help my neighbors.\textquotesingle{}}
-\end{Highlighting}
-\end{Shaded}
+Follow an explanation of why (wHs) `I should should get the vaccine,' given by someone else; be able to explain (wHs) in her own words;
 
-\begin{Shaded}
-\begin{Highlighting}[]
+draw q---e.g., we should not hit others---from (wHs);
 
-\NormalTok{Follow an explanation of why (wHs) \textquotesingle{}I should should get the vaccine,\textquotesingle{} given by someone else; be able to explain (wHs) in her own words;}
-\end{Highlighting}
-\end{Shaded}
+draw (wHs)`---say Bob---(or likely (wHs)') from q' where (wHs)' and q' are similar but not identical to (wHs) and q;
 
-\begin{Shaded}
-\begin{Highlighting}[]
-
-\NormalTok{draw q{-}{-}{-}e.g., we should not hit others{-}{-}{-}from (wHs);}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{Shaded}
-\begin{Highlighting}[]
-
-\NormalTok{draw (wHs)\textquotesingle{}{-}{-}{-}say Bob{-}{-}{-}(or likely (wHs)\textquotesingle{}) from q\textquotesingle{} where (wHs)\textquotesingle{} and q\textquotesingle{} are similar but not identical to (wHs) and q;}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{Shaded}
-\begin{Highlighting}[]
-
-\NormalTok{given information that (wHs), give the right explanation}
-\end{Highlighting}
-\end{Shaded}
+given information that (wHs), give the right explanation
 
 On Hills\footnote{Ibid.}'s view, testimony is not sufficient for acquiring moral understanding, but can serve as justification. Some initial reasons why moral understanding is valuable: Moral Understanding is essential to acting well.{[}119{]} On this view, a grasp of reasons might be the only way to perform the right actions reliably.
 
@@ -1021,12 +979,7 @@ Suppose your reliable friend has told you not to cheat your customers because do
 
 There are two points about the importance of morally worthy action here that we should note. First, it is important because virtue requires justification, namely the ability to justify one's actions. When one performs a morally worthy action, she is able to justify her action to others in a way that explains it to them. Further, in order for an action to be morally worthy, they have to come from a place of good character. So, crucial to moral worthy actions is having good character. ``{[}M{]}oral understanding is essential to good character and to morally worthy action, that is, to right actions performed for the right reasons.''\footnote{Ibid., 108.}
 
-\begin{Shaded}
-\begin{Highlighting}[]
-
-\NormalTok{Right Action {-}\textgreater{} Actions performed for the right reasons}
-\end{Highlighting}
-\end{Shaded}
+Right Action \(\rightarrow\) Actions performed for the right reasons
 
 An action is morally right only if it is a right action performed for the right reasons. And moral understanding is crucial to certain kinds of morally worthy action. But this conflates being able to justify your actions, with the moral worth of those actions. Perhaps this is all the study of ethics, say medical ethics is. On such a view, a hospital might hire a team of ethicists to justify their actions rather than leading in critical reasoning about complex medical issues such as patient autonomy.
 
@@ -1083,26 +1036,11 @@ Why is it that because something is abstract, that it resists grounding? First, 
 
 In short then:
 
-\begin{Shaded}
-\begin{Highlighting}[]
+Grounding is a kind of evaluation derived from sensory representations, motor responses and emotions.
 
-\NormalTok{Grounding is a kind of evaluation derived from sensory representations, motor responses and emotions.}
-\end{Highlighting}
-\end{Shaded}
+But, because value properties are abstract, they require something from us that influences sensory representations, motor responses, and emotions.
 
-\begin{Shaded}
-\begin{Highlighting}[]
-
-\NormalTok{But, because value properties are abstract, they require something from us that influences sensory representations, motor responses, and emotions.}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{Shaded}
-\begin{Highlighting}[]
-
-\NormalTok{As such, value concepts are not direct representations of the object under evaluation.}
-\end{Highlighting}
-\end{Shaded}
+As such, value concepts are not direct representations of the object under evaluation.
 
 An example may include our judgments becoming compromised due to bias. In such instances, we find ourselves being unable to set aside our own interests mitigating our perceptual capacities and blocking our judgment. Other times we fail at making moral distinctions (maybe because we are more sensitive to a social norm). Here sensitivity to social norms are typically a version of practical knowledge which comes in degrees\footnote{Jones, {``Second-{Hand Moral Knowledge}''}; Collins, \emph{Black Feminist Thought}; Saint-Croix, {``Privilege and {Position}.''}} and it is this which facilitates morally worthy behavior given our ability to attribute the correct properties to the object in question.
 
@@ -1112,12 +1050,7 @@ But this is no different from deference. The need for moral testimony can repres
 
 Claiming that there is an asymmetry between moral and non-moral testimony, involves two separate claims.
 
-\begin{Shaded}
-\begin{Highlighting}[]
-
-\NormalTok{While one\textquotesingle{}s possession of non{-}moral understanding is a more desirable state of affairs than possessing mere knowledge, there is no general obligation to possess non{-}moral understanding like there is with moral understanding.}
-\end{Highlighting}
-\end{Shaded}
+While one's possession of non-moral understanding is a more desirable state of affairs than possessing mere knowledge, there is no general obligation to possess non-moral understanding like there is with moral understanding.
 
 Further, moral action rests on a broader array of faculties than non-moral action.
 
@@ -1127,21 +1060,11 @@ He calls moral and non-moral claims which are not understood ``opaque evidence.'
 
 Consider the vignettes below:
 
-\begin{Shaded}
-\begin{Highlighting}[]
-
-\NormalTok{You read in a school textbook that Napoleon was well{-}organized, tactically astute and ruthless.}
-\end{Highlighting}
-\end{Shaded}
+You read in a school textbook that Napoleon was well-organized, tactically astute and ruthless.
 
 You believe what you read and your belief is true. Do you know that he is well-organized, etc?
 
-\begin{Shaded}
-\begin{Highlighting}[]
-
-\NormalTok{You read in a school textbook that Napoleon was well{-}organized, tactically astute and ruthless.}
-\end{Highlighting}
-\end{Shaded}
+You read in a school textbook that Napoleon was well-organized, tactically astute and ruthless.
 
 You believe what you read and your belief is true. But your textbook is generally very inaccurate and it is lucky that the few sentences in it you have chosen to read are true. You have not checked the accuracy of the textbook or of the sentences you read in it. Do you have knowledge that Napoleon is well-organized, etc?
 
@@ -1183,67 +1106,27 @@ According to the standard account of non-moral justification, if our beliefs are
 
 However, this could also be achieved through observation. The fact that I am blinded by the sun's rays when I open my bedroom curtain is a sufficient overriding reason against my belief that it is still night out. Further, my perception that the sun is shinning is direct. Direct perception then is an adequate ground to hold a given belief. Mary, Sue, and Clarice can be overwhelmed by the force of an argument in favor of inoculation. But what this shows us, is that to suppose that our judgments need to correspond with held principles is too stringent of a demand as it does not explain all that we know. For instance, our beliefs that there is an external world or that the sun is bright. We have some beliefs which are voluntary and others which are involuntary. Both are justified, once we have satisfied all of our epistemic obligations regarding them.
 
-\begin{Shaded}
-\begin{Highlighting}[]
-
-\NormalTok{Believing that *p* in a way that is good from an epistemic point of view satisfies the chief desiderata for a concept of epistemic justification.}
-\end{Highlighting}
-\end{Shaded}
+Believing that \emph{p} in a way that is good from an epistemic point of view satisfies the chief desiderata for a concept of epistemic justification.
 
 Having these beliefs, signifies that we have \emph{done} something to show \emph{`that p'} or that we are justified in believing \emph{`that p'}. We might recognize that the believing subject has not violated any epistemic, cognitive, or intellectual obligations which may include refraining from believing \emph{`that p'} in the absence of sufficient evidence, accepting implications of the belief \emph{`that p'}, etc. But we have many more beliefs which are involuntary, and these we treat the same as we do the justified beliefs. Though it is plausible, I would be hard pressed to disbelieve that the traffic light is green.
 
 As such, it would seem that whatever concept of justified beliefs we hold under the critical reflection view, it is too stringent to explain much of the knowledge we are supposed to have. Therefore, given that many of our beliefs are involuntary, that I have hands for instance, we often are thought to have fulfilled our obligations with respect to such beliefs. Following this, McGrath then points out that what this means, is that we often act as though being justified is a more important epistemic state than is the state of justifying. Being justified is being in a state of knowledge and while we do think of justification as important, a different path to justification rests on what we already know. Accordingly:
 
-\begin{Shaded}
-\begin{Highlighting}[]
+Knowing entails justified believing in that knowing a proposition, e.g.~2+2=4, satisfies the necessary conditions for justification, adequacy and safety.
 
-\NormalTok{Knowing entails justified believing in that knowing a proposition, e.g. 2+2=4, satisfies the necessary conditions for justification, adequacy and safety.}
-\end{Highlighting}
-\end{Shaded}
+If S knows \emph{p} then S's belief that \emph{p} is based on adequate grounds and lacks sufficient overriding reasons to the contrary.
 
-\begin{Shaded}
-\begin{Highlighting}[]
+But justified belief then, often occurs well before one is able to reflect on what they know or other methods of justification.
 
-\NormalTok{If S knows *p* then S\textquotesingle{}s belief that *p* is based on adequate grounds and lacks sufficient overriding reasons to the contrary.}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{Shaded}
-\begin{Highlighting}[]
-
-\NormalTok{But justified belief then, often occurs well before one is able to reflect on what they know or other methods of justification.}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{Shaded}
-\begin{Highlighting}[]
-
-\NormalTok{Therefore, by the time a typical moral agent is capable of the kind of reflection or other justifying devices necessary for knowledge acquisition, she already has a substantial amount of justified moral beliefs [@mcgr19, ch. 2; also see William @alst89b; and C.F. @pryo00].}
-\end{Highlighting}
-\end{Shaded}
+Therefore, by the time a typical moral agent is capable of the kind of reflection or other justifying devices necessary for knowledge acquisition, she already has a substantial amount of justified moral beliefs.\footnote{McGrath, \emph{Moral {Knowledge}}, ch.~2; also see William Alston, \emph{Epistemic Justification}; and C.F. Pryor, {``The {Skeptic} and the {Dogmatist}.''}}
 
 On the critical reflection view then,
 
-\begin{Shaded}
-\begin{Highlighting}[]
+A moral belief \emph{M} counts as knowledge \emph{mK} for moral agent \emph{S} just in case \emph{M} is the result of critical reasoning or deliberation performed by \emph{S}. However, we often credit an agent with knowledge by the time she is capable of the kind of critical reasoning required under the critical reflection view. What this shows then, is that:
 
-\NormalTok{A moral belief *M* counts as knowledge *mK* for moral agent *S* just in case *M* is the result of critical reasoning or deliberation performed by *S*. However, we often credit an agent with knowledge by the time she is capable of the kind of critical reasoning required under the critical reflection view. What this shows then, is that:}
-\end{Highlighting}
-\end{Shaded}
+Being justified is a more important state than justifying and a justified belief for S is one based on adequate grounds and where S lacks sufficient overriding reasons to the contrary.\footnote{Alston, \emph{Epistemic Justification}.}
 
-\begin{Shaded}
-\begin{Highlighting}[]
-
-\NormalTok{Being justified is a more important state than justifying and a justified belief for S is one based on adequate grounds and where S lacks sufficient overriding reasons to the contrary [@alst89b].}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{Shaded}
-\begin{Highlighting}[]
-
-\NormalTok{Therefore what justifies is restricted to a subject\textquotesingle{}s perspective}
-\end{Highlighting}
-\end{Shaded}
+Therefore what justifies is restricted to a subject's perspective
 
 It was initially thought that justification regarding moral testimony, in part, depends on whether we can defend our belief on the basis of the testimony we received. This was in part because we thought that testimony was a source of evidence given its relationship to justified beliefs. We think someone should receive a given vaccine if all the leading experts in a given medical field have testified to its efficacy. We often cite various medical reports in defending our medical decisions. Therefore it seems plausible that we can defend our moral beliefs in the same way, what McGrath calls \emph{moral inheritance}.
 
@@ -1403,11 +1286,11 @@ Pots with cocaine residue, every day I'm hustlin'
 
 What else is a thug to do when you eatin' cheese from the government?
 
-Gotta provide for my daughter n'em---get the fuck up out my way, bish!
+Gotta provide for my daughter n'em---get the f*** up out my way, bish!
 
 These are just some of the examples in support of the common characterization, that if taken literaly, hip-hop is violent, misogynistic, anti-establishment and anti-social. In contrast, country music, though having gone through periods of varying relational standards, is argued to be unsophisticated and or prejudiced, but that it also represents themes of nostalgia for family and home life. Importantly, it is thought that country music defines the white American experience in rural environments while hip-hop defines the African American experience in urban environments.
 
-However this particular disjunct is highly contentious with many music theorists defending the assertions in rap and hip hop music as benign. For instance, Crispin \textasciitilde{}Crispin Sartwell\footnote{{``Rap {Music} and the {Uses} of {Stereotype},''} in \emph{Act Like You Know: {African-American} Autobiography \& White Identity} (Chicago, Ill.: Univ. of Chicago Press, 1998).} defends stereotypical characterizations of rap as violent, etc., that we may often argue are anti-social character traits. Prevalent in these are expressions are a kind of resistance. Rather than conceptualizing rap and hip hop as promoting materialism and individualism, Crispin argues that the images attributed to African Americans in hip hop as violent, or misogynist, are transformations, ``oppression into resistance''. As \textasciitilde{}Shusterman\footnote{{``Moving {Truth}.''}} points out however, it is important to note distinctions between rap and hip hop more generally. For instance, according to Shusterman, one such distinction is between rap and \emph{gangsta} rap, the former being a commercial product rather than a culturally ethnographic account of a community's values. While Crispin articulates hip-hop as a form of resistance, Shusterman distinguishes between forms of hip-hop, an important point that we should acknowledge, is that the forms that are ethnographic would be those that could be reliably used as forms of resistance to oppressive biases.
+However this particular disjunct is highly contentious with many music theorists defending the assertions in rap and hip hop music as benign. For instance, Crispin Crispin Sartwell\footnote{{``Rap {Music} and the {Uses} of {Stereotype},''} in \emph{Act Like You Know: {African-American} Autobiography \& White Identity} (Chicago, Ill.: Univ. of Chicago Press, 1998).} defends stereotypical characterizations of rap as violent, etc., that we may often argue are anti-social character traits. Prevalent in these are expressions are a kind of resistance. Rather than conceptualizing rap and hip hop as promoting materialism and individualism, Crispin argues that the images attributed to African Americans in hip hop as violent, or misogynist, are transformations, ``oppression into resistance''. As Shusterman\footnote{{``Moving {Truth}.''}} points out however, it is important to note distinctions between rap and hip hop more generally. For instance, according to Shusterman, one such distinction is between rap and \emph{gangsta} rap, the former being a commercial product rather than a culturally ethnographic account of a community's values. While Crispin articulates hip-hop as a form of resistance, Shusterman distinguishes between forms of hip-hop, an important point that we should acknowledge, is that the forms that are ethnographic would be those that could be reliably used as forms of resistance to oppressive biases.
 
 Considering market forces central to music production, perhaps there is a general commercial demand for figurative portrayals of African Americans as violent, etc., motivating such portrayals given the market demand.\footnote{See Wendy M. Laybourn, {``The Cost of Being {`Real'}: Black Authenticity, Colourism, and {Billboard Rap Chart} Rankings,''} \emph{Ethnic and Racial Studies} 41, no. 11 (September 2, 2018): 2085--2103, \url{https://doi.org/10.1080/01419870.2017.1343484}.} But whether the more violent and misogynist elements are rooted in a demand for representative ethnographic account, protest, or something else more sinister, is an important question. One way to approach an answer to such questions would be to consider what is unique about humanity in general and use this whatever trait that we would identify as a central focus on a given layer of a representative ethnographic accounting of a particular community.\footnote{Rujing Stacy Huang et al., {``Beyond {Diverse Datasets}: {Responsible MIR}, {Interdisciplinarity}, and the {Fractured Worlds} of {Music},''} \emph{Transactions of the International Society for Music Information Retrieval} 6, no. 1 (June 28, 2023): 43--59, \url{https://doi.org/10.5334/tismir.141}; Born, Georgina, \emph{The Social After {Gabriel Tarde}: Debates and Assessments}, ed. Matei Candea, Culture, Economy and the Social (London ; New York: Routledge, 2010); Georgina Born, {``Diversifying {MIR}: {Knowledge} and {Real-World Challenges}, and {New Interdisciplinary Futures}''} 3, no. 1, 1 (October 22, 2020): 193--204, \url{https://doi.org/10.5334/tismir.58}; Geoffrey C. Bowker, {``Sustainable {Knowledge Infrastructures},''} in \emph{The {Promise} of {Infrastructure}}, ed. Nikhil Anand, Akhil Gupta, and Hannah Appel (Duke University Press, 2018), 0, \url{https://doi.org/10.1215/9781478002031-009}.} Some songs, through their reprsentation of relationship between people, are more representative of the common human experience. Others however, because of market forces, fail to accurately represent the human experience.\footnote{E.g., see Laybourn, {``The Cost of Being {`Real'}''}; Shusterman, {``Moving {Truth}.''}} Malone's \emph{Rich and Sad}, as I will show, offers an artistic example of this distinction. In regards to a song's capacity to represent an individual as possessing other important societal virtues, such as the subject's ability to care for vulnerable others, make material sacrifices in order to strengthen one's bonds with another etc., such attributions would better represent a kind of social protest. Namely that, a better form of protest would discredit negative stereotypes regarding one's potential dispositional character regarding interpersonal values, by using one's artistic talent for expression, rather than reinforcing them.
 
@@ -1425,23 +1308,17 @@ The song \emph{Rich and Sad} explores this expression of need. By entrusting his
 
 An important distinction to make here is between two popular claims about the value of other people in one's life. The form of the first argument, those often found in rap music, is as follows:
 
-\begin{remark}
 Either one pursues a relationship, or one pursues material possessions but not both. Further, loosing out on material possessions is not an option, \(\lnot\) \(\lnot\) gold-chains. Therefore one ought sever the interpersonal connection \(\lnot\) you
-\end{remark}
 
 We'll call this argument \emph{The Agamemnon Solution}. Here, the individual is forced to choose between a relationship that he or she might value, or money and its equivalents. They forgo pursuing the relationship, severing the relationship, undermining the relationship to keep it from blossoming into something more, etc.
 
 As the example is meant to show, there is a common admiration of traits of independence and self-reliance in such tropes. The point here is to highlight this trope by contrasting it against another. Importantly, on the assumption that \emph{The Agamemnon Solution} is a common enough trope, we can make the argument that its refrain typically results in selecting the part of the disjunct that aligns most closely with material wealth and possessions, it negates the right, rather than the left, disjunct:
 
-\begin{remark}
 Loosing out on material possessions is not an option \(\lnot\) \(\lnot\) gold-chains
-\end{remark}
 
 With the implication being that the song's narrator has to choose between the pursuit of a particular relationship or material wealth; \emph{Stacked your bread} vs \emph{Quick to tell a broke . . .} As such, the clear choice is:
 
-\begin{remark}
 The individual severs the interpersonal relationship \(\lnot\) you
-\end{remark}
 
 As mentioned already, this is the \emph{Agamemnon} solution. The first premise is the choice between two disjuncts; relationship or material wealth. The second premise is that loosing out on the material wealth is not an option. The obvious conclusion then is giving up the relationship. You might have noticed that \emph{gold chains} is slightly different than a standard disjunctive syllogism. This difference is negligible however. The only thing we've done is add negations to the formal version.
 
@@ -1449,9 +1326,7 @@ Of course something about this whole affair may be off-putting. The point is, it
 
 Often times, valid argument forms are equivalent with other valid argument forms. Considering this then, a better way of understanding Post Malone's contribution to Hip Hop, is by looking at one of these equivalency relationships. As we saw, the choice is compatible with a conditional one. Rather than \emph{either or}, what a material conditional says, is that on the assumption that something is the case, then something else follows. Given that the narrator typically faces a choice, this state of affairs may be equivalent with the conditional that if an individual pursues a relationship, the left disjunct, then they will be left destitute with the antecedent being the choice that the individual faces and the consequent being the consequence of their choice, destitution. This can be seen below:
 
-\begin{remark}
 If one pursues a relationship, then they cannot possess material possessions. `you \(\rightarrow\) \(\lnot\) gold-chains'
-\end{remark}
 
 But, rejecting material possessions is not possible. \(\lnot\) \(\lnot\) gold-chains.
 
@@ -1569,28 +1444,30 @@ Early research at the intersections of language and the behavioral sciences, hav
 
 Work on sentiment analysis suggests that moral content in messaging plays an instrumental role in cultivating various dynamics supervening on, or emerging from emotional states, such as our sense of identity.\footnote{Brady et al., {``Emotion Shapes the Diffusion of Moralized Content in Social Networks''}; Brady and Crockett, {``How Effective Is Online Outrage?''}; Brady, Gantman, and Bavel, {``Attentional capture helps explain why moral and emotional content go viral''}; Brady, Crockett, and Van Bavel, {``The {MAD} Model of Moral Contagion''}, 984} By understanding what gives rise to emotion then, we can better understand these dynamics and their associations with human behavior, for example group identity, and how it may inform what choices of action we decide on.\footnote{Hopp et al., {``The Extended {Moral Foundations Dictionary} ({eMFD})''}; Graham, Haidt, and Nosek, {``Liberals and Conservatives Rely on Different Sets of Moral Foundations.''}} According to one view of group identity, social identity theory, when group identities become highly relevant, for instance on social media platforms, emotions are motivated in terms of group rather than individual goals.\footnote{Brady, Crockett, and Van Bavel, {``The {MAD} Model of Moral Contagion''}, 987; Tajfel and Turner, {``The {Social Identity Theory} of {Intergroup Behavior}.''}}
 
-Similarly, there is also evidence that suggests that public moral content influences the individual cognitive processes of individuals when phrases loaded with moral implications are processed more quickly by our cognitive processes.\footnote{Hopp et al., {``The Extended {Moral Foundations Dictionary} ({eMFD})''}; Brady, Crockett, and Van Bavel, {``The {MAD} Model of Moral Contagion''}; Gantman and Van Bavel, {``The Moral Pop-Out Effect''}; Gantman and Bavel, {``See for Yourself.''}} Some individuals argue that this occurs in news reporting, motivating research into what emotional states are most likely to be experienced by which audiences.\footnote{Haidt and Ortega, {``{WHY THE PAST} 10 {YEARS OF AMERICAN LIFE HAVE BEEN UNIQUELY STUPID}.''}} Assuming that we align politically with a given party, we may experience anger when viewing a news report on vaccine hesitancy as opposed to another. Another branch analyzes the importance of personal and public narratives and the roles that these play in identity development.\footnote{McLean and Syed, {``Personal, {Master}, and {Alternative Narratives}''}; Bruner, \emph{Acts of Meaning}.}
+Similarly, there is also evidence that suggests that public moral content influences the individual cognitive processes of individuals when phrases loaded with moral implications are processed more quickly by our cognitive processes.\footnote{Hopp et al., {``The Extended {Moral Foundations Dictionary} ({eMFD})''}; Brady, Crockett, and Van Bavel, {``The {MAD} Model of Moral Contagion''}; Gantman and Van Bavel, {``The Moral Pop-Out Effect''}; Gantman and Bavel, {``See for Yourself.''}} Some individuals argue that this occurs in news reporting, motivating research into what emotional states are most likely to be experienced by which audiences.\footnote{Haidt, {``Why the {Past} 10 {Years} of {American Life Have Been Uniquely Stupid}.''}} Assuming that we align politically with a given party, we may experience anger when viewing a news report on vaccine hesitancy as opposed to another. Another branch analyzes the importance of personal and public narratives and the roles that these play in identity development.\footnote{McLean and Syed, {``Personal, {Master}, and {Alternative Narratives}''}; Bruner, \emph{Acts of Meaning}.}
 
 One important aspect for factors that motivate our emotions is found in the psychology of personality literature. Here, personal narratives are a subjective understanding of how one came to be the person they currently are.\footnote{McAdams, {``The {Psychology} of {Life Stories}.''}} We can infer a person's expected emotion by referencing various contextual factors such as one's social group and class.\footnote{Tajfel and Turner, {``The {Social Identity Theory} of {Intergroup Behavior}.''}} Much of the research has defined two kinds of narratives, master and personal. A master narrative is a script that is held publicly by a group of individuals. These are defined as culturally shared stories that guide one's beliefs, behaviors, and values.\footnote{Bamberg, {``Form and {Functions} of {`{Slut Bashing}'} in {Male Identity Constructions} In15-{Year-Olds}.''}} Accordingly, an individual often shares the values of the community she belongs to. These values are defined through her scripts which are often indisputable by rational members of a given community, for instance the denying the 1969 moon landing defines membership in a community of conspiracy theorists. Katherine Nelson and Robyn Fivush\footnote{{``The {Emergence} of {Autobiographical Memory}: {A Social Cultural Developmental Theory}.''} \emph{Psychological Review} 111, no. 2 (2004): 486--511, \url{https://doi.org/10.1037/0033-295X.111.2.486}.} have called these immersive socialization processes {[}Also see Booker, Fivush, and Graci\footnote{{``Narrative Identity Informs Psychological Adjustment.''}}) and argue that they are socialization processes, a system of human developments that includes language, memory, and identity. As a contrast, personal narratives are autobiographies which we use to explain how we became the person that we are. While there is significant research on both master and personal narratives, what is less well known are the cultural contexts of personal narratives. Because of the large interplay between social scripting, and what one believes about herself, our personal narratives often emerge in relation to master ones. However, it is not well known how master narratives factor into one's own autobiography. Some possibilities can include a common example narrative about a shared recognition of the value of knowledge and understanding held by the members of a particular Russian Jewish community for instance. Academic success by one of the members of the community may be explained by reference to this shared communal value. Intelligence and cognitive ability then is not a surprise outcome but expected given one's membership in that community. Even more importantly here, while master and personal narratives often converge, they can also conflict. Not only can they do this in matters of traditional cognitive ability, but also moral cognitive ability given the moral beliefs held by members of a particular community.
 
 One way to understand the relationship between moral understanding and master narrative is provided by Marc Mark Alfano\footnote{\emph{Character as Moral Fiction}, First paperback edition (Cambridge, United Kingdom: Cambridge University Press, 2015).} in his book Character as Moral Fiction. Alfano argues that moral technology is a form of character attribution wherein we assert various positive moral traits of a given individual regardless of the truth value for such a claim. Importantly however, the given trait attribution is not demonstrably false and therefore remains a possibility. Because of this possibility, the assertion is a placebo which motivates the object to begin believing certain facts about themselves. Referring to the fact that there is a positive correlation between the story about whether one possesses a moral virtue, and associated behaviors stemming from that possibility, we might think that positive moral trait attribution is a kind of moral testimony wherein one comes to believe certain moral facts about themselves and behaves accordingly. However, in relation to a worry by epistemologists regarding moral testimony as a source for moral knowledge,\footnote{Hills, {``Moral Testimony and Moral Epistemology''}; Hopkins, {``What {Is Wrong With Moral Testimony}?''}; Nickel, {``Moral {Testimony} and Its {Authority}''}; Enoch, {``A {Defense} of {Moral Deference}.''}} that we do not have any reason to trust it,\footnote{E.g., see Hopkins, {``What {Is Wrong With Moral Testimony}?''}; Hills, {``Moral Testimony and Moral Epistemology.''}} there may be various reasons why one would think that narrative as a form of testimony is sufficient for moral knowledge whereas traditional testimony is not. To understand why this might be the case, we should contrast narratives with what we know about empathy and group identity. Our reliance on moral narrative as a guide for our behavior can bestow moral justification on our behavior in that we might experience an emotional event that motivates a given moral action.
 
-Alternative narratives are important in contrast to personal and master narratives as they enable an individual to conceptualize their personal narrative in contrast to a culturally shared negative one. An individual falling under a socially attributed stereotype may believe that certain unproductive behavior for them is expected and therefore excused. However, another who rejects the broader social organization by accepting alternative narratives instead of the master one, may not excuse themselves for sub-par behavior. Additionally, alternative narratives can change public perceptions mitigating harmful stereotypes. For instance, Catherine Harrison (2011) argues that we have a similarity bias which is the root cause of emotions of empathy {[}Also see haro03?{]}. Harris argues that Emily Gaskell's novel Mary Barton, evoked the similarity bias of Britain's upper-class by describing the socially poor in London as people with similar motives and concerns as the ruling and wealthy class, creating empathic relations between the upper and lower classes of London. This empathy was central to Britain's expanded social safety net.
+Alternative narratives are important in contrast to personal and master narratives as they enable an individual to conceptualize their personal narrative in contrast to a culturally shared negative one. An individual falling under a socially attributed stereotype may believe that certain unproductive behavior for them is expected and therefore excused. However, another who rejects the broader social organization by accepting alternative narratives instead of the master one, may not excuse themselves for sub-par behavior. Additionally, alternative narratives can change public perceptions mitigating harmful stereotypes. For instance, Catherine Harrison (2011) argues that we have a similarity bias which is the root cause of emotions of empathy.\footnote{Also see Harold, {``Flexing the {Imagination}''}?} Harris argues that Emily Gaskell's novel Mary Barton, evoked the similarity bias of Britain's upper-class by describing the socially poor in London as people with similar motives and concerns as the ruling and wealthy class, creating empathic relations between the upper and lower classes of London. This empathy was central to Britain's expanded social safety net.
 
 \chapter{A New Identity}\label{a-new-identity}
 
-As noted in emerging work on country music, there is a reason to think that personal identity is socially constructed. Authors have argued that the narrative implicit in country music's aesthetic is used to construct the identity of the modern American Anglo Saxon man.\footnote{Mann, {``Why Does Country Music Sound White?''}; Shusterman, {``Moving {Truth}''}; Meissner and Huebner, {``Outlaw Epistemologies''}; Grossman, {``Jesus, {Mama}, and the {Constraints} on {Salvific Love} in {Contemporary Country Music}''}; Hayes, {``Religion and {Country Music}''}; Hollowell and Miller, {``Country {Music} for {People Who Don}'t {Like Country Music}''}; Charles L. Hughes, \emph{Country Soul: Making Music and Making Race in the {American South}} (Chapel Hill, N.C: University of North Carolina press, 2015); Jada Watson, {``Billboard's '{Hot Country Songs}' Chart and the Curation of Country Music Culture,''} \emph{Popular Music History}, no. 1/2 (January 2020): 168--90, \url{https://doi.org/10.1558/pomh.39428}.} Critical race theorists also ask similar questions regarding the social construction of the identities of social minorities. In the philosophical literature on narrative however, agency seems to be a central concern. Narrative agency seems to be rooted in one's emotional experiences upon a retelling of their life story.\footnote{Roman Altshuler, {``Agency, Narrative, and Mortality,''} in \emph{The {Routledge Handbook} of {Philosophy} of {Agency}}, by Luca Ferrero, 1st ed. (London: Routledge, 2021), 385--93, \url{https://doi.org/10.4324/9780429202131-43}; Marya Schechtman, {``Personhood and {Personal Identity},''} \emph{The Journal of Philosophy} 87, no. 2 (February 1990): 71, \url{https://doi.org/10.2307/2026882}; David Velleman, {``The {Self} as {Narrator},''} in \emph{Autonomy and the {Challenges} to {Liberalism}: {New Essays}}, ed. John Christman and Joel Anderson, 1st ed. (Cambridge University Press, 2005), \url{https://doi.org/10.1017/CBO9780511610325}; C. M. Korsgaard, \emph{The Sources of Normativity} (Cambridge: Cambridge University Press, 1996).} More specifically, a narrative can motivate various feelings, for instance of regret,\footnote{PETER GOLDIE, {``Narrative {Thinking}, {Emotion}, and {Planning},''} \emph{The Journal of Aesthetics and Art Criticism} 67, no. 1 (February 10, 2009): 97--106, \url{https://doi.org/10.1111/j.1540-6245.2008.01338.x}.} or pride, towards actions that one did or did not do. I consider questions of agency in regards to various interrelational virtues as represented in popular music.
+As noted in emerging work on country music, there is a reason to think that personal identity is socially constructed. Authors have argued that the narrative implicit in country music's aesthetic is used to construct the identity of the modern American Anglo Saxon man.\footnote{Mann, {``Why Does Country Music Sound White?''}; Shusterman, {``Moving {Truth}''}; Meissner and Huebner, {``Outlaw Epistemologies''}; Grossman, {``Jesus, {Mama}, and the {Constraints} on {Salvific Love} in {Contemporary Country Music}''}; Hayes, {``Religion and {Country Music}''}; Hollowell and Miller, {``Country {Music} for {People Who Don}'t {Like Country Music}''}; Charles L. Hughes, \emph{Country Soul: Making Music and Making Race in the {American South}} (Chapel Hill, N.C: University of North Carolina press, 2015); Jada Watson, {``Billboard's '{Hot Country Songs}' Chart and the Curation of Country Music Culture,''} \emph{Popular Music History}, no. 1/2 (January 2020): 168--90, \url{https://doi.org/10.1558/pomh.39428}.} Critical race theorists also ask similar questions regarding the social construction of the identities of social minorities. In the philosophical literature on narrative however, agency seems to be a central concern. Narrative agency seems to be rooted in one's emotional experiences upon a retelling of their life story.\footnote{Roman Altshuler, {``Agency, Narrative, and Mortality,''} in \emph{The {Routledge Handbook} of {Philosophy} of {Agency}}, by Luca Ferrero, 1st ed. (London: Routledge, 2021), 385--93, \url{https://doi.org/10.4324/9780429202131-43}; Marya Schechtman, {``Personhood and {Personal Identity},''} \emph{The Journal of Philosophy} 87, no. 2 (February 1990): 71, \url{https://doi.org/10.2307/2026882}; David Velleman, {``The {Self} as {Narrator},''} in \emph{Autonomy and the {Challenges} to {Liberalism}: {New Essays}}, ed. John Christman and Joel Anderson, 1st ed. (Cambridge University Press, 2005), \url{https://doi.org/10.1017/CBO9780511610325}; C. M. Korsgaard, \emph{The Sources of Normativity} (Cambridge: Cambridge University Press, 1996).} More specifically, a narrative can motivate various feelings, for instance of regret,\footnote{Peter Goldie, {``Narrative {Thinking}, {Emotion}, and {Planning},''} \emph{The Journal of Aesthetics and Art Criticism} 67, no. 1 (February 10, 2009): 97--106, \url{https://doi.org/10.1111/j.1540-6245.2008.01338.x}.} or pride, towards actions that one did or did not do. I consider questions of agency in regards to various interrelational virtues as represented in popular music.
 
 \section{Overview of the argument}\label{overview-of-the-argument}
 
-\begin{Shaded}
-\begin{Highlighting}[]
-
-\NormalTok{1. Modern conceptions of personhood are situated inside of social identities.}
-\NormalTok{2. It is not clear that these equitably entail human agency.}
-\NormalTok{3. Therefore sources of social identity is an underexplored topic in critical theory.}
-\end{Highlighting}
-\end{Shaded}
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Modern conceptions of personhood are situated inside of social identities.
+\item
+  It is not clear that these equitably entail human agency.
+\item
+  Therefore sources of social identity is an underexplored topic in critical theory.
+\end{enumerate}
 
 \subsection*{Introduction}\label{introduction-2}
 \addcontentsline{toc}{subsection}{Introduction}
@@ -1607,9 +1484,6 @@ Shelbi Nawhlit Messiner and Bryce Huebner in their paper \emph{Outlaw Epistemolo
 
 First some points,
 
-\begin{remark}
-\leavevmode
-
 \begin{itemize}
 \tightlist
 \item
@@ -1620,15 +1494,11 @@ First some points,
   And undermine land rights and genocidal crimes.
 \end{itemize}
 
-\end{remark}
-
 Additionally it will be helpful to point out that,
 
-\begin{remark}
 \textbf{\emph{Epistemic Ecologies are}}
 
 A rich set of resources for characterizing epistemic communities and the embodiment of social knowledge, they are socio-political imaginaries that embody affectively rich knowledge systems in epistemic communities.\footnote{Dian Million, \emph{Therapeutic {Nations}: {Healing} in an {Age} of {Indigenous Human Rights}}, First paperback edition, Critical {Issues} in {Indigenous Studies} (Tucson: University of Arizona Press, 2014).} This social knowledge informs the unspoken, commonly held `affectively understood' sociopolitical imaginary, which in themselves are racial, gendered, and sexualized presumptions about who the members of these communities are.
-\end{remark}
 
 A primary point in Meissner \emph{et al}, is that many of the facts that make up the current shared socio-political imagination are uncontested, under explored and built from assumptions. We might be well justified in thinking that it is odd to encounter uncontested claims in a modern liberal society. However, one way to explain this entrenchment is by recognizing that these claims are emotional rather than cognitive.
 
@@ -1653,21 +1523,17 @@ In support of this argument, Nussbaum suggests a epistemic ecology that embody a
 
 Literary narratives are a kind of cultural artifact. There is an aspect in the literature on narrative that focuses on what we can know through narrative. Especially important here is the way we can know ourselves and others through narratives in a way not possible through other kinds of literature.\footnote{Stump, \emph{Wandering in {Darkness}}, 25.} By drawing our focus to Outlaw country music, Meissner \emph{et al} point out the ways in which socio-political imaginaries are embodied in popular entertainment, especially music, and can be identified by a number of features most closely associated with literary narratives. Before exploring the concept they give further, I highlight some alternative propositions first:
 
-\begin{remark}
 Any adequate theory of fiction must accommodate pictorial, as well as literary ones.\footnote{Walton, \emph{Mimesis as {Make-Believe}}, 75.}
 
 Literary narratives, those ``devised by single authors who were the creators of that literature'' can ``come{[}s{]} in many forms, from the highly self-conscious artistry of Aeschylean tragedy to the communally produced narratives of folklore''\footnote{Stump, \emph{Wandering in {Darkness}}, 29.}
-\end{remark}
 
 Perhaps the most important relationship between narrative and socially constructed identities, is by reference to what contributes to one's own agency. What the above contributions fail to express, are those concepts central to human development, namely relational goods. This includes claims about the sort of person one is in regards to their social values. A consideration about the aesthetic representations of the following questions:
 
-\begin{remark}
 Am I affectionate? Why?
 
 Am I Caring? Why?
 
 Am I Passionate? Why?
-\end{remark}
 
 What actions are available to me to be the sort of person that I desire?
 
@@ -1695,7 +1561,7 @@ What are narratives? Eleanore Stump has pointed out the difficulty, if not the i
 \subsection*{Narrative Agency}\label{narrative-agency}
 \addcontentsline{toc}{subsection}{Narrative Agency}
 
-An important approach for such questions is initially developed by Paul Goldie. Accordingly, the way to understand and answer the above question, is to say that human agency concerns questions about one's plans for the future and how things might turn out.\footnote{GOLDIE, {``Narrative {Thinking}, {Emotion}, and {Planning}.''}} But Goldie argues that such questions are grounded in whether we are able to have the kinds of desires informed by what we are, which for him, is a question about apt emotional expression. Given that these considerations are often constrained by the sort of things we are, feeling things, as agents, agency is rooted in one's emotional experiences upon a retelling of their life story.\footnote{Altshuler, {``Agency, Narrative, and Mortality''}; Velleman, {``The {Self} as {Narrator},''} 2005; Korsgaard, \emph{The Sources of Normativity}.} If in the retelling of a given event, an individual experiences regret at something she said, she will be more careful to speak in the future. More specifically, since a narrative can motivate various feelings, for instance of regret,\footnote{GOLDIE, {``Narrative {Thinking}, {Emotion}, and {Planning}.''}} or pride, towards actions that one did or did not do, narrative can cultivate agency.
+An important approach for such questions is initially developed by Paul Goldie. Accordingly, the way to understand and answer the above question, is to say that human agency concerns questions about one's plans for the future and how things might turn out.\footnote{Goldie, {``Narrative {Thinking}, {Emotion}, and {Planning}.''}} But Goldie argues that such questions are grounded in whether we are able to have the kinds of desires informed by what we are, which for him, is a question about apt emotional expression. Given that these considerations are often constrained by the sort of things we are, feeling things, as agents, agency is rooted in one's emotional experiences upon a retelling of their life story.\footnote{Altshuler, {``Agency, Narrative, and Mortality''}; Velleman, {``The {Self} as {Narrator},''} 2005; Korsgaard, \emph{The Sources of Normativity}.} If in the retelling of a given event, an individual experiences regret at something she said, she will be more careful to speak in the future. More specifically, since a narrative can motivate various feelings, for instance of regret,\footnote{Goldie, {``Narrative {Thinking}, {Emotion}, and {Planning}.''}} or pride, towards actions that one did or did not do, narrative can cultivate agency.
 
 As such, these characteristics can effectively portray the endorsement or rejection of one's past behavior or behaviors. As such, the answer to the above question is dependent on whether we have the capacity for the right desires. Narratives then, are internalized reconstructions of events surrounding moments where an individual behaved in a way they would or would not under normal circumstances endorse. Narrative agency is expressed by subjective emotional evaluation of such events, which taken as a whole, are central to one's understanding of who she is.
 
@@ -1716,7 +1582,7 @@ Unless we view rocks having a robust sense of agency in that they possess voliti
 
 Naturally, one may think that actions which are plausibly attributable to an agent depend on our conceptions of agency and whether those conceptions can be attributed to a given object. Rocks typically do not get what they want or endorse what they do and therefore rocks do not have a robust sense of agency. In the ante-bellum south, an individual thought to be a slave would have less courses of plausible action available to her than one considered to be free. It would have been difficult to spurn the unchaste advances of the plantation owner in the same way it may have been more difficult for an employee to spurn the immoral advances of their vicious employer, or an SS guard to have a change of conscience and decline military service in Nazi Germany. Therefore the question about social identity is one better construed as a question about agency. For instance, a concept of human agency includes questions about whether one's behaviors are representative of their first or second order wills. The behaviors of prisoners and slaves are not representative of their first or second order wills. Therefore, prisoners and slaves have reduced agency with respect to non-prisoners or non-slaves and therefore experience reduced welfare.
 
-Because human behavior is largely goal directed, human rationality is a central component in human behavior.\footnote{H. E. Baber, {``Adaptive {Preference},''} \emph{Social Theory and Practice} 33, no. 1 (2007): 107, \url{http://www.jstor.org/stable/23558512}.} This raises questions about whether and to what extent one's preferences are free and un-coerced.\footnote{Baber, {``Adaptive {Preference}''}; Serene J. Khader, {``Must {Theorising} about {Adaptive Preferences Deny Women}'s {Agency}?''} \emph{Journal of Applied Philosophy} 29, no. 4 (November 2012): 302--17, \url{https://doi.org/10.1111/j.1468-5930.2012.00575.x}; Polly Mitchell, {``Adaptive {Preferences}, {Adapted Preferences},''} \emph{Mind} 127, no. 508 (October 1, 2018): 1003--25, \url{https://doi.org/10.1093/mind/fzy020}; Charlotte Knowles, {``Beyond Adaptive Preferences: {Rethinking} Women's Complicity in Their Own Subordination,''} \emph{European Journal of Philosophy} 30, no. 4 (December 2022): 1317--34, \url{https://doi.org/10.1111/ejop.12742}; Martha C. Nussbaum, {``{ADAPTIVE PREFERENCES AND WOMEN}'{S OPTIONS},''} in \emph{Women and Human Development: {The} Capabilities Approach}, The Seeley Lectures (Cambridge: Cambridge University Press, 2000), 111--66.} But these conceptions of agency invoke questions about power dynamics as referenced by the accounts of slaves or prisoners. Importantly, individuals in such accounts avoid moral condemnation given their diminished agency. For instance, some have questioned whether in light of these facts, human agency, namely our preferences, can be ``\,`deformed' by poverty, adverse social conditions and political oppression.''\footnote{Baber, {``Adaptive {Preference},''} 105; Khader, {``Must {Theorising} about {Adaptive Preferences Deny Women}'s {Agency}?''}; Nussbaum, {``{ADAPTIVE PREFERENCES AND WOMEN}'{S OPTIONS}''}; Hugo Viciana, Antonio Gaitán, and Fernando Aguiar González, eds., {``Adaptive {Preferences}: {Experiments} in {Moral} and {Political Philosophy},''} in \emph{Experiments in Moral and Political Philosophy}, Routledge Studies in Ethics and Moral Theory (New York, NY: Routledge, 2024).} One way that we can understand and answer the question between humanity and agency is through the recognition that human agency concerns questions about one's plans for the future and how things might turn out.\footnote{GOLDIE, {``Narrative {Thinking}, {Emotion}, and {Planning}.''}}
+Because human behavior is largely goal directed, human rationality is a central component in human behavior.\footnote{H. E. Baber, {``Adaptive {Preference},''} \emph{Social Theory and Practice} 33, no. 1 (2007): 107, \url{http://www.jstor.org/stable/23558512}.} This raises questions about whether and to what extent one's preferences are free and un-coerced.\footnote{Baber, {``Adaptive {Preference}''}; Serene J. Khader, {``Must {Theorising} about {Adaptive Preferences Deny Women}'s {Agency}?''} \emph{Journal of Applied Philosophy} 29, no. 4 (November 2012): 302--17, \url{https://doi.org/10.1111/j.1468-5930.2012.00575.x}; Polly Mitchell, {``Adaptive {Preferences}, {Adapted Preferences},''} \emph{Mind} 127, no. 508 (October 1, 2018): 1003--25, \url{https://doi.org/10.1093/mind/fzy020}; Charlotte Knowles, {``Beyond Adaptive Preferences: {Rethinking} Women's Complicity in Their Own Subordination,''} \emph{European Journal of Philosophy} 30, no. 4 (December 2022): 1317--34, \url{https://doi.org/10.1111/ejop.12742}; Martha C. Nussbaum, {``Adaptive {Preferences} and {Women}'s {Options},''} in \emph{Women and Human Development: {The} Capabilities Approach}, The Seeley Lectures (Cambridge: Cambridge University Press, 2000), 111--66.} But these conceptions of agency invoke questions about power dynamics as referenced by the accounts of slaves or prisoners. Importantly, individuals in such accounts avoid moral condemnation given their diminished agency. For instance, some have questioned whether in light of these facts, human agency, namely our preferences, can be ``\,`deformed' by poverty, adverse social conditions and political oppression.''\footnote{Baber, {``Adaptive {Preference},''} 105; Khader, {``Must {Theorising} about {Adaptive Preferences Deny Women}'s {Agency}?''}; Nussbaum, {``Adaptive {Preferences} and {Women}'s {Options}''}; Hugo Viciana, Antonio Gaitán, and Fernando Aguiar González, eds., {``Adaptive {Preferences}: {Experiments} in {Moral} and {Political Philosophy},''} in \emph{Experiments in Moral and Political Philosophy}, Routledge Studies in Ethics and Moral Theory (New York, NY: Routledge, 2024).} One way that we can understand and answer the question between humanity and agency is through the recognition that human agency concerns questions about one's plans for the future and how things might turn out.\footnote{Goldie, {``Narrative {Thinking}, {Emotion}, and {Planning}.''}}
 
 \subsection*{Social v Autobiographical Narratives}\label{social-v-autobiographical-narratives}
 \addcontentsline{toc}{subsection}{Social v Autobiographical Narratives}
@@ -1736,7 +1602,7 @@ However, cultural, or biographical (social) sources of identity are not always t
 
 One factor that can contribute to personal narratives then, are literary ones which are those that are cultural, social, etc. Social narratives contribute to and help inform psychological states that are ``bound together over time by psychological continuity.''\footnote{Parfit, \emph{Reasons and Persons}.} Marc Alfano\footnote{\emph{Character as Moral Fiction}, 2013.} has defined them as tools that enable the development of admirable traits. In this way, they can be ``{[}prosthetic devises{]} that permit us to transcend''raw'' biological limits''.\footnote{Bruner, \emph{Acts of Meaning}, 34.} Most importantly however, may be understanding them from a cultural perspective. In this case then, narrative ``explication is one of a culture's symbolic systems''\footnote{Ibid.} in that they confirm the meaning we bestow on events, terms, constructs etc.
 
-Understanding the cultural sources of narrative can be important if we hope to locate and improve them in contemporary society. Following GOLDIE\footnote{{``Narrative {Thinking}, {Emotion}, and {Planning}.''}}, I argue that a good place to start is in what I call literary narratives and the ways these contribute to the formation of our own goals and desires.
+Understanding the cultural sources of narrative can be important if we hope to locate and improve them in contemporary society. Following Goldie\footnote{{``Narrative {Thinking}, {Emotion}, and {Planning}.''}}, I argue that a good place to start is in what I call literary narratives and the ways these contribute to the formation of our own goals and desires.
 
 In the literature on country music, a common enough view is that American Anglo-Saxon culture is partially produced by country music.\footnote{Mann, {``Why Does Country Music Sound White?''}; Shusterman, {``Moving {Truth}''}; Grossman, {``Jesus, {Mama}, and the {Constraints} on {Salvific Love} in {Contemporary Country Music}''}; Hollowell and Miller, {``Country {Music} for {People Who Don}'t {Like Country Music}.''}} By American Anglo-Saxon culture, what one means are various preferences regarding behavior and common relationship practices including nuclear familial structures and work ethic. Such attributions then, ought to be done with an understanding about human agency.
 
@@ -1748,13 +1614,9 @@ Country music then, often plays an important role in forming such identities\foo
 
 Our lives are lived narratives of which we are the authors, they are narrative in structure bearing close similarities to literary narratives. Consider the following statement:
 
-\begin{remark}
 Why do we observe passover? We observe passover because we are Jewish
-\end{remark}
 
 The identity claim explains the behavioral one. The question here is the relationship between one's identity and one's behavior. Initially, we may very well argue that there is no relationship as such.
-
-\begin{remark}
 
 \textbf{Skeptic:}
 
@@ -1762,11 +1624,7 @@ The identity claim explains the behavioral one. The question here is the relatio
 Narrative does not, nor should not, play any significant part in our understanding of our lives, or in living a life.
 \end{quote}
 
-\end{remark}
-
 Conceptions of narrative: one is agential, call this personal, the other literary
-
-\begin{remark}
 
 But there is a middle position, narrowing the gulf: narrative thinking
 
@@ -1777,24 +1635,18 @@ But there is a middle position, narrowing the gulf: narrative thinking
   through counter factual thought and narrative thinking entails counterfactual thought
 \end{itemize}
 
-\end{remark}
-
 These are thoughts about how our lives might have gone differently, and about our plans for the future and how things might turn out. If I ask myself what I will be doing Friday night, the answer will in part depend on how I identify. If I identity as an observant Jew, then I will be attending Shabbat with my family on Friday.
 
-\begin{remark}
 But what do literary narratives have to do with this?
-\end{remark}
 
 \subsubsection*{Option 1}\label{option-1}
 \addcontentsline{toc}{subsubsection}{Option 1}
 
 Jonathan Gilmore\footnote{\emph{Apt {Imaginings}}.} asks how ``emotions present their objects across the real-fictional divide? Can imaginings of what is true according to a fiction be justified in the same ways as beliefs about the actual world''? The question is not what literary narratives have to do with behavior, but rather what does identity have to do with how emotions present their objects to us. The answer to this question hinges in part on how we identify ourselves. One way to understand our personal identity concerns justification. How do we justify imaginings of what is true about fictional characters who in other respects, remind us of ourselves?
 
-\begin{remark}
 \textbf{Here the question is:}
 
 Do desires exhibit normative continuity?
-\end{remark}
 
 Are our desires continuous with what we might think about ourselves? I may think it plausible to desire becoming an Army ranger, however if I do not think of myself as particularly athletic, then such a desire appears irrational and unjustifiable.\footnote{If I do think of myself as particularly atheletic, then certain behaviors, presumably, will follow. It is possible that I participate in various sporting competitions more often than I would if I did not think of myself as atheletic. I might prioritize my time more around expending energy related to physical endeavors. I may pursue an occupation that is more physically demanding, say construction, or professional sports. My identity could very well change in addition. I may once have thought of myself as atheletic, and then perhaps a professor may encourage me otherwise, for instance, to pursue a given academic discipline instead, or I saw the level of competition and realize that I do not think of myself as ``that atheletic''.} Therefore, it is unlikely that I will fully identity with a fictional character who seems to possess desires that are implausible for me. In other words, how do we justify the right desire according to a fiction? Do we empathize with the poor black kid who sells drugs rather than working hard at Walmart while in community college? If I see myself as a part of a community of people who will admire the child more who works at Walmart to support his family than the one who sells drugs to buy expensive cars, I will likely identify more with characters who work hard.
 
@@ -1923,7 +1775,7 @@ the question manageable is to consider families of moral emotions---one example 
 \subsection*{Moral Space in Narrative}\label{moral-space-in-narrative}
 \addcontentsline{toc}{subsection}{Moral Space in Narrative}
 
-While Morton gives us a glimpse into why we should be more reflective on the beliefs we attribute to others, Martha\footnote{Nussbaum, {``Aeschylus and Practical Conflict''}; {``Commentary on {Mourelatos}''}; \emph{"{Finely Aware} and {Richly Responsible}"}; {``Commentary on {Menn},''} \emph{Proceedings of the Boston Area Colloquium of Ancient Philosophy} 11, no. 1 (1995): 35--45; {``Symposium on {Amartya Sen}'s Philosophy''}; {``14 {Non-Relative Virtues}.''}} Nussbaum argues that the novel can be thought of as a paradigm of moral activity. In the Golden Bowl, we are made aware of the moral importance of the protagonist's recognition of his daughter's moral agency. This recognition is understood as a sacrifice on the father's part. ``Prince Amerigo acknowledges, in an image of delicate beauty and lyricism, his daughter's sexuality and free maturity.''\footnote{Nussbaum, {``Aeschylus and Practical Conflict,''} 519.} This acknowledgment is perceptual.
+While Morton gives us a glimpse into why we should be more reflective on the beliefs we attribute to others, Martha\footnote{Nussbaum, {``Aeschylus and Practical Conflict''}; {``Commentary on {Mourelatos}''}; \emph{"{Finely Aware} and {Richly Responsible}"}; {``Commentary on {Menn},''} \emph{Proceedings of the Boston Area Colloquium of Ancient Philosophy} 11, no. 1 (1995): 35--45; {``Symposium on {Amartya Sen}'s Philosophy''}; {``Non-Relative Virtues.''}} Nussbaum argues that the novel can be thought of as a paradigm of moral activity. In the Golden Bowl, we are made aware of the moral importance of the protagonist's recognition of his daughter's moral agency. This recognition is understood as a sacrifice on the father's part. ``Prince Amerigo acknowledges, in an image of delicate beauty and lyricism, his daughter's sexuality and free maturity.''\footnote{Nussbaum, {``Aeschylus and Practical Conflict,''} 519.} This acknowledgment is perceptual.
 
 \begin{quote}
 James tells us that sacrifice is an act of imaginative interpretation; it is a perception of her situation as that of a free woman who is not bound by his wish''\footnote{Ibid., 520.} . . . Prince Amerigo assents to her pleasure and wishes to be its approving spectator, not its impediment.\footnote{Ibid.}
@@ -1950,13 +1802,13 @@ Conflicts arise in moral reason when the agent has equal reason to perform two c
 
 An aspect of the former conflict, is that we have an agent wherein regardless of the choice she makes, will always be left with some form of regret about her decision. The examples given before are tame when contrasted against more grievous ones. A man whose wife and children have fallen overboard may experience such a regret given their inability to save both wife and children, or if they will conceivably only be able to save one child. Regardless of which child is saved, the parent will always wonder in what way they've erred in their decision. It may be contested that such examples are really examples showing that in such situations, there are moments when we realize that the decisions of a moral agent are not always truly autonomous. In the \emph{Nicomachean Ethics}, Aristotle gives the example of a tyrant who, having control over an agent's parents and children, orders the agent to perform a shameful action. Arguably this raises questions about what extent we might think such actions are free. However he makes a distinction between conditionally and unconditionally free actions. A conditionally free action is one where the agent would not choose a given circumstance and therefore the agent's response to the tyrant's threats, though conditionally free, are not unconditionally free since the agent would not choice the circumstance {[}1110.a4{]}. Although it is not my intention here, one interesting line of thought regarding to what extent our choices are autonomous can be found in the literature on adaptive preferences. Perhaps one example of this concern can be found in Aesop's fable of the fox and sour grapes where upon failing to procure a batch of grapes, the fox reasons that the grapes are sour. Jon Jon Elster\footnote{\emph{Sour {Grapes}: {Studies} in the {Subversion} of {Rationality}} (New York: Editions De La Maison des Sciences De L'Homme, 1983).} argues that the fox's judgment in determining the value of the grapes is irrational and unfree.
 
-A preoccupation of Greek ethical thought is that the good human life is dependent on things that human beings do not control.\footnote{Nussbaum, {``14 {Non-Relative Virtues},''} 343--72.} On this view, human excellence (those activities which enable a person's participation in a life well-lived) is in-part constituted by external resources and contextual conditions. Given the kinds of things we are (communal creatures), these resources include human relationships (e.g.~citizenship, political attachment, personal love and friendship).{]}\footnote{Ibid., 343.} This includes the search for self-sufficiency through reason and the limits of reason, but there are also three sub-problems: the vulnerable components of the good life; the contingent conflict of values; the ungoverned elements of the personality and the importance of works of literature as an indispensable part of a philosophical inquiry into these questions.\footnote{Other notable literature addressing similar themes can also be found in Nussbaum, {``Aeschylus and Practical Conflict''}; Nussbaum, {``14 {Non-Relative Virtues}''}; and Nussbaum, {``14 {Non-Relative Virtues}.''}}
+A preoccupation of Greek ethical thought is that the good human life is dependent on things that human beings do not control.\footnote{Nussbaum, {``Non-Relative Virtues,''} 343--72.} On this view, human excellence (those activities which enable a person's participation in a life well-lived) is in-part constituted by external resources and contextual conditions. Given the kinds of things we are (communal creatures), these resources include human relationships (e.g.~citizenship, political attachment, personal love and friendship).{]}\footnote{Ibid., 343.} This includes the search for self-sufficiency through reason and the limits of reason, but there are also three sub-problems: the vulnerable components of the good life; the contingent conflict of values; the ungoverned elements of the personality and the importance of works of literature as an indispensable part of a philosophical inquiry into these questions.\footnote{Other notable literature addressing similar themes can also be found in Nussbaum, {``Aeschylus and Practical Conflict''}; Nussbaum, {``Non-Relative Virtues''}; and Nussbaum, {``Non-Relative Virtues.''}}
 
 \begin{quote}
 {[}Plato's{]} own creation of a way of writing that we deem `philosophical' is linked with specific views about the good life and the human soul; we do his arguments against tragedy serious injustice by taking the distinction between philosophy and literature for granted and by assuming without argument that literary works are dispensable in an inquiry that aims at ethical truth.\footnote{Nussbaum, \emph{"{Finely Aware} and {Richly Responsible}"}, 12.}
 \end{quote}
 
-If human excellence is contingent on external resources and necessary conditions then it requires intimate external objects which will receive the good activity of the excellent human.\footnote{Nussbaum, {``14 {Non-Relative Virtues},''} 343--45.} Though all good human activities are in some way relational, some are more self-sufficient than others. Therefore there are important human values which lie at the opposite end of the self-sufficiency spectrum where on one end we have speculative thought, and relational goods (those connected with citizenship, political attachment and personal love) on the other.
+If human excellence is contingent on external resources and necessary conditions then it requires intimate external objects which will receive the good activity of the excellent human.\footnote{Nussbaum, {``Non-Relative Virtues,''} 343--45.} Though all good human activities are in some way relational, some are more self-sufficient than others. Therefore there are important human values which lie at the opposite end of the self-sufficiency spectrum where on one end we have speculative thought, and relational goods (those connected with citizenship, political attachment and personal love) on the other.
 
 Love and friendship are contingent on there being other persons to receive the virtuous activity; the just person needs those he can act justly towards. Therefore, love and friendship in themselves or as a specific type of political excellence are relations and not only states of character.
 
@@ -1983,7 +1835,7 @@ Looking at those discontinuous aims of literary artists seems to undermine the i
 \subsection*{Love, Friendship and Emotion}\label{love-friendship-and-emotion}
 \addcontentsline{toc}{subsection}{Love, Friendship and Emotion}
 
-Narratives represent human emotional responses as valuable sources of information about the practical and as of high practical value of the emotion experienced by some individual character, even apart from this informational role about the person's experience.\footnote{Nussbaum, {``14 {Non-Relative Virtues},''} 291.} As such, narratives have the ability to evoke emotional activity in the reader; representing a particular activity or circumstance, context etc, as valuable, both for itself and for its epistemological role, what it can teach us. On this view, emotions have a cognitive content and are intimately related to beliefs or judgments (about what is important and valuable) about the world.
+Narratives represent human emotional responses as valuable sources of information about the practical and as of high practical value of the emotion experienced by some individual character, even apart from this informational role about the person's experience.\footnote{Nussbaum, {``Non-Relative Virtues,''} 291.} As such, narratives have the ability to evoke emotional activity in the reader; representing a particular activity or circumstance, context etc, as valuable, both for itself and for its epistemological role, what it can teach us. On this view, emotions have a cognitive content and are intimately related to beliefs or judgments (about what is important and valuable) about the world.
 
 \begin{remark}
 
@@ -2016,7 +1868,7 @@ How might we defend such an obligation given that not all artists have such aims
 
 We might think reality-directed emotion typically has the function of accurately appraising the objective individual-or species relative-value of its object. However, other fictional-and imagination-directed emotions are generated in practices that are constitutively oriented toward ends such as pleasure, entertainment, and absorption--that don't require that the emotions always be rationalized by the facts of the objects to which they respond.\footnote{Gilmore, \emph{Apt {Imaginings}}, 75 ?} In other words, the fact that we are merely caused to feel a given way may be a sufficient reason to feel that way. What justifies emotional responses towards fictional contexts are those that are ascribed to us, those that represent correct engagement with the work. One might ask however, why should ascription \emph{justify} such reactions.
 
-Gilmore argues that our desire to engage the work justifies the affectations the work calls for. To understand why then, we must first make a distinction between an appropriate emotional response and the appropriateness of allowing ourselves to experience a work we know will call on us to have such a response. Here, I readdress this question from a position of care ethical behavior. What we care about is not only desirable outcomes, such as affective and other emotional states. An approach to this may be that we utilize narratives as a way to motivate, educate others regarding desirable/apt affective states which represent apt emotional responses, those represent care in a relationship.\footnote{Stump, \emph{Wandering in {Darkness}}, 39--63; Zagzebski, \emph{Exemplarist {Moral Theory}}, 129--53; Nussbaum, {``14 {Non-Relative Virtues},''} 401--54; Choo, \emph{Teaching Ethics Through Literature}.} That is, while it is not possible to morally educate others through the use of moral testimony as traditionally understood, narrative as a form of moral testimony also means that we use narrative to morally educate.
+Gilmore argues that our desire to engage the work justifies the affectations the work calls for. To understand why then, we must first make a distinction between an appropriate emotional response and the appropriateness of allowing ourselves to experience a work we know will call on us to have such a response. Here, I readdress this question from a position of care ethical behavior. What we care about is not only desirable outcomes, such as affective and other emotional states. An approach to this may be that we utilize narratives as a way to motivate, educate others regarding desirable/apt affective states which represent apt emotional responses, those represent care in a relationship.\footnote{Stump, \emph{Wandering in {Darkness}}, 39--63; Zagzebski, \emph{Exemplarist {Moral Theory}}, 129--53; Nussbaum, {``Non-Relative Virtues,''} 401--54; Choo, \emph{Teaching Ethics Through Literature}.} That is, while it is not possible to morally educate others through the use of moral testimony as traditionally understood, narrative as a form of moral testimony also means that we use narrative to morally educate.
 
 I therefore argue that Nussbaum and other similar continuitists define narratives in this light.
 
@@ -2050,7 +1902,7 @@ What justifies an emotion felt depends in large part on the aims of the artist.\
 
 Martha Nussbaum\footnote{{``Aeschylus and Practical Conflict.''}} on the other hand argues that the work of art is to model life by modeling/representing the moral landscape {[}521{]}. The task of seeing and representing moral frameworks, given the complexity of moral particulars, falls on the literary artist who strives to recreate the moral landscape. But this as Gilmore notes is not the aim of all artists.\footnote{Walton, \emph{Mimesis as {Make-Believe}} has argued that at least some works of art function as props enabling imaginative representations of the real world. Here the art itself is a prop which aids in generating a truth particular to a piece of fiction. For instance, understanding Andress Ingrid as representing a moral framework then: ``I can't wait to show you where I grew up. . .'' and ``. . . probably feel like you've been there before,'' we should think that in this particular fiction, there is a place where someone will feel something like nostalgia, or comfort, upon visiting the childhood home of another. Shannon Spaulding, {``Imagination {Through Knowledge}''} provides a nice overview of the relationship between knowledge and imagination.}
 
-But there is a case to be made that artists attempt to contribute to our well-being in some way. A way for them to contribute to these aims includes using literary works to explore questions about what it means to live well,\footnote{Nussbaum, {``Aeschylus and Practical Conflict.''}} for instance, where we would feel excitement at introducing a close relation to family and old friends and this being a significant event in a well-lived life.\footnote{See Nussbaum, {``14 {Non-Relative Virtues}.''}}
+But there is a case to be made that artists attempt to contribute to our well-being in some way. A way for them to contribute to these aims includes using literary works to explore questions about what it means to live well,\footnote{Nussbaum, {``Aeschylus and Practical Conflict.''}} for instance, where we would feel excitement at introducing a close relation to family and old friends and this being a significant event in a well-lived life.\footnote{See Nussbaum, {``Non-Relative Virtues.''}}
 
 Reality directed emotion typically has the function of accurately appraising the objective individual-or species relative-value of its object. The question then becomes about functions of narrative and whether the aims can be anything other than contributing to a well-lived life, which includes asking questions about what this means and so on. I will look at this question from a care-ethical point of view, where caring about others is a characteristic of living a meaningful life. There are other questions however, which might also be asked here. Assuming that mirth is an important component of a well-lived life, then entertainment may also be a viable goal for the artist. It is not clear however, whether or not entertainment can supersede other potential goals. We can imagine William James, although succeeding in creating a work that is true to the admirable experience of a life that is well-lived, fails spectacularly to do so in a way that is interesting. Are banal pieces of art failures? Andreas Elpidorou and John Gibson\footnote{{``Really {Boring Art},''} \emph{Ergo an Open Access Journal of Philosophy} 8, no. 0 (December 28, 2022), \url{https://doi.org/10.3998/ergo.2231}.} argues that boredom is an aesthetic tool used by artists to draw our attentions elsewhere. In this sense boredom allows the artist to communicate other arguments via our emotions.
 
@@ -2071,7 +1923,7 @@ Some concerns include the point that the cognitive mechanisms behind such engage
 
 Considering the normative question then, the criteria governing the aptness, fit, or rationality of our emotional, cognitive, and conative engagements with the actual world are continuous with the norms governing those attitudinal engagements with fictional works of art and objects of the imagination.\footnote{Ibid., 9.}\footnote{On Quasi-emotions, Kendall Walton, \emph{Mimesis as {Make-Believe}}; Kendall L. Walton and Michael Tanner, {``Morals in {Fiction} and {Fictional Morality},''} \emph{Aristot Soc Suppl Vol} 68, no. 1 (July 1, 1994): 27--66, \url{https://doi.org/10.1093/aristoteliansupp/68.1.27}, 215. Also see Gregory Currie and Alan Musgrave, \emph{Popper and the Human Sciences}, vol. 98, 3 (Kluwer Academic Publishers, 1985).} Gilmore defends our affective responses to fiction on account that these represent apt engagements with the artwork, as the artist intended.
 
-Therefore, a person's emotional response to fiction is not an unmediated reflection of his or her character and genuine desires. As such, it is not the case that stories evoke a reader's responses by giving her reasons for them that would apply in the real world. However, given his acceptance of the descriptive claim, it is not clear that our responses to fiction are not unmediated reflections of our desires and other aspects of our character, nor is it the case that our characters are not influenced by such evocations, following.\footnote{\emph{Unprincipled {Virtue}}; Stump, \emph{Wandering in {Darkness}}; Zagzebski, \emph{Exemplarist {Moral Theory}}; Nussbaum, {``Aeschylus and Practical Conflict''}; Nussbaum, \emph{"{Finely Aware} and {Richly Responsible}"}; Nussbaum, {``14 {Non-Relative Virtues}.''}}
+Therefore, a person's emotional response to fiction is not an unmediated reflection of his or her character and genuine desires. As such, it is not the case that stories evoke a reader's responses by giving her reasons for them that would apply in the real world. However, given his acceptance of the descriptive claim, it is not clear that our responses to fiction are not unmediated reflections of our desires and other aspects of our character, nor is it the case that our characters are not influenced by such evocations, following.\footnote{\emph{Unprincipled {Virtue}}; Stump, \emph{Wandering in {Darkness}}; Zagzebski, \emph{Exemplarist {Moral Theory}}; Nussbaum, {``Aeschylus and Practical Conflict''}; Nussbaum, \emph{"{Finely Aware} and {Richly Responsible}"}; Nussbaum, {``Non-Relative Virtues.''}}
 
 \begin{quote}
 Philoi, says Aristotle, are `the greatest of the external goods' (EN II69b10) . . . the love of Nick and child is a paradigmatic case of \emph{philia}; all close family relations, including the relation of husband and wife, are so characterized.\footnote{Nussbaum, \emph{"{Finely Aware} and {Richly Responsible}"}, 354.}
@@ -2089,7 +1941,7 @@ Knowledge of persons, argues Stump, is a type of perception. So while,
 for instance, an individual might know that Joan is her mother, and
 that Joan is sad; without knowledge of persons, second-personal knowledge, the individual does not know by direct perception or experience that her mother is sad. She may know that Joan is sad through some other source of knowledge such as reflection, but she does not perceive that Joan is sad. There are things then, that we can know Fransicanly that we cannot know Dominically, one of which is the knowledge of persons as a kind of direct perception.
 
-Zagzebski\footnote{\emph{Exemplarist {Moral Theory}}.}; Stump\footnote{\emph{Wandering in {Darkness}}.}, chs.~2--4;;\footnote{\emph{Unprincipled {Virtue}}.} Nussbaum\footnote{{``Aeschylus and Practical Conflict.''}}; Nussbaum\footnote{\emph{"{Finely Aware} and {Richly Responsible}"}.}; Nussbaum\footnote{{``14 {Non-Relative Virtues}.''}}; show us that those perceptions involved in close and meaningful relationships provide the basis for what moral epistemologists may call moral knowledge. Here, caring relationships are characterized by emotional sensitivities between persons, and these resemble something like empathy. Accordingly, narratives have the ability to intimately acquaint one individual with another,\footnote{Stump, \emph{Wandering in {Darkness}}.} where a fully functioning human being can come to know the
+Zagzebski\footnote{\emph{Exemplarist {Moral Theory}}.}; Stump\footnote{\emph{Wandering in {Darkness}}.}, chs.~2--4;;\footnote{\emph{Unprincipled {Virtue}}.} Nussbaum\footnote{{``Aeschylus and Practical Conflict.''}}; Nussbaum\footnote{\emph{"{Finely Aware} and {Richly Responsible}"}.}; Nussbaum\footnote{{``Non-Relative Virtues.''}}; show us that those perceptions involved in close and meaningful relationships provide the basis for what moral epistemologists may call moral knowledge. Here, caring relationships are characterized by emotional sensitivities between persons, and these resemble something like empathy. Accordingly, narratives have the ability to intimately acquaint one individual with another,\footnote{Stump, \emph{Wandering in {Darkness}}.} where a fully functioning human being can come to know the
 
 \begin{quote}
 actions, intentions, and emotions of another person in a direct, intuitive way.\footnote{Ibid., 80.}
@@ -2132,7 +1984,8 @@ The motivation surrounding this project then, consists in devising a method of u
 
 Questions about country music's practical value is important in that it highlights the practical value of music more generally. In this way, we can understand popular songs as a kind of master narrative. Further, it can then be important to understand less popular ones, those free from the coercive effects of the entertainment industry as a whole, we might think of as alternative narratives. Other concerns may also be raised such as the role between culture and behavior regulation. Importantly, what needs to be asked is whether projects such as cultivating a certain identity can be important or even necessary and what role popular music plays in this. One way to understand such questions is through a neo-Aristotelian focus on human vulnerability and the good life.
 
-\chapter{References}\label{references}
+\chapter*{References}\label{references}
+\addcontentsline{toc}{chapter}{References}
 
 \phantomsection\label{refs}
 \begin{CSLReferences}{1}{0}
@@ -2389,7 +2242,7 @@ Goldie, Peter. {``Narrative and {Perspective}; {Values} and {Appropriate Emotion
 ---------. {``Narrative, Emotion, and Perspective.''} In \emph{Imagination, {Philosophy}, and the {Arts}}, edited by Matthew Kieran and Dominic Lopes, 54--68. New York, NY, US: Routledge, 2003.
 
 \bibitem[\citeproctext]{ref-gold09}
-GOLDIE, PETER. {``Narrative {Thinking}, {Emotion}, and {Planning}.''} \emph{The Journal of Aesthetics and Art Criticism} 67, no. 1 (February 10, 2009): 97--106. \url{https://doi.org/10.1111/j.1540-6245.2008.01338.x}.
+---------. {``Narrative {Thinking}, {Emotion}, and {Planning}.''} \emph{The Journal of Aesthetics and Art Criticism} 67, no. 1 (February 10, 2009): 97--106. \url{https://doi.org/10.1111/j.1540-6245.2008.01338.x}.
 
 \bibitem[\citeproctext]{ref-gold92}
 Goldman, Alvin I. \emph{Liaisons: Philosophy Meets the Cognitive and Social Sciences}. Cambridge, Mass: MIT Press, 1992.
@@ -2433,14 +2286,14 @@ Habermas, Tilmann, and Elaine Reese. {``Getting a Life Takes Time: The Developme
 \bibitem[\citeproctext]{ref-haid03}
 Haidt, J. {``Elevation and the Positive Psychology of Morality.''} In \emph{Flourishing: {Positive} Psychology and the Life Well-Lived}, edited by C. L. Keyes and J. Haidt, 275--89. Washington, DC: American Psychological Association, 2003.
 
+\bibitem[\citeproctext]{ref-haid22}
+Haidt, Jonathan. {``Why the {Past} 10 {Years} of {American Life Have Been Uniquely Stupid}.''} \emph{The Atlantic}, April 11, 2022. \url{https://www.theatlantic.com/magazine/archive/2022/05/social-media-democracy-trust-babel/629369/}.
+
 \bibitem[\citeproctext]{ref-haid09a}
 Haidt, Jonathan, and Sarah Algo. {``Witnessing {Excellence} in {Action}: {The} {`{Other-Praising}'} {Emotions} of {Elevation}, {Gratitude}, and {Admiration}.''} \emph{The Journal of Positive Psychology} 4, no. 2 (March 2009): 105--27. \url{https://doi.org/10.1080/17439760802650519}.
 
 \bibitem[\citeproctext]{ref-haid10}
 Haidt, Jonathan, and Selin Kesebir. {``Morality.''} In \emph{Handbook of Social Psychology}, edited by Susan Fiske, Daniel Gilbert, and Gisela Lindzey, 5th ed., 797--832. Hoboken, NJ: Wiley, 2010.
-
-\bibitem[\citeproctext]{ref-haid22}
-Haidt, Jonathan, and Illustrations Nicolás Ortega. {``{WHY THE PAST} 10 {YEARS OF AMERICAN LIFE HAVE BEEN UNIQUELY STUPID},''} 2022.
 
 \bibitem[\citeproctext]{ref-haro03}
 Harold, James. {``Flexing the {Imagination}.''} \emph{The Journal of Aesthetics and Art Criticism} 61, no. 3 (2003): 247--57. \url{https://www.jstor.org/stable/1559176}.
@@ -2553,8 +2406,8 @@ Leslie, Alan. {``Pretense and {Representation}: {The Origins} of "{Theory} of {M
 \bibitem[\citeproctext]{ref-levi16}
 Levinson, Jerrold. {``Beauty Is {Not One}: {The Irreducible Variety} of {Visual Beauty}.''} In \emph{Aesthetic {Pursuits}: {Essays} in {Philosophy} of {Art}}, edited by Jerrold Levinson, 0. Oxford University Press, 2016. \url{https://doi.org/10.1093/acprof:oso/9780198767213.003.0009}.
 
-\bibitem[\citeproctext]{ref-lewi78}
-Lewis, David. {``{IV}. {TRUTH IN FICTION},''} 1978.
+\bibitem[\citeproctext]{ref-lewi78a}
+Lewis, David. {``Truth in {Fiction}.''} \emph{American Philosophical Quarterly} 15, no. 1 (1978): 37--46. \url{http://www.jstor.org/stable/20009693}.
 
 \bibitem[\citeproctext]{ref-lock90}
 Locke, John. {``{OF IDENTITY AND DIVERSITY}.''} In \emph{An {Essay Concerning Human Understanding}}. London: Eliz. Holt, for Thomas Basset, at the George in Fleet Street, near St. Dunstan's Church., 1690. \url{https://www.uvm.edu/~lderosse/courses/intro/locke_essay.pdf}.
@@ -2601,11 +2454,11 @@ McDowell, John. {``Knowledge by {Hearsay}.''} In \emph{Knowing from {Words}: {We
 \bibitem[\citeproctext]{ref-mcdo13}
 ---------. \emph{Morality and {Objectivity} ({Routledge Revivals}): {A Tribute} to {J}. {L}. {Mackie}}. Edited by Ted Honderich. Routledge, 2013. \url{https://books.google.com?id=IrkdjkBVNY4C}.
 
-\bibitem[\citeproctext]{ref-mcdo87}
-McDOWELL, JOHN. {``{PROJECTION AND TRUTH IN ETHICS}.''} \emph{University of Kansas}, The {Lindley Lecture}, 1987, 20.
+\bibitem[\citeproctext]{ref-mcdo88}
+---------. \emph{Projection and {Truth} in {Ethics}}. Lindley Lecture. Lawrence, Kansas: Department of Philosophy, University of Kansas, 1988. \url{https://hdl.handle.net/1808/12401}.
 
 \bibitem[\citeproctext]{ref-mcdo85}
-McDowell, John. {``Values and {Secondary Qualities}.''} In \emph{Morality and {Objectivity}}, edited by Ted Honderich, 110--29. Routledge, 1985.
+---------. {``Values and {Secondary Qualities}.''} In \emph{Morality and {Objectivity}}, edited by Ted Honderich, 110--29. Routledge, 1985.
 
 \bibitem[\citeproctext]{ref-mcgi97}
 McGinn, Colin. \emph{Ethics, {Evil}, and {Fiction}}. Oxford University Press, 1997.
@@ -2670,8 +2523,8 @@ Noddings, Nel. \emph{Caring: A Feminine Approach to Ethics \& Moral Education}. 
 \bibitem[\citeproctext]{ref-nort95}
 Norton, Robert Edward. \emph{The Beautiful Soul: Aesthetic Morality in the Eighteenth Century}. Ithaca: Cornell University Press, 1995.
 
-\bibitem[\citeproctext]{ref-nuss01a}
-Nussbaum, Martha. {``14 {Non-Relative Virtues}.''} In \emph{Moral {Relativism}: {A Reader}}, edited by Paul K. Moser and Thomas L. Carson, 199. Oxford University Press, 2001.
+\bibitem[\citeproctext]{ref-nuss00r}
+Nussbaum, Martha C. {``Adaptive {Preferences} and {Women}'s {Options}.''} In \emph{Women and Human Development: {The} Capabilities Approach}, 111--66. The Seeley Lectures. Cambridge: Cambridge University Press, 2000.
 
 \bibitem[\citeproctext]{ref-nuss85}
 ---------. {``Aeschylus and Practical Conflict.''} \emph{Ethics} 95, no. 2 (1985): 233--67.
@@ -2682,8 +2535,14 @@ Nussbaum, Martha. {``14 {Non-Relative Virtues}.''} In \emph{Moral {Relativism}: 
 \bibitem[\citeproctext]{ref-nuss86}
 ---------. {``Commentary on {Mourelatos}.''} \emph{Proceedings of the Boston Area Colloquium of Ancient Philosophy} 2, no. 1 (1986): 195--207.
 
-\bibitem[\citeproctext]{ref-nuss00r}
-Nussbaum, Martha C. {``{ADAPTIVE PREFERENCES AND WOMEN}'{S OPTIONS}.''} In \emph{Women and Human Development: {The} Capabilities Approach}, 111--66. The Seeley Lectures. Cambridge: Cambridge University Press, 2000.
+\bibitem[\citeproctext]{ref-nuss90}
+---------. \emph{"{Finely Aware} and {Richly Responsible}": {Literature} and the {Moral Imagination}}. Oxford University Press, 1990.
+
+\bibitem[\citeproctext]{ref-nuss83}
+---------. {``Flawed {Crystals}: {James}'s {The Golden Bowl} and {Literature} as {Moral Philosophy}.''} \emph{New Literary History} 15, no. 1 (1983): 25--50. \url{https://doi.org/10.2307/468992}.
+
+\bibitem[\citeproctext]{ref-nuss01a}
+---------. {``Non-Relative Virtues.''} In \emph{Moral {Relativism}: {A Reader}}, edited by Paul K. Moser and Thomas L. Carson, 199. Oxford University Press, 2001.
 
 \bibitem[\citeproctext]{ref-nuss01}
 ---------. {``Symposium on {Amartya Sen}'s Philosophy: 5 Adaptive Preferences and Women's Options.''} \emph{Economics and Philosophy} 17, no. 1 (2001): 67--88.
@@ -2693,12 +2552,6 @@ Nussbaum, Martha C. {``{ADAPTIVE PREFERENCES AND WOMEN}'{S OPTIONS}.''} In \emph
 
 \bibitem[\citeproctext]{ref-nuss01t}
 ---------. \emph{The {Fragility} of {Goodness}: {Luck} and {Ethics} in {Greek Tragedy} and {Philosophy}}. 2nd ed. Cambridge University Press, 2001. \url{https://doi.org/10.1017/CBO9780511817915}.
-
-\bibitem[\citeproctext]{ref-nuss90}
-Nussbaum, Martha Craven. \emph{"{Finely Aware} and {Richly Responsible}": {Literature} and the {Moral Imagination}}. Oxford University Press, 1990.
-
-\bibitem[\citeproctext]{ref-nuss83}
----------. {``Flawed {Crystals}: {James}'s {The Golden Bowl} and {Literature} as {Moral Philosophy}.''} \emph{New Literary History} 15, no. 1 (1983): 25--50. \url{https://doi.org/10.2307/468992}.
 
 \bibitem[\citeproctext]{ref-osgo57}
 Osgood, Charles E., George J. Suci, and Percy H. Tannenbaum. \emph{The Measurement of Meaning}. The Measurement of Meaning. Oxford, England: Univer. Illinois Press, 1957.
@@ -2891,7 +2744,16 @@ Zagzebski, Linda Trinkaus. \emph{Exemplarist {Moral Theory}}. New York (N.Y.): O
 \addcontentsline{toc}{chapter}{Vita Auctoris}
 \chapter*{Vita Auctoris}
 \begin{doublespace}
-Montaque Reynolds was born in Okinawa, Japan, on April 26, 1979. He attended Seattle Pacific University and received a B.A. in philosophy in 2015. He then pursued graduate studies at Oklahoma State University, earning an M.A.~in philosophy in 2017. During his doctoral studies at Saint Louis University, he performed research work in philosophy of mind, emotion, and moral psychology where he focused on questions regarding the formation of human moral agency. He has published work on adaptive preferences in Hugo Viciana, Antonio Gaitán \& Fernando Aguiar (eds.), `Experiments in Moral and Political Philosophy' and has presented his work at national and international conferences. Upon completion of his Ph.D., he plans to expand the development of techological approaches to moral pedagogy.
+Montaque Reynolds was born in Okinawa, Japan, on April 26, 1979. He attended Seattle Pacific University and received a B.A. in philosophy in 2015. He then pursued graduate studies at Oklahoma State University, earning an M.A.~in philosophy in 2017. During his doctoral studies at Saint Louis University, he performed research work in philosophy of mind, emotion, and moral psychology where he focused on questions regarding the formation of human moral agency. He has published work on adaptive preferences in Hugo Viciana, Antonio Gaitán \& Fernando Aguiar (eds.), `Experiments in Moral and Political Philosophy' and has presented his work at national and international conferences. Upon completion of his Ph.D., he plans to expand the development of techological and artistic approaches to moral pedagogy.
 \end{doublespace}
+
+% Abstract
+%\cleardoublepage
+%\phantomsection
+%\addcontentsline{toc}{chapter}{Abstract}
+%\chapter*{Abstract}
+%\begin{doublespace}
+%My proposal addresses two key inquiries in moral epistemology and cognitivism. First, it questions the tenability of moral testimony. Scholars like Alison Hills (2009, 2013) and Sarah McGrath (2018) express concerns about the justification of moral actions based on testimony, as they may lack moral worth. I table this question to focus specifically on narrative well-being. This leads to the second question regarding emotions. While emotions towards fiction are common, their appropriateness varies depending on context, challenging the notion of apt emotional expression. In response to the challenge of apt emotional expression directed at art, I consider an ethic of care. Rosalind Hursthouse has noted once that virtue ethics enables us to perceive the complexity in moral decisions (1971). That it is not always the right apprehension of facts that counts, but rather sometimes it is the right attitude, facts about our emotions, that can be more relevant than the other relevant facts. I explore the relationship between fiction and moral understanding, contrasting standard epistemological cases with moral epistemological ones. I then delve into philosophical accounts of narrative, resting on the established proposal (E.g., Catherine-Harris 2018) that narratives offer avenues for affective moral understanding.
+%\end{doublespace}
 
 \end{document}

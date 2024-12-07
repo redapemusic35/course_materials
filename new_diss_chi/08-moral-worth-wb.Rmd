@@ -134,11 +134,11 @@ The common difference here concerns prioritizing material wealth over personal r
 <p>My homeboy just dome'd a ni--a, I just hope the Lord forgive him</p>
 <p>Pots with cocaine residue, every day I'm hustlin'</p>
 <p>What else is a thug to do when you eatin' cheese from the government?</p>
-<p>Gotta provide for my daughter n'em—get the fuck up out my way, bish!</p>
+<p>Gotta provide for my daughter n'em—get the f*** up out my way, bish!</p>
 
 These are just some of the examples in support of the common characterization, that if taken literaly, hip-hop is violent, misogynistic, anti-establishment and anti-social. In contrast, country music, though having gone through periods of varying relational standards, is argued to be unsophisticated and or prejudiced, but that it also represents themes of nostalgia for family and home life. Importantly, it is thought that country music defines the white American experience in rural environments while hip-hop defines the African American experience in urban environments.
 
-However this particular disjunct is highly contentious with many music theorists defending the assertions in rap and hip hop music as benign. For instance, Crispin ~@sart98b defends stereotypical characterizations of rap as violent, etc., that we may often argue are anti-social character traits. Prevalent in these are expressions are a kind of resistance. Rather than conceptualizing rap and hip hop as promoting materialism and individualism, Crispin argues that the images attributed to African Americans in hip hop as violent, or misogynist, are transformations, "oppression into resistance". As ~@shus99 points out however, it is important to note distinctions between rap and hip hop more generally. For instance, according to Shusterman, one such distinction is between rap and *gangsta* rap, the former being a commercial product rather than a culturally ethnographic account of a community's values. While Crispin articulates hip-hop as a form of resistance, Shusterman distinguishes between forms of hip-hop, an important point that we should acknowledge, is that the forms that are ethnographic would be those that could be reliably used as forms of resistance to oppressive biases.
+However this particular disjunct is highly contentious with many music theorists defending the assertions in rap and hip hop music as benign. For instance, Crispin @sart98b defends stereotypical characterizations of rap as violent, etc., that we may often argue are anti-social character traits. Prevalent in these are expressions are a kind of resistance. Rather than conceptualizing rap and hip hop as promoting materialism and individualism, Crispin argues that the images attributed to African Americans in hip hop as violent, or misogynist, are transformations, "oppression into resistance". As @shus99 points out however, it is important to note distinctions between rap and hip hop more generally. For instance, according to Shusterman, one such distinction is between rap and *gangsta* rap, the former being a commercial product rather than a culturally ethnographic account of a community's values. While Crispin articulates hip-hop as a form of resistance, Shusterman distinguishes between forms of hip-hop, an important point that we should acknowledge, is that the forms that are ethnographic would be those that could be reliably used as forms of resistance to oppressive biases.
 
 Considering market forces central to music production, perhaps there is a general commercial demand for figurative portrayals of African Americans as violent, etc., motivating such portrayals given the market demand.^[See @layb18] But whether the more violent and misogynist elements are rooted in a demand for representative ethnographic account, protest, or something else more sinister, is an important question. One way to approach an answer to such questions would be to consider what is unique about humanity in general and use this whatever trait that we would identify as a central focus on a given layer of a representative ethnographic accounting of a particular community.^[@huan23; @born10; @born20a; @bowk18] Some songs, through their reprsentation of relationship between people, are more representative of the common human experience. Others however, because of market forces, fail to accurately represent the human experience.^[E.g., see @layb18; @shus99] Malone's *Rich and Sad*, as I will show, offers an artistic example of this distinction. In regards to a song's capacity to represent an individual as possessing other important societal virtues, such as the subject's ability to care for vulnerable others, make material sacrifices in order to strengthen one's bonds with another etc., such attributions would better represent a kind of social protest. Namely that, a better form of protest would discredit negative stereotypes regarding one's potential dispositional character regarding interpersonal values, by using one's artistic talent for expression, rather than reinforcing them.
 
@@ -156,7 +156,7 @@ The song *Rich and Sad* explores this expression of need. By entrusting his good
 
 An important distinction to make here is between two popular claims about the value of other people in one's life. The form of the first argument, those often found in rap music, is as follows:
 
-::: {.remark}
+::: {.unnumbered}
 Either one pursues a relationship, or one pursues material possessions but not both. Further, loosing out on material possessions is not an option, $\lnot$ $\lnot$ gold-chains. Therefore one ought sever the interpersonal connection $\lnot$ you
 :::
 
@@ -164,13 +164,13 @@ We'll call this argument *The Agamemnon Solution*. Here, the individual is force
 
 As the example is meant to show, there is a common admiration of traits of independence and self-reliance in such tropes. The point here is to highlight this trope by contrasting it against another. Importantly, on the assumption that *The Agamemnon Solution* is a common enough trope, we can make the argument that its refrain typically results in selecting the part of the disjunct that aligns most closely with material wealth and possessions, it negates the right, rather than the left, disjunct:
 
-::: {.remark}
+::: {.unnumbered}
 Loosing out on material possessions is not an option $\lnot$ $\lnot$ gold-chains
 :::
 
 With the implication being that the song's narrator has to choose between the pursuit of a particular relationship or material wealth; *Stacked your bread* vs *Quick to tell a broke . . .* As such, the clear choice is:
 
-::: {.remark}
+::: {.unnumbered}
 The individual severs the interpersonal relationship $\lnot$ you
 :::
 
@@ -180,7 +180,7 @@ Of course something about this whole affair may be off-putting. The point is, it
 
 Often times, valid argument forms are equivalent with other valid argument forms. Considering this then, a better way of understanding Post Malone's contribution to Hip Hop, is by looking at one of these equivalency relationships. As we saw, the choice is compatible with a conditional one. Rather than *either or*, what a material conditional says, is that on the assumption that something is the case, then something else follows. Given that the narrator typically faces a choice, this state of affairs may be equivalent with the conditional that if an individual pursues a relationship, the left disjunct, then they will be left destitute with the antecedent being the choice that the individual faces and the consequent being the consequence of their choice, destitution. This can be seen below:
 
-::: {.remark}
+::: {.unnumbered}
 If one pursues a relationship, then they cannot possess material possessions. 'you $\rightarrow$ $\lnot$ gold-chains'
 :::
 

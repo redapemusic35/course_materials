@@ -16,10 +16,12 @@ acknowledgements: |
   I was a member of the Feminist X-Phi group at the City University of New York. This wonderful department allowed me to present research, opportunities to collaborate with other early career philosophers, a place to farm careful critique of my research, and the opportunity to give my own feedback on other projects. This was truly a philosophical and welcoming community. My research has two components, theoretical and practical. My practical work is reminiscent of research in the areas of experimental aesthetics and moral philosophy.
 
   From 2022 to 2023 I was the graduate assistant for the Walter J. Ong Digital Humanities Center. While there, I conducted digital humanities research, analyzing historical texts using computational methods and techniques from natural language processing. Given that my philosophical interests are motivated by questions about our social environments, I often work with new modes of social interaction. I am currently a member of the Saint Louis Digital Humanities Network. This is a group of educators in the Saint Louis area that are committed to exploring ways and implications of expanding the use of technology for pedagogical purposes. I have saved the most influential for last. These include the philosophy department at Saint Louis University, and Oklahoma State University where my relationship with the department head Scott Gelfand has been instrumental in my research.
+
+  Here I have saved the most deserving of acknowledgements for last. First, Helen De Cruz who spent countless hours pouring over my senseless ramblings trying to find a sliver of incoherant ramblings. Dan Haybron who challenged the ideas themselves, my gracious dissertation committee who agreed to read and provide probing comments. Finally, Scott Gelfand who from my first days at OKState unceasingly challenged me, asking questions and showing me what care looked like. Thank you all.
 dedication: |
   Although maybe it goes without saying for most, in writing this dissertation, I have come to discover that many of our ideas about who we are, are grounded in those who we have allowed to be part of our lives. Therefore choose wisely whom you will be, I know I did. Amanda, my love and life partner, I dedicate this work to you.
 vita_auctoris: |
-  Montaque Reynolds was born in Okinawa, Japan, on April 26, 1979. He attended Seattle Pacific University and received a B.A. in philosophy in 2015. He then pursued graduate studies at Oklahoma State University, earning an M.A. in philosophy in 2017. During his doctoral studies at Saint Louis University, he performed research work in philosophy of mind, emotion, and moral psychology where he focused on questions regarding the formation of human moral agency. He has published work on adaptive preferences in Hugo Viciana, Antonio Gaitán & Fernando Aguiar (eds.), 'Experiments in Moral and Political Philosophy' and has presented his work at national and international conferences. Upon completion of his Ph.D., he plans to expand the development of techological approaches to moral pedagogy.
+  Montaque Reynolds was born in Okinawa, Japan, on April 26, 1979. He attended Seattle Pacific University and received a B.A. in philosophy in 2015. He then pursued graduate studies at Oklahoma State University, earning an M.A. in philosophy in 2017. During his doctoral studies at Saint Louis University, he performed research work in philosophy of mind, emotion, and moral psychology where he focused on questions regarding the formation of human moral agency. He has published work on adaptive preferences in Hugo Viciana, Antonio Gaitán & Fernando Aguiar (eds.), 'Experiments in Moral and Political Philosophy' and has presented his work at national and international conferences. Upon completion of his Ph.D., he plans to expand the development of techological and artistic approaches to moral pedagogy.
 department: "Department of Philosophy"
 school: "School of Arts & Sciences"
 university: "SAINT LOUIS UNIVERSITY"
@@ -36,10 +38,10 @@ output:
       in_header: preamble.tex
       before_body: before_body.tex
     toc: yes
-    toc_depth: 3
+    toc_depth: 1
     lot: yes
     lof: yes
-    number_sections: true
+    number_sections: false
     fig_caption: true
     latex_engine: xelatex
     keep_tex: true
@@ -50,5 +52,3 @@ geometry: margin=1in
 bibliography: /home/redapemusic35/data_storage/Exported-Items.bib
 csl: chicago-fullnote-bibliography-with-ibid.csl
 ---
-
-\listoffigures

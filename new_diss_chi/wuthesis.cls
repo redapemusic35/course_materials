@@ -133,15 +133,14 @@
 \@removefromreset{footnote}{chapter}
 \newcommand{\thesisauthor}{Montaque Reynolds}
 \newcommand{\thesisauthorlastname}{Reynolds}
-\newcommand{\thesisauthorpreviousdegrees}{MA}
+\newcommand{\thesisauthorpreviousdegrees}{B.A., M.A.}
 \newcommand{\thesismonth}{August}
 \newcommand{\thesisyear}{2024}
-\newcommand{\thesistitle}{Title}
-\newcommand{\thesiscommittee}{
-  \underline{COMMITTEE IN CHARGE OF CANDIDACY} \\
-\indent Professor Dan Haybron, \underline{Chairperson and Advisor} \\
-\indent Associate Professor Scott Gelfand, PhD, JD \\
-\indent Associate Professor Scott Ragland, PhD}
+\newcommand{\thesistitle}{EMOTIONAL DATA AND THE MORAL EXPRESSIONS OF SENTIMENT IN FICTION}
+\newcommand{\thesiscommittee}{\underline{COMMITTEE IN CHARGE OF CANDIDACY;}\\
+Professor Dan Haybron, \\[-12pt] \indent\indent \underline{Chairperson and Advisor} \\
+Associate Professor Scott Gelfand\\
+Associate Professor Scott Ragland}
 
 \newcommand{\thesisschool}{School of Arts \& Sciences}
 \newcommand{\thesisdepartment}{Department of Philosophy}
@@ -195,7 +194,7 @@
 \newcommand{\thesisdedication}{}
 \newenvironment{thesisacknowledgments}
     {\chapter*{\thesisacknowledgmenthead}
-     \addcontentsline{toc}{chapter}{\thesisacknowledgmenthead}
+
      %\begin{spacing}{1.1}
 	 }
     {\nopagebreak%
@@ -222,28 +221,28 @@
   \thispagestyle{empty}
   \addtocounter{page}{-1}
   \begingroup
-    \thesistitlepagefont
+
     \begin{center}
     \begin{singlespace}
 
+      \vspace*{1in}
 
-      {\thesistitle} \\
 
-      \thesisstudent, \thesisauthorpreviousdegrees
+      \textbf{\thesistitle}
 
       \vspace{\stretch{100}}
 
-      A \MakeLowercase{\thesistype}\ presented to \\
-      The Graduate Faculty \\
-      of Saint Louis University in \\
-      partial fulfillment of the \\
-      requirements for the degree \\
-      of {\thesisdegree}
+      \thesisstudent
+
+      \vspace{\stretch{100}}
+
+      A Dissertation presented to The Graduate Faculty of of Saint Louis University \\
+      in partial fulfillment of the requirements for the degree of \\
+      {\thesisdegree}
 
       \vspace{\stretch{.75}}
 
-      \thesismonth\ \thesisyear \\
-      St. Louis, Missouri
+      \thesismonth\ \thesisyear
 
     \end{singlespace}
     \end{center}
@@ -252,16 +251,22 @@
     {\newpage
    \endgroup}
 \newcommand{\thesistitlepagefont}{\fontsize{14}{14}\selectfont}
-\newcommand{\thesisstudent}{\thesisauthor\thesisauthorpreviousdegrees}
+\newcommand{\thesisstudent}{\thesisauthor, \thesisauthorpreviousdegrees}
 
 \newenvironment{thesiscopyrightpage}{
-    \pagestyle{empty}
-    \strut \vfill
-    \begin{center}
 
-    \end{center}}
-    {\vfill \strut
-    \newpage}
+    \null
+    \vspace*{6.5in}
+    \begin{center}
+      \begin{singlespace}
+    \textcopyright\ Copyright by\\
+    \thesisauthor\\
+    ALL RIGHTS RESERVED\\
+      \end{singlespace}
+    \thesisyear
+      \vspace*{1in}
+    \end{center}
+}{\clearpage}
 
 \newenvironment{extranotespage}{
     \pagestyle{empty}}
@@ -316,12 +321,12 @@
 \setlength{\cftbeforetabskip}{8pt}
 
 \renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
-% \renewcommand{\cftchapfont}{\normalfont}
+
 \renewcommand{\cftchappagefont}{\normalfont}
 
-\renewcommand\contentsname{Table of Contents}
-
 \renewcommand{\listoffigures}{%
+  \clearpage
+  \pagenumbering{roman}
   \chapter*{\listfigurename}%
   \addcontentsline{toc}{chapter}{\listfigurename}%
   \@starttoc{lof}%

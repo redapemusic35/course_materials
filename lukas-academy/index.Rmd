@@ -1,0 +1,66 @@
+---
+title: "Aterlierista, Philosopher-in-Residence at the Lukas Academy of the Arts"
+author: "Montaque Reynolds"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+# bibliography: [book.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+toc: false
+description: |
+  We seek a dynamic philosopher to join our atelier, fostering critical thinking and aesthetic inquiry within our creative community. The ideal candidate will bridge philosophical concepts with artistic practice, enriching our atelier's approach to learning and creation. This person will work within the Department of Philosophy at the School. This role would aim to integrate philosophical thinking deeply into the atelier's creative processes, encouraging students and artists to explore the conceptual foundations of their work while developing their practical skills. The philosopher would serve as a bridge between theory and practice, enriching the atelier's approach to art-making and learning.
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
+
+# About
+
+A job description for a philosopher at an atelier would blend the traditional role of a philosopher with the creative, hands-on approach characteristic of an atelier environment. Here's how such a unique position might be described:
+
+## Key Responsibilities
+
+- Contributing to the effective administration and management of the School’s activities.
+  - Welcoming in artists and other residents.
+  - Such as keeping hours for co-working space: 9-6, starting January M-F, until then, tuesday 9-2pm, Wednesday 9-6.
+- Facilitate philosophical discussions related to ongoing artistic projects and explorations
+  - Develop and lead workshops that integrate philosophical concepts with hands-on creative activities
+  - Collaborate with artists and students to explore the philosophical underpinnings of their work
+- Contribute to the documentation and reflection process, offering philosophical perspectives on creative outcomes
+  - The resident is to extend and strengthen the academy’s record of excellence in the production of original research and the provision of outstanding teaching by:
+  - Conducting, publishing and otherwise disseminating excellent original research.
+  - Candidates will have a track record of internationally outstanding publications and the potential to produce outputs in the most selective research journals, as well as with the leading academic book publishers in philosophy, appropriate for submission to the high quality academic journals and publications centered on public philosophy.
+  - Design and implement curriculum elements that blend philosophical inquiry with artistic practice.
+  - Teaching classes and delivering lectures to artists and students of the arts as well as working with other artists and creative types, providing support for other residents as required.
+- Enhancing the School’s research culture by attracting external artistic and philosophical talent and research funding.
+  - Source research and program funding.
+[by] Attracting fellows and other artists interested in the shared vision.
+  - Engage in one-on-one mentoring sessions to deepen students' understanding of aesthetics and art theory
+  - Participate in critique sessions, offering philosophical frameworks for analysis and interpretation
+  - Curate a series of lectures or seminars on relevant philosophical topics in aesthetics, creativity, and cognition
+
+## Qualifications:
+
+- Advanced degree in Philosophy, with a focus on Aesthetics or Philosophy of Art
+- Strong background in art history and contemporary art practices
+- Excellent communication skills, able to convey complex ideas in accessible ways
+- Experience in collaborative, interdisciplinary environments
+- Openness to hands-on engagement with various artistic mediums
+- Ability to inspire and guide creative thinking through philosophical inquiry
+
+## Desired Qualities:
+
+- Curiosity and willingness to engage with diverse artistic practices
+- Flexibility to adapt philosophical concepts to practical, creative contexts
+- Enthusiasm for fostering a culture of questioning and reflection
+- Commitment to lifelong learning and personal growth
+
+Citations:
+[1] https://inspirationsnurseries.co.uk/the-role-of-an-atelierista/
+[2] http://www.branchesatelier.com/philosophy
+[3] https://www.elc.ac.th/blog/what-is-an-atelier-space-concept-relationship/
+[4] https://www.adventschool.org/atelier
+[5] https://en.wikipedia.org/wiki/Atelier
+[6] https://www.barrkinderplay.com/post/the-artist-s-studio-the-atelier-and-atelierista
+[7] https://www.sadievaleriatelier.com/what-is-an-atelier
+[8] https://studioincamminati.edu/news-5-reasons-to-get-a-realist-art-education-in-an-atelier-style-setting/##

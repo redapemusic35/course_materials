@@ -48,35 +48,35 @@ Just what is morally right action? As the literature goes, there is an important
 
 On the thin view of moral understanding suggested by Alison @hill09c, Sue understands that she should get the vaccine (wHs) if she is also able to do the following given the truth of (wHs) [102--103].
 
-```{.unnamed}
+::: {.unnumbered}
 
 Reason that 'If I should should get inoculated, then I should help my neighbors.'
 
-```
+:::
 
-```{.unnamed}
+::: {.unnumbered}
 
 Follow an explanation of why (wHs) 'I should should get the vaccine,' given by someone else; be able to explain (wHs) in her own words;
 
-```
+:::
 
-```{.unnamed}
+::: {.unnumbered}
 
 draw q---e.g., we should not hit others---from (wHs);
 
-```
+:::
 
-```{.unnamed}
+::: {.unnumbered}
 
 draw (wHs)'---say Bob---(or likely (wHs)') from q' where (wHs)' and q' are similar but not identical to (wHs) and q;
 
-```
+:::
 
-```{.unnamed}
+::: {.unnumbered}
 
 given information that (wHs), give the right explanation
 
-```
+:::
 
 On @hill09c's view, testimony is not sufficient for acquiring moral understanding, but can serve as justification. Some initial reasons why moral understanding is valuable: Moral Understanding is essential to acting well.[119] On this view, a grasp of reasons might be the only way to perform the right actions reliably.
 
@@ -84,11 +84,11 @@ On @hill09c's view, testimony is not sufficient for acquiring moral understandin
 
 There are two points about the importance of morally worthy action here that we should note. First, it is important because virtue requires justification, namely the ability to justify one’s actions. When one performs a morally worthy action, she is able to justify her action to others in a way that explains it to them. Further, in order for an action to be morally worthy, they have to come from a place of good character. So, crucial to moral worthy actions is having good character. "[M]oral understanding is essential to good character and to morally worthy action, that is, to right actions performed for the right reasons" [@hill09c, 108].
 
-```{.unnamed}
+::: {.unnumbered}
 
-Right Action -> Actions performed for the right reasons
+Right Action $\rightarrow$ Actions performed for the right reasons
 
-```
+:::
 
 An action is morally right only if it is a right action performed for the right reasons. And moral understanding is crucial to certain kinds of morally worthy action. But this conflates being able to justify your actions, with the moral worth of those actions. Perhaps this is all the study of ethics, say medical ethics is. On such a view, a hospital might hire a team of ethicists to justify their actions rather than leading in critical reasoning about complex medical issues such as patient autonomy.
 
@@ -112,7 +112,7 @@ As noted by Alison @hill09c, what we care about regarding moral knowledge is one
 
 Both @hill09c and Robert @hopk07a argue that having the right to a moral belief requires grasping the moral grounds for it [@hopk07a, 630]. In Sue's case, it would be right for her to receive the vaccine. However, to say that something is right, is not the same thing as saying that it is *morally right*. Grasping in this sense implies a mental property with motivational content. Paulina @sliw17 and other optimists (E.g. @enoc14) point out that the missing piece is not understanding as understood by Hills, but rather a special kind of sensitivity to the moral reasons present in a particular case. This sensitivity confers moral worth onto an agent's action and the sensitivity in question can come by way of moral testimony.
 
-::: {.unnamed}
+::: {.unnumbered}
 Following Hopkins, we can call this the recognition requirement:
 
 The Recognition Requirement** (morally right action is acting for the morally relevant reasons) has to do with action, but it has to do with the part of action that lies within an agent: her psychological and *motivational* makeup. [@nick01, 258; emphasis mine]
@@ -142,23 +142,23 @@ Why is it that because something is abstract, that it resists grounding? First, 
 
 In short then:
 
-```{.unnamed}
+::: {.unnumbered}
 
 Grounding is a kind of evaluation derived from sensory representations, motor responses and emotions.
 
-```
+:::
 
-```{.unnamed}
+::: {.unnumbered}
 
 But, because value properties are abstract, they require something from us that influences sensory representations, motor responses, and emotions.
 
-```
+:::
 
-```{.unnamed}
+::: {.unnumbered}
 
 As such, value concepts are not direct representations of the object under evaluation.
 
-```
+:::
 
 An example may include our judgments becoming compromised due to bias. In such instances, we find ourselves being unable to set aside our own interests mitigating our perceptual capacities and blocking our judgment. Other times we fail at making moral distinctions (maybe because we are more sensitive to a social norm). Here sensitivity to social norms are typically a version of practical knowledge which comes in degrees [@jone99; @coll09; @sain20] and it is this which facilitates morally worthy behavior given our ability to attribute the correct properties to the object in question.
 
@@ -168,11 +168,11 @@ But this is no different from deference. The need for moral testimony can repres
 
 Claiming that there is an asymmetry between moral and non-moral testimony, involves two separate claims.
 
-```{.unnamed}
+::: {.unnumbered}
 
 While one's possession of non-moral understanding is a more desirable state of affairs than possessing mere knowledge, there is no general obligation to possess non-moral understanding like there is with moral understanding.
 
-```
+:::
 
 Further, moral action rests on a broader array of faculties than non-moral action.
 
@@ -182,19 +182,19 @@ He calls moral and non-moral claims which are not understood "opaque evidence." 
 
 Consider the vignettes below:
 
-```{.unnamed}
+::: {.unnumbered}
 
 You read in a school textbook that Napoleon was well-organized, tactically astute and ruthless.
 
-```
+:::
 
 You believe what you read and your belief is true. Do you know that he is well-organized, etc?
 
-```{.unnamed}
+::: {.unnumbered}
 
 You read in a school textbook that Napoleon was well-organized, tactically astute and ruthless.
 
-```
+:::
 
 You believe what you read and your belief is true. But your textbook is generally very inaccurate and it is lucky that the few sentences in it you have chosen to read are true. You have not checked the accuracy of the textbook or of the sentences you read in it. Do you have knowledge that Napoleon is well-organized, etc?
 
@@ -234,59 +234,59 @@ According to the standard account of non-moral justification, if our beliefs are
 
 However, this could also be achieved through observation. The fact that I am blinded by the sun's rays when I open my bedroom curtain is a sufficient overriding reason against my belief that it is still night out. Further, my perception that the sun is shinning is direct. Direct perception then is an adequate ground to hold a given belief. Mary, Sue, and Clarice can be overwhelmed by the force of an argument in favor of inoculation. But what this shows us, is that to suppose that our judgments need to correspond with held principles is too stringent of a demand as it does not explain all that we know. For instance, our beliefs that there is an external world or that the sun is bright. We have some beliefs which are voluntary and others which are involuntary. Both are justified, once we have satisfied all of our epistemic obligations regarding them.
 
-```{.unnamed}
+::: {.unnumbered}
 
 Believing that *p* in a way that is good from an epistemic point of view satisfies the chief desiderata for a concept of epistemic justification.
 
-```
+:::
 
 Having these beliefs, signifies that we have *done* something to show *'that p'* or that we are justified in believing *'that p'*. We might recognize that the believing subject has not violated any epistemic, cognitive, or intellectual obligations which may include refraining from believing *'that p'* in the absence of sufficient evidence, accepting implications of the belief *'that p'*, etc. But we have many more beliefs which are involuntary, and these we treat the same as we do the justified beliefs. Though it is plausible, I would be hard pressed to disbelieve that the traffic light is green.
 
 As such, it would seem that whatever concept of justified beliefs we hold under the critical reflection view, it is too stringent to explain much of the knowledge we are supposed to have. Therefore, given that many of our beliefs are involuntary, that I have hands for instance, we often are thought to have fulfilled our obligations with respect to such beliefs. Following this, McGrath then points out that what this means, is that we often act as though being justified is a more important epistemic state than is the state of justifying. Being justified is being in a state of knowledge and while we do think of justification as important, a different path to justification rests on what we already know. Accordingly:
 
-```{.unnamed}
+::: {.unnumbered}
 
 Knowing entails justified believing in that knowing a proposition, e.g. 2+2=4, satisfies the necessary conditions for justification, adequacy and safety.
 
-```
+:::
 
-```{.unnamed}
+::: {.unnumbered}
 
 If S knows *p* then S's belief that *p* is based on adequate grounds and lacks sufficient overriding reasons to the contrary.
 
-```
+:::
 
-```{.unnamed}
+::: {.unnumbered}
 
 But justified belief then, often occurs well before one is able to reflect on what they know or other methods of justification.
 
-```
+:::
 
-```{.unnamed}
+::: {.unnumbered}
 
 Therefore, by the time a typical moral agent is capable of the kind of reflection or other justifying devices necessary for knowledge acquisition, she already has a substantial amount of justified moral beliefs [@mcgr19, ch. 2; also see William @alst89b; and C.F. @pryo00].
 
-```
+:::
 
 On the critical reflection view then,
 
-```{.unnamed}
+::: {.unnumbered}
 
 A moral belief *M* counts as knowledge *mK* for moral agent *S* just in case *M* is the result of critical reasoning or deliberation performed by *S*. However, we often credit an agent with knowledge by the time she is capable of the kind of critical reasoning required under the critical reflection view. What this shows then, is that:
 
-```
+:::
 
-```{.unnamed}
+::: {.unnumbered}
 
 Being justified is a more important state than justifying and a justified belief for S is one based on adequate grounds and where S lacks sufficient overriding reasons to the contrary [@alst89b].
 
-```
+:::
 
-```{.unnamed}
+::: {.unnumbered}
 
 Therefore what justifies is restricted to a subject's perspective
 
-```
+:::
 
 It was initially thought that justification regarding moral testimony, in part, depends on whether we can defend our belief on the basis of the testimony we received. This was in part because we thought that testimony was a source of evidence given its relationship to justified beliefs. We think someone should receive a given vaccine if all the leading experts in a given medical field have testified to its efficacy. We often cite various medical reports in defending our medical decisions. Therefore it seems plausible that we can defend our moral beliefs in the same way, what McGrath calls *moral inheritance*.
 

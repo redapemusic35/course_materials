@@ -51,50 +51,42 @@ $endif$
 
 \begin{document}
 % Title Page
-\begin{titlepage}
-\begin{center}
-\vspace*{0.5in} % Adjust this value to move the title up or down
+%\begin{titlepage}
+%\begin{center}
+%\vspace*{0.5in} % Adjust this value to move the title up or down
 
-{\large\MakeUppercase{$title$}\par}
+%{\large\MakeUppercase{$title$}\par}
 
-\vspace{1.7in} % Adjust this space between title and author name
+%\vspace{1.7in} % Adjust this space between title and author name
 
-{\large $author$, \thesisauthorpreviousdegrees\par}
+%{\large $author$, \thesisauthorpreviousdegrees\par}
 
-\vspace{3in} % Adjust this space as needed
+%\vspace{3in} % Adjust this space as needed
 
-A Dissertation Presented to the Graduate Faculty of\\
-Saint Louis University in Partial Fulfillment\\
-of the Requirements for the Degree of\\
-Doctor of Philosophy
+%A Dissertation Presented to the Graduate Faculty of\\
+%Saint Louis University in Partial Fulfillment\\
+%of the Requirements for the Degree of\\
+%Doctor of Philosophy
 
-\vfill % This will push the year to the bottom of the page
+%\vfill % This will push the year to the bottom of the page
 
-$year$
+%$year$
 
-\end{center}
-\end{titlepage}
+%\end{center}
+%\end{titlepage}
 
+\begin{thesistitlepage}
+\end{thesistitlepage}
 \pagenumbering{roman}
 \setcounter{page}{2}
 
 % Copyright Page
-\cleardoublepage
-\thispagestyle{empty}
 \begin{thesiscopyrightpage}
-    \vspace*{\fill}
-    \begin{center}
-    \textcopyright\ Copyright by\\
-    \thesisauthor\\
-    ALL RIGHTS RESERVED\\
-    \thesisyear
-    \end{center}
-    \vspace*{-10cm} % Adjust this value to fine-tune the vertical position
 \end{thesiscopyrightpage}
 
 % Committee Page
 \cleardoublepage
-\thispagestyle{empty}
+%\thispagestyle{empty}
 
 \vspace*{\fill}
 
@@ -119,14 +111,6 @@ $acknowledgements$
 \end{thesisacknowledgments}
 $endif$
 
-% Table of Contents
-\cleardoublepage
-\begin{singlespace}
-\setcounter{page}{2}
-\renewcommand*\contentsname{Table of Contents}
-\tableofcontents
-\end{singlespace}
-
 % List of Tables (if applicable)
 $if(lot)$
 \cleardoublepage
@@ -141,19 +125,15 @@ $if(lot)$
 \end{singlespace}
 $endif$
 
-% List of Figures (if applicable)
-$if(lof)$
-\cleardoublepage
-\phantomsection
-\addcontentsline{toc}{chapter}{List of Figures}
-\begin{center}
-\maintitlesize\textbf{List of Figures}
-\end{center}
-\vspace{1em}
-\begin{singlespace}
 \listoffigures
+
+% Table of Contents
+\cleardoublepage
+\begin{singlespace}
+%\setcounter{page}{1}
+  \renewcommand\contentsname{\chapter*{Table of Contents}}
+\tableofcontents
 \end{singlespace}
-$endif$
 
 % Abstract
 %$if(abstract)$
@@ -162,15 +142,6 @@ $endif$
 %$abstract$
 %\end{thesisabstract}
 %$endif$
-
-% Abstract
-\cleardoublepage
-\phantomsection
-\addcontentsline{toc}{chapter}{Abstract}
-\chapter*{Abstract}
-\begin{doublespace}
-$abstract$
-\end{doublespace}
 
 \cleardoublepage
 \pagenumbering{arabic}
@@ -189,5 +160,14 @@ $body$
 \begin{doublespace}
 $vita_auctoris$
 \end{doublespace}
+
+% Abstract
+%\cleardoublepage
+%\phantomsection
+%\addcontentsline{toc}{chapter}{Abstract}
+%\chapter*{Abstract}
+%\begin{doublespace}
+%$abstract$
+%\end{doublespace}
 
 \end{document}

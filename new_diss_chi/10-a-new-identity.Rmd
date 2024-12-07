@@ -4,12 +4,12 @@ As noted in emerging work on country music, there is a reason to think that pers
 
 ## Overview of the argument
 
-```{.remark}
+::: {.unnumbered}
 
 1. Modern conceptions of personhood are situated inside of social identities.
 2. It is not clear that these equitably entail human agency.
 3. Therefore sources of social identity is an underexplored topic in critical theory.
-```
+:::
 
 ### Introduction {-}
 
@@ -25,7 +25,7 @@ Shelbi Nawhlit Messiner and Bryce Huebner in their paper *Outlaw Epistemologies*
 
 First some points,
 
-::: {.remark}
+::: {.unnumbered}
 * Dian Million, as pointed out by Meissner and Huebner (Outlaw Epistmeologies), uses the term sociopolitical imaginaries to represent a shared epistemic concept that inform commonly held 'affectively understood' sociopolitical imaginaries
 * These, for instance, impose racialized, gendered, and sexualized presumptions onto Indigenous people.
 * And undermine land rights and genocidal crimes.
@@ -33,7 +33,7 @@ First some points,
 
 Additionally it will be helpful to point out that,
 
-::: {.remark}
+::: {.unnumbered}
 ***Epistemic Ecologies are***
 
 A rich set of resources for characterizing epistemic communities and the embodiment of social knowledge, they are socio-political imaginaries that embody affectively rich knowledge systems in epistemic communities [@mill14]. This social knowledge informs the unspoken, commonly held 'affectively understood' sociopolitical imaginary, which in themselves are racial, gendered, and sexualized presumptions about who the members of these communities are.
@@ -61,7 +61,7 @@ In support of this argument, Nussbaum suggests a epistemic ecology that embody a
 
 Literary narratives are a kind of cultural artifact. There is an aspect in the literature on narrative that focuses on what we can know through narrative. Especially important here is the way we can know ourselves and others through narratives in a way not possible through other kinds of literature [@stum10, 25]. By drawing our focus to Outlaw country music, Meissner *et al* point out the ways in which socio-political imaginaries are embodied in popular entertainment, especially music, and can be identified by a number of features most closely associated with literary narratives. Before exploring the concept they give further, I highlight some alternative propositions first:
 
-::: {.remark}
+::: {.unnumbered}
 Any adequate theory of fiction must accommodate pictorial, as well as literary ones. [@walt90, 75]
 
 Literary narratives, those "devised by single authors who were the creators of that literature" can "come[s] in many forms, from the highly self-conscious artistry of Aeschylean tragedy to the communally produced narratives of folklore" [@stum10, 29]
@@ -69,7 +69,7 @@ Literary narratives, those "devised by single authors who were the creators of t
 
 Perhaps the most important relationship between narrative and socially constructed identities, is by reference to what contributes to one's own agency. What the above contributions fail to express, are those concepts central to human development, namely relational goods. This includes claims about the sort of person one is in regards to their social values. A consideration about the aesthetic representations of the following questions:
 
-::: {.remark}
+::: {.unnumbered}
 Am I affectionate? Why?
 
 Am I Caring? Why?
@@ -113,7 +113,7 @@ One difficult aspect of understanding the relationship between narrative and soc
 
 Unless we view rocks having a robust sense of agency in that they possess volitions, we do not typically think that rocks possess the kind of agency that derives from said volition. One view about free human agency then, is to say that one's agented welfare is contingent on whether they are getting what they want [i.e. @hars77] or can endorse what they do. This is because denying another the aims of her desires may have implications for her welfare in the same way a potential agent may fail to endorse actions attributed to her, for instance in cases of slander. Prisoners and slaves may be thought to have diminished welfare because of, among other reasons, the restrictions placed on their human agency. Someone who is the victim of slander, or falsely accused, may fail to endorse actions attributed to her. Further, the victim may experience diminished welfare as a result. This leads to the following claim:
 
-```{.remark}
+```{.unnumbered}
 * A rich set of resources for characterizing epistemic communities and the embodiment of social knowledge include attributions agency.
 
 ```
@@ -150,13 +150,13 @@ Country music then, often plays an important role in forming such identities [@s
 
 Our lives are lived narratives of which we are the authors, they are narrative in structure bearing close similarities to literary narratives. Consider the following statement:
 
-::: {.remark}
+::: {.unnumbered}
 Why do we observe passover? We observe passover because we are Jewish
 :::
 
 The identity claim explains the behavioral one. The question here is the relationship between one's identity and one's behavior. Initially, we may very well argue that there is no relationship as such.
 
-::: {.remark}
+::: {.unnumbered}
 **Skeptic:**
 
 > Narrative does not, nor should not, play any significant part in our understanding of our lives, or in living a life.
@@ -164,7 +164,7 @@ The identity claim explains the behavioral one. The question here is the relatio
 
 Conceptions of narrative: one is agential, call this personal, the other literary
 
-::: {.remark}
+::: {.unnumbered}
 But there is a middle position, narrowing the gulf: narrative thinking
 
 - how do we respond to past and future episodes in our lives?
@@ -174,7 +174,7 @@ But there is a middle position, narrowing the gulf: narrative thinking
 
 These are thoughts about how our lives might have gone differently, and about our plans for the future and how things might turn out. If I ask myself what I will be doing Friday night, the answer will in part depend on how I identify. If I identity as an observant Jew, then I will be attending Shabbat with my family on Friday.
 
-::: {.remark}
+::: {.unnumbered}
 But what do literary narratives have to do with this?
 :::
 
@@ -182,7 +182,7 @@ But what do literary narratives have to do with this?
 
 Jonathan @gilm20 asks how “emotions present their objects across the real-fictional divide? Can imaginings of what is true according to a fiction be justified in the same ways as beliefs about the actual world”? The question is not what literary narratives have to do with behavior, but rather what does identity have to do with how emotions present their objects to us. The answer to this question hinges in part on how we identify ourselves. One way to understand our personal identity concerns justification. How do we justify imaginings of what is true about fictional characters who in other respects, remind us of ourselves?
 
-::: {.remark}
+::: {.unnumbered}
 **Here the question is:**
 
 Do desires exhibit normative continuity?
