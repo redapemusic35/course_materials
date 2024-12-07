@@ -1,0 +1,85 @@
+# Personal Identity
+
+Consider the following uses of the personal pronoun *I*:
+
+::: {.remark}
+
+"*I* fell in love today."
+
+:::
+
+and
+
+::: {.remark}
+
+"Sir, *I* have finished loading the cargo onto the cutter, prepare for quantum travel."
+
+:::
+
+> Our ability to use these sorts of expressions meaningfully seems to presuppose knowledge of a clear criterion of identity, a reliable way, that is, of telling: (1) when something still counts as the same object or person after having undergone changes over a period of time, and (2) what makes two different things or people different from one another. [@cogb09a]
+
+This is more than a question of whether the two uses are asynchronous. On the one hand, we might think that while one use of the pronoun *I* is controversial since *I* would likely never be in the position to load cargo onto a space vessel, the other use is uncontroversial since it references the real world and things that I am likely *to* do. However, consider some additional uses of the first type of usage that will complicate this assessment.
+
+::: {.remark}
+
+"*I* can't believe that *I* would have been so stupid as to have thought that we would have worked as a couple."
+
+:::
+
+Here, there seems to be two dissimilar *I*s. The first expresses dismay over over what the second previously thought. The concern here is that the passage of time has rendered the *I* into two distinct and separate persons. Therefore there arises a question regarding the accuracy of self-ascribing the second *I*. It seems like it should be wrong to self-ascribe actions referencing the past:
+
+> How can we make sense of the superficially paradoxical fact that an object can undergo changes over a period of time while remaining (in some metaphysically significant way) exactly the “same thing?” [@cogb09a]
+
+This problem is adopted to game dev in the context that in such contexts, it also seems false to self-ascribe some action performed in the context of the game.
+
+In consequence, @cogb09a will argue that understanding our roles in role-playing games such as MMORPGs and RPGs will show us that the "temporal and spatial boundaries of the self are fundamentally vague." Their proposition is to acknowledge three distinct first person avowals.
+
+::: {.remark}
+
+***True First Person:*** True in the real world
+
+***Ambiguous:*** True in game but false in reality
+
+***Vague:*** Uncharacteristic honesty in uncharacteristic environs. (For instance, imagine someone who tells a previously unrevealed secret to strangers at a team building siminar).
+
+:::
+
+## Fictional Selves
+
+There are a number of games that reveal important questions about the nature of the self.
+
+These include simulators such as *Sims*, *Microsoft Flight*, *Second Life*. There are also MMOs that reveal similar questions such as *World of Warcraft*, *Elder Scrolls*, and *Final Fantasy*.
+
+What is important about these, is that they depend on *representations* of alternative selves. Namely, the game-master as in the case of *Dungeons and Dragons*, the game's developer as in the case of table top RPGs like Monopoly, or the computer programmer as in the case of MMOs and MMORPGs, partially creates the player's character and as such, the identity represented in the game belongs as much if not more to the dev as the player.
+
+However, there is a conflict here. Namely, which genre of game allows more authentic expressions of self.
+
+In an RPG or MMORPG such as *World of Warcraft*, the player is invited to act out a given character. They are given a role, and the tools to enact out that role. These tools include things like props such as ships and armour, whether virtual or actual, etc.
+
+In some versions of RPG, the player can be rewarded or penalized based on how convincingly they are able to adhere to this alternative *self representation*. So here, I do not think that such cases express what is interesting about personal identity. Rather it seems that we are supposed to suppress our identities in adoption of the alternative one. But @cogb09a says otherwise, that the RPG is "more liberating" than the MMORPG because:
+
+>  To achieve these goals, all the player can do is to have her character attempt the various tasks that the game actually puts before her, such as crawling through a cave or fighting off trolls, and then wait while the computer crunches numbers to find out if she succeeds or fails. This can often be a lot of fun, but it is also something quite different from actually pretending to be another person.
+
+It is not clear whether this ambiguity is central to the main claim however.
+
+Their important distinction between table top RPGs and MMORPGs is based on the fact that one case, the player is judged based on her ability to convincingly perform the role of the character prescribed to her while in the other, they just need to perform tasks that the character would perform.
+
+The conflict arises when we realize that phrases such as *I charm the shopkeeper* are not in reference to what we would do, but namely what a given character who is not us, would do. Therefore, the use of the first person pronoun *I* seems misleading.
+
+## Naive Ficitonalist
+
+The naive fictionalist says that the use of the pronoun seems misleading because it *is* misleading. Namely that the claim *"Sir, I have finished loading the Cutter"*, or any claim like it, is false. But they argue that this unsophisticated attempt to solve the puzzle fails. However, claims expressing what we as players do in a given virtual environment, if said in a real world context would be true. For instance, consider the following discussion:
+
+::: {.remark}
+
+The ITC Frigate NorthStar was parked in deep space while manned by only two crew members.
+
+:::
+
+There are some emerging classes of game that better blur the lines between fictional and actual selves, and this assessment ignores the fact that some games, namely space sims, more of the onus is on the player to create their character through game play. These make the above assertions accurate and true.
+
+Rather than defining a given character, all the dev does is provide props for the player to use, much like a day care center might provide toys and leave it up to the children to decide how to play with these.
+
+These include what are affectionately termed Space Simulators and include games like *Eve Online*, *Elite Dangerous*, and *Star Citizen*. While some might think that these combine RPGs and MMOs since they often involve multiple characters and *can* involve role-playing elements, they do not necessarily need to. Perhaps the term *Space Sim*, though worse from a marketing standpoint, better reflect what we want in these virtual realms, namely to be our true and authentic ourselves and such platforms provide the props for us to do so.
+
+A player can spend their days to their content exploring the vast environments created by the developers behind such games, aesthetically appreciating the devs work. While one can play a fictional self, they do not necessarily need to.
