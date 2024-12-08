@@ -1,0 +1,14 @@
+# Kyle Blumberg and Ben Holguin's *Fictional Reality*
+
+## Abstract
+
+* Develop a suggestion on how to model reasoning about fiction.
+
+Their model will include three parts:
+
+1. *Take on board* explicit content of fiction.
+2. import background beliefs
+  * these are represented by most plausible worlds. 
+  * based on updates by fiction's content.
+3. shows how an agent reasons on alternative courses of action.
+Aegis's Eclipse is a military bomber with 3 Size 9 missles, (3 S9s), two S2 weapons, with propulsion and systems components standard for ships of this size. 
