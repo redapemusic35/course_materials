@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Presentations on Philosophy of Games</title>
+    <link>http://localhost:1313/docs/presentations/</link>
+    <description>Recent content in Presentations on Philosophy of Games</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/docs/presentations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Imagining Moral Identity</title>
+      <link>http://localhost:1313/docs/presentations/dissertation-slides/</link>
+      <pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/presentations/dissertation-slides/</guid>
+      <description>&lt;script src=&#34;http://localhost:1313/rmarkdown-libs/xaringanExtra_fit-screen/fit-screen.js&#34;&gt;&lt;/script&gt;&#xA;&lt;h1 id=&#34;imagining-moral-prescriptions-and-invariance&#34;&gt;&#xA;  Imagining Moral Prescriptions and Invariance&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#imagining-moral-prescriptions-and-invariance&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h4 id=&#34;does-imaginative-function-explain-emotional-variance&#34;&gt;&#xA;  Does Imaginative Function Explain Emotional Variance?&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#does-imaginative-function-explain-emotional-variance&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h4&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;He didn’t answer so I gently lifted his head. He toppled backward onto the earth. He had been bleeding from the mouth, and his neck and the front of his shirt were stained a brilliant red. “Doodle, Doodle.” There was no answer but the ropy rain. I began to weep, and the tear-blurred vision in red before me looked very familiar. “Doodle!” I screamed above the pounding storm and threw my body to the earth above his. For a long time, it seemed forever, I lay there crying, sheltering my fallen scarlet ibis&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction</title>
+      <link>http://localhost:1313/docs/presentations/normative_discontinuity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/presentations/normative_discontinuity/</guid>
+      <description>&lt;h1 id=&#34;imagining-identity&#34;&gt;&#xA;  Imagining Identity&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#imagining-identity&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;iframe src=&#34;http://localhost:1313/home/redapemusic35/courses/hugo-book/static/slides/dissertation-slides.html&#34; width=&#34;672&#34; height=&#34;400px&#34; data-external=&#34;1&#34;&gt;&#xA;&lt;/iframe&gt;&#xA;&lt;h2 id=&#34;normative-discontinuity&#34;&gt;&#xA;  Normative Discontinuity&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#normative-discontinuity&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;. . . make-believing is not epistemically rational in the same sense as believing, and the norms governing our desires, emotions, and moral evaluations vis-a-vis what is internal to a fiction can be inconsistent with thsoe governing our reponses to relevantly similar things in the real-world. (Gilmore 2020)&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;The aptness of our emotional response to what is true in a story is grounded by a different set of norms than the aptness of our emotional response to what is true in real-life. I may laugh at Charlie Chaplin being crushed in the cogs of a machine, whereas in real-life, the appropriate emotion would be closer to panic.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

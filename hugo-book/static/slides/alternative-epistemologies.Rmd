@@ -1,0 +1,98 @@
+---
+title: "Alternative Epistemologies"
+subtitle: "Fiction and Fictional Identities"
+author: "Montaque Reynolds"
+date: 2024-06-29T12
+draft: false
+cascade:
+  type: docs
+sidebar:
+  open: true
+bibliography: ["/home/redapemusic35/data_storage/library.bib"]
+weight: 1
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      countIncrementalSlides: false
+---
+
+```{r xaringan-fit-screen, echo=FALSE}
+xaringanExtra::use_fit_screen()
+```
+
+```{r, load_refs, include=FALSE, cache=FALSE}
+library(RefManageR)
+BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           cite.style = "alphabetic",
+           style = "text",
+           hyperlink = FALSE,
+           dashed = FALSE)
+myBib <- ReadBib("/home/redapemusic35/data_storage/library.bib", check = FALSE)
+```
+
+1. Modern conceptions of personhood are situated inside of social identities.
+2. It is not clear that these equitably entail human agency.
+3. Therefore sources of social identity is an underexplored topic in critical theory.
+
+---
+
+Epistemic Ecologies
+* rich set of resources for characterizing epistemic communities and the embodiment of social knowledge
+* socio-political imaginaries are embodied and affectively rich knowledge systems in epistemic communities (Dillion 2013)
+* This knowledge informs the unspoken, commonly held 'affectively understood' sociopolitical imaginary, racial, gendered, and sexualized presumptions
+
+???
+
+According to Kate McLean and Mohammed Syed, there are three kinds of narratives that contribute to a narrative account of personhood.
+
+---
+
+### Some Brief Notes on Literary Narratives
+
+
+* Any adequate theory of fiction must accommodate pictorial, as well as literary ones.
+ `r Citep(myBib, "walt90", 75)` [@walt90, 75]
+* Literary narratives, those "devised by single authors who were the creators of that literature" can "come[s] in many forms, from the highly self-conscious artistry of Aeschylean tragedy to the communally produced narratives of folklore" [@stum10, 29]
+ * The Platonic dialogues, like works of tragic theater, but unlike many extant paradigms of ethical discourse . . . contain more than a single voice. [@nuss01i, 126]
+* This, in turn, suggests that in order to talk well about them we will need to run to texts that contain a narrative dimension, thus deepening and refining our grasp of ourselves as beings with a complicated temporal history. [@nuss01i, 3]
+
+---
+
+However . . .
+
+
+* Am I affectionate? Why?
+* Am I Caring? Why?
+* Am I Passionate? Why?
+
+---
+
+## Two Initial Approaches
+
+Questions about who we are
+
+* $\rightarrow$ where we fit in a larger social context
+* $\rightarrow$ directions of our desires and longings in regard to interpersonal community
+* $\rightarrow$ what are my personal feelings to those I live in society with
+
+---
+
+> Master narratives have been largely defined as culturally shared stories that guide thoughts, beliefs, values, and behaviors
+
+But there are also
+
+* Personal narratives
+* alternative narratives
+
+???
+
+Those that are autobiographical (what Maria Schectman calls cultural), those that are biographical (self), and those that are under-explored, what I call literary. I consider the possible contributions of literary narratives to the autobiographical and biographical [@sche24].
+
+Biographical narratives are social. An early concern with conceptualizing identity development in persons, was understanding the contribution one's social environment made towards developing her personality. Narrative has offered a way for us to understand this relationship.
+
+---
+
+

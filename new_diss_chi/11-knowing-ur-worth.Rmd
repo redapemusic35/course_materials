@@ -20,7 +20,7 @@ Many moral exemplar theories posit similar views. This suggests however that nar
 
 Moral terms are anchored in exemplars of moral goodness. These act as direct references which grounds our moral terminology [15]. We learn which individuals are admirable through narratives of fictional and non-fictional persons. We come to identify these individuals through our emotions, specifically admiration. A question which would arise then, is what about instances wherein these emotions are falsely being motivated in us? Zagzebski argues that this emotion is subject to education through reflection on further experience and the emotional reactions of other persons [15]. However, not every member of that community is capable of identifying proper objects of a moral kind term in the same way that not every member of a community can properly identify gold. Typically we often differ such judgments then to experts. It is difficult to see how this might fair analogously to questions about moral testimony where those who rely on the testimony of moral experts are not attributed moral worth to their actions.
 
-## 2 The Moral Emotions
+## The Moral Emotions
 
 Zagzebski's view is grounded in her definition of admiration. Here, admiration is an emotion with an object which it may or may not fit. It also has an affective component, i.e., a characteristic feeling. It can also be a state where we find a particular object admirable [33]. Further, admiration like all emotions have a characteristic feeling that cannot be detached from the appearance, for instance of an object. In the state of an emotion, an object appears to fall under thick conceptual terms, for instance *pitiful, fearful, admirable*. Such concepts combine the descriptive (i.e. the appearance) of an object with its affective component, the state which the object motivates in us.^[There are various kinds of admiration. Intellectual or artistic genius, moral leadership, stalwart courage, compassion, open-mindedness and intellectual honesty represent the primary differences in the kinds of objects of our admiration: natural vs., acquired excellences. Admiration (what Haidt calls elevation) as an *other-praising* emotion arising from the witness of exhibitions of non-moral excellence in others. See @hait03a; and @haid03b; @algo09b; @haid09; and @vian10. Also see Onu, Kessler, and Smith 2016, for a helpful review of the literature on admiration.]
 
@@ -109,11 +109,11 @@ According to Nussbaum, many cultural sources of such theories include narratives
 
 While I will not go specifically in the sort of knowledge narrative offers us here, important for my purposes is the relationship between fiction and *moral* knowledge, @nuss85 offers a similar view of narrative's relation to knowledge. She argues that narratives are tools for representing complex moral landscapes. Specifically for Nussbaum, morality is a question about how one should live their lives and can only be answered through the perceptual and expressive terms found in narrative art [@nuss85, 520]. Emotions shape the landscape of our mental and social lives according to Nussbaum and as such, a theoretical account of emotions will have large consequences for theories of practical reason, normative ethics, aesthetics and political thought. Here, the *good* in another's life can be represented in the literary imagination [@nuss95] and finally, "understanding the relationship between emotions and various conceptions of the human good will inform our deliberations as we ask how politics might support human flourishing" [@nuss01, 3]. To understand why an ethic of narratives is important for actions of moral value, I will begin with a major and some minor criticisms of this view. A reason why this is the case can first be understood through an understanding of Greek tragedy.
 
-## 3 Narrative Excellence on Love and Friendship
+## Narrative Excellence on Love and Friendship
 
 In her chapter *Aeschylus and practical conflict*, Martha Nussbaum argues that Plato's criticism of Greek tragedy stems from its depictions of practical conflict grounded in the absence of logical moral choice available to its characters. The historical view of moral testimony sees narratives as the premier way to engage in moral testimony but Greek tragedy, on this view, is mired in narratives of seemingly good people with few choices available to them. As a result, these individuals, in performing the only actions available to them, invariably commit horrendous crimes against their own character and ethical commitments because of circumstances which lie outside of their control. As such, while there is a relationship between narrative and moral knowledge, Plato saw this relationship as a corrupting one then. For instance, in the *Republic*, he argued that because elements of all literature can be thought of as truthful to some extent, literary artists whose audiences consisted of children, should be highly censored by the state. As found in the *Euthyphro*, the statement: "By this argument, my dear Euthyphro, the pious and impious would be one and the same" (*Euthyphro* 8A), we see a related worry of apparent logical contradictions inherent in depictions of moral conflict in Greek tragedy. Plato was afraid that connections between moral knowledge and narrative would unduly undermine what little moral progress children may make.
 
-### 3.1 Conflict in moral reason {-}
+### Conflict in moral reason {-}
 
 Conflicts arise in moral reason when the agent has equal reason to perform two conflicting actions. An easy way to view such contradictions is to imagine a moral agent conflicted because they have a desire that does not align in the proper way with what is practically the right action in a given circumstance. I may have enough money to pay the electric bill, but the amount that I possess is also the same as what is required to buy a certain video game. Other conflicts may resemble the agent who realizes they would never be able to divide their affections in the way necessary to satisfy both individuals or even themselves. Desires conflict in that such a person wants to spend their life with two separate individuals, but recognizes, perhaps, that they are constituted in such a way that they could realistically only truly enjoy such a relationship with one other individual. Perhaps Such conflict is usually not the central focus of Aeschylean tragedies however. At the very least, there are not the problematic ones with which Plato is concerned.
 
@@ -210,19 +210,19 @@ Considering the potential relationship of narrative and moral knowledge, we shou
 
 ### Narrative Discontinuity {-}
 
-There are two versions of the continuity thesis:
+There are two variants of the continuity thesis:
 
-```{.remark}
+::: {.unnamed}
 
 Whether our evaluations, emotions, desires, and cognitive representations can be explained in a way that is largely indifferent to their genesis in, alternatively, imagination and belief. Can our affective faculties be explained apart from their source in imagination and belief [8]?
 
-```
+:::
 
-```{.remark}
+::: {.unnamed}
 
 The question is whether the kinds of reasons that can serve in the justification or criticism of such responses are invariant across imagined and real-world contexts [@gilm20, 8].
 
-```
+:::
 
 Some concerns include the point that the cognitive mechanisms behind such engagements are consistent with those behind such engagements in the real world. There are epistemic reasons to attribute facts to a fiction that do not hold when attributing similar facts to the real world. Make believing then, is not epistemically rational in the same sense as believing, and the norms governing our desires, emotions, and moral evaluations vis-a-vi what is internal to a fiction can be inconsistent with those governing our responses to relevantly similar things in the real world
 

@@ -2,3 +2,5 @@ knowledge-first-justification
 a-theoretical-approach-to-moral-realism
 social-reflection
 epistemic-standpoints
+some-narrative-folk-psychologies
+conclusion

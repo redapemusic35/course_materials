@@ -16,7 +16,7 @@ year: 2024
 output:
   bookdown::pdf_book:
     includes:
-      in_header: /home/mreynolds/MEGA Downloads/data_storage/preamble.tex
+      in_header: /home/redapemusic35/data_storage/preamble.tex
     toc: true
     toc_depth: 3
     lot: true
@@ -29,6 +29,6 @@ documentclass: book
 fontsize: 12pt
 linestretch: 2
 geometry: margin=1in
-bibliography: /home/mreynolds/MEGA Downloads/data_storage/Exported-Items.bib
-csl: /home/mreynolds/MEGA Downloads/data_storage/chicago-fullnote-bibliography-with-ibid.csl
+bibliography: /home/redapemusic35/data_storage/Exported-Items.bib
+csl: /home/redapemusic35/data_storage/chicago-fullnote-bibliography-with-ibid.csl
 ---

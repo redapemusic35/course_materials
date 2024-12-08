@@ -1,0 +1,3 @@
+fig:pie
+r-markdown
+including-plots

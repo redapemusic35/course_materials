@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Materials on Hugo Book</title>
+    <link>http://localhost:4321/materials/</link>
+    <description>Recent content in Materials on Hugo Book</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 11 Jun 2024 12:47:23 -0500</lastBuildDate>
+    <atom:link href="http://localhost:4321/materials/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Imagining Emotion</title>
+      <link>http://localhost:4321/materials/mortons-emotion-and-imagination/imagining-emotion/</link>
+      <pubDate>Tue, 11 Jun 2024 12:45:45 -0500</pubDate>
+      <guid>http://localhost:4321/materials/mortons-emotion-and-imagination/imagining-emotion/</guid>
+      <description>Psychological research regarding philosophical treatments of emotion. Can look at Elaine Fox (2008) “Emotion Science.” Discusses what scientists have learned about the emotions. Copp (2007) talks about morality in terms of emotions, beliefs and rules. Part 1:&#xA;All emotion involves imagination [1]. Imagination involves representing something to ourselves [8]. Because of imagination, we can “see” anything. Our emotions inspire us to search for actions that will address particular problems which we face.</description>
+    </item>
+    <item>
+      <title>Introduction to Alfano &amp; Hopps</title>
+      <link>http://localhost:4321/materials/morality-of-wellbeing/introduction-alfano-hopps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/materials/morality-of-wellbeing/introduction-alfano-hopps/</guid>
+      <description>The moral foundations dictionary developed by Mark Alfano is a natural language process that is intended to detect foundational terms in moral cooperation. Other moral foundations theories look at other factors of morality. For instance, the extra Moral Foudations Dictionary According to the ethical theory morality as cooperation, humans over time have faced a number of problems necessitating the need for cooperation. In response to these needs, we have developed various methods for cooperation that act as solutions to these problems.</description>
+    </item>
+    <item>
+      <title>Failing to Imagine Emotion</title>
+      <link>http://localhost:4321/materials/mortons-emotion-and-imagination/failing-to-imagine-emotion/</link>
+      <pubDate>Tue, 11 Jun 2024 12:46:25 -0500</pubDate>
+      <guid>http://localhost:4321/materials/mortons-emotion-and-imagination/failing-to-imagine-emotion/</guid>
+      <description>It is a common practice that we imagine other people’s emotions. This is how we understand their motives, actions, and feelings [54]. Our practice of imagining the emotions and perspectives of other people is a central feature of human social life [56]. Perspective is our ability to imagine the point of view of another. By perspective we plan our actions and predict the actions of others. It is possible that we misimagine others however.</description>
+    </item>
+    <item>
+      <title>Imagining Moral Emotions</title>
+      <link>http://localhost:4321/materials/mortons-emotion-and-imagination/imagining-moral-emotions/</link>
+      <pubDate>Tue, 11 Jun 2024 12:47:23 -0500</pubDate>
+      <guid>http://localhost:4321/materials/mortons-emotion-and-imagination/imagining-moral-emotions/</guid>
+      <description>The general point is that we want to know when to hope that someone is regretful (perhaps for a mistake) or contemptuous (perhaps towards a fake), and when to fear that they may be resentful (perhaps that one has told an inconvenient truth) or grateful (perhaps because someone has done their job more thoroughly than required). And we do not want these conclusions to just depend on what is conventionally or intuitively considered good or moral.</description>
+    </item>
+  </channel>
+</rss>

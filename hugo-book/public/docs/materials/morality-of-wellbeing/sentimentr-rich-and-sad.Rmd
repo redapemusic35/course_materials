@@ -1,0 +1,33 @@
+---
+title: "Sentimentr Rich and Sad"
+weight: 1
+# bookFlatSection: false
+# bookToc: true
+# bookHidden: false
+# bookCollapseSection: false
+# bookComments: false
+# bookSearchExclude: false
+---
+
+```{r echo=FALSE}
+library(sentimentr)
+library(tidyverse)
+
+richnsad <- read.delim("/home/redapemusic35/courses/hugo-book/content.en/docs/materials/morality-of-wellbeing/rich-n-sad.txt", header = FALSE)
+
+richnsad
+
+richnsad %>%
+  get_sentences() %>%
+  sentiment_by()
+
+richnsad %>%
+  get_sentences() %>%
+  sentiment()
+
+emotion_count <- richnsad %>%
+  get_sentences() %>%
+  emotion_by()
+
+
+```

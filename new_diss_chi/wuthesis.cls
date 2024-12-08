@@ -133,14 +133,16 @@
 \@removefromreset{footnote}{chapter}
 \newcommand{\thesisauthor}{Montaque Reynolds}
 \newcommand{\thesisauthorlastname}{Reynolds}
-\newcommand{\thesisauthorpreviousdegrees}{}
+\newcommand{\thesisauthorpreviousdegrees}{MA}
 \newcommand{\thesismonth}{August}
 \newcommand{\thesisyear}{2024}
 \newcommand{\thesistitle}{Title}
-\newcommand{\thesissupervisor}{Professor Dan Haybron}
-\newcommand{\thesiscommittee}{Dan Haybron, Chair \\
-Scott Gelfand \\
-Scott Ragland}
+\newcommand{\thesiscommittee}{
+  \underline{COMMITTEE IN CHARGE OF CANDIDACY} \\
+\indent Professor Dan Haybron, \underline{Chairperson and Advisor} \\
+\indent Associate Professor Scott Gelfand, PhD, JD \\
+\indent Associate Professor Scott Ragland, PhD}
+
 \newcommand{\thesisschool}{School of Arts \& Sciences}
 \newcommand{\thesisdepartment}{Department of Philosophy}
 \newcommand{\thesisfield}{Philosophy}
@@ -227,7 +229,7 @@ Scott Ragland}
 
       {\thesistitle} \\
 
-      \thesisstudent
+      \thesisstudent, \thesisauthorpreviousdegrees
 
       \vspace{\stretch{100}}
 
@@ -280,8 +282,8 @@ Scott Ragland}
     by \\
     \thesisauthor \\
     \thesisdegree\ in \thesisfield \\
-    %Saint Louis University in St. Louis, \thesismonth\ \thesisyear \\
-    %Research Advisor: \thesissupervisor
+    Saint Louis University in St. Louis, \thesismonth\ \thesisyear \\
+    Research Advisor: \thesissupervisor
     Saint Louis University in St.~Louis, \thesisyear \\
     \thesissupervisor
   \end{doublespace}
