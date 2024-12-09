@@ -1,0 +1,224 @@
+# Syllabus
+
+This course will explore a number of issues raised in literature on the philosophy of fiction. These issues are interdisciplinary and will range over a number of philosophical subdisciplines including the philosophy of mind, aesthetics, value theory, metaethics, and the philosophy of language, epistemology, and imagination. The lectures and discussions will take place inside the virtual environment Star Citizen, a space simulator that makes extensive use of art, fiction, and other aesthetic qualities. Some of the issues raised will include truth in fiction, consider: 'it is false that there is a place called New Babbage'; 'it is true in Star Citizen that there is a place called New Baggage'. 'It is true in Star Citizen that centrifical motion is a source of g-force on pilots'; 'it is true that centrifical motion is a source of g-force on pilots'. Regarding emotional experience in art: 'it is frightning to encounter a settler in Dog Town', 'it is frightning to encounter a man in a dark alley'.
+
+## Week 1 What is Fiction?
+
+#### Essential reading
+
+R. M. Sainsbury, 2010, Fiction and Fictionalism, Routledge, chapter 1.
+
+#### Further reading
+
+Kathleen Stock, 2011, ‘Fictive Utterance and Imagining’, *Proceedings of the Aristotelian Society
+Supplementary Volume*85: 145-61.
+
+Stacie Friend, 2011, ‘Fictive Utterance and Imagining II’, *Proceedings of the Aristotelian Society
+
+Supplementary Volume*85: 163-80.
+
+#### Deep dives
+
+Kendall Walton, 1990, Mimesis as Make-Believe, Harvard University Press.
+
+Gregory Currie, 1990, The Nature of Fiction, Cambridge University Press.
+
+## Week 2 The Paradox of Fiction
+
+#### Essential reading
+
+Kendall Walton, 1978, ‘Fearing Fictions’, *Journal of Philosophy*75: 5-27.
+Further reading
+
+Colin Radford, 1975, ‘How Can We Be Moved By the Fate of Anna Karenina’, Proceedings of the
+Aristotelian Society Supplementary Volume 45: 67-80.
+
+Lamarque, P. (1981) ‘How Can We Fear and Pity Fictions?’, in British Journal of Aesthetics.
+
+Shannon Spaulding, forthcoming, ‘Imagination, Desire, and Rationality’, Journal of Philosophy.
+
+#### Deep dives
+
+Kendall Walton, 1990, Mimesis as Make-Believe, Harvard University Press.
+
+Jenefer Robinson, 2005, Deeper Than Reason: Emotion and Its Role in Literature, Music, and Art,
+OUP.
+
+## Week 3 Aesthetic Value and Ethical Value in Fiction
+
+#### Essential reading
+
+Carroll, Noël. “Moderate Moralism.” British Journal of Aesthetics 36 (1996): 223–238.
+
+Anderson, James, and Jeffrey Dean. “Moderate Autonomism.” British Journal of Aesthetics 38
+(1998): 150–166.
+
+#### Further reading
+
+Eaton, A. (2012). Robust Immoralism. The Journal of Aesthetics and Art Criticism, 70(3), 281-292
+
+#### Deep dives
+
+Berys Gaut, 2007, Art, Emotion and Ethics, OUP.
+
+## Week 4: The Semantics and Metaphysics of Fiction (II)
+
+#### Essential reading
+
+R. M. Sainsbury, 2010, Fiction and Fictionalism, Routledge, chapter 4.
+
+David Lewis, 1978, ‘Truth in Fiction’, reprinted in David Lewis, 1983, Philosophical Papers Volume I, 261-75.
+
+#### Further reading
+
+Alex Byrne, 1993, ‘Truth in Fiction: The Story Continued’, Australasian Journal of Philosophy 71:
+24-35.
+
+Nolt, John, “Free Logic”, The Stanford Encyclopedia of Philosophy (Fall 2018 Edition), Edward
+N. Zalta (ed.), URL = <https://plato.stanford.edu/archives/fall2018/entries/logic-free/>.
+
+#### Deep dives
+
+Priest, Graham, 2005, Towards Non-Being. The Logic and Metaphysics of Intentionality, Oxford:
+Clarendon.
+
+Sainsbury, R.M. (2005), Reference Without Referents. OUP
+
+## Week 5: The Semantics and Metaphysics of Fiction (II)
+
+#### Essential reading
+
+van Inwagen, Peter. “Creatures of Fiction.”American Philosophical Quarterly 14 (1977): 299–308.
+
+#### Further reading
+
+Everett, Anthony. “Pretense, Existence, and Fictional Objects.” Philosophy and Phenomenological
+Research 74 (2007): 56–80.
+
+Kroon, Fred and Voltolini, Alberto, “Fictional Entities”, The Stanford Encyclopedia of Philosophy
+(Winter 2018 Edition), Edward N. Zalta (ed.), URL = <https://plato.stanford.edu/archives/
+win2018/entries/fictional-entities/>.
+
+Reicher, Maria, “Nonexistent Objects”, The Stanford Encyclopedia of Philosophy (Spring 2019
+Edition), Edward N. Zalta (ed.), URL = <https://plato.stanford.edu/archives/spr2019/entries/
+nonexistent-objects/>.
+
+Rorty, Richard. “Is There a Problem About Fictional Discourse?” In Consequences of Pragmatism.
+By Richard Rorty, 110–138. Minneapolis: University of Minnesota, 1982.
+
+Thomasson, Amie L. “Fictional Characters and Literary Practices.” British Journal of Aesthetics 43 (2003): 138–157.
+
+#### Deep dives
+
+Azzouni, Jody, 2010, Talking about Nothing: Numbers, Hallucinations, and Fictions, New York:
+Oxford University Press.
+
+Thomasson, Amie L., 1999, Fiction and Metaphysics, Cambridge: Cambridge University Press.
+
+## Week 6: Learning from Fiction
+
+#### Essential reading
+
+Stacie Friend, 2014, ‘Believing in Stories’, in Greg Currie, Matthew Kieran, Aaron Meskin, and Jon Robson (eds), Aesthetics and the Sciences of the Mind, Oxford University Press, 227-48.
+
+#### Further reading
+
+O’Brien, L. (2017) ‘The Novel as a Source of Self-Knowledge’, in Art and Belief, Sullivan-Bissett, E., Breadley, H., Noordhof, P. (Eds.)
+
+Pippin, Robert (2009). What Is a Western? Politics and Self-Knowledge in John Ford’s The
+Searchers. Critical Inquiry 35 (2):223-253.
+
+Pippin, Robert B. (2011). Agency and Fate in Orson Welles’s The Lady from Shanghai. Critical
+Inquiry 37 (2):214-244.
+
+Stump, Eleonore (2009), ‘Modes of Knowing: Autism, Fiction, and Second-Person Perspectives’.
+Faith and Philosophy, 25(5), 553-565.
+
+Stump, E. (2010). ‘The Story of Job: Suffering and the Second-Personal.’ In Wandering in
+Darkness: Narrative and the Problem of Suffering.: Oxford University Press.
+
+#### Deep dives
+
+Berys Gaut, 2007, Art, Emotion and Ethics, OUP.
+
+Gibson, John (2007). Fiction and the Weave of Life. OUP.
+
+## Week 7: Fictions in Science
+
+#### Essential reading
+
+Catherine Z. Elgin - Exemplification, Idealization, and Scientific Understanding <http://
+elgin.harvard.edu/exemplification/scirep.pdf>
+
+#### Further reading
+
+Fictions in Science: Essays on Idealization and Modeling, ed. Mauricio Suárez, London: Routledge,
+2009
+
+#### Deep dives
+
+Elgin, Catherine Z. True Enough. The MIT Press, 2017.
+
+## Week 8: Mathematical Fictionalism
+
+#### Essential reading
+
+Long, Mary (2010), ‘Mathematics and Make-Believe’, in Mathematics and Reality, OUP.
+
+#### Further reading
+
+Balaguer, Mark, “Fictionalism in the Philosophy of Mathematics”, The Stanford Encyclopedia of
+Philosophy (Fall 2018 Edition), Edward N. Zalta (ed.), URL = <https://plato.stanford.edu/
+archives/fall2018/entries/fictionalism-mathematics/>.
+
+Burgess, John P. (2004), ‘Mathematics and Bleak House’, Philosophia Mathematica 12, 18-36.
+Leng, Mary, ‘Fictionalism in the Philosophy of Mathematics’, Internet Enyclopedia of Philosophy.
+
+#### Deep dives
+
+Field, Hartry, (2016), Science Without Numbers (2nd edition). OUP.
+
+Leng, Mary (2010), Mathematics and Reality, OUP
+
+## Week 9: Moral Fictionalism
+
+#### Essential reading
+
+Joyce, R. (2016). ‘Moral Fictionalism.’ In Essays in Moral Skepticism., OUP.
+Further reading
+
+Husi, S. (2014). Against Moral Fictionalism. Journal of Moral Philosophy, 11(1), 80-96.
+
+Nadeem J. Z. Hussain. (2004). The Return of Moral Fictionalism. Philosophical Perspectives, 18,
+149-187.
+
+Daniel Nolan, Greg Restall & Caroline West (2005) Moral fictionalism versus the rest,
+Australasian Journal of Philosophy, 83:3, 307-330
+
+#### Deep dives
+
+Joyce, R. (2002). The Myth of Morality, Cambridge University Press.
+
+Kalderon, Mark (2005). Moral Fictionalism. Oxford: Oxford University Press.
+
+## Week 10: Religious Fictionalism
+
+#### Essential reading
+
+Scott, M, Malcolm, F. Religious fictionalism. Philosophy Compass. 2018; 13:e12474.
+
+#### Further reading
+
+Cordry, B. (2010). A critique of religious fictionalism. Religious Studies, 46(1), 77-89.
+
+Eshleman, A. (2010). Religious fictionalism defended: Reply to Cordry. Religious Studies, 46(1),
+91-96.
+
+Sauchelli, A. (2018). The Will to Make-Believe: Religious Fictionalism, Religious Beliefs, and the Value of Art. Philosophy and Phenomenological Research, 96(3), 620-635.
+
+#### Deep dives
+
+Le Poidevin, R. (2019). Religious fictionalism (Cambridge elements. Elements in the philosophy of
+religion). Cambridge University Press.
+
+## Week 11: TBD

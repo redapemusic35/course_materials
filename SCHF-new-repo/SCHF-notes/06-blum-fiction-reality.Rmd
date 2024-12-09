@@ -1,0 +1,31 @@
+# Fictional Reality, Kyle Blumberg and Ben Holguin
+
+Fictional Truth:
+
+> There is a fact of the matter concerning the number of hairs on Sherlock Holme's head, and likewise for any meaningful question question one could ask about what's true in a work of fiction. [@blumNaN, 1]
+
+Otherwise, how do we make sense of our attitudes directed at fictional claims?
+
+> We argue that a theory of this form is needed to account for the patterns in our judgments about attitude reports that embed fictional claims.
+
+## Lewis's Truth in Fiction
+
+In *A Study in Scarlet*, Sherlock Holmes meets his assistant Dr. Watson for the first time:
+
+1. At the time of meeting Dr. Watson, Holmes has an even number of hairs on his head.
+2. At the time of meeting Dr. Watson, Holmes has an odd number of hairs on his head.
+
+However, *A Study in Scarlet* never explicitly states how many hairs Holmes has on his head at the time of meeting Dr. Watson. As such, it would seem that there is no determinately true answer to the question of how many hairs Holmes has on his head at the time of meeting Dr. Watson.
+
+The number of hairs that Holmes has on his head upon meeting Dr. Watson is known as a ***fictional indeterminacy***.
+
+> a fictionally indeterminate claim is a claim about the events of a work of fiction that is left “unsettled” by what’s explicitly said or depicted in the work of fiction, what the author intended or believed to be true in the work of fiction, and so on. [@blumNaN, 2]
+
+What is the constraint that prevents us from knowing the truth value?
+
+***Epistemic constraint:*** there are in-principle barriers to knowing that a fictionally indeterminate claim expresses a truth.
+
+But what about metaphysical truth, *truth simpliciter*?
+
+***Metaphysical Truth:*** true whether we can know it or not.
+

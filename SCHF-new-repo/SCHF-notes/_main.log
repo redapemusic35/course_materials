@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.2)  5 DEC 2024 18:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.2)  8 DEC 2024 18:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -501,29 +501,29 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 2.
-)
+
+
+[3])
 \tf@toc=\write3
 \openout3 = `_main.toc'.
 
 
 
-[3]
+[4]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 159.
 (/home/redapemusic35/.TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-[4]
-
 [5{/home/redapemusic35/.TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
 
-[6
-
-]
+[6]
 Chapter 1.
 
 
-[7]
+[7
+
+]
 
 [8]
 
@@ -545,45 +545,47 @@ Chapter 2.
 
 [15]
 
-LaTeX Warning: Command \' invalid in math mode on input line 382.
+[16]
 
-
-
-[16{/home/redapemusic35/.TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}]
-
-
-Overfull \hbox (38.79648pt too wide) has occurred while \output is active
-\T1/lmr/m/sl/10 2.4.  THE \T1/lmr/m/n/10 REPUBLIC\T1/lmr/m/sl/10 : TRUE VALUE AND THE STANDPOINT OF PERFECTION \T1/lmr/m/n/10 17
- []
-
-[17{/home/redapemusic35/.TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+[17]
 
 [18]
-Chapter 3.
 
-
-[19
-
-]
+[19]
 
 [20]
-Chapter 4.
-
-LaTeX Warning: Citation `ref-fala24' on page 21 undefined on input line 627.
-
+Chapter 3.
 
 
 [21
 
 ]
 
-[22]
+LaTeX Warning: Command \' invalid in math mode on input line 607.
 
-[23]
+
+
+[22{/home/redapemusic35/.TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}]
+
+
+Overfull \hbox (38.79648pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 3.4.  THE \T1/lmr/m/n/10 REPUBLIC\T1/lmr/m/sl/10 : TRUE VALUE AND THE STANDPOINT OF PERFECTION \T1/lmr/m/n/10 23
+ []
+
+[23{/home/redapemusic35/.TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
 
 [24]
+Chapter 4.
 
-[25]
+
+[25
+
+]
+
+
+Overfull \hbox (36.60498pt too wide) has occurred while \output is active
+\T1/lmr/m/n/10 26 \T1/lmr/m/sl/10 CHAPTER 4.  KYLE BLUMBERG AND BEN HOLGUIN'S \T1/lmr/m/n/10 FICTIONAL REALITY
+ []
 
 [26
 
@@ -594,10 +596,43 @@ Chapter 5.
 [27]
 
 [28]
+Chapter 6.
 
-[29]
+LaTeX Warning: Citation `ref-fala24' on page 29 undefined on input line 890.
 
-[30] (./_main.aux)
+
+
+[29
+
+]
+
+[30]
+
+[31]
+
+[32]
+
+[33]
+
+[34
+
+]
+Chapter 7.
+
+
+[35]
+
+[36]
+
+[37]
+
+[38]
+Chapter 8.
+
+
+[39
+
+] (./_main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-11-02>
@@ -607,18 +642,18 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13420 strings out of 475247
- 210562 string characters out of 5766995
- 635942 words of memory out of 5000000
- 35812 multiletter control sequences out of 15000+600000
- 655931 words of font info for 195 fonts, out of 8000000 for 9000
+ 13541 strings out of 475247
+ 212579 string characters out of 5766995
+ 640455 words of memory out of 5000000
+ 35872 multiletter control sequences out of 15000+600000
+ 660589 words of font info for 199 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  83i,8n,93p,1583b,544s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/redapemusic35/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></home/redapemusic35/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></home/redapemusic35/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></home/redapemusic35/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></home/redapemusic35/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></home/redapemusic35/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></home/redapemusic35/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb></home/redapemusic35/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb></home/redapemusic35/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb></home/redapemusic35/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb></home/redapemusic35/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmro10.pfb></home/redapemusic35/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on _main.pdf (30 pages, 355256 bytes).
+Output written on _main.pdf (39 pages, 378194 bytes).
 PDF statistics:
- 330 PDF objects out of 1000 (max. 8388607)
- 269 compressed objects within 3 object streams
- 69 named destinations out of 1000 (max. 500000)
- 53361 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 496 PDF objects out of 1000 (max. 8388607)
+ 424 compressed objects within 5 object streams
+ 124 named destinations out of 1000 (max. 500000)
+ 55529 words of extra memory for PDF output out of 61914 (max. 10000000)
 
