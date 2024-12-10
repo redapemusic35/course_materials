@@ -4,7 +4,7 @@ author: "Montaque Reynolds"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: ["/home/redapemusic35/data_storage/Exported-Items.bib"]
+# bibliography: ["/home/redapemusic35/data_storage/Exported-Items.bib"]
 # url: your book url like https://bookdown.org/yihui/bookdown
 # cover-image: path to the social sharing image like images/cover.jpg
 description: |

@@ -2,6 +2,30 @@
 
 RedApeMusic's current habitation is in New Babbage on Micro Tech. He possesses a number of personal items including a Cutter and an Aurora. The Cutter he upgraded to from a Drake Dragon Fly black which he never used. He recently attended a three-hour course on dog fighting with a highly experienced and accomplished dog fighter. During the course, he learned that the forward velocity of a projectile is about a 2 to 1 ratio with the velocity of an intended target (someone help me out here).
 
-However, he isn't a family man (or he is and spends time on deployment?). It isn't clear whether this was ever a missed opportunity or not. He has a number of armored items as well as civies that he changes in and out of at various times.
+However, he isn't a family man (or he is and spends time on deployment?). Or he is a family man and spends the majority of his time with his family while allocating the remainder to recording videos about Star Citizen or attending to obligations in its universe. It isn't clear whether this was ever a missed opportunity or not. He has a number of armored items as well as civies that he changes in and out of at various times, these he counts among his possessions.
 
+Imagine if we could treat the following two statements synonymously:
 
+::: {.remark}
+Holmes lived at 221B Baker Street.
+:::
+
+::: {.remark}
+Holmes lived in a bank.
+:::
+
+Many of the claims that we may make about Sherlock Holmes are ambiguous, and as such, their truth value can be dubious. Since, this has come to be known as fictional indeterminacy. However, David Lewis argues that we can resolve the ambiguity using context and content. He calls this prefixing.
+
+Un-prefixed,
+
+::: {.remark title="Baker"}
+Holmes lived at 221B Baker Street.
+:::
+
+is false.
+
+Prefixed however . . . 
+
+::: {.remark}
+In *Fiction* *F*,
+:::

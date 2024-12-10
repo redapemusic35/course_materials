@@ -1,6 +1,18 @@
 # Fictional Reality, Kyle Blumberg and Ben Holguin
 
-Fictional Truth:
+## Fictional Truth:
+
+Imagine if we could treat the following two statements synonymously:
+
+::: {.remark}
+Nixon wears a silk top hat.
+:::
+
+::: {.remark}
+Holmes wears a silk top-hat.
+:::
+
+If we could, then each would be false. Instead however, Kyle Blumberg and Ben Holguin argue that each is true while David Lewis says they are undetermined simpliciter, but true or false with an implied prefix operator.
 
 > There is a fact of the matter concerning the number of hairs on Sherlock Holme's head, and likewise for any meaningful question question one could ask about what's true in a work of fiction. [@blumNaN, 1]
 
