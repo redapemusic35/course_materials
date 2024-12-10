@@ -26,4 +26,4 @@ https://osf.io/86qry/, Alfano, Moral Universals
 
 [Corpus of Contemporary American English](https://www.english-corpora.org/coca/)
 
-[Corpus of Historical American English](https://www.english-corpora.org/coha/)
+[Corpus of Historical American English](https://www.english-corpora.org/coha/
