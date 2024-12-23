@@ -138,15 +138,16 @@
 \newcommand{\thesisyear}{2024}
 \newcommand{\thesistitle}{EMOTIONAL DATA AND THE MORAL EXPRESSIONS OF SENTIMENT IN FICTION}
 \newcommand{\thesiscommittee}{\underline{COMMITTEE IN CHARGE OF CANDIDACY;}\\
-Professor Dan Haybron, \\[-12pt] \indent\indent \underline{Chairperson and Advisor} \\
+Professor Helen De Cruz, \\[-12pt] \indent\indent \underline{Chairperson and Advisor} \\
 Associate Professor Scott Gelfand\\
+Associate Professor Dan Haybron\\
 Associate Professor Scott Ragland}
 
 \newcommand{\thesisschool}{School of Arts \& Sciences}
 \newcommand{\thesisdepartment}{Department of Philosophy}
 \newcommand{\thesisfield}{Philosophy}
 
-\usepackage[margin=1in]{geometry}
+%\usepackage[margin=1in]{geometry}
 
 \setlength{\headheight}{0pt}
 %\setlength{\headsep}{18pt}
@@ -203,7 +204,7 @@ Associate Professor Scott Ragland}
      \vskip 5mm
      \thesisacknowledgmentpostscript
      %\end{spacing}
-     \newpage}
+     }
 \newcommand{\thesisacknowledgmenthead}{Acknowledgments}
 \newcommand{\thesisacknowledgmentsigname}{\thesisauthor}
 \newcommand{\thesisacknowledgmentsignametype}{\large}
@@ -216,7 +217,7 @@ Associate Professor Scott Ragland}
      \raggedright
      {\slshape
       \noindent Saint Louis University in Saint Louis \\
-      \thesismonth\ \thesisyear}}
+      \thesisyear}}
 \newenvironment{thesistitlepage}{
   \thispagestyle{empty}
   \addtocounter{page}{-1}
@@ -227,8 +228,9 @@ Associate Professor Scott Ragland}
 
       \vspace*{1in}
 
-
+    \begin{doublespace}
       \textbf{\thesistitle}
+    \end{doublespace}
 
       \vspace{\stretch{100}}
 
@@ -236,17 +238,18 @@ Associate Professor Scott Ragland}
 
       \vspace{\stretch{100}}
 
-      A Dissertation presented to The Graduate Faculty of of Saint Louis University \\
-      in partial fulfillment of the requirements for the degree of \\
+      A Dissertation Presented to The Graduate Faculty of\\
+      Saint Louis University in Partial Fulfillment \\
+      of the Requirements for the Degree of \\
       {\thesisdegree}
 
       \vspace{\stretch{.75}}
 
-      \thesismonth\ \thesisyear
+      \thesisyear
 
     \end{singlespace}
     \end{center}
-    \vspace{-34pt}
+    \vspace{-4pt}
     }
     {\newpage
    \endgroup}
@@ -276,7 +279,7 @@ Associate Professor Scott Ragland}
 
 \newcommand{\thesisabstract}{\maintitlesize\textbf{Abstract}}
 \newenvironment{thesisabstracthead}{
-  \setcounter{page}{2}
+
   \addcontentsline{toc}{chapter}{\thesisabstracthead}
   \begin{center}
   \begin{doublespace}

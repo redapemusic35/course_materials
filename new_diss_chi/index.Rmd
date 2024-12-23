@@ -25,11 +25,11 @@ vita_auctoris: |
 department: "Department of Philosophy"
 school: "School of Arts & Sciences"
 university: "SAINT LOUIS UNIVERSITY"
-supervisor: "Professor Dan Haybron, Chair"
+supervisor: "Professor Helen De Cruz, Chair"
 committee:
-  - "Scott Ragland, Co-Chair"
-  - "Scott Gelfand"
-  - "Helen De Cruz"
+   - "Dan Haybron, Co-Chair"
+   - "Scott Ragland"
+   - "Scott Gelfand"
 year: 2024
 output:
   bookdown::pdf_book:
@@ -47,8 +47,9 @@ output:
     keep_tex: true
 documentclass: book
 fontsize: 12pt
+indent: true
 linestretch: 2
-geometry: margin=1in
+#geometry: margin=1in
 bibliography: /home/redapemusic35/data_storage/Exported-Items.bib
 csl: chicago-fullnote-bibliography-with-ibid.csl
 ---

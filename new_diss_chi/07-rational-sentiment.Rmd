@@ -46,7 +46,7 @@ Just what is morally right action? As the literature goes, there is an important
 
 ### Through Thick and Thin, Two Accounts of Moral Understanding {-}
 
-On the thin view of moral understanding suggested by Alison @hill09c, Sue understands that she should get the vaccine (wHs) if she is also able to do the following given the truth of (wHs) [102--103].
+On the thin view of moral understanding suggested by @hill09c, Sue understands that she should get the vaccine (wHs) if she is also able to do the following given the truth of (wHs) [102--103].
 
 ::: {.unnumbered}
 
@@ -94,23 +94,23 @@ An action is morally right only if it is a right action performed for the right 
 
 ### Knowledge and Understanding {-}
 
-Robert @howa18b understands Noma @arpa04's position as a form of non-cognitive understanding.^[Also see, @arpa02a] However, he leaves open the possibility that this can be thought of as a form of knowledge. This is a point that deserves further development.
+@howa18b understands @arpa04's position as a form of non-cognitive understanding.^[Also see, @arpa02a] However, he leaves open the possibility that this can be thought of as a form of knowledge. This is a point that deserves further development.
 
 > Huckleberry Finn befriends Jim, a slave, and helps him escape from slavery. While Huckleberry and Jim are together on a raft used to escape, Huckleberry is plagued by what he calls "conscience." He believes, as everyone in his society "knows," that helping a slave escape amounts to stealing, and stealing is wrong. . . . Like many children (and adults), Huckleberry is not very good at abstract deliberation, and it never occurs to him to doubt what his society considers common sense. Thus, he fails to find a loophole. . . . Having thus deliberated, Huckleberry resolves to turn Jim in, because it is "the right thing." But along comes a perfect opportunity for him to do so, and he finds himself psychologically unable to do it. [@arpa04, 75; also see @benn74b.]
 
-Jonathan @benn74b; and @arpa04 highlight Huckleberry Finn's interaction with Jim as morally worthy despite his lack of moral understanding. There are two ways to understand this failure. First, Finn does lack moral understanding under the traditional view. He reasons from a place of understanding that he should turn Jim in. He knows stealing is wrong and that one has a moral duty to return another's stolen property. But he does not understand where such a rule is applicable. If Finn understood that stealing is wrong, he would know the correct application of this rule, but because he does not understand that stealing is wrong, he falsely believes that not turning Jim in amounts to stealing.
+@benn74b; and @arpa04 highlight Huckleberry Finn's interaction with Jim as morally worthy despite his lack of moral understanding. There are two ways to understand this failure. First, Finn does lack moral understanding under the traditional view. He reasons from a place of understanding that he should turn Jim in. He knows stealing is wrong and that one has a moral duty to return another's stolen property. But he does not understand where such a rule is applicable. If Finn understood that stealing is wrong, he would know the correct application of this rule, but because he does not understand that stealing is wrong, he falsely believes that not turning Jim in amounts to stealing.
 
-The other way to understand Huck Finn's failure, is that the first relies on an insufficient view of understanding. It is possible that Laura @call18's view is closer to the second. "Understanding of this kind might be thought necessary for morally *worthy* action, or for virtue" [@call18, 443]."Many hold that only actions undertaken *for* the reasons that make those actions morally right are morally worthy." Merely appreciating some action as being the thing to do will not suffice for moral worth as long as one lacks more direct motivation by the reasons that make the action right [@call18, 443].^[Also see, e.g. see @nick01; and @mark10.]
+The other way to understand Huck Finn's failure, is that the first relies on an insufficient view of understanding. It is possible that @call18's view is closer to the second. "Understanding of this kind might be thought necessary for morally *worthy* action, or for virtue" [@call18, 443]."Many hold that only actions undertaken *for* the reasons that make those actions morally right are morally worthy." Merely appreciating some action as being the thing to do will not suffice for moral worth as long as one lacks more direct motivation by the reasons that make the action right [@call18, 443].^[Also see, e.g. see @nick01; and @mark10.]
 
 Finn's failure to turn Jim in is an action we do associate with moral worth and as such, comes from a place of moral understanding. Although it does seem that some form of moral reasoning takes place, in the end it is not connected with Finn's moral action however. Arpaly calls this *inverse akrasia*, doing the right thing against one's better reason or judgment. Finn has reasoned correctly and therefore has moral understanding, but what he understands in the thin way is not the morally correct action. What he does have though is knowledge, and his knowledge is why his action possesses moral worth. As such, moral understanding is connected to the psychological turmoil that Huck Finn experiences resulting in his inability to turn Jim in. However, this leads to some troubling questions. First, what Howard calls non-cognitive understanding, looks more like moral perception. The reaction that Huck has to turning Jim in, resembles the inability that one may have at stepping onto a transparent platform suspended over a large crevice. This person may very well reason to themselves that the platform is safe and has been inspected on numerous occasions by the relevant experts. However, they may not be able to bring themselves to walk onto the platform because of their non-cognitive perception that it would be unsafe to do so.
 
-As noted by Alison @hill09c, what we care about regarding moral knowledge is one's behavior, and whether this behavior deserves moral praise. Arpaly argues that understanding as defined by Hills is not as central to moral worth as Hills thinks. But this just means that understanding is not as central not to moral worth, but to behavior. Understanding does not need to be central to behavior because we often theorize on various issues without any intention on acting as the outcome would suggest. Therefore on this view, our affective states are more important for the moral worth of our actions.
+As noted by @hill09c, what we care about regarding moral knowledge is one's behavior, and whether this behavior deserves moral praise. Arpaly argues that understanding as defined by Hills is not as central to moral worth as Hills thinks. But this just means that understanding is not as central not to moral worth, but to behavior. Understanding does not need to be central to behavior because we often theorize on various issues without any intention on acting as the outcome would suggest. Therefore on this view, our affective states are more important for the moral worth of our actions.
 
 \noindent Consider the following claims:
 
 > What is it to have good character, to have the virtues? ... In general, someone with a good character is disposed to *feel*, choose and act rightly. [@hill09c, 108; emphasis mine]
 
-Both @hill09c and Robert @hopk07a argue that having the right to a moral belief requires grasping the moral grounds for it [@hopk07a, 630]. In Sue's case, it would be right for her to receive the vaccine. However, to say that something is right, is not the same thing as saying that it is *morally right*. Grasping in this sense implies a mental property with motivational content. Paulina @sliw17 and other optimists (E.g. @enoc14) point out that the missing piece is not understanding as understood by Hills, but rather a special kind of sensitivity to the moral reasons present in a particular case. This sensitivity confers moral worth onto an agent's action and the sensitivity in question can come by way of moral testimony.
+Both @hill09c and @hopk07a argue that having the right to a moral belief requires grasping the moral grounds for it [@hopk07a, 630]. In Sue's case, it would be right for her to receive the vaccine. However, to say that something is right, is not the same thing as saying that it is *morally right*. Grasping in this sense implies a mental property with motivational content. @sliw17 and other optimists (E.g. @enoc14) point out that the missing piece is not understanding as understood by Hills, but rather a special kind of sensitivity to the moral reasons present in a particular case. This sensitivity confers moral worth onto an agent's action and the sensitivity in question can come by way of moral testimony.
 
 ::: {.unnumbered}
 Following Hopkins, we can call this the recognition requirement:
@@ -128,7 +128,7 @@ Moral judgments require interpersonal justification. Here, an agent's action is 
 
 Other defenses reduce moral understanding to something like a capacity for knowledge, where understanding amounts to varying degrees of moral knowledge [@sliw17] whether the agent knows *'p'* or not. However, like pessimists, such defenses define understanding as something which is solely cognitive. For instance, @howa18b; @call18; @flet16b; @enoc14 and @sliw17 point out that the missing piece is not understanding as understood by Hills, but rather a special kind of cognitive sensitivity to the moral reasons present in a particular case [@sliw12; @sliw17]. @mcgr09 defends a view on which there are moral experts, individuals who have a better appreciation or are specially sensitive to at least some moral facts than are others.
 
-A point that isn't addressed in depth in the moral testimony literature, is that in the moral realm, having emotional/motivational states appropriate to one's beliefs is distinctively important. If one, say agent *A* understands a moral proposition, say $mP$ *is true*, then $A$ should appreciate the reasons why $mP$. If $A$ appreciates why $mP$, then $A$ appreciates $mP \rightarrow \psi$, namely, that if $mP$, then $q$ [@call18, 441]^[Also see Alison @hill09c; @hill13b; @hopk07a; @nick01. For how this relates to non-moral understanding literature see @grim10; @nick01; and @hill09c; @hill16.]. Therefore, "Having understanding comes with abilities."^[E.g. see, Alison Hills 2009, 102--103, 2016 and Grimm 2011] Some abilities include being able to "form additional correct moral beliefs, say $mP'$ and act rightly in particular, novel situations" [@call18, 443]. However cognitive reasons are not the only reasons *why* $mP$ will be true and not the only motivations for an agent's acting from $mP$.
+A point that isn't addressed in depth in the moral testimony literature, is that in the moral realm, having emotional/motivational states appropriate to one's beliefs is distinctively important. If one, say agent *A* understands a moral proposition, say $mP$ *is true*, then $A$ should appreciate the reasons why $mP$. If $A$ appreciates why $mP$, then $A$ appreciates $mP \rightarrow \psi$, namely, that if $mP$, then $q$ [@call18, 441]^[Also see Alison @hill09c; @hill13b; @hopk07a; @nick01. For how this relates to non-moral understanding literature see @grim10; @nick01; and @hill09c; @hill16.]. Therefore, "Having understanding comes with abilities."^[E.g. see, @hill09c, 102--103, 2016 and Grimm 2011] Some abilities include being able to "form additional correct moral beliefs, say $mP'$ and act rightly in particular, novel situations" [@call18, 443]. However cognitive reasons are not the only reasons *why* $mP$ will be true and not the only motivations for an agent's acting from $mP$.
 
 However, this does not occur in the Huck Finn case. Finn reasons that not returning a runaway slave is akin to stealing. Stealing is wrong. Therefore one should return a runaway slave. When Finn does reason ($mP \land q$) $\rightarrow \psi$ then, the result is not where the praiseworthy relevant features of the action are found. Finn is incapable of $\psi$ing and as such, performs a morally worthy action.
 
@@ -136,7 +136,7 @@ Understanding the relevant moral propositions (having the appropriate feelings a
 
 Optimists about moral testimony argue that the asymmetry between moral and non-moral testimony can be explained by general features of testimony. Optimists argue that the problems with moral testimony are also problems with non-moral testimony, but moral concerns are weightier and therefore make it merely appear as though there is an asymmetry. What we need is an appreciation of the relevant reasons; ability to make the correct moral judgments because of this appreciation; and the ability to give the right explanation of the correctness for one's reasons [@hill09c, 102; @hopk07a].
 
-However, this only explains why moral concerns are sometimes thought of as subjective. Jesse @prin07 defends a view on which value concepts are grounded in non-cognitive reasons. This is because evaluative concepts are abstract in that they are incapable of being touched or manipulated. Because of their lack of discrete properties, some have argued that value concepts, for instance aesthetic and moral concepts, cannot be grounded in evaluations deriving from sensory representations. Value concepts, in order to be grounded, require contributions from us and as such, are at best subjective.
+However, this only explains why moral concerns are sometimes thought of as subjective. @prin07 defends a view on which value concepts are grounded in non-cognitive reasons. This is because evaluative concepts are abstract in that they are incapable of being touched or manipulated. Because of their lack of discrete properties, some have argued that value concepts, for instance aesthetic and moral concepts, cannot be grounded in evaluations deriving from sensory representations. Value concepts, in order to be grounded, require contributions from us and as such, are at best subjective.
 
 Why is it that because something is abstract, that it resists grounding? First, grounding in reference to concepts, is a kind of evaluation that derives from sensory representations. However, because value concepts such as justice are discreet, incapable of being touched or manipulated, they lack perceptible features. This lack of perceptible features means that they are abstract. Value concepts have abstract properties and as such, require a contribution from us that will influence our own sensory representations of that object. Because they require contributions from us that determine the properties such objects have, they are subjective and as such, resist grounding.
 
@@ -204,7 +204,7 @@ The stakes for falling short in moral action is higher than for non-moral action
 
 Following this line of reasoning, we might think that we miss an emotional achievement---when our judgments are not motivated by our perception of some moral harm for instance---when we defer moral judgment. But this would be wrong because I have *already missed* my opportunity for this achievement. "Moral deference indicates failure to achieve something we are expected to achieve" [@enoc14, 255]. While deferring to the moral expert *is* indicative of some moral imperfection. ". . . once the imperfection is already there, it is better to acknowledge it and act in such a way that takes their existence into account" [258].
 
-Therefore, although we might allow children to accept the moral testimony of others provided that who they ask are also trustworthy and reliable in the belief that ultimately they will eventually be motivated in the right way, it is not similarly acceptable for adults to do so as their affective states are more or less fixed, or that they should by now have the correct motivations etc.^[Paulina @sliw12, 184–186 argues that moral testimony is as much of a concern for non-moral testimony. However, in moral cases, the ignorance of basic moral truths is particularly problematic.] However, these explanations are not adequate. In the next section, I explore in more detail the relationship between affect and moral worth.
+Therefore, although we might allow children to accept the moral testimony of others provided that who they ask are also trustworthy and reliable in the belief that ultimately they will eventually be motivated in the right way, it is not similarly acceptable for adults to do so as their affective states are more or less fixed, or that they should by now have the correct motivations etc.^[@sliw12, 184–186 argues that moral testimony is as much of a concern for non-moral testimony. However, in moral cases, the ignorance of basic moral truths is particularly problematic.] However, these explanations are not adequate. In the next section, I explore in more detail the relationship between affect and moral worth.
 
 The problem with using the risk argument above, is that even if we avoid wrong doing in moral cases, our actions in and of themselves deserve no moral praise. It is difficult to then see how such actions fair any better than those actions which are the result of mistaken judgment, where at least the agent *tried* to do the morally right thing. The difficulty facing us, answering the question: why is this the case? What follows is one possible answer.
 
@@ -227,69 +227,3 @@ However, what aspects of our social environment do we get our moral views from? 
 There are two questions in particular that may help us to understand what is strange about unquestioningly adopting the moral views of others. To understand these, it will be helpful to understand the contexts where they are important. First, we should not confuse questions about whether we should accept another's testimony, with the observation that we often do. Second, in the first case above, it is unproblematic that we accept our friend's directions to the stadium. We often defer in non-moral testimonial cases, for instance when we are in an unfamiliar city or other kind of setting. This is similar to other instances of testimonial transmission cases. A child who learns to read before she starts primary education is treated as though she possesses a distinctive kind of knowledge. She obtains this knowledge primarily because she accepted the testimony of her parents or older siblings that A is pronounced with an /'eI/, B with /"bi:/ etc.
 
 In non-moral contexts, we are “prepared to sweepingly defer to others about what to do in particular cases, even when we do not suspect that they have some general theoretical knowledge that we lack” [@mcgr19, 77]. But there is a difference between moral and non-moral cases. We might think that there is no theoretical science of ethics while there is a theoretical science of other fields. We will go to a physicist for questions about gravitational waves but an epidemiologist for questions about vaccine efficacy. Who could we defer to in cases of moral belief? There are some reasons why we might think that moral cases are analogous. I.e., moral particularism, one may be an expert in particular cases only, in which case theoretical knowledge is unnecessary.
-
-### Against the Critical Reflection View {-}
-
-According to the standard account of non-moral justification, if our beliefs are justified, then they are based on adequate grounds and lack sufficient overriding reasons against them. For instance, according to the critical reflection view, a moral belief is justified just in case one may have adequate grounds to hold the view, and if she is critically reflective of that belief. Mary, Sue and Clarice may be justified on the assumption that they fulfilled their obligations in gathering evidence to support their belief about the importance of inoculation. Once they have considered all the plausible reasons against holding that belief, then their belief lacks sufficient overriding reasons against it.
-
-However, this could also be achieved through observation. The fact that I am blinded by the sun's rays when I open my bedroom curtain is a sufficient overriding reason against my belief that it is still night out. Further, my perception that the sun is shinning is direct. Direct perception then is an adequate ground to hold a given belief. Mary, Sue, and Clarice can be overwhelmed by the force of an argument in favor of inoculation. But what this shows us, is that to suppose that our judgments need to correspond with held principles is too stringent of a demand as it does not explain all that we know. For instance, our beliefs that there is an external world or that the sun is bright. We have some beliefs which are voluntary and others which are involuntary. Both are justified, once we have satisfied all of our epistemic obligations regarding them.
-
-::: {.unnumbered}
-
-Believing that *p* in a way that is good from an epistemic point of view satisfies the chief desiderata for a concept of epistemic justification.
-
-:::
-
-Having these beliefs, signifies that we have *done* something to show *'that p'* or that we are justified in believing *'that p'*. We might recognize that the believing subject has not violated any epistemic, cognitive, or intellectual obligations which may include refraining from believing *'that p'* in the absence of sufficient evidence, accepting implications of the belief *'that p'*, etc. But we have many more beliefs which are involuntary, and these we treat the same as we do the justified beliefs. Though it is plausible, I would be hard pressed to disbelieve that the traffic light is green.
-
-As such, it would seem that whatever concept of justified beliefs we hold under the critical reflection view, it is too stringent to explain much of the knowledge we are supposed to have. Therefore, given that many of our beliefs are involuntary, that I have hands for instance, we often are thought to have fulfilled our obligations with respect to such beliefs. Following this, McGrath then points out that what this means, is that we often act as though being justified is a more important epistemic state than is the state of justifying. Being justified is being in a state of knowledge and while we do think of justification as important, a different path to justification rests on what we already know. Accordingly:
-
-::: {.unnumbered}
-
-Knowing entails justified believing in that knowing a proposition, e.g. 2+2=4, satisfies the necessary conditions for justification, adequacy and safety.
-
-:::
-
-::: {.unnumbered}
-
-If S knows *p* then S's belief that *p* is based on adequate grounds and lacks sufficient overriding reasons to the contrary.
-
-:::
-
-::: {.unnumbered}
-
-But justified belief then, often occurs well before one is able to reflect on what they know or other methods of justification.
-
-:::
-
-::: {.unnumbered}
-
-Therefore, by the time a typical moral agent is capable of the kind of reflection or other justifying devices necessary for knowledge acquisition, she already has a substantial amount of justified moral beliefs [@mcgr19, ch. 2; also see William @alst89b; and C.F. @pryo00].
-
-:::
-
-On the critical reflection view then,
-
-::: {.unnumbered}
-
-A moral belief *M* counts as knowledge *mK* for moral agent *S* just in case *M* is the result of critical reasoning or deliberation performed by *S*. However, we often credit an agent with knowledge by the time she is capable of the kind of critical reasoning required under the critical reflection view. What this shows then, is that:
-
-:::
-
-::: {.unnumbered}
-
-Being justified is a more important state than justifying and a justified belief for S is one based on adequate grounds and where S lacks sufficient overriding reasons to the contrary [@alst89b].
-
-:::
-
-::: {.unnumbered}
-
-Therefore what justifies is restricted to a subject's perspective
-
-:::
-
-It was initially thought that justification regarding moral testimony, in part, depends on whether we can defend our belief on the basis of the testimony we received. This was in part because we thought that testimony was a source of evidence given its relationship to justified beliefs. We think someone should receive a given vaccine if all the leading experts in a given medical field have testified to its efficacy. We often cite various medical reports in defending our medical decisions. Therefore it seems plausible that we can defend our moral beliefs in the same way, what McGrath calls *moral inheritance*.
-
-However, McGrath also thinks that many of our justified beliefs derive from a special kind of perception, for instance grounding her views regarding moral inheritance. I know that the sun is shinning because I can perceive that it is shinning. I know that care is good because I have often perceived it as such. I am having a given perception that happens before critical reflection. Therefore direct perception is one source of knowledge. Beliefs are justified given their proximity to knowledge.
-
-
