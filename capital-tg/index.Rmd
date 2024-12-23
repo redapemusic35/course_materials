@@ -1,0 +1,151 @@
+---
+title: "Interview Prep-Platform Engineer"
+author: "Montaque Reynolds"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: ["/home/redapemusic35/data_storage/Exported-Items.bib"]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  The job description for this particular role asks that the potential higher be capable of desgining and implementing project prototypes and proof-of-concepts that enable the evaluation of new or emerging technologies. The proof of concepts will enable an analysis of the product benefits and risks while implementing solutions that use new technologies, and provide development support along with the adoption of the new technologies in a given project. Apply Now; Platform Engineer; Remote
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
+
+Capital Technology Group provides expert
+
+Consulting services:
+software development,
+digital transformation,
+human-centered design,
+data analytics and visualization, and
+cybersecurity.
+
+Our multidisciplinary teams use agile methodologies
+
+Q: Which ones?
+
+Scrum
+Extreme Programming (XP)
+Adaptive Software Development (ASD)
+Dynamic Software Development Method (DSDM)
+Feature Driven Development (FDD)
+Kanban
+Behavior Driven Development (BDD)
+
+### Scrum
+
+An Agile framework that focuses on cross-functional teamwork, accountability, and iteration. It's primarily used for software development, but its principles can be applied to other project management teams.
+
+### Kanban
+
+An Agile methodology that visualizes work on a Kanban board, which displays tasks as cards moving through different stages of the workflow.
+
+### Feature Driven Development (FDD)
+
+An older methodology that uses some agile principles, but is viewed as the predecessor of today's agile and lean methodologies. It focuses on frequently implementing client-valued features.
+
+### Dynamic Systems Development Method (DSDM)
+
+An Agile framework that focuses on delivering software on time and within budget. It emphasizes clear communication and requirements, collaboration, iteration, and user engagement.
+
+### Adaptive Project Framework (APF)
+
+A technique mainly used for IT projects where more traditional project management techniques don't apply.
+
+### Lean Software Development
+
+An iterative type of agile methodology that aims to optimize people, resources, effort, and energy of an organization.
+
+### Rapid Application Development (RAD)
+
+An iterative and incremental method that relies heavily on prototyping in order to obtain feedback from stakeholders.
+
+### Test-Driven Development (TDD)
+
+An Agile methodology that provides developers with a safety net of automated tests to ensure that any changes made to the code do not break existing functionality.
+
+
+to rapidly and incrementally deliver value in close collaboration with our clients. For over a decade, we have been trusted by both federal and commercial clients to solve complex, mission-critical business challenges. The quality of our work has been recognized by our partners and peers through our inclusion in the Digital Services Coalition, a group of forward- thinking firms recognized for excellence in delivering IT services.
+
+Description
+Capital Technology Group (CTG) is on a mission to modernize and innovate the way the federal government delivers software. We are passionate about our work, dedicated to our clients, and committed to a culture of continuous learning and growth. For this role specifically, we are seeking individuals to help support high-impact, civic tech within the federal government.
+
+As an integral part of the program, the DevOps Engineer will design and implement prototypes and/or proof-of-concepts for evaluating new or emerging technologies, analyze benefits and risks in implementing solutions using the new technologies, and provide development support with adoption of the new technologies within a project.
+
+The DevOps Engineer will work closely with other teams to help us build functional systems that improve customer experience. Responsibilities include deploying product updates, identifying production issues, and implementing integrations that meet customer needs. If you have a solid background in software engineering and Docker/Kubernetes, Git, Jenkins, Terraform, AWS (or related cloud environments) - we'd love to chat with you.
+
+Client Requirements: applicants MUST BE US Citizens and be able to obtain Public Trust clearance
+
+Responsibilities
+Manage cloud Infrastructure-as-Code
+Develop, automate, and maintain CI/CD pipelines
+Perform root cause analysis for production errors
+Investigate and resolve technical issues
+Develop automation scripts
+Design procedures for system troubleshooting and maintenance
+May mentor and supervise software developers.
+Requirements
+Bachelors degree
+5-6 years of experience
+Strong knowledge of Git, Docker/Kubernetes, Linux, and CI/CD pipelines
+Experience working within a cloud environment (e.g. AWS, GCP, Azure)
+Working knowledge of databases and SQL
+Problem-solving attitude
+Must be able to get up-to-speed quickly on new projects and technologies
+Strong communication and problem-solving skills
+Nice to Have Skills
+
+People Management Experience
+Salary Information
+
+We are committed to offering a competitive salary for this position, with an estimated range of $125k to $155k annually. Please note that this range is intended to provide a general idea of what to expect. The final offer may vary based on experience, skills, and other factors.
+
+Full Time Employee Benefits
+Remote Work (Hybrid roles will be specified in the job post)
+Competitive Compensation Package
+Medical, Dental, and Vision
+Life Insurance, Short/Long Term Disability
+Employee Assistance Program
+401(k) with 4% matching
+Liberal PTO vacation policy
+Generous Annual Continuing Education
+Annual Wellness Budget
+Bonus Incentive Programs (Employee referrals and performance-based rewards)
+Thanks for your interest in Capital Technology Group!
+
+Capital Technology Group is an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability status, protected veteran status, or any other characteristic protected by law.
+
+
+
+Apply for this Job* Required
+First Name *
+Last Name *
+Email *
+Phone
+
+Resume/CV *
+Attach Dropbox Google Drive or enter manually
+(File types: pdf, doc, docx, txt, rtf)
+
+Cover Letter
+Attach Dropbox Google Drive or enter manually
+(File types: pdf, doc, docx, txt, rtf)
+Are you a U.S. Citizen currently residing in the U.S.? *
+Client Requirements: applicants must be a US Citizen
+
+I understand that if hired, I must successfully complete a DHS background check. *
+Client Requirements: applicants must be able to obtain Public Trust clearance
+
+Where will you be working from? (City, State) *
+What initially sparked your interest in this role? *
+How many years of relevant experience do you have? *
+Based on your experience, what are the most important characteristics of a high performing team? *
+Please provide your salary requirements or range. *
+Please provide two references and contact information.  *
+Please provide a link to your LinkedIn profile.  *
+Were you referred by a CTG employee? If so, please provide their name below. *
+Powered by  Greenhouse Logo
+Read our Privacy Policy
+
