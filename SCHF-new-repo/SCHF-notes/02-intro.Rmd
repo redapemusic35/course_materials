@@ -1,0 +1,64 @@
+# Philosophical Pedagogy and Star Citizen
+
+## Extended Reality and Classroom Instruction, Bridging the Technology Gap
+
+### The Extension of Virtual Reality, Virtue Reality
+
+Rebeka Davis
+
+>  This chapter aims to increase educators’ effectiveness for using VR in the
+classroom by helping them leverage the affordance of presence in learning experiences. Research findings on
+the sense of presence are utilized to provide structure for an exploration of considerations and questions edu
+cators should address as they plan virtual experiences for learners. Because devices come and go so quickly,
+there are not specific recommendations for devices or activities; rather, a structured guide for considering the
+affordance of the sense of presence when teaching and learning with VR is offered.
+
+* What educators should think about
+
+* Questions one should ask about learners and devices
+
+* how to relate to learners through experience
+
+### Removing Barriers of Space and Time to Immerse Students in Virtual Learning Environments
+
+James Hutson
+
+>  VR has the potential to support other student populations who may be rural or
+low-income, thus providing greater equity, inclusivity, and access to overcome the socioeconomic restric
+tions underrepresented students face in their development of global citizenship. To facilitate the effective use
+and adoption of VR, the results of multiple case studies using a concurrent triangulation design are present
+ed, which outline the pedagogical strategies that may be adopted in a number of areas.
+
+* Scaffold immersive learning experiences
+* Aligning learning activity based on participants and instrutors
+
+#### For further research
+
+> The results from the two studies confirm earlier research on the positive correlation between the use of VR and increased enjoyment in learning and improved motivation, which leads to deeper learning and long-term retention of material
+(Brownridge, 2020; Cheung et al. 2013; Huang et al., 2010; Hussein & Nätterdal, 2015; Jacobson & Lewis, 2005; Rizzo
+et al. 2006; Sharma et al., 2013).
+
+### Theory of Learning in Immersive Environments and 4E Cognition
+
+ GREGORY MCGOWIN
+University of Central Florida, USA
+ gmcgowin@knights.ucf.edu
+ STEPHEN M. FIORE
+University of Central Florida, USA
+ KEVIN ODEN
+ Lockheed Martin, US
+
+> there is a troubling gap between the development of I-VR for education and training and the learning theories that ensure its efficacy. To address this need, we provide a theoretical lens to help the education and training communities evaluate exist
+ing and future research in I-VR. Specifically, we will review technological innovations that have made I-VR
+more advanced and draw from research from both the cognitive and learning sciences to assess their effec
+tiveness as learning affordances.
+
+1. Analyze Current Research on I-VR
+   1. Move beyond cognition as info processing (Hutto & Abrahamson, 2022, p. 40),
+   2. link body, in environment with cognition (Macrine & Fugate, 2022), e.g., extended mind  Clark and
+Chalmers (1998)
+   3. Cognition extendeds from body first, to tech objects and social interactions  (Aagaard, 2021).
+2. Demonstrate Practical value of theoretical demonstrations
+   1. I.e., doing rather than only observing
+3. Contextualize theoretical demonstrations through example implementations
+4. Help stakeholders generate better designed studies for education and training communities

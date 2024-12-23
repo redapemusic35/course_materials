@@ -1,0 +1,259 @@
+# Syllabus
+
+What is centrifugal force? What are G forces? If G forces have to do with gravity, then would someone not experience G forces in space since there is no gravity in space? What benefit is there to learning about whether there are g forces in space that one can experience, while experiencing those g-forces in space? Well, apparently, because of centrifugal force, one can experience gravity, and therefore g-forces in space. I recently learned this while also learning how to dogfight in the Space Sim Star Citizen. It seems that while I might never need the skill of dogfighting, knowing whether or not centrifugal force can contribute to one's experience of g-force seems like it might be helpful, provided that I learned it while young enough to become a pilot, or have any hope of working in space aviation.
+
+
+Although the Star Citizen project is still under development, it is playable and has a large world-wide following and many supporters. Being under development means that there are features that are under developed, missing, being planned, waiting to be implemented, or just outright broken. Which is which changes with regular frequency.
+
+It is my belief that the unfinished nature of the project is what makes it valuable as a sociological study of online communities. More importantly however, CIG's stated goals for the completion of the game, also make it valuable for how human societies correlate with one another and how pedagogy is central to this. The fact that features of the game are still under development means that much about the game is unpredictable. But all this means is that players keep up a network of communication comprising one another about what works and what doesn't. Although there are playable missions, it is not clear which missions work and which do not. Players share information in real time with one another to try to add some predictability, but like real life, experience plus a network of communication is the best judge. In other words, Star Citizen is a Massive Multiplayer Online that though playable, is currently under development by Cloud Imperium Games, CIG. It is my view that the unfinished and unpredictable nature of Star Citizen's environment makes it most suitable for the following theoretical usage.
+
+Imagination plays a central role in the activities of everyday life. These activities can include pretending to be a princess in a faraway land, to pretending that a foreign threat has infiltrated your national defenses through a critical security gap.
+
+Noticeably, these are two very different uses for imagining, philosophers call the first transcendent and the latter instructive.
+
+> When we think about the imagination, examples like the following naturally come to mind: Fred finds himself, in an idle moment, alone with his thoughts. Feeling unsuccessful and unappreciated, he embarks on a daydream in which he is rich and famous. He calls up images of applauding constituents, visiting dignitaries, a huge mansion, doting women, and fancy cars. But alas, reality eventually reasserts itself and Fred gets back to selling shoes. [@walt90, 13]
+
+The former affords us the opportunity to transcend reality while the latter teaches us something about reality. Philosophers argue that this presents us a puzzle, namely how one mental activity can be both transcendent and instructive at the same time? This project exploits the ability of imaginative use to explore and examine philosophically theoretical concepts using the MMO/Space Sim Star Citizen. Star Citizen is a Massive Multiplayer Online that though playable, is currently under development by Cloud Imperium Games, CIG. It is my view that the unfinished and unpredictable nature of Star Citizen's environment makes it most suitable for this theoretical usage.
+
+The best way to understand this puzzle, is to start somewhere close enough to the beginning. Our focus is the imagination. Are starting point is art. Why art you ask? Art stimulates our imagination. What is art you ask?
+
+* paintings
+* novels
+* stories
+* plays
+* films
+
+And of course games. Some games or all games? Video Games certainly fit this category. What about board games?
+
+What do each of these have in common? They are all representational. They are representative of something about our experiences. One way to determine whether something fits an "art" category, is to ask ourselves whether it is representative. But what about flow charts as these represent processes? Diagrams can represent data, are diagrams, spreadsheets, charts and graphs art?
+
+One way to delineate between representative art and representative non-art is considering whether one is fictional or not. This once again according to Kendall Walton.
+
+> I will carve out a new category, one we might think of as a principled modification---not just a clarification or refinement---of an ordinary notion of representational art. I will call its members simply "representation," preempting this expression for my own purposes and assigning it an extension both broader and narrower than it is usually understood to possess. . . . The works of "representational art" most likely to spring to mind are, like our initial examples, works of *fiction*---novels, stories, and tales, for instance, among literary works, rather than biographies, histories, and textbooks. [@walt90, 3]
+
+The fact that something is fiction means that it is made-up, or make-believe. There are various cognitive faculties that each perform a particular role in mental activity. Belief is a faculty that deals with things that are either true or false. We can either have true beliefs say when we believe that we will be late to the opera. Or false beliefs, say that we are wrong that we will be late to the opera.
+
+Other mental faculties, like imagination, or desire, deal with things that are neither true nor false. We might desire to eat chocolate cake. Unlike belief, desire is not an apprehension of the way the world is, but of the way we want the world to be and imagination is not about how we want the world to be, but how the world might be.
+
+This course will explore a number of issues raised in literature on the philosophy of fiction. These issues are interdisciplinary and will range over a number of philosophical subdisciplines including the philosophy of mind, aesthetics, value theory, metaethics, and the philosophy of language, epistemology, and imagination. The lectures and discussions will take place inside the virtual environment Star Citizen, a space simulator that makes extensive use of art, fiction, and other aesthetic qualities. Some of the issues raised will include truth in fiction, consider: 'it is false that there is a place called New Babbage'; 'it is true in Star Citizen that there is a place called New Baggage'. 'It is true in Star Citizen that centrifical motion is a source of g-force on pilots'; 'it is true that centrifical motion is a source of g-force on pilots'. Regarding emotional experience in art: 'it is frightning to encounter a settler in Dog Town', 'it is frightning to encounter a man in a dark alley'.
+
+## Week 1 What is Fiction?
+
+#### Essential reading
+
+R. M. Sainsbury, 2010, Fiction and Fictionalism, Routledge, chapter 1.
+
+#### Further reading
+
+Kathleen Stock, 2011, ‘Fictive Utterance and Imagining’, *Proceedings of the Aristotelian Society
+Supplementary Volume*85: 145-61.
+
+Stacie Friend, 2011, ‘Fictive Utterance and Imagining II’, *Proceedings of the Aristotelian Society
+
+Supplementary Volume*85: 163-80.
+
+#### Deep dives
+
+Kendall Walton, 1990, Mimesis as Make-Believe, Harvard University Press.
+
+Gregory Currie, 1990, The Nature of Fiction, Cambridge University Press.
+
+## Week 2 The Paradox of Fiction
+
+#### Essential reading
+
+Kendall Walton, 1978, ‘Fearing Fictions’, *Journal of Philosophy*75: 5-27.
+Further reading
+
+Colin Radford, 1975, ‘How Can We Be Moved By the Fate of Anna Karenina’, Proceedings of the
+Aristotelian Society Supplementary Volume 45: 67-80.
+
+Lamarque, P. (1981) ‘How Can We Fear and Pity Fictions?’, in British Journal of Aesthetics.
+
+Shannon Spaulding, forthcoming, ‘Imagination, Desire, and Rationality’, Journal of Philosophy.
+
+#### Deep dives
+
+Kendall Walton, 1990, Mimesis as Make-Believe, Harvard University Press.
+
+Jenefer Robinson, 2005, Deeper Than Reason: Emotion and Its Role in Literature, Music, and Art,
+OUP.
+
+## Week 3 Aesthetic Value and Ethical Value in Fiction
+
+#### Essential reading
+
+Carroll, Noël. “Moderate Moralism.” British Journal of Aesthetics 36 (1996): 223–238.
+
+Anderson, James, and Jeffrey Dean. “Moderate Autonomism.” British Journal of Aesthetics 38
+(1998): 150–166.
+
+#### Further reading
+
+Eaton, A. (2012). Robust Immoralism. The Journal of Aesthetics and Art Criticism, 70(3), 281-292
+
+#### Deep dives
+
+Berys Gaut, 2007, Art, Emotion and Ethics, OUP.
+
+## Week 4: The Semantics and Metaphysics of Fiction (II)
+
+#### Essential reading
+
+R. M. Sainsbury, 2010, Fiction and Fictionalism, Routledge, chapter 4.
+
+David Lewis, 1978, ‘Truth in Fiction’, reprinted in David Lewis, 1983, Philosophical Papers Volume I, 261-75.
+
+#### Further reading
+
+Alex Byrne, 1993, ‘Truth in Fiction: The Story Continued’, Australasian Journal of Philosophy 71:
+24-35.
+
+Nolt, John, “Free Logic”, The Stanford Encyclopedia of Philosophy (Fall 2018 Edition), Edward
+N. Zalta (ed.), URL = <https://plato.stanford.edu/archives/fall2018/entries/logic-free/>.
+
+#### Deep dives
+
+Priest, Graham, 2005, Towards Non-Being. The Logic and Metaphysics of Intentionality, Oxford:
+Clarendon.
+
+Sainsbury, R.M. (2005), Reference Without Referents. OUP
+
+## Week 5: The Semantics and Metaphysics of Fiction (II)
+
+#### Essential reading
+
+van Inwagen, Peter. “Creatures of Fiction.”American Philosophical Quarterly 14 (1977): 299–308.
+
+#### Further reading
+
+Everett, Anthony. “Pretense, Existence, and Fictional Objects.” Philosophy and Phenomenological
+Research 74 (2007): 56–80.
+
+Kroon, Fred and Voltolini, Alberto, “Fictional Entities”, The Stanford Encyclopedia of Philosophy
+(Winter 2018 Edition), Edward N. Zalta (ed.), URL = <https://plato.stanford.edu/archives/
+win2018/entries/fictional-entities/>.
+
+Reicher, Maria, “Nonexistent Objects”, The Stanford Encyclopedia of Philosophy (Spring 2019
+Edition), Edward N. Zalta (ed.), URL = <https://plato.stanford.edu/archives/spr2019/entries/
+nonexistent-objects/>.
+
+Rorty, Richard. “Is There a Problem About Fictional Discourse?” In Consequences of Pragmatism.
+By Richard Rorty, 110–138. Minneapolis: University of Minnesota, 1982.
+
+Thomasson, Amie L. “Fictional Characters and Literary Practices.” British Journal of Aesthetics 43 (2003): 138–157.
+
+#### Deep dives
+
+Azzouni, Jody, 2010, Talking about Nothing: Numbers, Hallucinations, and Fictions, New York:
+Oxford University Press.
+
+Thomasson, Amie L., 1999, Fiction and Metaphysics, Cambridge: Cambridge University Press.
+
+## Week 6: Learning from Fiction
+
+#### Essential reading
+
+Stacie Friend, 2014, ‘Believing in Stories’, in Greg Currie, Matthew Kieran, Aaron Meskin, and Jon Robson (eds), Aesthetics and the Sciences of the Mind, Oxford University Press, 227-48.
+
+#### Further reading
+
+O’Brien, L. (2017) ‘The Novel as a Source of Self-Knowledge’, in Art and Belief, Sullivan-Bissett, E., Breadley, H., Noordhof, P. (Eds.)
+
+Pippin, Robert (2009). What Is a Western? Politics and Self-Knowledge in John Ford’s The
+Searchers. Critical Inquiry 35 (2):223-253.
+
+Pippin, Robert B. (2011). Agency and Fate in Orson Welles’s The Lady from Shanghai. Critical
+Inquiry 37 (2):214-244.
+
+Stump, Eleonore (2009), ‘Modes of Knowing: Autism, Fiction, and Second-Person Perspectives’.
+Faith and Philosophy, 25(5), 553-565.
+
+Stump, E. (2010). ‘The Story of Job: Suffering and the Second-Personal.’ In Wandering in
+Darkness: Narrative and the Problem of Suffering.: Oxford University Press.
+
+#### Deep dives
+
+Berys Gaut, 2007, Art, Emotion and Ethics, OUP.
+
+Gibson, John (2007). Fiction and the Weave of Life. OUP.
+
+## Week 7: Fictions in Science
+
+#### Essential reading
+
+Catherine Z. Elgin - Exemplification, Idealization, and Scientific Understanding <http://
+elgin.harvard.edu/exemplification/scirep.pdf>
+
+#### Further reading
+
+Fictions in Science: Essays on Idealization and Modeling, ed. Mauricio Suárez, London: Routledge,
+2009
+
+#### Deep dives
+
+Elgin, Catherine Z. True Enough. The MIT Press, 2017.
+
+## Week 8: Mathematical Fictionalism
+
+#### Essential reading
+
+Long, Mary (2010), ‘Mathematics and Make-Believe’, in Mathematics and Reality, OUP.
+
+#### Further reading
+
+Balaguer, Mark, “Fictionalism in the Philosophy of Mathematics”, The Stanford Encyclopedia of
+Philosophy (Fall 2018 Edition), Edward N. Zalta (ed.), URL = <https://plato.stanford.edu/
+archives/fall2018/entries/fictionalism-mathematics/>.
+
+Burgess, John P. (2004), ‘Mathematics and Bleak House’, Philosophia Mathematica 12, 18-36.
+Leng, Mary, ‘Fictionalism in the Philosophy of Mathematics’, Internet Enyclopedia of Philosophy.
+
+#### Deep dives
+
+Field, Hartry, (2016), Science Without Numbers (2nd edition). OUP.
+
+Leng, Mary (2010), Mathematics and Reality, OUP
+
+## Week 9: Moral Fictionalism
+
+#### Essential reading
+
+Joyce, R. (2016). ‘Moral Fictionalism.’ In Essays in Moral Skepticism., OUP.
+Further reading
+
+Husi, S. (2014). Against Moral Fictionalism. Journal of Moral Philosophy, 11(1), 80-96.
+
+Nadeem J. Z. Hussain. (2004). The Return of Moral Fictionalism. Philosophical Perspectives, 18,
+149-187.
+
+Daniel Nolan, Greg Restall & Caroline West (2005) Moral fictionalism versus the rest,
+Australasian Journal of Philosophy, 83:3, 307-330
+
+#### Deep dives
+
+Joyce, R. (2002). The Myth of Morality, Cambridge University Press.
+
+Kalderon, Mark (2005). Moral Fictionalism. Oxford: Oxford University Press.
+
+## Week 10: Religious Fictionalism
+
+#### Essential reading
+
+Scott, M, Malcolm, F. Religious fictionalism. Philosophy Compass. 2018; 13:e12474.
+
+#### Further reading
+
+Cordry, B. (2010). A critique of religious fictionalism. Religious Studies, 46(1), 77-89.
+
+Eshleman, A. (2010). Religious fictionalism defended: Reply to Cordry. Religious Studies, 46(1),
+91-96.
+
+Sauchelli, A. (2018). The Will to Make-Believe: Religious Fictionalism, Religious Beliefs, and the Value of Art. Philosophy and Phenomenological Research, 96(3), 620-635.
+
+#### Deep dives
+
+Le Poidevin, R. (2019). Religious fictionalism (Cambridge elements. Elements in the philosophy of
+religion). Cambridge University Press.
+
+## Week 11: TBD

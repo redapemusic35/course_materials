@@ -1,0 +1,31 @@
+# Phenomenalism and Enactivism in Game Developement
+
+Problem: What counts for realism in video games? What is perceptual realism and what counts as perceptual realism?
+
+> In this chapter, we will argue that very few people predicted the success of the Wii because nearly everybody’s view of the human—computer interface presupposed the truth of phenomenalism. According to this philosophical theory, people do not directly perceive the actual world, but instead experience a realm that is a function of their own private sensory manifolds.
+
+Phenomenalism is an argument against direct perception of the world around us. Namely, we do not perceive the world, but a phenomenal image of the world that we create from a collection of sense data. Instead however, author defends enactivism. According to enactivist, direct perception is a function of the way we manipulate ourselves and our environments.
+
+## Perceiving Star Citizen
+
+## Two possibilities:
+
+1. It would seem that advanced graphical capacities, photorealism.
+2. Advanced kinesthetics, e.g., sensorimotor
+
+Why?
+
+Answer: Enactivism, we directly perceive the world as a function of the way we manipulate ourselves and the environment.
+
+1. Visualization reimagined.
+2. Muscle memory; the capacity of muscles to remember experiences.
+3. Light reversing eyeglasses.
+
+### Russelian Phenomenalism
+
+> “To the eye it is oblong, brown and shiny, to the touch it is smooth and cool and hard; when I tap it, it gives out a wooden sound. Anyone else who sees and feels and hears the table will agree with this description, so that it might seem that no difficulty would arise.”5 Yet after considering the table more deeply, Russell goes on to conclude that “it becomes evident that the real table, if there is one, is not the same as what we immediately experience by sight or touch or hearing.”
+
+When viewing an object, we only perceive various properties according to the faculty with the requisite capacity. We see the color and shape, feel the texture, here the sound something makes when we rap our hand against it, smell the odor that it gives off. As such, we only directly perceive sense data and not a given object.
+
+### Argument from Other Minds
+
