@@ -1,31 +1,102 @@
 # David Lewis's Truth in Fiction
 
-RedApeMusic's current habitation is in New Babbage on Micro Tech. He possesses a number of personal items including a Cutter and an Aurora. The Cutter he upgraded to from a Drake Dragon Fly black which he never used. He recently attended a three-hour course on dog fighting with a highly experienced and accomplished dog fighter. During the course, he learned that the forward velocity of a projectile is about a 2 to 1 ratio with the velocity of an intended target (someone help me out here).
+I recently joined a fairly serious (and ambitious?) organization of Star Citizen players. The way our activities, attending training, conducting 24/7 patrols, obtaining certifications, are assembled, has me thinking about transworld identity. The relevance of such questions are obvious when we consider counterfactual claims such as: if Susie *had* been born to a more affluent family, she *would have* been less statistically likely drop out of highschool.
 
-However, he isn't a family man (or he is and spends time on deployment?). Or he is a family man and spends the majority of his time with his family while allocating the remainder to recording videos about Star Citizen or attending to obligations in its universe. It isn't clear whether this was ever a missed opportunity or not. He has a number of armored items as well as civies that he changes in and out of at various times, these he counts among his possessions.
-
-Imagine if we could treat the following two statements synonymously:
-
-::: {.remark}
-Holmes lived at 221B Baker Street.
+::: {.theorem #counterfactual name="Counterfactual Susie"}
+if Susie *had* been born to a more affluent family, she *would have* been less statistically likely drop out of highschool.
 :::
 
-::: {.remark}
-Holmes lived in a bank.
+One question is how should I understand the identity of the Susie who was born to a more affluent family in relation with the Susie who drops out of highschool are they the same person? Similarly, how should I understand the identity of the character RedApeMusic in Star Citizen in contrast with the identity of the character RedApeMusic in the Discord chat where our orgs activities are organized and discussed? Considering the counterfactual claim above, this is a question about whether Susie in the actual world, the world where she is born to a less affluent family, is the same Susie in the counterfactual one where she becomes a doctor, with all else being equal. In the same way, it is also a question about whether my discussions about Star Citizen in the real world, i.e., the org's discord channel, is the same as the RedApeMusic who conducts raids, completes missions, and blows up often, in Star Citizen.
+
+Both RedApeMusic in the game Star Citizen and RedApeMusic in the org's channel on Discord, have a number of flight hours, but it would seem that only one has certain certifictions and trainings while the other has experience but not necessarily certifications since certifications such as these are only available in *our* organization. Further it is not clear whether I can *log* flight time in the Discord group since I have to log onto the game to do so. As such, there is a RedApeMusic who has *n* number of flight hours and a RedApeMusic who has *n* number of certifications and trainings. But how do we analyze their identity in relation to one another? Are they identical? David Lewis treats this as a question about how the ascription of 'truth' quantifies over transworlds in, out, and between fictional worlds. Accordingly, if we can ascribe the predicate "true" to identical propositions about each, then they are identical.
+
+## Introduction
+
+Imagine if we could treat the following statements synonymously:
+
+::: {.theorem}
+I recide at New Babbage on Micro Tech.
 :::
 
-Many of the claims that we may make about Sherlock Holmes are ambiguous, and as such, their truth value can be dubious. Since, this has come to be known as fictional indeterminacy. However, David Lewis argues that we can resolve the ambiguity using context and content. He calls this prefixing.
+::: {.theorem}
+I am currently on deployment at New Babbage on Micro Tech.
+:::
+
+How do we understand the truth value of a claim about Sherlock Holmes as depicted in a fiction, or discussed in a classroom, or on a Discord chat for that matter? On the one hand, one might confuse this question as one about fictional indeterminacy. But fictional indeterminacy is a question about events left unsaid by that fiction [@blumNaN]. Although fictional indeterminacy is also a question about truth in fiction, it is helpful to address the various issues about what is true in fiction, separately. Another issue that arises is vacuous truth. A vacuous truth is a truth on a condition that never applies. At first glance, it would seem that true propositions about fictional entities are vacuously true. Their truth is grounded in a conditional statement that only applies in a given context.
+
+David Lewis begins his paper *Truth in Fiction* in a similar way. Because Sherlock Holmes is a character in a fiction, many of the claims that we may make about Sherlock Holmes are ambiguous, and as such, their truth value can be dubious as well. This is because they are vacuously true.
+
+In a similar fasion:
+
+When attempting to get certified in my org, I hop onto Discord and submit a request for a more senior member to certify my activities in the game. I do this by telling the truth about known matters of fact. "On Wednesday at 1600 hrs, I conducted a bunker raid mission at location *x* on Daymar, recovering two missing persons . . .". But how can I tell the truth about something that happened in a fiction?
+
+::: {.theorem #transworld name="Transworld Identity"}
+* In a given fiction, we have an act of story-telling
+* In a given context, we have an act of telling the truth about known matters of fact
+:::
+
+To begin with, David Lewis argues that we can resolve the ambiguity regarding assigning various truth values in fiction by using context and content. An important question here however, is how do we assign the proper truth variable? His solution relies on what he calls prefixing. Let's begin attempting to understand prefixing.
+Since at the address where Sherlock Holmes is said to live, there is a bank, if we treated such claims similarly, then given the truth of *FictionF*, it would follow that Holmes lives in a bank in the same way, my membership in a Star Citizen organization means that I might be a family man on deployment at New Babbage (in pursuit of my organization membership duties for instance). I can meet up with friends at various locations throughout New Babbage, including my hanger (however because of technical limitations owing to planned upcoming changes to the game's hardware, friends and other members cannot 'stop by' my habitation unit, though I can invite them to my hanger for a virtual beer and chat). However, this does not follow because of prefixing. Some questions emerge:
+
+Consider the following:
 
 Un-prefixed,
 
-::: {.remark title="Baker"}
+::: {.theorem #baker name="Baker"}
 Holmes lived at 221B Baker Street.
 :::
 
-is false.
+Is this statement true or false? In a sense, Holmes did live at 221B Baker Street. Does he live there now? It is not clear since currently there is a bank at this address. I couldn't begin to tell you what is at the location where I conducted the raid mission. As such, the truth value that we might ascribe to *Baker* is dubious. However, we can amend it somewhat and make it less dubious in one of two ways.
 
-Prefixed however . . . 
+Prefixed,
 
-::: {.remark}
-In *Fiction* *F*,
+::: {.lem #fictionf name="FictionF"}
+In *Fiction* *F* *Baker*
+:::
+
+or unprefixed (by implication?)
+
+::: {.theorem}
+Holmes lives in a bank.
+:::
+
+* How might we analyze prefixed propositions?
+* Which propositions count as prefixed?
+
+Consider:
+
+::: {.theorem #hair name="Hair"}
+1. Holmes has an even number of hairs on his head. (Or I, RedApeMusic has *n* number of hairs on my head)
+2. Holmes has an odd number of hairs on his head. (Or I, RedApeMusic has *n* number of hairs on my head)
+:::
+
+Which of the above propositions are properly prefixed? Namely, which of the above propositions can we say:
+
+::: {.theorem #fiction name="Fiction"}
+In Fiction *F*, Holmes has an . . . number of . . . on his head. (Or I, RedApeMusic has *n* number of hairs on my head)
+:::
+
+## Identity
+
+The first problem that Lewis sees here, occurs when we find characters similar to Holmes in qualitatively similar fictions. For instance, we can imagine that it is prefixed that "Holmes lives at 221B Baker Street", but "Holmes lives in a bank" is not.
+
+* It is prefixed that Holmes lives at 221B Baker Street
+* Unprefixed, 221B Baker Street is a bank
+
+Here we can consider transworld identity:
+
+Prefixing denotes a set of possible worlds, one at which Holmes lives at 221B Baker Street. In a similar fasion:
+
+* I live at New Babbage
+* I am on deployment at New Babbage
+* I am on deployment at New Babbage but slacking off
+* I am on deployment at New Babbage, but doing some sight seeing.
+
+Or:
+
+::: {.theorem #dwellings name="Dwellings"}
+
+* RedApeMusic's current habitation is in New Babbage on Micro Tech.
+* RedApeMusic possesses a number of personal items including a Drake Cutter and a RSI Aurora.
+
 :::

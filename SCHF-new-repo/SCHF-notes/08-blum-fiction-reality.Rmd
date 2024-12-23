@@ -4,11 +4,11 @@
 
 Imagine if we could treat the following two statements synonymously:
 
-::: {.remark}
+::: {.thm}
 Nixon wears a silk top hat.
 :::
 
-::: {.remark}
+::: {.thm}
 Holmes wears a silk top-hat.
 :::
 
