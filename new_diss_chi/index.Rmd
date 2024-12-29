@@ -31,7 +31,7 @@ documentclass: book
 fontsize: 12pt
 linestretch: 2
 geometry: margin=1in
-bibliography: /home/redapemusic35/data_storage/Exported-Items.bib
+bibliography: /home/mreynolds/MEGAsync/Exported-Items.bib
 csl: chicago-fullnote-bibliography-with-ibid.csl
 ---
 
