@@ -49,7 +49,12 @@ documentclass: book
 fontsize: 12pt
 indent: true
 linestretch: 2
+<<<<<<< HEAD
 #geometry: margin=1in
 bibliography: /home/redapemusic35/data_storage/Exported-Items.bib
+=======
+geometry: margin=1in
+bibliography: /home/mreynolds/MEGAsync/Exported-Items.bib
+>>>>>>> e516720bc30157d9c4e3c8a484862dfc0bbc1450
 csl: chicago-fullnote-bibliography-with-ibid.csl
 ---

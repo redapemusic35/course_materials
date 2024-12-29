@@ -1,3 +1,5 @@
+# Introduction
+
 We have various faculties which help us to make sense of the world around us. This includes perceptual faculties, for instance when we feel the sun on our skin, we know that we do not need an umbrella at that moment.
 
 Some think that our emotions are a kind of perception. When we feel fear, like when we feel the warmth of the sun, we know that it is possible that danger lurks. But we can also imagine fear. This is helpful, sometimes for planning. We might imagine the fear of being stranded because we did not take enough money on our vacation.

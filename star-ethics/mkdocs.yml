@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
-site_name: Star Ethics
-site_url: https://star-ethics.montaque.reynolds.com
+site_name: Saleno Center for Human Flourishing
+site_url: https://schf.montaque.reynolds.com
 theme:
   name: material
   font:

@@ -18,7 +18,7 @@ github-repo: rstudio/bookdown-demo
 
 # About
 
-Given current popular conversations regarding black representation in country music, perhaps now is a good time to talk about the importance of representation in popular music
+Given current popular conversations regarding black representation in country music, perhaps now is a good time to talk about the importance of representation in popular music more generally.
 
 Emerging work on country music argues that country music argues that the lack of ethnic diversity in country music erases the cultural contribution of racial and ethnic minority communities. I make a distinction between generic and robust ethnic representation and show that generic representation is maximally corrosive to ethnic identity while robust ethnic representation is maximally formative. One may argue that any representation is better than none.
 However this ignores the complexity of representation and identity

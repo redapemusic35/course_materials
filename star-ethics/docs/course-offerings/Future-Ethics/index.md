@@ -1,0 +1,3 @@
+# A Future Good Life
+
+Critical thinking, listening, self-inquiry and reflection. These are central to moral understanding. This course uses methods from the digital humanities to promote self-reflection and criticism. We will use artifacts from popular culture, songs, shows etc., in our course assignments to motivate students to apply their experiences outside of the classroom to the course material. We believe that this promotes personal engagement with course materials that in turn prompt the student to pursue philosophical insight for its own benefit. This approach is interdisciplinary, and blends philosophical concepts with digital tools, and focuses on a dynamic learning environment for diverse student groups.
